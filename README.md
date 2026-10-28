@@ -1,5 +1,7 @@
 # Penn News Monitor — online collection edition
 
+Prepared October 28, 2026. NOT DEPLOYED. Cloudflare sign-in in the assisted browser returned a 403; no account or domain changes were made.
+
 ## Staff
 Open the website. Search, choose a week, and follow headlines. No software installation or Python commands required. Import and Export remain available for saved JSON snapshots. Imported data stays in this browser, pauses automatic updates, and is replaced by shared results only when Check for updates succeeds. “Check for updates” retrieves the published collection; it does not start the scraper. The included help page explains warnings and source-change requests.
 
