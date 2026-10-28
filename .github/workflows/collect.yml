@@ -1,0 +1,43 @@
+name: Collect and publish Penn news
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 11,17 * * 1-5'
+  push:
+    branches: [main]
+permissions:
+  contents: write
+concurrency:
+  group: penn-news-production
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: pip install -r requirements.txt
+      - run: python -m playwright install --with-deps chromium
+      - name: Collect news on GitHub servers
+        run: python scraper.py --out collected.json --concurrency 3
+      - name: Validate and preserve previous results for failed sources
+        run: python publish_snapshot.py
+      - name: Save last known results for the next run
+        run: |
+          git config user.name 'Penn News Monitor'
+          git config user.email 'monitor@users.noreply.github.com'
+          git add public/data/latest.json
+          git diff --cached --quiet || git commit -m 'Update shared news collection'
+          git push
+      - name: Deploy the static dashboard
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          PAGES_PROJECT: ${{ vars.PAGES_PROJECT || 'penn-news-monitor' }}
+        run: npx --yes wrangler@4 pages deploy public --project-name="$PAGES_PROJECT" --branch=main
