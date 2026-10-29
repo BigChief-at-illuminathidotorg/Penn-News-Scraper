@@ -79,7 +79,7 @@
           "items": [],
           "feedUrl": null,
           "source": "",
-          "fetchedAt": "2026-10-28T20:35:04.637925Z"
+          "fetchedAt": "2026-10-29T17:26:25.980208Z"
         }
       },
       "lastSyncAt": "2026-10-28T18:40:29.452025Z",
@@ -244,10 +244,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://www.dental.upenn.edu/feed/",
-          "fetchedAt": "2026-10-28T20:35:04.637925Z"
+          "fetchedAt": "2026-10-29T17:26:25.980208Z"
         }
       },
-      "lastSyncAt": "2026-10-28T20:35:04.637925Z",
+      "lastSyncAt": "2026-10-29T17:26:25.980208Z",
       "lastSource": "feed:https://www.dental.upenn.edu/feed/"
     },
     {
@@ -297,10 +297,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://www.gse.upenn.edu/rss.xml",
-          "fetchedAt": "2026-10-28T20:35:04.637925Z"
+          "fetchedAt": "2026-10-29T17:26:25.980208Z"
         }
       },
-      "lastSyncAt": "2026-10-28T20:35:04.637925Z",
+      "lastSyncAt": "2026-10-29T17:26:25.980208Z",
       "lastSource": "feed:https://www.gse.upenn.edu/rss.xml"
     },
     {
@@ -315,33 +315,33 @@
       "notes": "Confirmed 2026-08-04: this page is a curated 'Featured' homepage widget with NO date shown anywhere in the DOM for any item (LiveWhale CMS). date_optional is enabled in SITE_RULES so items still surface (using the scrape date as a stand-in), but there's no way to tell how old a given 'Featured' item actually is from this page alone.",
       "posts": [
         {
-          "title": "Litigating for Racial Justice",
-          "link": "https://www.law.upenn.edu/live/news/19005-litigating-for-racial-justice",
-          "date": "2026-10-28",
-          "dek": "Ali Smith L’27 (he/him), a dual-degree student pursuing an MSSP at the School of Social Policy and Practice, is from Baltimore, Maryland, and hopes to become a civil rights advocate who balances law and policy to advance positive change.",
+          "title": "Connecting Law and International Studies Through a JD/MA Degree",
+          "link": "https://www.law.upenn.edu/live/news/19009-connecting-law-and-international-studies-through-a",
+          "date": "2026-10-29",
+          "dek": "The Lauder Institute offers JD students at Penn Carey Law the opportunity to earn a Master’s in International Studies from Penn’s School of Arts and Sciences.",
           "stream": "news",
           "source": "html"
         },
         {
           "title": "New Book Analyzes China’s Rise Through the Lens of Labor and Land",
           "link": "https://www.law.upenn.edu/live/news/18985-new-book-analyzes-chinas-rise-through-the-lens-of",
-          "date": "2026-10-28",
+          "date": "2026-10-29",
           "dek": "“The Unmaking of the Chinese Working Class: How Communism Built a Capitalist Superpower,” by Professor Teemu Ruskola, explores the role China has played in global economic transformations over the 20th and 21st centuries.",
           "stream": "news",
           "source": "html"
         },
         {
-          "title": "Bridging Law and Social Policy Through a Dual Degree",
-          "link": "https://www.law.upenn.edu/live/news/18999-bridging-law-and-social-policy-through-a-dual",
-          "date": "2026-10-28",
-          "dek": "The JD/Masters in Social Policy (JD/MSSP) is a cross-disciplinary, dual degree program that creates advocates who promote more humane and equitable responses to the needs of historically vulnerable population groups.",
+          "title": "Litigating for Racial Justice",
+          "link": "https://www.law.upenn.edu/live/news/19005-litigating-for-racial-justice",
+          "date": "2026-10-29",
+          "dek": "Ali Smith L’27 (he/him), a dual-degree student pursuing an MSSP at the School of Social Policy and Practice, is from Baltimore, Maryland, and hopes to become a civil rights advocate who balances law and policy to advance positive change.",
           "stream": "news",
           "source": "html"
         },
         {
           "title": "New Certificate of Study in AI and Law",
           "link": "https://www.law.upenn.edu/live/news/18442-new-certificate-of-study-in-ai-and-law",
-          "date": "2026-10-28",
+          "date": "2026-10-29",
           "dek": "The certificate is now available to Penn Carey Law students.",
           "stream": "news",
           "source": "html"
@@ -349,7 +349,7 @@
         {
           "title": "Rethinking Public Power",
           "link": "https://www.law.upenn.edu/live/news/18469-rethinking-public-power",
-          "date": "2026-10-28",
+          "date": "2026-10-29",
           "dek": "Shelley Welton examines how governments can work alongside private markets to accelerate the clean energy transition through new public renewables models.",
           "stream": "news",
           "source": "html"
@@ -360,42 +360,42 @@
         "news": {
           "items": [
             {
-              "title": "Litigating for Racial Justice",
-              "link": "https://www.law.upenn.edu/live/news/19005-litigating-for-racial-justice",
-              "date": "2026-10-28",
-              "dek": "Ali Smith L’27 (he/him), a dual-degree student pursuing an MSSP at the School of Social Policy and Practice, is from Baltimore, Maryland, and hopes to become a civil rights advocate who balances law and policy to advance positive change."
+              "title": "Connecting Law and International Studies Through a JD/MA Degree",
+              "link": "https://www.law.upenn.edu/live/news/19009-connecting-law-and-international-studies-through-a",
+              "date": "2026-10-29",
+              "dek": "The Lauder Institute offers JD students at Penn Carey Law the opportunity to earn a Master’s in International Studies from Penn’s School of Arts and Sciences."
             },
             {
               "title": "New Book Analyzes China’s Rise Through the Lens of Labor and Land",
               "link": "https://www.law.upenn.edu/live/news/18985-new-book-analyzes-chinas-rise-through-the-lens-of",
-              "date": "2026-10-28",
+              "date": "2026-10-29",
               "dek": "“The Unmaking of the Chinese Working Class: How Communism Built a Capitalist Superpower,” by Professor Teemu Ruskola, explores the role China has played in global economic transformations over the 20th and 21st centuries."
             },
             {
-              "title": "Bridging Law and Social Policy Through a Dual Degree",
-              "link": "https://www.law.upenn.edu/live/news/18999-bridging-law-and-social-policy-through-a-dual",
-              "date": "2026-10-28",
-              "dek": "The JD/Masters in Social Policy (JD/MSSP) is a cross-disciplinary, dual degree program that creates advocates who promote more humane and equitable responses to the needs of historically vulnerable population groups."
+              "title": "Litigating for Racial Justice",
+              "link": "https://www.law.upenn.edu/live/news/19005-litigating-for-racial-justice",
+              "date": "2026-10-29",
+              "dek": "Ali Smith L’27 (he/him), a dual-degree student pursuing an MSSP at the School of Social Policy and Practice, is from Baltimore, Maryland, and hopes to become a civil rights advocate who balances law and policy to advance positive change."
             },
             {
               "title": "New Certificate of Study in AI and Law",
               "link": "https://www.law.upenn.edu/live/news/18442-new-certificate-of-study-in-ai-and-law",
-              "date": "2026-10-28",
+              "date": "2026-10-29",
               "dek": "The certificate is now available to Penn Carey Law students."
             },
             {
               "title": "Rethinking Public Power",
               "link": "https://www.law.upenn.edu/live/news/18469-rethinking-public-power",
-              "date": "2026-10-28",
+              "date": "2026-10-29",
               "dek": "Shelley Welton examines how governments can work alongside private markets to accelerate the clean energy transition through new public renewables models."
             }
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-10-28T20:35:04.637925Z"
+          "fetchedAt": "2026-10-29T17:26:25.980208Z"
         }
       },
-      "lastSyncAt": "2026-10-28T20:35:04.637925Z",
+      "lastSyncAt": "2026-10-29T17:26:25.980208Z",
       "lastSource": "html"
     },
     {
@@ -557,10 +557,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-10-28T20:35:04.637925Z"
+          "fetchedAt": "2026-10-29T17:26:25.980208Z"
         }
       },
-      "lastSyncAt": "2026-10-28T20:35:04.637925Z",
+      "lastSyncAt": "2026-10-29T17:26:25.980208Z",
       "lastSource": "html"
     },
     {
@@ -580,10 +580,10 @@
           "items": [],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-10-28T20:35:04.637925Z"
+          "fetchedAt": "2026-10-29T17:26:25.980208Z"
         }
       },
-      "lastSyncAt": "2026-10-28T20:35:04.637925Z",
+      "lastSyncAt": "2026-10-29T17:26:25.980208Z",
       "lastSource": ""
     },
     {
@@ -745,10 +745,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://www.seas.upenn.edu/feed/",
-          "fetchedAt": "2026-10-28T20:35:04.637925Z"
+          "fetchedAt": "2026-10-29T17:26:25.980208Z"
         }
       },
-      "lastSyncAt": "2026-10-28T20:35:04.637925Z",
+      "lastSyncAt": "2026-10-29T17:26:25.980208Z",
       "lastSource": "feed:https://www.seas.upenn.edu/feed/"
     },
     {
@@ -1050,10 +1050,10 @@
           ],
           "feedUrl": "https://sp2.upenn.edu/feed/",
           "source": "html",
-          "fetchedAt": "2026-10-28T20:35:04.637925Z"
+          "fetchedAt": "2026-10-29T17:26:25.980208Z"
         }
       },
-      "lastSyncAt": "2026-10-28T20:35:04.637925Z",
+      "lastSyncAt": "2026-10-29T17:26:25.980208Z",
       "lastSource": "html"
     },
     {
@@ -1146,7 +1146,7 @@
           "items": [],
           "feedUrl": null,
           "source": "",
-          "fetchedAt": "2026-10-28T20:35:04.637925Z"
+          "fetchedAt": "2026-10-29T17:26:25.980208Z"
         }
       },
       "lastSyncAt": "2026-10-28T18:40:29.452025Z",
@@ -1451,10 +1451,10 @@
           ],
           "feedUrl": "https://news.wharton.upenn.edu/feed/",
           "source": "feed:https://news.wharton.upenn.edu/feed/",
-          "fetchedAt": "2026-10-28T20:35:04.637925Z"
+          "fetchedAt": "2026-10-29T17:26:25.980208Z"
         }
       },
-      "lastSyncAt": "2026-10-28T20:35:04.637925Z",
+      "lastSyncAt": "2026-10-29T17:26:25.980208Z",
       "lastSource": "feed:https://news.wharton.upenn.edu/feed/"
     },
     {
@@ -1616,10 +1616,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-10-28T20:35:04.637925Z"
+          "fetchedAt": "2026-10-29T17:26:25.980208Z"
         }
       },
-      "lastSyncAt": "2026-10-28T20:35:04.637925Z",
+      "lastSyncAt": "2026-10-29T17:26:25.980208Z",
       "lastSource": "html"
     },
     {
@@ -1648,7 +1648,7 @@
           "items": [],
           "feedUrl": "https://www.annenbergpublicpolicycenter.org/feed/",
           "source": "",
-          "fetchedAt": "2026-10-28T20:35:04.637925Z"
+          "fetchedAt": "2026-10-29T17:26:25.980208Z"
         }
       },
       "lastSyncAt": "2026-10-28T18:40:29.452025Z",
@@ -1671,10 +1671,10 @@
           "items": [],
           "feedUrl": null,
           "source": "",
-          "fetchedAt": "2026-10-28T20:35:04.637925Z"
+          "fetchedAt": "2026-10-29T17:26:25.980208Z"
         }
       },
-      "lastSyncAt": "2026-10-28T20:35:04.637925Z",
+      "lastSyncAt": "2026-10-29T17:26:25.980208Z",
       "lastSource": ""
     },
     {
@@ -1688,6 +1688,14 @@
       "magazineUrl": null,
       "notes": "",
       "posts": [
+        {
+          "title": "What Does Chris Rabb's Rise Mean for Democratic Socialism in Philly?",
+          "link": "https://omnia.sas.upenn.edu/content/what-does-chris-rabbs-rise-mean-democratic-socialism-philly",
+          "date": "2026-10-29",
+          "dek": "What Does Chris Rabb's Rise Mean for Democratic Socialism in Philly? eac32@upenn.edu Thu, 10/29/2026 - 09:12 A democratic socialist’s rise in Philadelphia is more nuanced than it might seem, per Daniel Hopkins , Julie and Martin Franklin Presidential Professor of Political Scienc",
+          "stream": "news",
+          "source": "feed:https://omnia.sas.upenn.edu/rss.xml"
+        },
         {
           "title": "UN Projections Say World is Losing Ground in Fight to Curb Climate Change",
           "link": "https://omnia.sas.upenn.edu/content/un-projections-say-world-losing-ground-fight-curb-climate-change",
@@ -1759,20 +1767,18 @@
           "dek": "The Black Women Whose Voices Lifted Hearts at the March on Washington eac32@upenn.edu Tue, 09/01/2026 - 09:37 Black women were a key—and undersung—force behind the famous March on Washington, writes Marcia Chatelain , Presidential Penn Compact Professor of Africana Studies. “Reme",
           "stream": "news",
           "source": "feed:https://omnia.sas.upenn.edu/rss.xml"
-        },
-        {
-          "title": "I Study Successful People. They Have One Habit in Common.",
-          "link": "https://omnia.sas.upenn.edu/content/i-study-successful-people-they-have-one-habit-common",
-          "date": "2026-08-31",
-          "dek": "I Study Successful People. They Have One Habit in Common. eac32@upenn.edu Mon, 08/31/2026 - 10:49 In an op-ed, Rosa Lee and Egbert Chang Professor Angela Duckworth writes that being a self-starter is crucial for success in life. “Being a successful self-starter doesn’t mean pulli",
-          "stream": "news",
-          "source": "feed:https://omnia.sas.upenn.edu/rss.xml"
         }
       ],
       "lastError": "",
       "_cache": {
         "news": {
           "items": [
+            {
+              "title": "What Does Chris Rabb's Rise Mean for Democratic Socialism in Philly?",
+              "link": "https://omnia.sas.upenn.edu/content/what-does-chris-rabbs-rise-mean-democratic-socialism-philly",
+              "date": "2026-10-29",
+              "dek": "What Does Chris Rabb's Rise Mean for Democratic Socialism in Philly? eac32@upenn.edu Thu, 10/29/2026 - 09:12 A democratic socialist’s rise in Philadelphia is more nuanced than it might seem, per Daniel Hopkins , Julie and Martin Franklin Presidential Professor of Political Scienc"
+            },
             {
               "title": "UN Projections Say World is Losing Ground in Fight to Curb Climate Change",
               "link": "https://omnia.sas.upenn.edu/content/un-projections-say-world-losing-ground-fight-curb-climate-change",
@@ -1826,20 +1832,14 @@
               "link": "https://omnia.sas.upenn.edu/content/black-women-whose-voices-lifted-hearts-march-washington",
               "date": "2026-09-01",
               "dek": "The Black Women Whose Voices Lifted Hearts at the March on Washington eac32@upenn.edu Tue, 09/01/2026 - 09:37 Black women were a key—and undersung—force behind the famous March on Washington, writes Marcia Chatelain , Presidential Penn Compact Professor of Africana Studies. “Reme"
-            },
-            {
-              "title": "I Study Successful People. They Have One Habit in Common.",
-              "link": "https://omnia.sas.upenn.edu/content/i-study-successful-people-they-have-one-habit-common",
-              "date": "2026-08-31",
-              "dek": "I Study Successful People. They Have One Habit in Common. eac32@upenn.edu Mon, 08/31/2026 - 10:49 In an op-ed, Rosa Lee and Egbert Chang Professor Angela Duckworth writes that being a self-starter is crucial for success in life. “Being a successful self-starter doesn’t mean pulli"
             }
           ],
           "feedUrl": "https://omnia.sas.upenn.edu/feed/",
           "source": "feed:https://omnia.sas.upenn.edu/rss.xml",
-          "fetchedAt": "2026-10-28T20:35:04.637925Z"
+          "fetchedAt": "2026-10-29T17:26:25.980208Z"
         }
       },
-      "lastSyncAt": "2026-10-28T20:35:04.637925Z",
+      "lastSyncAt": "2026-10-29T17:26:25.980208Z",
       "lastSource": "feed:https://omnia.sas.upenn.edu/rss.xml"
     },
     {
@@ -1859,10 +1859,10 @@
           "items": [],
           "feedUrl": null,
           "source": "",
-          "fetchedAt": "2026-10-28T20:35:04.637925Z"
+          "fetchedAt": "2026-10-29T17:26:25.980208Z"
         }
       },
-      "lastSyncAt": "2026-10-28T20:35:04.637925Z",
+      "lastSyncAt": "2026-10-29T17:26:25.980208Z",
       "lastSource": ""
     },
     {
@@ -1955,7 +1955,7 @@
           "items": [],
           "feedUrl": null,
           "source": "",
-          "fetchedAt": "2026-10-28T20:35:04.637925Z"
+          "fetchedAt": "2026-10-29T17:26:25.980208Z"
         }
       },
       "lastSyncAt": "2026-10-28T18:40:29.452025Z",
@@ -2027,7 +2027,7 @@
           "items": [],
           "feedUrl": null,
           "source": "",
-          "fetchedAt": "2026-10-28T20:35:04.637925Z"
+          "fetchedAt": "2026-10-29T17:26:25.980208Z"
         }
       },
       "lastSyncAt": "2026-10-28T18:40:29.452025Z",
@@ -2050,10 +2050,10 @@
           "items": [],
           "feedUrl": null,
           "source": "",
-          "fetchedAt": "2026-10-28T20:35:04.637925Z"
+          "fetchedAt": "2026-10-29T17:26:25.980208Z"
         }
       },
-      "lastSyncAt": "2026-10-28T20:35:04.637925Z",
+      "lastSyncAt": "2026-10-29T17:26:25.980208Z",
       "lastSource": ""
     },
     {
@@ -2146,7 +2146,7 @@
           "items": [],
           "feedUrl": null,
           "source": "",
-          "fetchedAt": "2026-10-28T20:35:04.637925Z"
+          "fetchedAt": "2026-10-29T17:26:25.980208Z"
         }
       },
       "lastSyncAt": "2026-10-28T18:40:29.452025Z",
@@ -2169,10 +2169,10 @@
           "items": [],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-10-28T20:35:04.637925Z"
+          "fetchedAt": "2026-10-29T17:26:25.980208Z"
         }
       },
-      "lastSyncAt": "2026-10-28T20:35:04.637925Z",
+      "lastSyncAt": "2026-10-29T17:26:25.980208Z",
       "lastSource": ""
     },
     {
@@ -2334,10 +2334,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://creative.writing.upenn.edu/rss.xml",
-          "fetchedAt": "2026-10-28T20:35:04.637925Z"
+          "fetchedAt": "2026-10-29T17:26:25.980208Z"
         }
       },
-      "lastSyncAt": "2026-10-28T20:35:04.637925Z",
+      "lastSyncAt": "2026-10-29T17:26:25.980208Z",
       "lastSource": "feed:https://creative.writing.upenn.edu/rss.xml"
     },
     {
@@ -2357,10 +2357,10 @@
           "items": [],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-10-28T20:35:04.637925Z"
+          "fetchedAt": "2026-10-29T17:26:25.980208Z"
         }
       },
-      "lastSyncAt": "2026-10-28T20:35:04.637925Z",
+      "lastSyncAt": "2026-10-29T17:26:25.980208Z",
       "lastSource": ""
     },
     {
@@ -2522,10 +2522,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://kleinmanenergy.upenn.edu/feed/",
-          "fetchedAt": "2026-10-28T20:35:04.637925Z"
+          "fetchedAt": "2026-10-29T17:26:25.980208Z"
         }
       },
-      "lastSyncAt": "2026-10-28T20:35:04.637925Z",
+      "lastSyncAt": "2026-10-29T17:26:25.980208Z",
       "lastSource": "feed:https://kleinmanenergy.upenn.edu/feed/"
     },
     {
@@ -2545,10 +2545,10 @@
           "items": [],
           "feedUrl": null,
           "source": "",
-          "fetchedAt": "2026-10-28T20:35:04.637925Z"
+          "fetchedAt": "2026-10-29T17:26:25.980208Z"
         }
       },
-      "lastSyncAt": "2026-10-28T20:35:04.637925Z",
+      "lastSyncAt": "2026-10-29T17:26:25.980208Z",
       "lastSource": ""
     },
     {
@@ -2649,7 +2649,7 @@
           "items": [],
           "feedUrl": null,
           "source": "",
-          "fetchedAt": "2026-10-28T20:35:04.637925Z"
+          "fetchedAt": "2026-10-29T17:26:25.980208Z"
         }
       },
       "lastSyncAt": "2026-10-28T18:40:29.452025Z",
@@ -2814,10 +2814,10 @@
           ],
           "feedUrl": "https://pennovation.upenn.edu/feed/",
           "source": "feed:https://pennovation.upenn.edu/rss.xml",
-          "fetchedAt": "2026-10-28T20:35:04.637925Z"
+          "fetchedAt": "2026-10-29T17:26:25.980208Z"
         }
       },
-      "lastSyncAt": "2026-10-28T20:35:04.637925Z",
+      "lastSyncAt": "2026-10-29T17:26:25.980208Z",
       "lastSource": "feed:https://pennovation.upenn.edu/rss.xml"
     },
     {
@@ -2979,10 +2979,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://katz.sas.upenn.edu/rss.xml",
-          "fetchedAt": "2026-10-28T20:35:04.637925Z"
+          "fetchedAt": "2026-10-29T17:26:25.980208Z"
         }
       },
-      "lastSyncAt": "2026-10-28T20:35:04.637925Z",
+      "lastSyncAt": "2026-10-29T17:26:25.980208Z",
       "lastSource": "feed:https://katz.sas.upenn.edu/rss.xml"
     },
     {
@@ -3002,10 +3002,10 @@
           "items": [],
           "feedUrl": null,
           "source": "",
-          "fetchedAt": "2026-10-28T20:35:04.637925Z"
+          "fetchedAt": "2026-10-29T17:26:25.980208Z"
         }
       },
-      "lastSyncAt": "2026-10-28T20:35:04.637925Z",
+      "lastSyncAt": "2026-10-29T17:26:25.980208Z",
       "lastSource": ""
     },
     {
@@ -3083,10 +3083,10 @@
           ],
           "feedUrl": "https://www.mceas.org/feed/",
           "source": "feed:https://www.mceas.org/rss.xml",
-          "fetchedAt": "2026-10-28T20:35:04.637925Z"
+          "fetchedAt": "2026-10-29T17:26:25.980208Z"
         }
       },
-      "lastSyncAt": "2026-10-28T20:35:04.637925Z",
+      "lastSyncAt": "2026-10-29T17:26:25.980208Z",
       "lastSource": "feed:https://www.mceas.org/rss.xml"
     },
     {
@@ -3100,6 +3100,14 @@
       "magazineUrl": null,
       "notes": "",
       "posts": [
+        {
+          "title": "Immigration Policy Accountability Project",
+          "link": "https://www.fels.upenn.edu/partner-fels/project-listing/immigration-policy-accountability-project",
+          "date": "2026-10-29",
+          "dek": "Immigration Policy Accountability Project Organization: Pennsylvania Immigration Coalition skates@upenn.edu Thu, 10/29/2026 - 07:48 City: Philadelphia State: Pennsylvania Organization Overview: The Pennsylvania Immigration Coalition (PIC) is a diverse coalition of over 60 member ",
+          "stream": "news",
+          "source": "feed:https://www.fels.upenn.edu/rss.xml"
+        },
         {
           "title": "A Membership Model for the 21st Century",
           "link": "https://www.fels.upenn.edu/partner-fels/project-listing/membership-model-21st-century",
@@ -3171,20 +3179,18 @@
           "dek": "Program Development for the Online Exploitation Response Center (OERC) — A New National Specialty Practice at The Exodus Road Organization: The Exodus Road skates@upenn.edu Wed, 10/21/2026 - 10:24 City: Colorado Springs State: Colorado Organization Overview: The Exodus Road (TER)",
           "stream": "news",
           "source": "feed:https://www.fels.upenn.edu/rss.xml"
-        },
-        {
-          "title": "Agrochemical Use and Children’s Health and Development in Ghana’s Cocoa Sector",
-          "link": "https://www.fels.upenn.edu/partner-fels/project-listing/agrochemical-use-and-childrens-health-and-development-ghanas-cocoa",
-          "date": "2026-10-21",
-          "dek": "Agrochemical Use and Children’s Health and Development in Ghana’s Cocoa Sector Organization: PDRI-DevLab, Department of Political Science, University of Pennsylvania skates@upenn.edu Wed, 10/21/2026 - 10:23 City: Philadelphia State: Pennsylvania Organization Overview: The Penn De",
-          "stream": "news",
-          "source": "feed:https://www.fels.upenn.edu/rss.xml"
         }
       ],
       "lastError": "",
       "_cache": {
         "news": {
           "items": [
+            {
+              "title": "Immigration Policy Accountability Project",
+              "link": "https://www.fels.upenn.edu/partner-fels/project-listing/immigration-policy-accountability-project",
+              "date": "2026-10-29",
+              "dek": "Immigration Policy Accountability Project Organization: Pennsylvania Immigration Coalition skates@upenn.edu Thu, 10/29/2026 - 07:48 City: Philadelphia State: Pennsylvania Organization Overview: The Pennsylvania Immigration Coalition (PIC) is a diverse coalition of over 60 member "
+            },
             {
               "title": "A Membership Model for the 21st Century",
               "link": "https://www.fels.upenn.edu/partner-fels/project-listing/membership-model-21st-century",
@@ -3238,20 +3244,14 @@
               "link": "https://www.fels.upenn.edu/partner-fels/project-listing/program-development-online-exploitation-response-center-oerc-new",
               "date": "2026-10-21",
               "dek": "Program Development for the Online Exploitation Response Center (OERC) — A New National Specialty Practice at The Exodus Road Organization: The Exodus Road skates@upenn.edu Wed, 10/21/2026 - 10:24 City: Colorado Springs State: Colorado Organization Overview: The Exodus Road (TER)"
-            },
-            {
-              "title": "Agrochemical Use and Children’s Health and Development in Ghana’s Cocoa Sector",
-              "link": "https://www.fels.upenn.edu/partner-fels/project-listing/agrochemical-use-and-childrens-health-and-development-ghanas-cocoa",
-              "date": "2026-10-21",
-              "dek": "Agrochemical Use and Children’s Health and Development in Ghana’s Cocoa Sector Organization: PDRI-DevLab, Department of Political Science, University of Pennsylvania skates@upenn.edu Wed, 10/21/2026 - 10:23 City: Philadelphia State: Pennsylvania Organization Overview: The Penn De"
             }
           ],
           "feedUrl": null,
           "source": "feed:https://www.fels.upenn.edu/rss.xml",
-          "fetchedAt": "2026-10-28T20:35:04.637925Z"
+          "fetchedAt": "2026-10-29T17:26:25.980208Z"
         }
       },
-      "lastSyncAt": "2026-10-28T20:35:04.637925Z",
+      "lastSyncAt": "2026-10-29T17:26:25.980208Z",
       "lastSource": "feed:https://www.fels.upenn.edu/rss.xml"
     },
     {
@@ -3271,10 +3271,10 @@
           "items": [],
           "feedUrl": "https://icaphila.org/feed/",
           "source": "",
-          "fetchedAt": "2026-10-28T20:35:04.637925Z"
+          "fetchedAt": "2026-10-29T17:26:25.980208Z"
         }
       },
-      "lastSyncAt": "2026-10-28T20:35:04.637925Z",
+      "lastSyncAt": "2026-10-29T17:26:25.980208Z",
       "lastSource": ""
     },
     {
@@ -3294,10 +3294,10 @@
           "items": [],
           "feedUrl": null,
           "source": "",
-          "fetchedAt": "2026-10-28T20:35:04.637925Z"
+          "fetchedAt": "2026-10-29T17:26:25.980208Z"
         }
       },
-      "lastSyncAt": "2026-10-28T20:35:04.637925Z",
+      "lastSyncAt": "2026-10-29T17:26:25.980208Z",
       "lastSource": ""
     },
     {
@@ -3459,10 +3459,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://lauder.wharton.upenn.edu/feed/",
-          "fetchedAt": "2026-10-28T20:35:04.637925Z"
+          "fetchedAt": "2026-10-29T17:26:25.980208Z"
         }
       },
-      "lastSyncAt": "2026-10-28T20:35:04.637925Z",
+      "lastSyncAt": "2026-10-29T17:26:25.980208Z",
       "lastSource": "feed:https://lauder.wharton.upenn.edu/feed/"
     },
     {
@@ -3555,7 +3555,7 @@
           "items": [],
           "feedUrl": null,
           "source": "",
-          "fetchedAt": "2026-10-28T20:35:04.637925Z"
+          "fetchedAt": "2026-10-29T17:26:25.980208Z"
         }
       },
       "lastSyncAt": "2026-10-28T18:40:29.452025Z",
@@ -3720,10 +3720,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://fisher.wharton.upenn.edu/feed/",
-          "fetchedAt": "2026-10-28T20:35:04.637925Z"
+          "fetchedAt": "2026-10-29T17:26:25.980208Z"
         }
       },
-      "lastSyncAt": "2026-10-28T20:35:04.637925Z",
+      "lastSyncAt": "2026-10-29T17:26:25.980208Z",
       "lastSource": "feed:https://fisher.wharton.upenn.edu/feed/"
     },
     {
@@ -3871,10 +3871,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://pores.upenn.edu/rss.xml",
-          "fetchedAt": "2026-10-28T20:35:04.637925Z"
+          "fetchedAt": "2026-10-29T17:26:25.980208Z"
         }
       },
-      "lastSyncAt": "2026-10-28T20:35:04.637925Z",
+      "lastSyncAt": "2026-10-29T17:26:25.980208Z",
       "lastSource": "feed:https://pores.upenn.edu/rss.xml"
     },
     {
@@ -4055,7 +4055,7 @@
           "items": [],
           "feedUrl": "https://snfpaideia.upenn.edu/feed/",
           "source": "",
-          "fetchedAt": "2026-10-28T20:35:04.637925Z"
+          "fetchedAt": "2026-10-29T17:26:25.980208Z"
         }
       },
       "lastSyncAt": "2026-10-28T18:40:29.452025Z",
@@ -4220,10 +4220,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://pricelab.sas.upenn.edu/rss.xml",
-          "fetchedAt": "2026-10-28T20:35:04.637925Z"
+          "fetchedAt": "2026-10-29T17:26:25.980208Z"
         }
       },
-      "lastSyncAt": "2026-10-28T20:35:04.637925Z",
+      "lastSyncAt": "2026-10-29T17:26:25.980208Z",
       "lastSource": "feed:https://pricelab.sas.upenn.edu/rss.xml"
     },
     {
@@ -4273,10 +4273,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://www.grasp.upenn.edu/feed/",
-          "fetchedAt": "2026-10-28T20:35:04.637925Z"
+          "fetchedAt": "2026-10-29T17:26:25.980208Z"
         }
       },
-      "lastSyncAt": "2026-10-28T20:35:04.637925Z",
+      "lastSyncAt": "2026-10-29T17:26:25.980208Z",
       "lastSource": "feed:https://www.grasp.upenn.edu/feed/"
     },
     {
@@ -4438,10 +4438,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://climate.upenn.edu/feed/",
-          "fetchedAt": "2026-10-28T20:35:04.637925Z"
+          "fetchedAt": "2026-10-29T17:26:25.980208Z"
         }
       },
-      "lastSyncAt": "2026-10-28T20:35:04.637925Z",
+      "lastSyncAt": "2026-10-29T17:26:25.980208Z",
       "lastSource": "feed:https://climate.upenn.edu/feed/"
     },
     {
@@ -4622,7 +4622,7 @@
           "items": [],
           "feedUrl": null,
           "source": "",
-          "fetchedAt": "2026-10-28T20:35:04.637925Z"
+          "fetchedAt": "2026-10-29T17:26:25.980208Z"
         }
       },
       "lastSyncAt": "2026-10-28T18:40:29.452025Z",
@@ -4707,7 +4707,7 @@
           "title": "Undergraduate Urban Research Colloquium (UURC) Info Session",
           "link": "https://penniur.upenn.edu/events/undergraduate-urban-research-colloquium-uurc-info-session",
           "date": "2026-10-13",
-          "dek": "Undergraduate Urban Research Colloquium (UURC) Info Session joonha811 Tue, 10/13/2026 - 13:58 Built Environment Spatial Analytics Urban Planning Climate Change & Resilience Urban Development Facebook Linkedin Copy Link Email The Undergraduate Urban Research Colloquium (UURC) cour",
+          "dek": "Undergraduate Urban Research Colloquium (UURC) Info Session joonha811 Tue, 10/13/2026 - 13:58 Built Environment Spatial Analytics Urban Planning Climate Change & Resilience , Urban Development Facebook Linkedin Copy Link Email The Undergraduate Urban Research Colloquium (UURC) co",
           "stream": "news",
           "source": "feed:https://penniur.upenn.edu/rss.xml"
         },
@@ -4776,7 +4776,7 @@
               "title": "Undergraduate Urban Research Colloquium (UURC) Info Session",
               "link": "https://penniur.upenn.edu/events/undergraduate-urban-research-colloquium-uurc-info-session",
               "date": "2026-10-13",
-              "dek": "Undergraduate Urban Research Colloquium (UURC) Info Session joonha811 Tue, 10/13/2026 - 13:58 Built Environment Spatial Analytics Urban Planning Climate Change & Resilience Urban Development Facebook Linkedin Copy Link Email The Undergraduate Urban Research Colloquium (UURC) cour"
+              "dek": "Undergraduate Urban Research Colloquium (UURC) Info Session joonha811 Tue, 10/13/2026 - 13:58 Built Environment Spatial Analytics Urban Planning Climate Change & Resilience , Urban Development Facebook Linkedin Copy Link Email The Undergraduate Urban Research Colloquium (UURC) co"
             },
             {
               "title": "Transportation Agencies to Pitch Real-World Challenges to Penn",
@@ -4787,10 +4787,10 @@
           ],
           "feedUrl": "https://penniur.upenn.edu/feed/",
           "source": "feed:https://penniur.upenn.edu/rss.xml",
-          "fetchedAt": "2026-10-28T20:35:04.637925Z"
+          "fetchedAt": "2026-10-29T17:26:25.980208Z"
         }
       },
-      "lastSyncAt": "2026-10-28T20:35:04.637925Z",
+      "lastSyncAt": "2026-10-29T17:26:25.980208Z",
       "lastSource": "feed:https://penniur.upenn.edu/rss.xml"
     },
     {
@@ -4810,10 +4810,10 @@
           "items": [],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-10-28T20:35:04.637925Z"
+          "fetchedAt": "2026-10-29T17:26:25.980208Z"
         }
       },
-      "lastSyncAt": "2026-10-28T20:35:04.637925Z",
+      "lastSyncAt": "2026-10-29T17:26:25.980208Z",
       "lastSource": ""
     },
     {
@@ -4994,7 +4994,7 @@
           "items": [],
           "feedUrl": null,
           "source": "",
-          "fetchedAt": "2026-10-28T20:35:04.637925Z"
+          "fetchedAt": "2026-10-29T17:26:25.980208Z"
         }
       },
       "lastSyncAt": "2026-10-28T18:40:29.452025Z",
@@ -5159,10 +5159,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://writing.upenn.edu/?feed=rss2",
-          "fetchedAt": "2026-10-28T20:35:04.637925Z"
+          "fetchedAt": "2026-10-29T17:26:25.980208Z"
         }
       },
-      "lastSyncAt": "2026-10-28T20:35:04.637925Z",
+      "lastSyncAt": "2026-10-29T17:26:25.980208Z",
       "lastSource": "feed:https://writing.upenn.edu/?feed=rss2"
     },
     {
@@ -5182,10 +5182,10 @@
           "items": [],
           "feedUrl": "https://perryworldhouse.upenn.edu/feed/",
           "source": "html",
-          "fetchedAt": "2026-10-28T20:35:04.637925Z"
+          "fetchedAt": "2026-10-29T17:26:25.980208Z"
         }
       },
-      "lastSyncAt": "2026-10-28T20:35:04.637925Z",
+      "lastSyncAt": "2026-10-29T17:26:25.980208Z",
       "lastSource": ""
     },
     {
@@ -5347,10 +5347,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://katz.sas.upenn.edu/rss.xml",
-          "fetchedAt": "2026-10-28T20:35:04.637925Z"
+          "fetchedAt": "2026-10-29T17:26:25.980208Z"
         }
       },
-      "lastSyncAt": "2026-10-28T20:35:04.637925Z",
+      "lastSyncAt": "2026-10-29T17:26:25.980208Z",
       "lastSource": "feed:https://katz.sas.upenn.edu/rss.xml"
     },
     {
@@ -5370,10 +5370,10 @@
           "items": [],
           "feedUrl": null,
           "source": "",
-          "fetchedAt": "2026-10-28T20:35:04.637925Z"
+          "fetchedAt": "2026-10-29T17:26:25.980208Z"
         }
       },
-      "lastSyncAt": "2026-10-28T20:35:04.637925Z",
+      "lastSyncAt": "2026-10-29T17:26:25.980208Z",
       "lastSource": ""
     },
     {
@@ -5675,10 +5675,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://arthurrossgallery.org/category/press-releases/feed/",
-          "fetchedAt": "2026-10-28T20:35:04.637925Z"
+          "fetchedAt": "2026-10-29T17:26:25.980208Z"
         }
       },
-      "lastSyncAt": "2026-10-28T20:35:04.637925Z",
+      "lastSyncAt": "2026-10-29T17:26:25.980208Z",
       "lastSource": "feed:https://arthurrossgallery.org/category/press-releases/feed/"
     },
     {
@@ -5840,10 +5840,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://www.penn.museum/about/press-room/in-the-news?format=feed&type=rss",
-          "fetchedAt": "2026-10-28T20:35:04.637925Z"
+          "fetchedAt": "2026-10-29T17:26:25.980208Z"
         }
       },
-      "lastSyncAt": "2026-10-28T20:35:04.637925Z",
+      "lastSyncAt": "2026-10-29T17:26:25.980208Z",
       "lastSource": "feed:https://www.penn.museum/about/press-room/in-the-news?format=feed&type=rss"
     },
     {
@@ -5904,7 +5904,7 @@
           "items": [],
           "feedUrl": null,
           "source": "",
-          "fetchedAt": "2026-10-28T20:35:04.637925Z"
+          "fetchedAt": "2026-10-29T17:26:25.980208Z"
         }
       },
       "lastSyncAt": "2026-10-28T18:40:29.452025Z",
@@ -5927,14 +5927,14 @@
           "items": [],
           "feedUrl": null,
           "source": "",
-          "fetchedAt": "2026-10-28T20:35:04.637925Z"
+          "fetchedAt": "2026-10-29T17:26:25.980208Z"
         }
       },
-      "lastSyncAt": "2026-10-28T20:35:04.637925Z",
+      "lastSyncAt": "2026-10-29T17:26:25.980208Z",
       "lastSource": ""
     }
   ],
-  "lastRefreshAt": "2026-10-28T20:35:04.637925Z",
+  "lastRefreshAt": "2026-10-29T17:26:25.980208Z",
   "refreshErrors": [
     "Annenberg: Latest check returned no articles; showing earlier results. HTTP 403 from https://www.asc.upenn.edu/news-events/news",
     "Nursing: No articles found after browser scrape",
