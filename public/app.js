@@ -49,7 +49,8 @@
   }
 
   function fmtDate(dateString) {
-    const d = new Date(dateString);
+    // Calendar dates have no timezone; avoid shifting them into the previous day.
+    const d = new Date(/^\d{4}-\d{2}-\d{2}$/.test(dateString) ? dateString + "T12:00:00" : dateString);
     if (Number.isNaN(d.getTime())) return dateString || "—";
     return d.toLocaleDateString("en-US", { month: "short", day: "numeric" });
   }
@@ -878,7 +879,7 @@
               </div>
             `).join("")
             : `<div class="story-empty ${site.lastError ? "error" : ""}">
-                ${safeText(site.lastError || (site.newsUrl ? "Nothing this week — refresh to check." : "No URL configured."))}
+                ${safeText(site.lastError || (site.newsUrl ? "No articles in the selected week." : "No URL configured."))}
                </div>`
           }
         </div>

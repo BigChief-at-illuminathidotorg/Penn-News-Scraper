@@ -5,6 +5,7 @@ import os
 import time
 from pathlib import Path
 from urllib.request import Request, urlopen
+from urllib.error import HTTPError
 
 
 def verify(base_url, fetch):
@@ -29,6 +30,16 @@ if __name__ == "__main__":
         try:
             verify(base, fetch_url)
             print("Verified canonical site app and collection:", base)
+            break
+        except HTTPError as error:
+            if error.code not in (401, 403):
+                raise
+            message = "Deployment uploaded, but public verification was denied (HTTP " + str(error.code) + "). Open the live site to confirm its collection time."
+            print("::warning::" + message)
+            summary = os.environ.get("GITHUB_STEP_SUMMARY")
+            if summary:
+                with open(summary, "a") as output:
+                    output.write("\n**Public verification incomplete:** " + message + "\n")
             break
         except Exception as error:
             if attempt == 5:
