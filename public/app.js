@@ -717,9 +717,7 @@
             </button>
             <button class="btn" data-action="import-json">${icons.upload} Import</button>
             <button class="btn" data-action="export-json">${icons.save} Export</button>
-            
-            
-            
+            <button class="btn" data-action="open-sites-editor">${icons.edit} All sites</button>
             <button class="btn btn-primary" data-action="refresh-all">
               ${runtime.loading ? '<span class="spinner"></span> Refreshing…' : icons.refresh + " Check for updates"}
             </button>
@@ -956,7 +954,7 @@
           <div class="modal-head">
             <div>
               <h3 class="modal-title">All sites</h3>
-              <p class="modal-sub">${sites.length} desks tracked. Click a row to edit. Changes are saved immediately and reflected on next refresh.</p>
+              <p class="modal-sub">${sites.length} desks tracked. Source settings are shared by the team. Contact the monitor owner to add or change a source.</p>
             </div>
             <button class="btn-icon" data-action="close-sites-editor" aria-label="Close">${icons.close}</button>
           </div>
@@ -988,7 +986,7 @@
                       <td style="padding:8px 12px;max-width:260px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-family:var(--mono);font-size:11px">
                         ${s.newsUrl ? `<a href="${safeText(s.newsUrl)}" target="_blank" rel="noreferrer" style="color:var(--accent)">${safeText(s.newsUrl)}</a>` : `<span style="color:var(--idle);font-style:italic">no URL</span>`}
                       </td>
-                      <td style="padding:8px 12px;color:var(--dim);font-family:var(--mono);font-size:10px;white-space:nowrap">${s.lastSyncAt ? fmtDateTime(s.lastSyncAt) : "—"}</td>
+                      <td style="padding:8px 12px;color:var(--dim);font-family:var(--mono);font-size:10px;white-space:nowrap">${s.lastSyncAt ? fmtDateTime(s.lastSyncAt) : "—"}${s.lastError ? `<div style="white-space:normal;color:var(--err);max-width:300px">${safeText(s.lastError)}</div>` : ""}</td>
                       <td style="padding:8px 12px;white-space:nowrap">
                         
                       </td>
@@ -1265,13 +1263,11 @@
       state.importedSnapshot = false;
       state.sites = snapshot.sites;
       state.lastRefreshAt = snapshot.lastRefreshAt;
-      state.showAddSite = false;
-      state.showSitesEditor = false;
       const issues = snapshot.sites.filter(s => s.lastError).length;
       const old = Date.now() - Date.parse(snapshot.lastRefreshAt) > 30 * 3600000;
       runtime.hostedMessage = (old ? 'Updates are overdue. Contact the monitor owner. ' : '') +
         'Latest collection: ' + fmtDateTime(snapshot.lastRefreshAt) + '. ' +
-        issues + ' sources need attention. Checks run online; this button loads the latest published results.';
+        issues + ' sources need attention. Collection runs twice each weekday; this page checks for published results every five minutes.';
       try { saveState(); } catch (_) { /* News remains usable if browser storage is full. */ }
     } catch (error) {
       if (loadToken !== runtime.refreshToken) return;
