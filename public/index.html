@@ -1,17 +1,10 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Penn News Monitor</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="color-scheme" content="dark light">
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body data-theme="dark">
-  <div id="app"></div>
-  <div id="toastWrap" class="toast-wrap"></div>
-
-  <script src="sites.js"></script>
-  <script src="app.js"></script>
-</body>
-</html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="A shared news desk for the University of Pennsylvania."><title>Penn News Monitor</title><link rel="stylesheet" href="styles.css"></head>
+<body><header><div class="brand"><span class="mark">P</span><div><p class="eyebrow">THE SHARED NEWS DESK</p><h1>Penn News Monitor</h1></div></div><nav aria-label="Monitor controls"><button id="theme">Night mode</button><button id="import">Import</button><button id="export">Export</button><a href="help.html">Help</a></nav></header>
+<main><section class="intro"><div><p class="eyebrow" id="today"></p><h2>Across Penn. In one place.</h2><p>Headlines from your schools, centers, and institutes.</p></div><button class="primary" id="refresh">Check for updates</button></section>
+<section class="health" aria-label="Collection status"><div><p class="eyebrow">COLLECTION</p><h3 id="collectionTime">Connecting…</h3><p id="connection" role="status" aria-live="polite">Looking for the latest published results.</p></div><div><p class="eyebrow">GITHUB COLLECTOR</p><p id="jobStatus">Job status has not been checked.</p><button id="checkJob">Check job status</button> <a id="jobLink" target="_blank" rel="noreferrer">Open GitHub ↗</a></div><div><p class="eyebrow">SOURCE HEALTH</p><h3 id="sourceCount">—</h3><button id="sources">View all sources</button></div></section>
+<div id="notice" class="notice" hidden></div>
+<section class="workspace"><div class="filterbar"><label class="search">Search headlines or sources<input id="search" type="search" placeholder="Try robotics, medicine, climate…"></label><label>Section<select id="section"><option value="">All sections</option></select></label><label>Publication week<input id="week" type="date" aria-label="Any date in publication week"></label><button id="allDates">All dates</button><button id="thisWeek">This week</button></div><div class="viewbar"><p id="results" aria-live="polite"></p><div><label><input id="active" type="checkbox"> Sources with articles only</label><button id="compact" aria-pressed="false">Compact view</button></div></div><div id="stories"></div></section>
+<footer><span>Monitor 3.1 · November 3, 2026</span><span>Online collection: 11:17 and 17:17 UTC, weekdays · Page checks every 5 minutes</span></footer></main>
+<dialog id="sourceDialog"><div class="dialoghead"><div><p class="eyebrow">COLLECTION COVERAGE</p><h2>All sources</h2></div><button id="closeSources">Close</button></div><p>Source changes are shared settings in GitHub. This view shows each source’s latest result, including retained older articles.</p><div id="sourceList"></div></dialog><input id="file" type="file" accept=".json,application/json" hidden>
+<script src="app.js"></script></body></html>

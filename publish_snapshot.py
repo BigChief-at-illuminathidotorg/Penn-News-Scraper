@@ -1,5 +1,7 @@
 """Validate a collection and retain last-known articles when a source is empty."""
 import json
+import os
+from prepare_sources import source_version
 from pathlib import Path
 from datetime import datetime
 
@@ -20,7 +22,7 @@ def merge_snapshot(current, previous):
                 raise ValueError('Invalid article')
         if site['posts']:
             good += 1
-        elif old.get(site['id'], {}).get('posts'):
+        elif old.get(site['id'], {}).get('posts') and old[site['id']].get('newsUrl') == site.get('newsUrl'):
             prior = old[site['id']]
             site['posts'] = prior['posts']
             site['lastSyncAt'] = prior.get('lastSyncAt', '')
@@ -35,5 +37,12 @@ if __name__ == '__main__':
     current = json.loads(Path('collected.json').read_text())
     previous = json.loads(target.read_text()) if target.exists() else {}
     merged = merge_snapshot(current, previous)
+    merged['schemaVersion'] = 3
+    merged['collection'] = {
+        'sourceVersion': source_version(),
+        'runId': os.environ.get('GITHUB_RUN_ID', ''),
+        'commit': os.environ.get('GITHUB_SHA', ''),
+        'runUrl': 'https://github.com/' + os.environ.get('GITHUB_REPOSITORY', 'BigChief-at-illuminathidotorg/Penn-News-Scraper') + '/actions/runs/' + os.environ.get('GITHUB_RUN_ID', '')
+    }
     target.write_text(json.dumps(merged, ensure_ascii=False, indent=2) + '\n')
     print(f"Prepared {len(merged['sites'])} sources; {len(merged['refreshErrors'])} need attention")

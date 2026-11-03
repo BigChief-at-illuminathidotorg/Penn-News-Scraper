@@ -59,15 +59,11 @@ def load_sites():
     if pos == -1:
         sys.exit("ERROR: PENN_MONITOR_DEFAULT_SITES not found in sites.js")
     start = raw.index("[", pos)
-    depth = 0
-    for i in range(start, len(raw)):
-        depth += (raw[i] == "[") - (raw[i] == "]")
-        if depth == 0:
-            try:
-                return json.loads(raw[start:i + 1])
-            except json.JSONDecodeError as e:
-                sys.exit(f"ERROR parsing sites.js: {e}")
-    sys.exit("ERROR: unbalanced brackets in sites.js")
+    try:
+        sites, _ = json.JSONDecoder().raw_decode(raw[start:])
+        return sites
+    except json.JSONDecodeError as e:
+        sys.exit(f"ERROR parsing sites.js: {e}")
 
 # ══ Dates ══════════════════════════════════════════════════════════════════════
 MONTHS = {m: i for i, m in enumerate(
@@ -238,7 +234,10 @@ SITE_RULES = {
         "christopher-h-browne-center-for-international-politics",
         "center-for-the-study-of-ethnicity-race-immigration", "the-water-center",
         "digital-humanities-price-lab", "dental", "nursing", "penn-sustainability",
-        "fels-institute-of-government", "arthur-ross-gallery", "vet")},
+        "fels-institute-of-government", "arthur-ross-gallery", "vet",
+        "comparative-literature", "classics", "spanish", "pan-school", "biology",
+        "chemistry", "linguistics", "cinema-media-studies",
+        "earth-environmental-science", "economics", "french-italian-germanic-studies")},
     "penn-eii":    {"containers": [".views-row", "article", ".card"],
                     "date": [".field--name-created", "time", ".card-date"]},
     "penn-iur":    {"containers": ["article", ".views-row"], "date": ["time", ".field--name-created"]},
@@ -252,7 +251,7 @@ SITE_RULES = {
        for s in ("appc", "sas-omnia", "perry-world-house", "sp2", "grasp-lab",
                  "snf-paideia-program", "the-lauder-institute",
                  "jerome-fisher-program-in-management-and-technology",
-                 "wharton", "knowledge-at-wharton")},
+                 "wharton", "knowledge-at-wharton", "chibe", "platt-house")},
     "kleinman-center-for-energy-policy": {"containers": [".card", "article"], "date": ["time", ".date", "p"]},
     "pennovation-center": {"containers": [".views-row", "article"], "date": ["time"]},   # headline is plain <h2> + "Read More"
     # Sitecore/React: hashed CSS-module classes, date nested in .date-without-time
@@ -265,9 +264,9 @@ SITE_RULES = {
                     "date": ["time", ".date", "[class*=date]"]},
     "gse":         {"containers": [".news_list_item", "article", ".views-row"],
                     "date": ["time.news_list_item_date", "time", ".field--name-created"]},
-    # Katz/Platt blog: no dates AND stale — deliberately not date_optional.
+    # Katz blog: undated items are not assigned an invented publication date.
     **{s: {"containers": ["article.teaser", ".views-row"], "date": [".field--name-created", "time"]}
-       for s in ("herbert-d-katz-center-for-advanced-judaic-studies", "platt-house")},
+       for s in ("herbert-d-katz-center-for-advanced-judaic-studies",)},
 }
 
 # ══ Browser-side extraction ════════════════════════════════════════════════════

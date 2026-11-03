@@ -12,7 +12,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   collect:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
@@ -26,7 +26,13 @@ jobs:
         with:
           node-version: '22'
       - run: pip install -r requirements.txt
+      - name: Validate source list and monitor
+        run: |
+          python -m unittest discover -s tests
+          node tests/monitor.cjs
       - run: python -m playwright install --with-deps chromium
+      - name: Publish shared source catalog
+        run: python prepare_sources.py
       - name: Collect news on GitHub servers
         run: python scraper.py --out collected.json --concurrency 3
       - name: Validate and preserve previous results for failed sources
@@ -35,7 +41,7 @@ jobs:
         run: |
           git config user.name 'Penn News Monitor'
           git config user.email 'monitor@users.noreply.github.com'
-          git add public/data/latest.json
+          git add public/data/latest.json public/data/sources.json
           git diff --cached --quiet || git commit -m 'Update shared news collection'
           git pull --rebase origin main
           git push origin HEAD:main

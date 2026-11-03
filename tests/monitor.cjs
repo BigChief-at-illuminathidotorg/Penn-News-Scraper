@@ -1,0 +1,22 @@
+const vm=require('node:vm'),fs=require('node:fs'),assert=require('node:assert/strict');
+const code=fs.readFileSync('public/app.js','utf8').replace(/\}\)\(\);\s*$/, 'globalThis.test={validate,viewSites,calendarDate,weekBounds,refresh,get:()=>({snapshot,imported,source,loading})};})();');
+const make=(time,title='Headline')=>({lastRefreshAt:time,sites:[{id:'test',name:'Test',newsUrl:'https://example.com',posts:[{title,link:'https://example.com/story',date:'2026-11-02'}]}]});
+const old=make('2026-10-29T17:00:00Z'),fresh=make('2026-11-03T12:00:00Z');
+const elements={};const el=id=>elements[id]??=( {value:'',textContent:'',innerHTML:'',checked:false,classList:{toggle(){}},setAttribute(){},showModal(){},close(){},click(){}} );
+const catalog={publishedAt:'2026-11-03T13:00:00Z',sites:[{id:'test',name:'Test',newsUrl:'https://example.com'},{id:'new',name:'New source',newsUrl:'https://new.example.com'}]};
+let responses=[fresh,old,catalog,catalog];let deferred=false,resolvePending=[];
+const context=vm.createContext({URL,Date,JSON,Blob,AbortSignal,console,setTimeout,clearTimeout,setInterval(){},alert(){},document:{baseURI:'https://example.test/',getElementById:el,body:{classList:{toggle(){}}},addEventListener(){},createElement(){return el('a')}},localStorage:{getItem(){return null},setItem(){}},fetch:async()=>{if(deferred)return new Promise(resolve=>resolvePending.push(resolve));return{ok:true,json:async()=>responses.shift()};}});
+const settle=()=>new Promise(resolve=>setImmediate(resolve));
+(async()=>{
+ vm.runInContext(code,context);await settle();assert.equal(context.test.get().snapshot.lastRefreshAt,fresh.lastRefreshAt);assert.equal(context.test.get().source,'GitHub shared collection');
+ assert.equal(context.test.viewSites().length,2);assert.equal(context.test.viewSites()[1].posts.length,0);assert.match(context.test.viewSites()[1].lastError,/Awaiting/);
+ responses=[old,old,catalog,catalog];await context.test.refresh(true);assert.equal(context.test.get().snapshot.lastRefreshAt,fresh.lastRefreshAt,'Never regress an online collection');
+ assert.throws(()=>context.test.validate({...fresh,sites:[{id:'x',name:'X',posts:[{title:'Bad',link:'javascript:alert(1)'}]}]}));
+ assert.equal(context.test.calendarDate('2026-11-02').getDate(),2);
+ deferred=true;const pending=context.test.refresh(true);await settle();const imported=make('2026-10-01T12:00:00Z','Imported');await el('file').onchange({target:{files:[{size:100,text:async()=>JSON.stringify(imported)}],value:'x'}});resolvePending.forEach(r=>r({ok:true,json:async()=>fresh}));await pending;
+ assert.equal(context.test.get().snapshot.lastRefreshAt,imported.lastRefreshAt,'Import wins over in-flight refresh');assert.equal(context.test.get().imported,true);
+ const before=resolvePending.length;await context.test.refresh();assert.equal(resolvePending.length,before,'Polling pauses during import');
+ deferred=false;responses=[fresh,old,catalog,catalog];await context.test.refresh(true);assert.equal(context.test.get().imported,false);assert.equal(context.test.get().snapshot.lastRefreshAt,fresh.lastRefreshAt);
+ context.fetch=async()=>{throw Error('Offline')};await context.test.refresh(true);assert.equal(context.test.get().snapshot.lastRefreshAt,fresh.lastRefreshAt);assert.match(el('connection').textContent,/kept/);
+ console.log('PASS: newest snapshot, no regression, unsafe URL rejection, calendar date, import race, paused polling, return online, offline retention');
+})().catch(e=>{console.error(e);process.exit(1)});
