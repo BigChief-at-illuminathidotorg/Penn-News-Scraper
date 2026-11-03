@@ -2,7 +2,7 @@
   "vet": "https://www.vet.upenn.edu/penn-vet-news/",
   "sp2": "https://sp2.upenn.edu/news/",
   "dental": "https://www.dental.upenn.edu/news-events/recent-news/",
-  "medicine": "https://www.pennmedicine.org/news",
+  "medicine": "https://www.pennmedicine.org/news/search?hideFADListing=false&pageType=taxonomyTemplatePage&pageTypeId=97a5141a-e62c-4dde-8fc0-160f2571b56a&sort=created&sortOrder=DESC&page=1&resultsPerPage=10&pageContentType=*",
   "gse": "https://www.gse.upenn.edu/news-and-events/news",
   "sas-omnia": "https://omnia.sas.upenn.edu/",
   "comparative-literature": "https://complit.sas.upenn.edu/news",

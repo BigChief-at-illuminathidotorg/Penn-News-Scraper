@@ -15,6 +15,20 @@ function dateLabel(value) { const d=calendarDate(value); return Number.isFinite(
 function timeLabel(value) { const d=new Date(value); return Number.isFinite(+d) ? d.toLocaleString('en-US',{month:'short',day:'numeric',hour:'numeric',minute:'2-digit',timeZoneName:'short'}) : 'Unknown'; }
 function localDate(d) { return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`; }
 function weekBounds(value) { const d=calendarDate(value); d.setHours(0,0,0,0); d.setDate(d.getDate()-((d.getDay()+6)%7)); const end=new Date(d);end.setDate(end.getDate()+7);return [d,end]; }
+function moveWeek(direction) {
+ const selected=$('week').value;
+ const start=weekBounds(selected || localDate(new Date()))[0];
+ if(selected || direction<0)start.setDate(start.getDate()+direction*7);
+ const current=weekBounds(localDate(new Date()))[0];
+ if(start>current)start.setTime(current.getTime());
+ $('week').value=localDate(start);
+ render();
+}
+function updateWeekButtons() {
+ const selected=$('week').value;
+ const current=weekBounds(localDate(new Date()))[0];
+ $('nextWeek').disabled=!!selected && weekBounds(selected)[0]>=current;
+}
 function validate(data) {
  if(!data || !Array.isArray(data.sites) || !data.sites.length || !Number.isFinite(Date.parse(data.lastRefreshAt))) throw Error('This file is not a valid monitor snapshot.');
  const seen=new Set();
@@ -50,6 +64,7 @@ function renderStatus(){
 function sectionOptions(){const old=$('section').value;const values=[...new Set(viewSites().map(s=>s.parentUnit||s.bucket||'Other'))].sort();$('section').innerHTML='<option value="">All sections</option>'+values.map(v=>`<option value="${escape(v)}">${escape(v)}</option>`).join('');if(values.includes(old))$('section').value=old;}
 function render(){
  renderStatus();
+ updateWeekButtons();
  if(!snapshot){$('stories').innerHTML='<div class="empty">No news loaded yet. Check for updates, or import a saved snapshot.</div>';$('results').textContent='No collection';return;}
  const query=$('search').value.trim().toLowerCase(),section=$('section').value,week=$('week').value;
  const bounds=week?weekBounds(week):null;let count=0,shown=0;
@@ -90,6 +105,7 @@ $('today').textContent=new Date().toLocaleDateString('en-US',{weekday:'long',mon
 $('jobLink').href=ACTIONS;$('week').value='';$('active').checked=true;
 $('refresh').onclick=()=>refresh(true);$('checkJob').onclick=checkJob;
 $('search').oninput=render;$('section').onchange=render;$('week').onchange=render;$('active').onchange=render;
+$('prevWeek').onclick=()=>moveWeek(-1);$('nextWeek').onclick=()=>moveWeek(1);
 $('allDates').onclick=()=>{$('week').value='';render();};$('thisWeek').onclick=()=>{$('week').value=localDate(new Date());render();};
 $('compact').onclick=()=>{prefs.compact=!prefs.compact;savePrefs();applyPrefs();};$('theme').onclick=()=>{prefs.theme=prefs.theme==='dark'?'light':'dark';savePrefs();applyPrefs();};
 $('sources').onclick=()=>{ $('sourceList').innerHTML=viewSites().map(s=>{const u=safeURL(s.newsUrl);return `<div class="source"><strong>${escape(s.name)}</strong><p>${u?`<a href="${escape(u)}" target="_blank" rel="noopener noreferrer">${escape(u)}</a>`:'No news URL configured'}</p><small>${s.posts.length} saved articles · Last source check ${s.lastSyncAt?escape(timeLabel(s.lastSyncAt)):'unavailable'}</small><p class="warning">${escape(s.lastError||'No collection warning reported.')}</p></div>`;}).join('')||'No collection loaded.';$('sourceDialog').showModal();};$('closeSources').onclick=()=>$('sourceDialog').close();
