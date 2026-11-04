@@ -1,0 +1,539 @@
+{
+  "gse": {
+    "url": "https://www.gse.upenn.edu/news-and-events/news",
+    "steps": [
+      {
+        "scroll": 0,
+        "found": 47,
+        "first": "2026-11-04",
+        "last": "2026-08-24",
+        "items": 50,
+        "height": 16252,
+        "more": [
+          "A Next Page ?page=1 pagination_arrow pagination_arrow_right "
+        ],
+        "pager": [
+          "#",
+          "?page=1"
+        ]
+      },
+      {
+        "scroll": 1,
+        "found": 47,
+        "first": "2026-11-04",
+        "last": "2026-08-24",
+        "items": 50,
+        "height": 16270,
+        "more": [
+          "A Next Page ?page=1 pagination_arrow pagination_arrow_right "
+        ],
+        "pager": [
+          "#",
+          "?page=1"
+        ]
+      },
+      {
+        "scroll": 2,
+        "found": 47,
+        "first": "2026-11-04",
+        "last": "2026-08-24",
+        "items": 50,
+        "height": 16270,
+        "more": [
+          "A Next Page ?page=1 pagination_arrow pagination_arrow_right "
+        ],
+        "pager": [
+          "#",
+          "?page=1"
+        ]
+      }
+    ],
+    "status": 200,
+    "found": [
+      {
+        "title": "In the Classroom: “Citizen Sociolinguistics”",
+        "link": "https://www.gse.upenn.edu/news/classroom-citizen-sociolinguistics",
+        "dateText": "2026-11-04 10:00:00",
+        "dek": "November 04, 2026"
+      },
+      {
+        "title": "Why Sleep Matters More than We Realize During the Tween Years",
+        "link": "https://www.gse.upenn.edu/news/why-sleep-matters-more-we-realize-during-tween-years",
+        "dateText": "2026-11-03 10:00:00",
+        "dek": "November 03, 2026"
+      },
+      {
+        "title": "In the Classroom: “Anthropology and Education”",
+        "link": "https://www.gse.upenn.edu/news/classroom-anthropology-and-education",
+        "dateText": "2026-11-02 10:00:00",
+        "dek": "November 02, 2026"
+      },
+      {
+        "title": "From Penn GSE to Publication: A Collaborative Vision for Girls of Color",
+        "link": "https://www.gse.upenn.edu/news/penn-gse-publication-collaborative-vision-girls-color",
+        "dateText": "2026-10-28 10:00:00",
+        "dek": "October 28, 2026"
+      },
+      {
+        "title": "New Report Calls to Reimagine Teaching in Pennsylvania",
+        "link": "https://www.gse.upenn.edu/news/new-report-calls-reimagine-teaching-pennsylvania",
+        "dateText": "2026-10-22 12:32:46",
+        "dek": "October 22, 2026"
+      },
+      {
+        "title": "Alum Publishes Research Started at Penn GSE",
+        "link": "https://www.gse.upenn.edu/news/alum-publishes-research-started-penn-gse",
+        "dateText": "2026-10-19 09:00:00",
+        "dek": "October 19, 2026"
+      },
+      {
+        "title": "Can Pizza Hut-Style Rewards Spark Lifelong Reading Habits?",
+        "link": "https://www.edweek.org/teaching-learning/can-pizza-hut-style-rewards-spark-lifelong-reading-habits/2026/10",
+        "dateText": "2026-10-19 07:00:00",
+        "dek": "Education Week October 19, 2026"
+      },
+      {
+        "title": "“I had the relationships”: How Peter Collins shaped Florida State’s response to the Protect College Sports Act",
+        "link": "https://www.tomahawknation.com/florida-state-football/138685/i-had-the-relationships-how-peter-collins-shaped-florida-states-response-to-the-protect-college-sports-act",
+        "dateText": "2026-10-15 07:00:00",
+        "dek": "Tomahawk Nation October 15, 2026"
+      },
+      {
+        "title": "Designed to Serve, Built to Adapt",
+        "link": "https://www.gse.upenn.edu/news/designed-serve-built-adapt",
+        "dateText": "2026-10-14 10:00:00",
+        "dek": "October 14, 2026"
+      },
+      {
+        "title": "Designing Virtual Trust: Micro-Moments, Team Norms, and Healthy Conflict in Remote Work",
+        "link": "https://www.gse.upenn.edu/news/designing-virtual-trust-micro-moments-team-norms-and-healthy-conflict-remote-work",
+        "dateText": "2026-10-14 07:00:00",
+        "dek": "October 14, 2026"
+      },
+      {
+        "title": "Why Good Teachers Leave and What Schools Can Do About It",
+        "link": "https://exchange.prx.org/pieces/638179?m=false",
+        "dateText": "2026-10-13 07:00:00",
+        "dek": "Public Radio Exchange October 13, 2026"
+      },
+      {
+        "title": "Our Alumni: Ola Abdalla, GRD’26",
+        "link": "https://www.gse.upenn.edu/news/our-alumni-ola-abdalla-grd26",
+        "dateText": "2026-10-12 10:00:00",
+        "dek": "October 12, 2026"
+      },
+      {
+        "title": "Partnering with U of Penn, Philadelphia schools prepare educators for AI-powered future",
+        "link": "https://www.phillytrib.com/news/local_news/philadelphia-schools-prepare-educators-for-ai-powered-future/article_ae7693f6-7123-4966-8434-a101a2761f95.html",
+        "dateText": "2026-10-09 07:00:00",
+        "dek": "The Philadelphia Tribune October 09, 2026"
+      },
+      {
+        "title": "New Faculty Publications: September 2026",
+        "link": "https://www.gse.upenn.edu/news/new-faculty-publications-september-2026",
+        "dateText": "2026-10-07 11:00:00",
+        "dek": "October 07, 2026"
+      },
+      {
+        "title": "As AI Transforms Education, Penn GSE Launches a Living Laboratory to Keep Humans at the Center",
+        "link": "https://www.gse.upenn.edu/news/ai-transforms-education-penn-gse-launches-living-laboratory-keep-humans-center",
+        "dateText": "2026-10-06 09:30:00",
+        "dek": "October 06, 2026"
+      },
+      {
+        "title": "Celebrating Hispanic and Latin American Culture",
+        "link": "https://6abc.com/post/visions-ootober-3-2026/19892835/",
+        "dateText": "2026-10-01 07:00:00",
+        "dek": "6 ABC Action News October 01, 2026"
+      },
+      {
+        "title": "Neerja Birla Discusses Building Systems of Care",
+        "link": "https://www.gse.upenn.edu/news/neerja-birla-discusses-building-systems-care",
+        "dateText": "2026-09-29 10:00:00",
+        "dek": "September 29, 2026"
+      },
+      {
+        "title": "Haddonfield starts school year with new K-5 screentime guidance",
+        "link": "https://www.nbcphiladelphia.com/news/local/haddonfield-starts-school-year-with-new-k-5-screentime-guidance/4471474/",
+        "dateText": "2026-09-29 07:00:00",
+        "dek": "NBC 10 Philadelphia September 29, 2026"
+      },
+      {
+        "title": "Dr. Rand Quinn - Education - Evening WURDs",
+        "link": "https://soundcloud.com/onwurd/dr-rand-quinn-education",
+        "dateText": "2026-09-29 07:00:00",
+        "dek": "Evening WURDs September 29, 2026"
+      },
+      {
+        "title": "Roberto Gonzales Helps Chart a Path for Education and Workforce Opportunity",
+        "link": "https://www.gse.upenn.edu/news/roberto-gonzales-helps-chart-path-education-and-workforce-opportunity",
+        "dateText": "2026-09-28 10:00:00",
+        "dek": "September 28, 2026"
+      },
+      {
+        "title": "30 Ideas for Fixing U.S. Schools, Ranked by Experts",
+        "link": "https://www.nytimes.com/2026/09/28/upshot/ideas-fixing-schools-ranked.html?smid=url-share",
+        "dateText": "2026-09-28 07:00:00",
+        "dek": "The New York Times September 28, 2026"
+      },
+      {
+        "title": "Penn GSE Receives $3 Million to Advance Educational Entrepreneurship",
+        "link": "https://www.gse.upenn.edu/news/penn-gse-receives-3-million-advance-educational-entrepreneurship",
+        "dateText": "2026-09-24 10:00:00",
+        "dek": "September 24, 2026"
+      },
+      {
+        "title": "Yasmin B. Kafai Named an Outstanding Educator in Computer Science",
+        "link": "https://wiareport.com/2026/09/yasmin-b-kafai-named-an-outstanding-educator-in-computer-science/",
+        "dateText": "2026-09-24 07:00:00",
+        "dek": "Women in Academia Report September 24, 2026"
+      },
+      {
+        "title": "Penn GSE's Brooks Bowden Helps Shape National Roadmap for Strengthening Education Evidence",
+        "link": "https://www.gse.upenn.edu/news/penn-gses-brooks-bowden-helps-shape-national-roadmap-strengthening-education-evidence",
+        "dateText": "2026-09-23 10:00:00",
+        "dek": "September 23, 2026"
+      },
+      {
+        "title": "On the Front Lines of Student Mental Health",
+        "link": "https://www.gse.upenn.edu/news/front-lines-student-mental-health",
+        "dateText": "2026-09-22 10:00:00",
+        "dek": "September 22, 2026"
+      },
+      {
+        "title": "Can Kids Build Their Own A.I.? Reinventing Learning with Yasmin Kafai",
+        "link": "https://sites.libsyn.com/616620/can-kids-build-their-own-ai-reinventing-learning-with-yasmin-kafai",
+        "dateText": "2026-09-22 07:00:00",
+        "dek": "The Science of Learning with Keith Sawyer September 22, 2026"
+      },
+      {
+        "title": "How Did Computer Tech Giants Commandeer America’s Classrooms",
+        "link": "https://www.forbes.com/sites/petergreene/2026/09/30/how-did-computer-tech-giants-commandeer-americas-classrooms/",
+        "dateText": "2026-09-30 07:00:00",
+        "dek": "Forbes September 30, 2026"
+      },
+      {
+        "title": "Three Education Innovators Honored with the 2026 Harold W. McGraw, Jr. Prize in Education",
+        "link": "https://www.gse.upenn.edu/news/three-education-innovators-honored-2026-harold-w-mcgraw-jr-prize-education",
+        "dateText": "2026-09-17 10:00:00",
+        "dek": "September 17, 2026"
+      },
+      {
+        "title": "Winners Announced for 2026 Milken–Penn GSE Education Business Plan Competition",
+        "link": "https://www.gse.upenn.edu/news/winners-announced-2026-milken-penn-gse-education-business-plan-competition",
+        "dateText": "2026-09-14 04:30:00",
+        "dek": "September 14, 2026"
+      },
+      {
+        "title": "Three ways to fix college sports",
+        "link": "https://www.bostonglobe.com/2026/09/12/opinion/college-sports-new-ncaa-divisions/",
+        "dateText": "2026-09-11 10:00:00",
+        "dek": "The Boston Globe September 11, 2026"
+      },
+      {
+        "title": "Preparing for a Changing College Athletics Landscape",
+        "link": "https://www.insidehighered.com/news/governance/executive-leadership/2026/09/10/preparing-changing-college-athletics-landscape",
+        "dateText": "2026-09-10 10:00:00",
+        "dek": "Inside Higher Ed September 10, 2026"
+      },
+      {
+        "title": "Leading Through the BANI World: Psychological Stability, Trust, and Pre-Mortems",
+        "link": "https://www.gse.upenn.edu/news/leading-through-bani-world-psychological-stability-trust-and-pre-mortems",
+        "dateText": "2026-09-09 10:30:00",
+        "dek": "September 09, 2026"
+      },
+      {
+        "title": "Annual Speaker Series Continue to Inspire",
+        "link": "https://www.gse.upenn.edu/news/annual-speaker-series-continue-inspire",
+        "dateText": "2026-09-09 10:00:00",
+        "dek": "September 09, 2026"
+      },
+      {
+        "title": "The $70 Million Reason LSU Backed Down in Its Fight with the SEC",
+        "link": "https://www.forbes.com/sites/sofiachierchio/2026/09/09/the-70-million-reason-lsu-backed-down-in-its-fight-with-the-sec/",
+        "dateText": "2026-09-09 10:00:00",
+        "dek": "Forbes September 09, 2026"
+      },
+      {
+        "title": "The Higher You Rise, The Less You May See What’s Really Happening",
+        "link": "https://www.forbes.com/councils/forbescoachescouncil/2026/09/09/the-higher-you-rise-the-less-you-may-see-whats-really-happening/",
+        "dateText": "2026-09-09 10:00:00",
+        "dek": "Forbes September 09, 2026"
+      },
+      {
+        "title": "Supporting Youth Enrichment and Well-being in West Philadelphia Schools",
+        "link": "https://www.gse.upenn.edu/news/supporting-youth-enrichment-and-well-being-west-philadelphia-schools",
+        "dateText": "2026-09-08 02:12:42",
+        "dek": "September 08, 2026"
+      },
+      {
+        "title": "Penn GSE Faculty Publications: Summer 2026",
+        "link": "https://www.gse.upenn.edu/news/penn-gse-faculty-publications-summer-2026",
+        "dateText": "2026-09-08 10:00:00",
+        "dek": "September 08, 2026"
+      },
+      {
+        "title": "Oklahoma Becomes Latest State To Approve 3-Year Bachelor’s Degrees",
+        "link": "https://www.forbes.com/sites/michaeltnietzel/2026/09/06/oklahoma-becomes-latest-state-to-approve-three-year-bachelors-degrees/",
+        "dateText": "2026-09-06 10:00:00",
+        "dek": "Forbes September 06, 2026"
+      },
+      {
+        "title": "Teaching the Nation at 250",
+        "link": "https://www.gse.upenn.edu/news/teaching-nation-250",
+        "dateText": "2026-09-01 04:15:00",
+        "dek": "September 01, 2026"
+      },
+      {
+        "title": "Dr. Ariane Thomas - Mental Health - Evening WURDs",
+        "link": "https://soundcloud.com/onwurd/dr-ariane-thomas-mental-health?si",
+        "dateText": "2026-09-01 10:00:00",
+        "dek": "WURD Radio September 01, 2026"
+      },
+      {
+        "title": "Tennessee’s free community college program ‘pays for itself,’ working paper finds",
+        "link": "https://www.highereddive.com/news/tennessees-free-community-college-program-pays-for-itself-working-paper/828741/",
+        "dateText": "2026-09-01 10:00:00",
+        "dek": "Higher Ed Dive September 01, 2026"
+      },
+      {
+        "title": "New Faculty Spotlight: Julie Petersen on Helping Children Thrive",
+        "link": "https://www.gse.upenn.edu/news/new-faculty-spotlight-julie-petersen-helping-children-thrive",
+        "dateText": "2026-08-31 10:00:00",
+        "dek": "August 31, 2026"
+      },
+      {
+        "title": "More states pilot 3-year college degrees, seeking to address rising tuition",
+        "link": "https://www.washingtonpost.com/education/2026/08/27/more-states-pilot-3-year-college-degrees-seeking-address-rising-tuition/",
+        "dateText": "2026-08-27 10:00:00",
+        "dek": "Washington Post August 27, 2026"
+      },
+      {
+        "title": "History Lesson: Civics Education",
+        "link": "https://www.gse.upenn.edu/news/history-lesson-civics-education",
+        "dateText": "2026-08-26 10:00:00",
+        "dek": "August 26, 2026"
+      },
+      {
+        "title": "The government threatens to cut aid to schools whose degrees don’t pay off",
+        "link": "https://www.washingtontimes.com/news/2026/aug/25/education-department-threatens-cut-aid-42-colleges-unreported-costs/",
+        "dateText": "2026-08-26 10:00:00",
+        "dek": "The Washington Times August 26, 2026"
+      },
+      {
+        "title": "Big Fix: Solutions for higher education",
+        "link": "https://whyy.org/episodes/big-fix-solutions-for-higher-education/",
+        "dateText": "2026-08-26 10:00:00",
+        "dek": "WHYY August 26, 2026"
+      },
+      {
+        "title": "New Faculty Spotlight: Justin Parent on Unlocking the Science of Resilience in Kids",
+        "link": "https://www.gse.upenn.edu/news/new-faculty-spotlight-justin-parent-unlocking-science-resilience-kids",
+        "dateText": "2026-08-24 10:00:00",
+        "dek": "August 24, 2026"
+      }
+    ],
+    "requests": [
+      "document GET https://www.gse.upenn.edu/news-and-events/news",
+      "fetch POST https://www.google.com/measurement/conversion?random=1793828727536&cv=11&tid=G-10FWQ5NDJP&fst=1793828727536&fmt=8&en=page_view&gtm=45je6b30h1v882062295za208zd882062295xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~11593",
+      "fetch POST https://analytics.google.com/g/collect?v=2&tid=G-10FWQ5NDJP&gtm=45je6b30h1v882062295za208zd882062295xf1&_p=1793828727212&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&gdid=dMDhkMT&_eu=EAAAAGAC&_prs=ok&are=1&cid=1079449323.17938287",
+      "fetch POST https://www.google.com/ccm/collect?rcb=4&frm=0&apvc=1&ae=g&auid=185360706.1793828728&dt=News%20%7C%20Penn%20GSE&en=page_view&dl=https%3A%2F%2Fwww.gse.upenn.edu%2Fnews-and-events%2Fnews&scrsrc=www.googletagmanager.com&rnd",
+      "fetch POST https://ad.doubleclick.net/ccm/s/collect?auid=185360706.1793828728&gtm=45He6b31h2v72699706za200zd72699706xeaxf1&fmt=8",
+      "xhr POST https://www.google-analytics.com/j/collect?v=1&_v=j102&a=987663769&t=pageview&_s=1&dl=https%3A%2F%2Fwww.gse.upenn.edu%2Fnews-and-events%2Fnews&ul=en-us&dt=News%20%7C%20Penn%20GSE&sr=1366x900&vp=1366x900&_u=YADAAEABAAAAAC",
+      "fetch POST https://www.google.com/rmkt/collect/691834168/?random=1793828727758&cv=11&fst=1793828727758&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6b31h2v9211541436za20ozb72699706zd72699706xecxf1&gcd=13l3l3l3l1l1&dma=0&t",
+      "fetch POST https://www.google.com/rmkt/collect/691834168/?random=1793828727787&cv=11&fst=1793828727787&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6b31h2v9211541436z872699706za20gzb72699706zd72699706xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_ex",
+      "fetch POST https://www.google.com/ccm/collect?rcb=14&frm=0&apvc=0&auid=185360706.1793828728&dt=News%20%7C%20Penn%20GSE&tid=AW-691834168&en=page_view&dl=https%3A%2F%2Fwww.gse.upenn.edu%2Fnews-and-events%2Fnews&scrsrc=www.googletagma",
+      "fetch POST https://www.google.com/ccm/collect?rcb=14&frm=0&apvc=0&ae=g&auid=185360706.1793828728&dt=News%20%7C%20Penn%20GSE&tid=AW-691834168&dl=https%3A%2F%2Fwww.gse.upenn.edu%2Fnews-and-events%2Fnews&scrsrc=www.googletagmanager.co",
+      "fetch POST https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g",
+      "fetch POST https://ad.doubleclick.net/activity;src=10340290;type=allvi0;cat=unive0;rcb=14;ord=9872746603311;npa=0;auiddc=185360706.1793828728;u1=https%3A%2F%2Fwww.gse.upenn.edu%2Fnews-and-events%2Fnews;uaa=x86;uab=64;uafvl=Chromium",
+      "document GET https://10340290.fls.doubleclick.net/activityi;src=10340290;type=allvi0;cat=unive0;rcb=14;ord=9872746603311;npa=0;auiddc=185360706.1793828728;u1=https%3A%2F%2Fwww.gse.upenn.edu%2Fnews-and-events%2Fnews;uaa=x86;uab=64;uaf",
+      "document GET https://10340290.fls.doubleclick.net/activityi;dc_pre=CPW7-uCk75cDFWSu7gEdxQQbAg;src=10340290;type=allvi0;cat=unive0;rcb=14;ord=9872746603311;npa=0;auiddc=185360706.1793828728;u1=https%3A%2F%2Fwww.gse.upenn.edu%2Fnews-an",
+      "xhr POST https://t.clarity.ms/collect",
+      "fetch POST https://capig.stape.do/events/488456942f36e1ab609831a8937af55979c2fd682de7e721405ec0ac7e7e3d68",
+      "xhr POST https://t.clarity.ms/collect",
+      "fetch GET https://ad.doubleclick.net/activity;dc_pre=CLyh9-Ck75cDFbAOhAgdpbYIwA;src=10340290;type=allvi0;cat=unive0;rcb=14;ord=9872746603311;npa=0;auiddc=185360706.1793828728;u1=https%3A%2F%2Fwww.gse.upenn.edu%2Fnews-and-events%2F",
+      "fetch GET https://www.google.com/gmp/conversion/_dc_unique_id=14385065815059936989;_dc_ptd=ChEIgMyr1wYQ2v7a1qKW-ae5ARIfABILospAOg121rfMPXqk0zVhuglR-Qx8gD49Kznacg;_dc_time=1793828727;cid=CAQS4gEAQM4h3ESrQRcjKJDryrF5fo82W8OrRIjFyuKM",
+      "xhr POST https://t.clarity.ms/collect",
+      "xhr POST https://t.clarity.ms/collect"
+    ]
+  },
+  "mcneil-center-for-early-american-studies": {
+    "url": "https://www.mceas.org/news",
+    "steps": [
+      {
+        "scroll": 0,
+        "found": 10,
+        "first": "2026-11-04",
+        "last": "2026-07-18",
+        "items": 11,
+        "height": 3692,
+        "more": [
+          "A Next page\n            Next › ?page=1 "
+        ],
+        "pager": [
+          "?page=0",
+          "?page=1",
+          "?page=2",
+          "?page=3",
+          "?page=4",
+          "?page=5",
+          "?page=6",
+          "?page=7",
+          "?page=8",
+          "?page=1"
+        ]
+      },
+      {
+        "scroll": 1,
+        "found": 10,
+        "first": "2026-11-04",
+        "last": "2026-07-18",
+        "items": 11,
+        "height": 3692,
+        "more": [
+          "A Next page\n            Next › ?page=1 "
+        ],
+        "pager": [
+          "?page=0",
+          "?page=1",
+          "?page=2",
+          "?page=3",
+          "?page=4",
+          "?page=5",
+          "?page=6",
+          "?page=7",
+          "?page=8",
+          "?page=1"
+        ]
+      },
+      {
+        "scroll": 2,
+        "found": 10,
+        "first": "2026-11-04",
+        "last": "2026-07-18",
+        "items": 11,
+        "height": 3692,
+        "more": [
+          "A Next page\n            Next › ?page=1 "
+        ],
+        "pager": [
+          "?page=0",
+          "?page=1",
+          "?page=2",
+          "?page=3",
+          "?page=4",
+          "?page=5",
+          "?page=6",
+          "?page=7",
+          "?page=8",
+          "?page=1"
+        ]
+      }
+    ],
+    "status": 200,
+    "found": [
+      {
+        "title": "An Interdisciplinary Partnership",
+        "link": "https://www.mceas.org/news/2026/11/04/interdisciplinary-partnership",
+        "dateText": "2026-11-04T12:00:00Z",
+        "dek": "November 4, 2026"
+      },
+      {
+        "title": "Fellow Profile: Olivia Haynes",
+        "link": "https://www.mceas.org/news/2026/10/29/fellow-profile-olivia-haynes",
+        "dateText": "2026-10-29T12:00:00Z",
+        "dek": "October 29, 2026"
+      },
+      {
+        "title": "Fellow Profile: T. Wyatt Reynolds",
+        "link": "https://www.mceas.org/news/2026/09/29/fellow-profile-t-wyatt-reynolds",
+        "dateText": "2026-09-29T12:00:00Z",
+        "dek": "September 29, 2026"
+      },
+      {
+        "title": "Remembering Susan E. Klepp, Historian",
+        "link": "https://www.mceas.org/news/2026/09/22/remembering-susan-e-klepp-historian",
+        "dateText": "2026-09-22T12:00:00Z",
+        "dek": "September 22, 2026"
+      },
+      {
+        "title": "C. Dallett Hemphill Internship News: Gloria Schulz",
+        "link": "https://www.mceas.org/news/2026/09/22/c-dallett-hemphill-internship-news-gloria-schulz",
+        "dateText": "2026-09-22T12:00:00Z",
+        "dek": "September 22, 2026"
+      },
+      {
+        "title": "C. Dallett Hemphill Internship News – Amelia Reaume",
+        "link": "https://www.mceas.org/news/2026/08/27/c-dallett-hemphill-internship-news-amelia-reaume",
+        "dateText": "2026-08-27T12:00:00Z",
+        "dek": "August 27, 2026"
+      },
+      {
+        "title": "MCEAS Dissertation Prize Open for Applications",
+        "link": "https://www.mceas.org/news/2026/08/11/mceas-dissertation-prize-open-applications",
+        "dateText": "2026-08-11T12:00:00Z",
+        "dek": "August 11, 2026"
+      },
+      {
+        "title": "C. Dallett Hemphill Internship News: Pearle Bromley",
+        "link": "https://www.mceas.org/news/2026/08/06/c-dallett-hemphill-internship-news-pearle-bromley",
+        "dateText": "2026-08-06T12:00:00Z",
+        "dek": "August 6, 2026"
+      },
+      {
+        "title": "Caylin Carbonell awarded the GEH Article Prize",
+        "link": "https://www.mceas.org/news/2026/07/18/caylin-carbonell-awarded-geh-article-prize",
+        "dateText": "2026-07-18T12:00:00Z",
+        "dek": "July 18, 2026"
+      },
+      {
+        "title": "The Richter Writing Retreat widens funding options for early Americanists",
+        "link": "https://www.mceas.org/news/2026/07/23/richter-writing-retreat-widens-funding-options-early-americanists",
+        "dateText": "2026-07-23T12:00:00Z",
+        "dek": "July 23, 2026"
+      }
+    ],
+    "requests": [
+      "document GET https://www.mceas.org/news",
+      "fetch GET https://ka-f.fontawesome.com/releases/v5.15.4/css/free.min.css?token=df6e8cf5f1",
+      "fetch GET https://ka-f.fontawesome.com/releases/v5.15.4/css/free-v4-shims.min.css?token=df6e8cf5f1",
+      "fetch GET https://ka-f.fontawesome.com/releases/v5.15.4/css/free-v4-font-face.min.css?token=df6e8cf5f1"
+    ]
+  },
+  "https://www.mceas.org/feed/": [],
+  "https://www.mceas.org/rss.xml": [
+    [
+      "2022-09-01",
+      "Facing the Future of Early American Studies",
+      "https://www.mceas.org/events/2023/07/10/facing-future-early-american-studies"
+    ],
+    [
+      "2026-05-09",
+      "Call for Proposals: Empires in Early American History",
+      "https://www.mceas.org/events/2027/04/29/call-proposals-empires-early-american-history"
+    ],
+    [
+      "2023-06-05",
+      "McNeil Center Launches New Podcast Series",
+      "https://www.mceas.org/news/2023/06/05/mcneil-center-launches-new-podcast-series"
+    ],
+    [
+      "2019-07-16",
+      "Student Sitting on Grass",
+      "https://www.mceas.org/node/249"
+    ]
+  ],
+  "https://www.gse.upenn.edu/rss.xml": [
+    [
+      "2024-06-08",
+      "Penn GSE supports Youth United Against Incarceration Symposium",
+      "https://www.gse.upenn.edu/news/penn-gse-supports-youth-united-against-incarceration-symposium"
+    ],
+    [
+      "2024-08-06",
+      "Home",
+      "https://www.gse.upenn.edu/node/2063"
+    ]
+  ],
+  "https://www.gse.upenn.edu/feed/": []
+}
