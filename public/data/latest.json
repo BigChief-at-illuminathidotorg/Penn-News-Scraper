@@ -136,10 +136,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T14:47:21.557566Z"
+          "fetchedAt": "2026-11-04T14:57:28.843436Z"
         }
       },
-      "lastSyncAt": "2026-11-04T14:47:21.557566Z",
+      "lastSyncAt": "2026-11-04T14:57:28.843436Z",
       "lastSource": "html"
     },
     {
@@ -301,10 +301,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://www.dental.upenn.edu/feed/",
-          "fetchedAt": "2026-11-04T14:47:21.557566Z"
+          "fetchedAt": "2026-11-04T14:57:28.843436Z"
         }
       },
-      "lastSyncAt": "2026-11-04T14:47:21.557566Z",
+      "lastSyncAt": "2026-11-04T14:57:28.843436Z",
       "lastSource": "feed:https://www.dental.upenn.edu/feed/"
     },
     {
@@ -340,10 +340,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://www.gse.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-04T14:47:21.557566Z"
+          "fetchedAt": "2026-11-04T14:57:28.843436Z"
         }
       },
-      "lastSyncAt": "2026-11-04T14:47:21.557566Z",
+      "lastSyncAt": "2026-11-04T14:57:28.843436Z",
       "lastSource": "feed:https://www.gse.upenn.edu/rss.xml"
     },
     {
@@ -445,10 +445,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T14:47:21.557566Z"
+          "fetchedAt": "2026-11-04T14:57:28.843436Z"
         }
       },
-      "lastSyncAt": "2026-11-04T14:47:21.557566Z",
+      "lastSyncAt": "2026-11-04T14:57:28.843436Z",
       "lastSource": "html"
     },
     {
@@ -610,10 +610,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T14:47:21.557566Z"
+          "fetchedAt": "2026-11-04T14:57:28.843436Z"
         }
       },
-      "lastSyncAt": "2026-11-04T14:47:21.557566Z",
+      "lastSyncAt": "2026-11-04T14:57:28.843436Z",
       "lastSource": "html"
     },
     {
@@ -626,18 +626,132 @@
       "feedUrl": null,
       "magazineUrl": "https://www.nursing.upenn.edu/magazine/",
       "notes": "No dates shown on this page; the monitor keeps the 7 newest stories.",
-      "posts": [],
-      "lastError": "No articles found after browser scrape",
+      "posts": [
+        {
+          "title": "Informatics Fellowship for Penn Nursing Professor",
+          "link": "https://www.nursing.upenn.edu/live/news/3919-informatics-fellowship-for-penn-nursing-professor",
+          "date": "2026-11-04",
+          "dek": "Jiyoun Song, PhD, AGACNP-BC, APRN, Assistant Professor in Penn Nursing’s Department of Biobehavioral Health Sciences, has been elected a Fellow of the American Medical Informatics Association (FAMIA), a national distinction recognizing professional achievement and leadership in a",
+          "undated": true,
+          "stream": "news",
+          "source": "html"
+        },
+        {
+          "title": "Penn Nursing Professor Honored with Inaugural International Game Changers Award in Pediatric Critical Care",
+          "link": "https://www.nursing.upenn.edu/live/news/3913-penn-nursing-professor-honored-with-inaugural-internati",
+          "date": "2026-11-04",
+          "dek": "Martha A.Q. Curley, PhD, RN, FAAN, Professor in Penn Nursing’s Department of Family and Community Health and the Ruth M. Colket Endowed Chair in Pediatric Nursing at the Children’s Hospital of Philadelphia (CHOP), has been selected as one of the inaugural recipients of the World ",
+          "undated": true,
+          "stream": "news",
+          "source": "html"
+        },
+        {
+          "title": "Congratulations Dr. Cacchione!",
+          "link": "https://www.nursing.upenn.edu/live/news/3910-congratulations-dr-cacchione",
+          "date": "2026-11-04",
+          "dek": "Pamela Cacchione, PhD, CRNP, BC, FGSA, FAAN, received the Nursing Research Award at the 2026 Nightingale Nursing Awards, which recognizes nurses whose work demonstrates excellence across clinical practice, advanced practice, education, leadership, research, and patient care.",
+          "undated": true,
+          "stream": "news",
+          "source": "html"
+        },
+        {
+          "title": "Mindfulness in DNP Education: Cultivating Resilience and Leadership in Advanced Practice",
+          "link": "https://www.nursing.upenn.edu/live/news/3902-mindfulness-in-dnp-education-cultivating-resilience-and",
+          "date": "2026-11-04",
+          "dek": "A new study demonstrates that embedding short, asynchronous mindfulness practices into Doctor of Nursing Practice (DNP) curricula effectively reduces stress, combats burnout, and builds essential leadership skills. Published in Nurse Educator, the project evaluated student respon",
+          "undated": true,
+          "stream": "news",
+          "source": "html"
+        },
+        {
+          "title": "New Commentary Calls for Shift to Nurse-Sensitive Outcome Measures",
+          "link": "https://www.nursing.upenn.edu/live/news/3896-new-commentary-calls-for-shift-to-nurse-sensitive",
+          "date": "2026-11-04",
+          "dek": "Current health care metrics fail to capture the true value of acute and critical care nursing, evaluating the profession primarily by the absence of patient harm rather than positive clinical outcomes, according to a commentary in JAMA Internal Medicine.",
+          "undated": true,
+          "stream": "news",
+          "source": "html"
+        },
+        {
+          "title": "Reimagining Nursing Leadership",
+          "link": "https://www.nursing.upenn.edu/live/news/3884-reimagining-nursing-leadership",
+          "date": "2026-11-04",
+          "dek": "Antonia M. Villarruel, PhD, RN, FAAN, Margaret Bond Simon Dean of Nursing at the University of Pennsylvania School of Nursing, and James Ballinghoff, DNP, MBA, RN, Chief Nurse Executive at the University of Pennsylvania Health System, have co-authored a new National Academy of Me",
+          "undated": true,
+          "stream": "news",
+          "source": "html"
+        },
+        {
+          "title": "Safer Nurse Workloads Could Alleviate Emergency Department Crowding",
+          "link": "https://www.nursing.upenn.edu/live/news/3888-safer-nurse-workloads-could-alleviate-emergency",
+          "date": "2026-11-04",
+          "dek": "A new study led by researchers from Penn Nursing’s Center for Health Outcomes and Policy Research (CHOPR) finds that improving hospital nurse workloads could alleviate delays in care contributing to emergency department crowding.",
+          "undated": true,
+          "stream": "news",
+          "source": "html"
+        }
+      ],
+      "lastError": "",
       "_cache": {
         "news": {
-          "items": [],
+          "items": [
+            {
+              "title": "Informatics Fellowship for Penn Nursing Professor",
+              "link": "https://www.nursing.upenn.edu/live/news/3919-informatics-fellowship-for-penn-nursing-professor",
+              "date": "2026-11-04",
+              "dek": "Jiyoun Song, PhD, AGACNP-BC, APRN, Assistant Professor in Penn Nursing’s Department of Biobehavioral Health Sciences, has been elected a Fellow of the American Medical Informatics Association (FAMIA), a national distinction recognizing professional achievement and leadership in a",
+              "undated": true
+            },
+            {
+              "title": "Penn Nursing Professor Honored with Inaugural International Game Changers Award in Pediatric Critical Care",
+              "link": "https://www.nursing.upenn.edu/live/news/3913-penn-nursing-professor-honored-with-inaugural-internati",
+              "date": "2026-11-04",
+              "dek": "Martha A.Q. Curley, PhD, RN, FAAN, Professor in Penn Nursing’s Department of Family and Community Health and the Ruth M. Colket Endowed Chair in Pediatric Nursing at the Children’s Hospital of Philadelphia (CHOP), has been selected as one of the inaugural recipients of the World ",
+              "undated": true
+            },
+            {
+              "title": "Congratulations Dr. Cacchione!",
+              "link": "https://www.nursing.upenn.edu/live/news/3910-congratulations-dr-cacchione",
+              "date": "2026-11-04",
+              "dek": "Pamela Cacchione, PhD, CRNP, BC, FGSA, FAAN, received the Nursing Research Award at the 2026 Nightingale Nursing Awards, which recognizes nurses whose work demonstrates excellence across clinical practice, advanced practice, education, leadership, research, and patient care.",
+              "undated": true
+            },
+            {
+              "title": "Mindfulness in DNP Education: Cultivating Resilience and Leadership in Advanced Practice",
+              "link": "https://www.nursing.upenn.edu/live/news/3902-mindfulness-in-dnp-education-cultivating-resilience-and",
+              "date": "2026-11-04",
+              "dek": "A new study demonstrates that embedding short, asynchronous mindfulness practices into Doctor of Nursing Practice (DNP) curricula effectively reduces stress, combats burnout, and builds essential leadership skills. Published in Nurse Educator, the project evaluated student respon",
+              "undated": true
+            },
+            {
+              "title": "New Commentary Calls for Shift to Nurse-Sensitive Outcome Measures",
+              "link": "https://www.nursing.upenn.edu/live/news/3896-new-commentary-calls-for-shift-to-nurse-sensitive",
+              "date": "2026-11-04",
+              "dek": "Current health care metrics fail to capture the true value of acute and critical care nursing, evaluating the profession primarily by the absence of patient harm rather than positive clinical outcomes, according to a commentary in JAMA Internal Medicine.",
+              "undated": true
+            },
+            {
+              "title": "Reimagining Nursing Leadership",
+              "link": "https://www.nursing.upenn.edu/live/news/3884-reimagining-nursing-leadership",
+              "date": "2026-11-04",
+              "dek": "Antonia M. Villarruel, PhD, RN, FAAN, Margaret Bond Simon Dean of Nursing at the University of Pennsylvania School of Nursing, and James Ballinghoff, DNP, MBA, RN, Chief Nurse Executive at the University of Pennsylvania Health System, have co-authored a new National Academy of Me",
+              "undated": true
+            },
+            {
+              "title": "Safer Nurse Workloads Could Alleviate Emergency Department Crowding",
+              "link": "https://www.nursing.upenn.edu/live/news/3888-safer-nurse-workloads-could-alleviate-emergency",
+              "date": "2026-11-04",
+              "dek": "A new study led by researchers from Penn Nursing’s Center for Health Outcomes and Policy Research (CHOPR) finds that improving hospital nurse workloads could alleviate delays in care contributing to emergency department crowding.",
+              "undated": true
+            }
+          ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T14:47:21.557566Z"
+          "fetchedAt": "2026-11-04T14:57:28.843436Z"
         }
       },
-      "lastSyncAt": "2026-11-04T14:47:21.557566Z",
-      "lastSource": ""
+      "lastSyncAt": "2026-11-04T14:57:28.843436Z",
+      "lastSource": "html"
     },
     {
       "id": "seas",
@@ -798,10 +912,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://www.engineering.upenn.edu/feed/",
-          "fetchedAt": "2026-11-04T14:47:21.557566Z"
+          "fetchedAt": "2026-11-04T14:57:28.843436Z"
         }
       },
-      "lastSyncAt": "2026-11-04T14:47:21.557566Z",
+      "lastSyncAt": "2026-11-04T14:57:28.843436Z",
       "lastSource": "feed:https://www.engineering.upenn.edu/feed/"
     },
     {
@@ -1103,10 +1217,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T14:47:21.557566Z"
+          "fetchedAt": "2026-11-04T14:57:28.843436Z"
         }
       },
-      "lastSyncAt": "2026-11-04T14:47:21.557566Z",
+      "lastSyncAt": "2026-11-04T14:57:28.843436Z",
       "lastSource": "html"
     },
     {
@@ -1119,18 +1233,286 @@
       "feedUrl": null,
       "magazineUrl": "https://www.vet.upenn.edu/bellwether-magazine/",
       "notes": "2026-11-04: filtered Penn Vet News listing (the old page mixed in outside coverage).",
-      "posts": [],
-      "lastError": "No articles found after browser scrape",
+      "posts": [
+        {
+          "title": "Vet’s Animal Welfare and Behavior Program – Putting Passion into Practice",
+          "link": "https://www.vet.upenn.edu/animal-welfare-behavior-passion-practice/",
+          "date": "2026-11-02",
+          "dek": "Cameron Krier Massey worked as a lawyer and Washington, D.C. lobbyist for over 15 years, focusing on policies impacting human health. But after moving to a working farm and raising goats and sheep of her own, she found herself wondering if her professional skills and expertise mi",
+          "stream": "news",
+          "source": "html"
+        },
+        {
+          "title": "Ryan Critical Care Team Gives a Rescue Puppy a Second Chance at a Well-Loved Life",
+          "link": "https://www.vet.upenn.edu/ryan-critical-care-team-gives-a-rescue-puppy-a-second-chance/",
+          "date": "2026-10-29",
+          "dek": "Faculty In This Story Murphy Moore is one lucky dog – and a much-loved one, at that. But about a year ago, it looked like this sunny yellow Lab mix would have a…",
+          "stream": "news",
+          "source": "html"
+        },
+        {
+          "title": "Matthew Atherton Receives 2026 Zoetis Award for Veterinary Research Excellence at Annual Research Retreat",
+          "link": "https://www.vet.upenn.edu/matthew-atherton-receives-2026-zoetis-award-for-veterinary-research-excellenceat-annual-research-retreat/",
+          "date": "2026-10-27",
+          "dek": "Atherton is engineering canine T cells to fight cancer, and his first clinical trial is nearly ready.",
+          "stream": "news",
+          "source": "html"
+        },
+        {
+          "title": "Falling “More in Love with Veterinary Medicine” on the Trip of a Lifetime",
+          "link": "https://www.vet.upenn.edu/falling-more-in-love-with-veterinary-medicine-on-the-trip-of-a-lifetime/",
+          "date": "2026-10-22",
+          "dek": "Cabre Capalongo, V’29, had envisioned a future in companion animal medicine. But then a life-changing trip to Africa opened up a whole world of animals she could help.",
+          "stream": "news",
+          "source": "html"
+        },
+        {
+          "title": "Penn Vet Researchers Reveal Conserved and Species-Specific Architecture of Retinal Photoreceptors",
+          "link": "https://www.vet.upenn.edu/penn-vet-researchers-reveal-conserved-and-species-specific-architecture-of-retinal-photoreceptors/",
+          "date": "2026-10-21",
+          "dek": "A new Penn Vet study offers the first detailed, side-by-side look at a key light-sensing eye structure across species with implications for treating retinal disease.",
+          "stream": "news",
+          "source": "html"
+        },
+        {
+          "title": "Penn Vet’s Nicola J. Mason Elected to the National Academy of Medicine",
+          "link": "https://www.vet.upenn.edu/nicola-mason-national-academy-medicine/",
+          "date": "2026-10-20",
+          "dek": "Dr. Nicola Mason Elected to the National Academy of Medicine",
+          "stream": "news",
+          "source": "html"
+        },
+        {
+          "title": "New USDA-RFAP Funded Calf and Heifer Facilities at Penn Vet’s Marshak Dairy to Advance Dairy Health and Productivity",
+          "link": "https://www.vet.upenn.edu/new-usda-rfap-funded-calf-and-heifer-facilities-at-penn-vets-marshak-dairy-to-advance-dairy-health-and-productivity/",
+          "date": "2026-10-15",
+          "dek": "A $1.5M USDA grant will support new calf and heifer facilities at the Marshak Dairy",
+          "stream": "news",
+          "source": "html"
+        },
+        {
+          "title": "Penn Vet’s Kyla Ortved Named First Recipient of ACVS Rising Star Award",
+          "link": "https://www.vet.upenn.edu/penn-vets-kyla-ortved-named-first-recipient-of-acvs-rising-star-award/",
+          "date": "2026-10-13",
+          "dek": "Kyla Ortved, a large animal surgeon at New Bolton Center, is the first recipient of the ACVS Rising Star Award for excellence in surgery and leadership.",
+          "stream": "news",
+          "source": "html"
+        },
+        {
+          "title": "Penn Vet Breaks Ground on State-Funded Laboratory to Speed Diagnoses and Strengthen Pennsylvania’s Animal and Public Health",
+          "link": "https://www.vet.upenn.edu/penn-vet-breaks-ground-on-state-funded-laboratory-to-speed-diagnoses-and-strengthen-pennsylvanias-animal-and-public-health/",
+          "date": "2026-10-02",
+          "dek": "New $94M state-funded facility will unite New Bolton Center’s animal diagnostic and equine toxicology labs to expand capacity for animal and public health across Pennsylvania.",
+          "stream": "news",
+          "source": "html"
+        },
+        {
+          "title": "Rare Russian Trotter Gets Relief Through a Pioneering Penn Vet Surgery",
+          "link": "https://www.vet.upenn.edu/rare-russian-trotter-gets-relief-through-a-pioneering-penn-vet-surgery/",
+          "date": "2026-10-01",
+          "dek": "A filly from a rare Russian breed was born with a condition that seemed to pre-destine her to suffer. But then a determined equine advocate and a pioneering Penn Vet…",
+          "stream": "news",
+          "source": "html"
+        },
+        {
+          "title": "One Health, One Campus: Penn Faculty Bring Global Lessons Home from Lisbon",
+          "link": "https://www.vet.upenn.edu/one-health-one-campus-penn-faculty-bring-global-lessons-home-from-lisbon/",
+          "date": "2026-09-29",
+          "dek": "At the 9th World One Health Congress, more than 1,300 scientists, policymakers, and practitioners gathered to advance One Health collaboration.",
+          "stream": "news",
+          "source": "html"
+        },
+        {
+          "title": "Behind the Breakthroughs: Matthew Atherton",
+          "link": "https://www.vet.upenn.edu/behind-the-breakthroughs-matthew-atherton/",
+          "date": "2026-09-23",
+          "dek": "Using a cancer patient’s own T cells, Matthew Atherton is developing immune therapies for veterinary use.",
+          "stream": "news",
+          "source": "html"
+        },
+        {
+          "title": "Penn Vet Announces the Appointment of Deborah Wei Dayton to its Board of Advisors",
+          "link": "https://www.vet.upenn.edu/penn-vet-announces-the-appointment-of-deborah-wei-dayton-to-its-board-of-advisors/",
+          "date": "2026-09-14",
+          "dek": "Dayton brings decades of business leadership experience, a commitment to sustainability, and a personal passion for animal welfare to her new role.",
+          "stream": "news",
+          "source": "html"
+        },
+        {
+          "title": "Internationally Recognized Parasitologist from the University of Pennsylvania’s School of Veterinary Medicine Named 2027 Recipient of Molecular Parasitology Award",
+          "link": "https://www.vet.upenn.edu/internationally-recognized-immunologist-from-the-university-of-pennsylvanias-school-of-veterinary-medicine-named-2026-recipient-of-molecular-parasitology-award/",
+          "date": "2026-09-08",
+          "dek": "Boris Striepen, PhD, has received the 2026 Molecular Parasitology Award for his research on Cryptosporidium parvum, which causes the zoonotic disease cryptosporidiosis.",
+          "stream": "news",
+          "source": "html"
+        },
+        {
+          "title": "A Legacy Born at Ground Zero",
+          "link": "https://www.vet.upenn.edu/a-legacy-born-at-ground-zero/",
+          "date": "2026-09-03",
+          "dek": "A look back at Penn Vet Working Dog Center’s origin and growth.",
+          "stream": "news",
+          "source": "html"
+        },
+        {
+          "title": "Penn Vet Holds Ribbon-Cutting for New Gail P. Riepe Center for Advanced Veterinary Education",
+          "link": "https://www.vet.upenn.edu/penn-vet-holds-ribbon-cutting-for-new-gail-p-riepe-center-for-advanced-veterinary-education/",
+          "date": "2026-09-02",
+          "dek": "Penn Vet celebrated the opening of the Gail P. Riepe Center for Advanced Veterinary Education at New Bolton Center in Chester County with a ribbon-cutting ceremony held on August 25th.",
+          "stream": "news",
+          "source": "html"
+        },
+        {
+          "title": "Penn Vet’s Class of 2028 Celebrates White Coat Day",
+          "link": "https://www.vet.upenn.edu/penn-vets-class-of-2028-celebrates-white-coat-day/",
+          "date": "2026-09-01",
+          "dek": "The next cohort of veterinary students are now clinic-ready!",
+          "stream": "news",
+          "source": "html"
+        },
+        {
+          "title": "Penn Vet’s Swine Teaching and Research Center Celebrates 25 Years of Inspiring Careers and Creating Positive Change",
+          "link": "https://www.vet.upenn.edu/penn-vets-swine-teaching-and-research-center-celebrates-25-years-of-inspiring-careers-and-creating-positive-change/",
+          "date": "2026-08-31",
+          "dek": "Twenty-five years ago, the Center’s founders set out to build the barn of the future. Today, it has exceeded their wildest dreams.",
+          "stream": "news",
+          "source": "html"
+        },
+        {
+          "title": "Welcome to the Penn Vet Class of 2030!",
+          "link": "https://www.vet.upenn.edu/welcome-to-the-penn-vet-class-of-2030/",
+          "date": "2026-08-24",
+          "dek": "Penn Vet’s newest class of veterinary students are here, bringing with them a diversity of backgrounds and medical interests",
+          "stream": "news",
+          "source": "html"
+        }
+      ],
+      "lastError": "",
       "_cache": {
         "news": {
-          "items": [],
+          "items": [
+            {
+              "title": "Vet’s Animal Welfare and Behavior Program – Putting Passion into Practice",
+              "link": "https://www.vet.upenn.edu/animal-welfare-behavior-passion-practice/",
+              "date": "2026-11-02",
+              "dek": "Cameron Krier Massey worked as a lawyer and Washington, D.C. lobbyist for over 15 years, focusing on policies impacting human health. But after moving to a working farm and raising goats and sheep of her own, she found herself wondering if her professional skills and expertise mi"
+            },
+            {
+              "title": "Ryan Critical Care Team Gives a Rescue Puppy a Second Chance at a Well-Loved Life",
+              "link": "https://www.vet.upenn.edu/ryan-critical-care-team-gives-a-rescue-puppy-a-second-chance/",
+              "date": "2026-10-29",
+              "dek": "Faculty In This Story Murphy Moore is one lucky dog – and a much-loved one, at that. But about a year ago, it looked like this sunny yellow Lab mix would have a…"
+            },
+            {
+              "title": "Matthew Atherton Receives 2026 Zoetis Award for Veterinary Research Excellence at Annual Research Retreat",
+              "link": "https://www.vet.upenn.edu/matthew-atherton-receives-2026-zoetis-award-for-veterinary-research-excellenceat-annual-research-retreat/",
+              "date": "2026-10-27",
+              "dek": "Atherton is engineering canine T cells to fight cancer, and his first clinical trial is nearly ready."
+            },
+            {
+              "title": "Falling “More in Love with Veterinary Medicine” on the Trip of a Lifetime",
+              "link": "https://www.vet.upenn.edu/falling-more-in-love-with-veterinary-medicine-on-the-trip-of-a-lifetime/",
+              "date": "2026-10-22",
+              "dek": "Cabre Capalongo, V’29, had envisioned a future in companion animal medicine. But then a life-changing trip to Africa opened up a whole world of animals she could help."
+            },
+            {
+              "title": "Penn Vet Researchers Reveal Conserved and Species-Specific Architecture of Retinal Photoreceptors",
+              "link": "https://www.vet.upenn.edu/penn-vet-researchers-reveal-conserved-and-species-specific-architecture-of-retinal-photoreceptors/",
+              "date": "2026-10-21",
+              "dek": "A new Penn Vet study offers the first detailed, side-by-side look at a key light-sensing eye structure across species with implications for treating retinal disease."
+            },
+            {
+              "title": "Penn Vet’s Nicola J. Mason Elected to the National Academy of Medicine",
+              "link": "https://www.vet.upenn.edu/nicola-mason-national-academy-medicine/",
+              "date": "2026-10-20",
+              "dek": "Dr. Nicola Mason Elected to the National Academy of Medicine"
+            },
+            {
+              "title": "New USDA-RFAP Funded Calf and Heifer Facilities at Penn Vet’s Marshak Dairy to Advance Dairy Health and Productivity",
+              "link": "https://www.vet.upenn.edu/new-usda-rfap-funded-calf-and-heifer-facilities-at-penn-vets-marshak-dairy-to-advance-dairy-health-and-productivity/",
+              "date": "2026-10-15",
+              "dek": "A $1.5M USDA grant will support new calf and heifer facilities at the Marshak Dairy"
+            },
+            {
+              "title": "Penn Vet’s Kyla Ortved Named First Recipient of ACVS Rising Star Award",
+              "link": "https://www.vet.upenn.edu/penn-vets-kyla-ortved-named-first-recipient-of-acvs-rising-star-award/",
+              "date": "2026-10-13",
+              "dek": "Kyla Ortved, a large animal surgeon at New Bolton Center, is the first recipient of the ACVS Rising Star Award for excellence in surgery and leadership."
+            },
+            {
+              "title": "Penn Vet Breaks Ground on State-Funded Laboratory to Speed Diagnoses and Strengthen Pennsylvania’s Animal and Public Health",
+              "link": "https://www.vet.upenn.edu/penn-vet-breaks-ground-on-state-funded-laboratory-to-speed-diagnoses-and-strengthen-pennsylvanias-animal-and-public-health/",
+              "date": "2026-10-02",
+              "dek": "New $94M state-funded facility will unite New Bolton Center’s animal diagnostic and equine toxicology labs to expand capacity for animal and public health across Pennsylvania."
+            },
+            {
+              "title": "Rare Russian Trotter Gets Relief Through a Pioneering Penn Vet Surgery",
+              "link": "https://www.vet.upenn.edu/rare-russian-trotter-gets-relief-through-a-pioneering-penn-vet-surgery/",
+              "date": "2026-10-01",
+              "dek": "A filly from a rare Russian breed was born with a condition that seemed to pre-destine her to suffer. But then a determined equine advocate and a pioneering Penn Vet…"
+            },
+            {
+              "title": "One Health, One Campus: Penn Faculty Bring Global Lessons Home from Lisbon",
+              "link": "https://www.vet.upenn.edu/one-health-one-campus-penn-faculty-bring-global-lessons-home-from-lisbon/",
+              "date": "2026-09-29",
+              "dek": "At the 9th World One Health Congress, more than 1,300 scientists, policymakers, and practitioners gathered to advance One Health collaboration."
+            },
+            {
+              "title": "Behind the Breakthroughs: Matthew Atherton",
+              "link": "https://www.vet.upenn.edu/behind-the-breakthroughs-matthew-atherton/",
+              "date": "2026-09-23",
+              "dek": "Using a cancer patient’s own T cells, Matthew Atherton is developing immune therapies for veterinary use."
+            },
+            {
+              "title": "Penn Vet Announces the Appointment of Deborah Wei Dayton to its Board of Advisors",
+              "link": "https://www.vet.upenn.edu/penn-vet-announces-the-appointment-of-deborah-wei-dayton-to-its-board-of-advisors/",
+              "date": "2026-09-14",
+              "dek": "Dayton brings decades of business leadership experience, a commitment to sustainability, and a personal passion for animal welfare to her new role."
+            },
+            {
+              "title": "Internationally Recognized Parasitologist from the University of Pennsylvania’s School of Veterinary Medicine Named 2027 Recipient of Molecular Parasitology Award",
+              "link": "https://www.vet.upenn.edu/internationally-recognized-immunologist-from-the-university-of-pennsylvanias-school-of-veterinary-medicine-named-2026-recipient-of-molecular-parasitology-award/",
+              "date": "2026-09-08",
+              "dek": "Boris Striepen, PhD, has received the 2026 Molecular Parasitology Award for his research on Cryptosporidium parvum, which causes the zoonotic disease cryptosporidiosis."
+            },
+            {
+              "title": "A Legacy Born at Ground Zero",
+              "link": "https://www.vet.upenn.edu/a-legacy-born-at-ground-zero/",
+              "date": "2026-09-03",
+              "dek": "A look back at Penn Vet Working Dog Center’s origin and growth."
+            },
+            {
+              "title": "Penn Vet Holds Ribbon-Cutting for New Gail P. Riepe Center for Advanced Veterinary Education",
+              "link": "https://www.vet.upenn.edu/penn-vet-holds-ribbon-cutting-for-new-gail-p-riepe-center-for-advanced-veterinary-education/",
+              "date": "2026-09-02",
+              "dek": "Penn Vet celebrated the opening of the Gail P. Riepe Center for Advanced Veterinary Education at New Bolton Center in Chester County with a ribbon-cutting ceremony held on August 25th."
+            },
+            {
+              "title": "Penn Vet’s Class of 2028 Celebrates White Coat Day",
+              "link": "https://www.vet.upenn.edu/penn-vets-class-of-2028-celebrates-white-coat-day/",
+              "date": "2026-09-01",
+              "dek": "The next cohort of veterinary students are now clinic-ready!"
+            },
+            {
+              "title": "Penn Vet’s Swine Teaching and Research Center Celebrates 25 Years of Inspiring Careers and Creating Positive Change",
+              "link": "https://www.vet.upenn.edu/penn-vets-swine-teaching-and-research-center-celebrates-25-years-of-inspiring-careers-and-creating-positive-change/",
+              "date": "2026-08-31",
+              "dek": "Twenty-five years ago, the Center’s founders set out to build the barn of the future. Today, it has exceeded their wildest dreams."
+            },
+            {
+              "title": "Welcome to the Penn Vet Class of 2030!",
+              "link": "https://www.vet.upenn.edu/welcome-to-the-penn-vet-class-of-2030/",
+              "date": "2026-08-24",
+              "dek": "Penn Vet’s newest class of veterinary students are here, bringing with them a diversity of backgrounds and medical interests"
+            }
+          ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T14:47:21.557566Z"
+          "fetchedAt": "2026-11-04T14:57:28.843436Z"
         }
       },
-      "lastSyncAt": "2026-11-04T14:47:21.557566Z",
-      "lastSource": ""
+      "lastSyncAt": "2026-11-04T14:57:28.843436Z",
+      "lastSource": "html"
     },
     {
       "id": "wharton",
@@ -1431,10 +1813,10 @@
           ],
           "feedUrl": "https://news.wharton.upenn.edu/feed/",
           "source": "feed:https://news.wharton.upenn.edu/feed/",
-          "fetchedAt": "2026-11-04T14:47:21.557566Z"
+          "fetchedAt": "2026-11-04T14:57:28.843436Z"
         }
       },
-      "lastSyncAt": "2026-11-04T14:47:21.557566Z",
+      "lastSyncAt": "2026-11-04T14:57:28.843436Z",
       "lastSource": "feed:https://news.wharton.upenn.edu/feed/"
     },
     {
@@ -1596,10 +1978,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T14:47:21.557566Z"
+          "fetchedAt": "2026-11-04T14:57:28.843436Z"
         }
       },
-      "lastSyncAt": "2026-11-04T14:47:21.557566Z",
+      "lastSyncAt": "2026-11-04T14:57:28.843436Z",
       "lastSource": "html"
     },
     {
@@ -1612,18 +1994,160 @@
       "feedUrl": null,
       "magazineUrl": null,
       "notes": "2026-11-04: APPC General News listing (the site-wide feed mixes in other posts).",
-      "posts": [],
-      "lastError": "No articles found after browser scrape",
+      "posts": [
+        {
+          "title": "Penn Professor Dolores Albarracín Is New Director of Annenberg Public Policy Center",
+          "link": "https://www.annenbergpublicpolicycenter.org/penn-professor-dolores-albarracin-is-new-director-of-annenberg-public-policy-center/",
+          "date": "2026-06-30",
+          "dek": "Penn PIK Professor Dolores Albarracín is the new director of the Annenberg Public Policy Center, where she will develop an initiative dedicated to communication policy.",
+          "stream": "news",
+          "source": "html"
+        },
+        {
+          "title": "Q&A: APPC Visiting Scholar John Gastil on Democracy and Digital Media",
+          "link": "https://www.annenbergpublicpolicycenter.org/qa-appc-visiting-scholar-john-gastil-on-democracy-and-digital-media/",
+          "date": "2025-04-01",
+          "dek": "Penn State Professor & APPC sabbatical scholar John Gastil talks about working on his new book, “The Democracy Machine: Reimagining How We Can Govern Ourselves Online.”",
+          "stream": "news",
+          "source": "html"
+        },
+        {
+          "title": "APPC Celebrates the Life of Pritzker-Winning Architect Fumihiko Maki, Who Designed Our Home",
+          "link": "https://www.annenbergpublicpolicycenter.org/appc-celebrates-the-life-of-pritzker-winning-architect-fumihiko-maki-who-designed-our-home/",
+          "date": "2024-06-12",
+          "dek": "Fumihiko Maki, who died June 6 at age 95, designed the Annenberg Public Policy Center's innovative glass-and-wood building to bring \"delight\" to Penn's campus.",
+          "stream": "news",
+          "source": "html"
+        },
+        {
+          "title": "APPC Celebrates 30 Years of Research and Engagement That Matter",
+          "link": "https://www.annenbergpublicpolicycenter.org/appc-celebrates-30-years-of-research-and-engagement-that-matter/",
+          "date": "2024-04-22",
+          "dek": "The Annenberg Public Policy Center celebrated its 30th anniversary by honoring the work of its former postdoctoral and FactCheck.org fellows and opening a new Climate Communication division.",
+          "stream": "news",
+          "source": "html"
+        },
+        {
+          "title": "Kathleen Hall Jamieson Elected to AAAS Board of Directors",
+          "link": "https://www.annenbergpublicpolicycenter.org/kathleen-hall-jamieson-elected-to-aaas-board-of-directors/",
+          "date": "2023-03-15",
+          "dek": "APPC Director Kathleen Hall Jamieson has been elected to a four-year term on the board of directors of the American Association for the Advancement of Science (AAAS).",
+          "stream": "news",
+          "source": "html"
+        },
+        {
+          "title": "Roper Center Honors Jamieson with the 2022 Mitofsky Award",
+          "link": "https://www.annenbergpublicpolicycenter.org/roper-center-honors-jamieson-with-the-2022-mitofsky-award/",
+          "date": "2022-11-23",
+          "dek": "The Roper Center at Cornell University honored Kathleen Hall Jamieson with the 2022 Warren J. Mitofsky Award for her contributions to the field of survey research.",
+          "stream": "news",
+          "source": "html"
+        },
+        {
+          "title": "Nobel Peace Prize Winner Maria Ressa Delivers Annenberg Lecture on ‘Facts, Truth, Trust’",
+          "link": "https://www.annenbergpublicpolicycenter.org/maria-ressa-nobel-peace-prize-annenberg-lecture-2022/",
+          "date": "2022-11-11",
+          "dek": "Delivering the Annenberg Lecture, Nobel Peace Prize winner Maria Ressa discussed being the target of online attacks and what it will take to ensure that truth prevails.",
+          "stream": "news",
+          "source": "html"
+        },
+        {
+          "title": "At Commencement, Jamieson Hails Penn’s Role in Fighting Pandemic",
+          "link": "https://www.annenbergpublicpolicycenter.org/at-commencement-jamieson-hails-penns-role-in-fighting-pandemic/",
+          "date": "2022-05-24",
+          "dek": "At the delayed commencement for Penn's class of 2020, Kathleen Hall Jamieson lauded the university's faculty, students, and graduates for their work battling the pandemic.",
+          "stream": "news",
+          "source": "html"
+        },
+        {
+          "title": "APPC Welcomes 19 Distinguished Research Fellows",
+          "link": "https://www.annenbergpublicpolicycenter.org/appc-welcomes-19-distinguished-research-fellows/",
+          "date": "2022-05-20",
+          "dek": "Over the past year, the Annenberg Public Policy Center has welcomed 19 new distinguished research fellows to its ranks, bringing the group to a total of 58.",
+          "stream": "news",
+          "source": "html"
+        },
+        {
+          "title": "Kathleen Hall Jamieson Receives 2022 Mitofsky Award",
+          "link": "https://www.annenbergpublicpolicycenter.org/kathleen-hall-jamieson-receives-2022-mitofsky-award/",
+          "date": "2022-05-06",
+          "dek": "The Roper Center for Public Opinion at Cornell University announced today that University of Pennsylvania Professor Kathleen Hall Jamieson is the recipient of its 2022 Warren J. Mitofsky Award for Excellence in Public Opinion Research.",
+          "stream": "news",
+          "source": "html"
+        }
+      ],
+      "lastError": "",
       "_cache": {
         "news": {
-          "items": [],
+          "items": [
+            {
+              "title": "Penn Professor Dolores Albarracín Is New Director of Annenberg Public Policy Center",
+              "link": "https://www.annenbergpublicpolicycenter.org/penn-professor-dolores-albarracin-is-new-director-of-annenberg-public-policy-center/",
+              "date": "2026-06-30",
+              "dek": "Penn PIK Professor Dolores Albarracín is the new director of the Annenberg Public Policy Center, where she will develop an initiative dedicated to communication policy."
+            },
+            {
+              "title": "Q&A: APPC Visiting Scholar John Gastil on Democracy and Digital Media",
+              "link": "https://www.annenbergpublicpolicycenter.org/qa-appc-visiting-scholar-john-gastil-on-democracy-and-digital-media/",
+              "date": "2025-04-01",
+              "dek": "Penn State Professor & APPC sabbatical scholar John Gastil talks about working on his new book, “The Democracy Machine: Reimagining How We Can Govern Ourselves Online.”"
+            },
+            {
+              "title": "APPC Celebrates the Life of Pritzker-Winning Architect Fumihiko Maki, Who Designed Our Home",
+              "link": "https://www.annenbergpublicpolicycenter.org/appc-celebrates-the-life-of-pritzker-winning-architect-fumihiko-maki-who-designed-our-home/",
+              "date": "2024-06-12",
+              "dek": "Fumihiko Maki, who died June 6 at age 95, designed the Annenberg Public Policy Center's innovative glass-and-wood building to bring \"delight\" to Penn's campus."
+            },
+            {
+              "title": "APPC Celebrates 30 Years of Research and Engagement That Matter",
+              "link": "https://www.annenbergpublicpolicycenter.org/appc-celebrates-30-years-of-research-and-engagement-that-matter/",
+              "date": "2024-04-22",
+              "dek": "The Annenberg Public Policy Center celebrated its 30th anniversary by honoring the work of its former postdoctoral and FactCheck.org fellows and opening a new Climate Communication division."
+            },
+            {
+              "title": "Kathleen Hall Jamieson Elected to AAAS Board of Directors",
+              "link": "https://www.annenbergpublicpolicycenter.org/kathleen-hall-jamieson-elected-to-aaas-board-of-directors/",
+              "date": "2023-03-15",
+              "dek": "APPC Director Kathleen Hall Jamieson has been elected to a four-year term on the board of directors of the American Association for the Advancement of Science (AAAS)."
+            },
+            {
+              "title": "Roper Center Honors Jamieson with the 2022 Mitofsky Award",
+              "link": "https://www.annenbergpublicpolicycenter.org/roper-center-honors-jamieson-with-the-2022-mitofsky-award/",
+              "date": "2022-11-23",
+              "dek": "The Roper Center at Cornell University honored Kathleen Hall Jamieson with the 2022 Warren J. Mitofsky Award for her contributions to the field of survey research."
+            },
+            {
+              "title": "Nobel Peace Prize Winner Maria Ressa Delivers Annenberg Lecture on ‘Facts, Truth, Trust’",
+              "link": "https://www.annenbergpublicpolicycenter.org/maria-ressa-nobel-peace-prize-annenberg-lecture-2022/",
+              "date": "2022-11-11",
+              "dek": "Delivering the Annenberg Lecture, Nobel Peace Prize winner Maria Ressa discussed being the target of online attacks and what it will take to ensure that truth prevails."
+            },
+            {
+              "title": "At Commencement, Jamieson Hails Penn’s Role in Fighting Pandemic",
+              "link": "https://www.annenbergpublicpolicycenter.org/at-commencement-jamieson-hails-penns-role-in-fighting-pandemic/",
+              "date": "2022-05-24",
+              "dek": "At the delayed commencement for Penn's class of 2020, Kathleen Hall Jamieson lauded the university's faculty, students, and graduates for their work battling the pandemic."
+            },
+            {
+              "title": "APPC Welcomes 19 Distinguished Research Fellows",
+              "link": "https://www.annenbergpublicpolicycenter.org/appc-welcomes-19-distinguished-research-fellows/",
+              "date": "2022-05-20",
+              "dek": "Over the past year, the Annenberg Public Policy Center has welcomed 19 new distinguished research fellows to its ranks, bringing the group to a total of 58."
+            },
+            {
+              "title": "Kathleen Hall Jamieson Receives 2022 Mitofsky Award",
+              "link": "https://www.annenbergpublicpolicycenter.org/kathleen-hall-jamieson-receives-2022-mitofsky-award/",
+              "date": "2022-05-06",
+              "dek": "The Roper Center for Public Opinion at Cornell University announced today that University of Pennsylvania Professor Kathleen Hall Jamieson is the recipient of its 2022 Warren J. Mitofsky Award for Excellence in Public Opinion Research."
+            }
+          ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T14:47:21.557566Z"
+          "fetchedAt": "2026-11-04T14:57:28.843436Z"
         }
       },
-      "lastSyncAt": "2026-11-04T14:47:21.557566Z",
-      "lastSource": ""
+      "lastSyncAt": "2026-11-04T14:57:28.843436Z",
+      "lastSource": "html"
     },
     {
       "id": "knowledge-at-wharton",
@@ -1784,10 +2308,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://knowledge.wharton.upenn.edu/feed/",
-          "fetchedAt": "2026-11-04T14:47:21.557566Z"
+          "fetchedAt": "2026-11-04T14:57:28.843436Z"
         }
       },
-      "lastSyncAt": "2026-11-04T14:47:21.557566Z",
+      "lastSyncAt": "2026-11-04T14:57:28.843436Z",
       "lastSource": "feed:https://knowledge.wharton.upenn.edu/feed/"
     },
     {
@@ -1907,10 +2431,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T14:47:21.557566Z"
+          "fetchedAt": "2026-11-04T14:57:28.843436Z"
         }
       },
-      "lastSyncAt": "2026-11-04T14:47:21.557566Z",
+      "lastSyncAt": "2026-11-04T14:57:28.843436Z",
       "lastSource": "html"
     },
     {
@@ -2058,10 +2582,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T14:47:21.557566Z"
+          "fetchedAt": "2026-11-04T14:57:28.843436Z"
         }
       },
-      "lastSyncAt": "2026-11-04T14:47:21.557566Z",
+      "lastSyncAt": "2026-11-04T14:57:28.843436Z",
       "lastSource": "html"
     },
     {
@@ -2153,10 +2677,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T14:47:21.557566Z"
+          "fetchedAt": "2026-11-04T14:57:28.843436Z"
         }
       },
-      "lastSyncAt": "2026-11-04T14:47:21.557566Z",
+      "lastSyncAt": "2026-11-04T14:57:28.843436Z",
       "lastSource": "html"
     },
     {
@@ -2176,10 +2700,10 @@
           "items": [],
           "feedUrl": null,
           "source": "",
-          "fetchedAt": "2026-11-04T14:47:21.557566Z"
+          "fetchedAt": "2026-11-04T14:57:28.843436Z"
         }
       },
-      "lastSyncAt": "2026-11-04T14:47:21.557566Z",
+      "lastSyncAt": "2026-11-04T14:57:28.843436Z",
       "lastSource": ""
     },
     {
@@ -2327,10 +2851,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T14:47:21.557566Z"
+          "fetchedAt": "2026-11-04T14:57:28.843436Z"
         }
       },
-      "lastSyncAt": "2026-11-04T14:47:21.557566Z",
+      "lastSyncAt": "2026-11-04T14:57:28.843436Z",
       "lastSource": "html"
     },
     {
@@ -2492,10 +3016,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://creative.writing.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-04T14:47:21.557566Z"
+          "fetchedAt": "2026-11-04T14:57:28.843436Z"
         }
       },
-      "lastSyncAt": "2026-11-04T14:47:21.557566Z",
+      "lastSyncAt": "2026-11-04T14:57:28.843436Z",
       "lastSource": "feed:https://creative.writing.upenn.edu/rss.xml"
     },
     {
@@ -2657,10 +3181,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://kleinmanenergy.upenn.edu/feed/",
-          "fetchedAt": "2026-11-04T14:47:21.557566Z"
+          "fetchedAt": "2026-11-04T14:57:28.843436Z"
         }
       },
-      "lastSyncAt": "2026-11-04T14:47:21.557566Z",
+      "lastSyncAt": "2026-11-04T14:57:28.843436Z",
       "lastSource": "feed:https://kleinmanenergy.upenn.edu/feed/"
     },
     {
@@ -2822,10 +3346,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T14:47:21.557566Z"
+          "fetchedAt": "2026-11-04T14:57:28.843436Z"
         }
       },
-      "lastSyncAt": "2026-11-04T14:47:21.557566Z",
+      "lastSyncAt": "2026-11-04T14:57:28.843436Z",
       "lastSource": "html"
     },
     {
@@ -2959,10 +3483,10 @@
           ],
           "feedUrl": "https://pennovation.upenn.edu/feed/",
           "source": "feed:https://pennovation.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-04T14:47:21.557566Z"
+          "fetchedAt": "2026-11-04T14:57:28.843436Z"
         }
       },
-      "lastSyncAt": "2026-11-04T14:47:21.557566Z",
+      "lastSyncAt": "2026-11-04T14:57:28.843436Z",
       "lastSource": "feed:https://pennovation.upenn.edu/rss.xml"
     },
     {
@@ -3124,10 +3648,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://katz.sas.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-04T14:47:21.557566Z"
+          "fetchedAt": "2026-11-04T14:57:28.843436Z"
         }
       },
-      "lastSyncAt": "2026-11-04T14:47:21.557566Z",
+      "lastSyncAt": "2026-11-04T14:57:28.843436Z",
       "lastSource": "feed:https://katz.sas.upenn.edu/rss.xml"
     },
     {
@@ -3191,10 +3715,10 @@
           ],
           "feedUrl": "https://www.mceas.org/feed/",
           "source": "feed:https://www.mceas.org/rss.xml",
-          "fetchedAt": "2026-11-04T14:47:21.557566Z"
+          "fetchedAt": "2026-11-04T14:57:28.843436Z"
         }
       },
-      "lastSyncAt": "2026-11-04T14:47:21.557566Z",
+      "lastSyncAt": "2026-11-04T14:57:28.843436Z",
       "lastSource": "feed:https://www.mceas.org/rss.xml"
     },
     {
@@ -3356,10 +3880,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://www.fels.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-04T14:47:21.557566Z"
+          "fetchedAt": "2026-11-04T14:57:28.843436Z"
         }
       },
-      "lastSyncAt": "2026-11-04T14:47:21.557566Z",
+      "lastSyncAt": "2026-11-04T14:57:28.843436Z",
       "lastSource": "feed:https://www.fels.upenn.edu/rss.xml"
     },
     {
@@ -3379,10 +3903,10 @@
           "items": [],
           "feedUrl": "https://icaphila.org/feed/",
           "source": "",
-          "fetchedAt": "2026-11-04T14:47:21.557566Z"
+          "fetchedAt": "2026-11-04T14:57:28.843436Z"
         }
       },
-      "lastSyncAt": "2026-11-04T14:47:21.557566Z",
+      "lastSyncAt": "2026-11-04T14:57:28.843436Z",
       "lastSource": ""
     },
     {
@@ -3544,10 +4068,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://lauder.wharton.upenn.edu/feed/",
-          "fetchedAt": "2026-11-04T14:47:21.557566Z"
+          "fetchedAt": "2026-11-04T14:57:28.843436Z"
         }
       },
-      "lastSyncAt": "2026-11-04T14:47:21.557566Z",
+      "lastSyncAt": "2026-11-04T14:57:28.843436Z",
       "lastSource": "feed:https://lauder.wharton.upenn.edu/feed/"
     },
     {
@@ -3695,10 +4219,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T14:47:21.557566Z"
+          "fetchedAt": "2026-11-04T14:57:28.843436Z"
         }
       },
-      "lastSyncAt": "2026-11-04T14:47:21.557566Z",
+      "lastSyncAt": "2026-11-04T14:57:28.843436Z",
       "lastSource": "html"
     },
     {
@@ -3860,10 +4384,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://fisher.wharton.upenn.edu/feed/",
-          "fetchedAt": "2026-11-04T14:47:21.557566Z"
+          "fetchedAt": "2026-11-04T14:57:28.843436Z"
         }
       },
-      "lastSyncAt": "2026-11-04T14:47:21.557566Z",
+      "lastSyncAt": "2026-11-04T14:57:28.843436Z",
       "lastSource": "feed:https://fisher.wharton.upenn.edu/feed/"
     },
     {
@@ -4011,10 +4535,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://pores.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-04T14:47:21.557566Z"
+          "fetchedAt": "2026-11-04T14:57:28.843436Z"
         }
       },
-      "lastSyncAt": "2026-11-04T14:47:21.557566Z",
+      "lastSyncAt": "2026-11-04T14:57:28.843436Z",
       "lastSource": "feed:https://pores.upenn.edu/rss.xml"
     },
     {
@@ -4316,10 +4840,10 @@
           ],
           "feedUrl": "https://snfpaideia.upenn.edu/feed/",
           "source": "html",
-          "fetchedAt": "2026-11-04T14:47:21.557566Z"
+          "fetchedAt": "2026-11-04T14:57:28.843436Z"
         }
       },
-      "lastSyncAt": "2026-11-04T14:47:21.557566Z",
+      "lastSyncAt": "2026-11-04T14:57:28.843436Z",
       "lastSource": "html"
     },
     {
@@ -4481,10 +5005,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://pricelab.sas.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-04T14:47:21.557566Z"
+          "fetchedAt": "2026-11-04T14:57:28.843436Z"
         }
       },
-      "lastSyncAt": "2026-11-04T14:47:21.557566Z",
+      "lastSyncAt": "2026-11-04T14:57:28.843436Z",
       "lastSource": "feed:https://pricelab.sas.upenn.edu/rss.xml"
     },
     {
@@ -4534,10 +5058,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://www.grasp.upenn.edu/feed/",
-          "fetchedAt": "2026-11-04T14:47:21.557566Z"
+          "fetchedAt": "2026-11-04T14:57:28.843436Z"
         }
       },
-      "lastSyncAt": "2026-11-04T14:47:21.557566Z",
+      "lastSyncAt": "2026-11-04T14:57:28.843436Z",
       "lastSource": "feed:https://www.grasp.upenn.edu/feed/"
     },
     {
@@ -4699,10 +5223,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://climate.upenn.edu/feed/",
-          "fetchedAt": "2026-11-04T14:47:21.557566Z"
+          "fetchedAt": "2026-11-04T14:57:28.843436Z"
         }
       },
-      "lastSyncAt": "2026-11-04T14:47:21.557566Z",
+      "lastSyncAt": "2026-11-04T14:57:28.843436Z",
       "lastSource": "feed:https://climate.upenn.edu/feed/"
     },
     {
@@ -5004,10 +5528,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T14:47:21.557566Z"
+          "fetchedAt": "2026-11-04T14:57:28.843436Z"
         }
       },
-      "lastSyncAt": "2026-11-04T14:47:21.557566Z",
+      "lastSyncAt": "2026-11-04T14:57:28.843436Z",
       "lastSource": "html"
     },
     {
@@ -5169,10 +5693,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://penniur.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-04T14:47:21.557566Z"
+          "fetchedAt": "2026-11-04T14:57:28.843436Z"
         }
       },
-      "lastSyncAt": "2026-11-04T14:47:21.557566Z",
+      "lastSyncAt": "2026-11-04T14:57:28.843436Z",
       "lastSource": "feed:https://penniur.upenn.edu/rss.xml"
     },
     {
@@ -5306,10 +5830,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T14:47:21.557566Z"
+          "fetchedAt": "2026-11-04T14:57:28.843436Z"
         }
       },
-      "lastSyncAt": "2026-11-04T14:47:21.557566Z",
+      "lastSyncAt": "2026-11-04T14:57:28.843436Z",
       "lastSource": "html"
     },
     {
@@ -5611,10 +6135,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T14:47:21.557566Z"
+          "fetchedAt": "2026-11-04T14:57:28.843436Z"
         }
       },
-      "lastSyncAt": "2026-11-04T14:47:21.557566Z",
+      "lastSyncAt": "2026-11-04T14:57:28.843436Z",
       "lastSource": "html"
     },
     {
@@ -5776,10 +6300,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://writing.upenn.edu/?feed=rss2",
-          "fetchedAt": "2026-11-04T14:47:21.557566Z"
+          "fetchedAt": "2026-11-04T14:57:28.843436Z"
         }
       },
-      "lastSyncAt": "2026-11-04T14:47:21.557566Z",
+      "lastSyncAt": "2026-11-04T14:57:28.843436Z",
       "lastSource": "feed:https://writing.upenn.edu/?feed=rss2"
     },
     {
@@ -5913,10 +6437,10 @@
           ],
           "feedUrl": "https://perryworldhouse.upenn.edu/feed/",
           "source": "html",
-          "fetchedAt": "2026-11-04T14:47:21.557566Z"
+          "fetchedAt": "2026-11-04T14:57:28.843436Z"
         }
       },
-      "lastSyncAt": "2026-11-04T14:47:21.557566Z",
+      "lastSyncAt": "2026-11-04T14:57:28.843436Z",
       "lastSource": "html"
     },
     {
@@ -6078,10 +6602,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://platthouse.universitylife.upenn.edu/feed/",
-          "fetchedAt": "2026-11-04T14:47:21.557566Z"
+          "fetchedAt": "2026-11-04T14:57:28.843436Z"
         }
       },
-      "lastSyncAt": "2026-11-04T14:47:21.557566Z",
+      "lastSyncAt": "2026-11-04T14:57:28.843436Z",
       "lastSource": "feed:https://platthouse.universitylife.upenn.edu/feed/"
     },
     {
@@ -6383,10 +6907,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://arthurrossgallery.org/category/press-releases/feed/",
-          "fetchedAt": "2026-11-04T14:47:21.557566Z"
+          "fetchedAt": "2026-11-04T14:57:28.843436Z"
         }
       },
-      "lastSyncAt": "2026-11-04T14:47:21.557566Z",
+      "lastSyncAt": "2026-11-04T14:57:28.843436Z",
       "lastSource": "feed:https://arthurrossgallery.org/category/press-releases/feed/"
     },
     {
@@ -6548,10 +7072,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://www.penn.museum/about/press-room/press-releases?format=feed&type=rss",
-          "fetchedAt": "2026-11-04T14:47:21.557566Z"
+          "fetchedAt": "2026-11-04T14:57:28.843436Z"
         }
       },
-      "lastSyncAt": "2026-11-04T14:47:21.557566Z",
+      "lastSyncAt": "2026-11-04T14:57:28.843436Z",
       "lastSource": "feed:https://www.penn.museum/about/press-room/press-releases?format=feed&type=rss"
     },
     {
@@ -6699,10 +7223,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T14:47:21.557566Z"
+          "fetchedAt": "2026-11-04T14:57:28.843436Z"
         }
       },
-      "lastSyncAt": "2026-11-04T14:47:21.557566Z",
+      "lastSyncAt": "2026-11-04T14:57:28.843436Z",
       "lastSource": "html"
     },
     {
@@ -6864,10 +7388,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T14:47:21.557566Z"
+          "fetchedAt": "2026-11-04T14:57:28.843436Z"
         }
       },
-      "lastSyncAt": "2026-11-04T14:47:21.557566Z",
+      "lastSyncAt": "2026-11-04T14:57:28.843436Z",
       "lastSource": "html"
     },
     {
@@ -7029,10 +7553,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T14:47:21.557566Z"
+          "fetchedAt": "2026-11-04T14:57:28.843436Z"
         }
       },
-      "lastSyncAt": "2026-11-04T14:47:21.557566Z",
+      "lastSyncAt": "2026-11-04T14:57:28.843436Z",
       "lastSource": "html"
     },
     {
@@ -7180,10 +7704,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T14:47:21.557566Z"
+          "fetchedAt": "2026-11-04T14:57:28.843436Z"
         }
       },
-      "lastSyncAt": "2026-11-04T14:47:21.557566Z",
+      "lastSyncAt": "2026-11-04T14:57:28.843436Z",
       "lastSource": "html"
     },
     {
@@ -7345,10 +7869,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://pan-school.sas.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-04T14:47:21.557566Z"
+          "fetchedAt": "2026-11-04T14:57:28.843436Z"
         }
       },
-      "lastSyncAt": "2026-11-04T14:47:21.557566Z",
+      "lastSyncAt": "2026-11-04T14:57:28.843436Z",
       "lastSource": "feed:https://pan-school.sas.upenn.edu/rss.xml"
     },
     {
@@ -7510,10 +8034,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://chibe.upenn.edu/feed/",
-          "fetchedAt": "2026-11-04T14:47:21.557566Z"
+          "fetchedAt": "2026-11-04T14:57:28.843436Z"
         }
       },
-      "lastSyncAt": "2026-11-04T14:47:21.557566Z",
+      "lastSyncAt": "2026-11-04T14:57:28.843436Z",
       "lastSource": "feed:https://chibe.upenn.edu/feed/"
     },
     {
@@ -7675,10 +8199,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T14:47:21.557566Z"
+          "fetchedAt": "2026-11-04T14:57:28.843436Z"
         }
       },
-      "lastSyncAt": "2026-11-04T14:47:21.557566Z",
+      "lastSyncAt": "2026-11-04T14:57:28.843436Z",
       "lastSource": "html"
     },
     {
@@ -7840,10 +8364,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T14:47:21.557566Z"
+          "fetchedAt": "2026-11-04T14:57:28.843436Z"
         }
       },
-      "lastSyncAt": "2026-11-04T14:47:21.557566Z",
+      "lastSyncAt": "2026-11-04T14:57:28.843436Z",
       "lastSource": "html"
     },
     {
@@ -8005,10 +8529,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T14:47:21.557566Z"
+          "fetchedAt": "2026-11-04T14:57:28.843436Z"
         }
       },
-      "lastSyncAt": "2026-11-04T14:47:21.557566Z",
+      "lastSyncAt": "2026-11-04T14:57:28.843436Z",
       "lastSource": "html"
     },
     {
@@ -8170,10 +8694,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T14:47:21.557566Z"
+          "fetchedAt": "2026-11-04T14:57:28.843436Z"
         }
       },
-      "lastSyncAt": "2026-11-04T14:47:21.557566Z",
+      "lastSyncAt": "2026-11-04T14:57:28.843436Z",
       "lastSource": "html"
     },
     {
@@ -8335,10 +8859,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T14:47:21.557566Z"
+          "fetchedAt": "2026-11-04T14:57:28.843436Z"
         }
       },
-      "lastSyncAt": "2026-11-04T14:47:21.557566Z",
+      "lastSyncAt": "2026-11-04T14:57:28.843436Z",
       "lastSource": "html"
     },
     {
@@ -8500,10 +9024,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T14:47:21.557566Z"
+          "fetchedAt": "2026-11-04T14:57:28.843436Z"
         }
       },
-      "lastSyncAt": "2026-11-04T14:47:21.557566Z",
+      "lastSyncAt": "2026-11-04T14:57:28.843436Z",
       "lastSource": "html"
     },
     {
@@ -8665,18 +9189,15 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T14:47:21.557566Z"
+          "fetchedAt": "2026-11-04T14:57:28.843436Z"
         }
       },
-      "lastSyncAt": "2026-11-04T14:47:21.557566Z",
+      "lastSyncAt": "2026-11-04T14:57:28.843436Z",
       "lastSource": "html"
     }
   ],
-  "lastRefreshAt": "2026-11-04T14:47:21.557566Z",
+  "lastRefreshAt": "2026-11-04T14:57:28.843436Z",
   "refreshErrors": [
-    "Nursing: No articles found after browser scrape",
-    "Vet: No articles found after browser scrape",
-    "APPC: No articles found after browser scrape",
     "Center for Study of Contemporary China: No articles found — No news URL found yet.",
     "Institute of Contemporary Art: Page looks blocked or empty (https://icaphila.org/press/)"
   ],
@@ -8684,8 +9205,8 @@
   "schemaVersion": 3,
   "collection": {
     "sourceVersion": "697e830377fb5d0a0a06b8412e324fde9653bed807046d8a3059c8b99999aa5d",
-    "runId": "41850437573",
-    "commit": "6989044636c0399eb950baf9880b15c5c2e2c5f6",
-    "runUrl": "https://github.com/BigChief-at-illuminathidotorg/Penn-News-Scraper/actions/runs/41850437573"
+    "runId": "41852152696",
+    "commit": "d38b763382b11c8a504c641c04964555ea608abc",
+    "runUrl": "https://github.com/BigChief-at-illuminathidotorg/Penn-News-Scraper/actions/runs/41852152696"
   }
 }
