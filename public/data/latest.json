@@ -11,21 +11,21 @@
       "parentUnit": "Annenberg",
       "bucket": "School",
       "subhead": "Media, communications, public discourse",
-      "newsUrl": "https://www.asc.upenn.edu/news-events",
+      "newsUrl": "https://www.asc.upenn.edu/news-events/news",
       "feedUrl": null,
       "magazineUrl": "https://www.asc.upenn.edu/news-events/connections-year-annenberg",
       "notes": "",
       "posts": [],
-      "lastError": "HTTP 403 from https://www.asc.upenn.edu/news-events",
+      "lastError": "HTTP 403 from https://www.asc.upenn.edu/news-events/news",
       "_cache": {
         "news": {
           "items": [],
           "feedUrl": null,
           "source": "",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
-      "lastSyncAt": "2026-11-04T13:29:47.601737Z",
+      "lastSyncAt": "2026-11-04T13:41:00.791557Z",
       "lastSource": ""
     },
     {
@@ -187,10 +187,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://www.dental.upenn.edu/feed/",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
-      "lastSyncAt": "2026-11-04T13:29:47.601737Z",
+      "lastSyncAt": "2026-11-04T13:41:00.791557Z",
       "lastSource": "feed:https://www.dental.upenn.edu/feed/"
     },
     {
@@ -240,10 +240,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://www.gse.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
-      "lastSyncAt": "2026-11-04T13:29:47.601737Z",
+      "lastSyncAt": "2026-11-04T13:41:00.791557Z",
       "lastSource": "feed:https://www.gse.upenn.edu/rss.xml"
     },
     {
@@ -335,10 +335,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
-      "lastSyncAt": "2026-11-04T13:29:47.601737Z",
+      "lastSyncAt": "2026-11-04T13:41:00.791557Z",
       "lastSource": "html"
     },
     {
@@ -500,10 +500,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
-      "lastSyncAt": "2026-11-04T13:29:47.601737Z",
+      "lastSyncAt": "2026-11-04T13:41:00.791557Z",
       "lastSource": "html"
     },
     {
@@ -523,10 +523,10 @@
           "items": [],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
-      "lastSyncAt": "2026-11-04T13:29:47.601737Z",
+      "lastSyncAt": "2026-11-04T13:41:00.791557Z",
       "lastSource": ""
     },
     {
@@ -688,10 +688,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://www.engineering.upenn.edu/feed/",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
-      "lastSyncAt": "2026-11-04T13:29:47.601737Z",
+      "lastSyncAt": "2026-11-04T13:41:00.791557Z",
       "lastSource": "feed:https://www.engineering.upenn.edu/feed/"
     },
     {
@@ -993,10 +993,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
-      "lastSyncAt": "2026-11-04T13:29:47.601737Z",
+      "lastSyncAt": "2026-11-04T13:41:00.791557Z",
       "lastSource": "html"
     },
     {
@@ -1089,7 +1089,7 @@
           "items": [],
           "feedUrl": null,
           "source": "",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
       "lastSyncAt": "2026-11-03T21:29:13.003469Z",
@@ -1394,10 +1394,10 @@
           ],
           "feedUrl": "https://news.wharton.upenn.edu/feed/",
           "source": "feed:https://news.wharton.upenn.edu/feed/",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
-      "lastSyncAt": "2026-11-04T13:29:47.601737Z",
+      "lastSyncAt": "2026-11-04T13:41:00.791557Z",
       "lastSource": "feed:https://news.wharton.upenn.edu/feed/"
     },
     {
@@ -1559,10 +1559,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
-      "lastSyncAt": "2026-11-04T13:29:47.601737Z",
+      "lastSyncAt": "2026-11-04T13:41:00.791557Z",
       "lastSource": "html"
     },
     {
@@ -1591,7 +1591,7 @@
           "items": [],
           "feedUrl": "https://www.annenbergpublicpolicycenter.org/feed/",
           "source": "",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
       "lastSyncAt": "2026-10-28T18:40:29.452025Z",
@@ -1614,10 +1614,10 @@
           "items": [],
           "feedUrl": null,
           "source": "",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
-      "lastSyncAt": "2026-11-04T13:29:47.601737Z",
+      "lastSyncAt": "2026-11-04T13:41:00.791557Z",
       "lastSource": ""
     },
     {
@@ -1779,10 +1779,10 @@
           ],
           "feedUrl": "https://omnia.sas.upenn.edu/feed/",
           "source": "feed:https://omnia.sas.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
-      "lastSyncAt": "2026-11-04T13:29:47.601737Z",
+      "lastSyncAt": "2026-11-04T13:41:00.791557Z",
       "lastSource": "feed:https://omnia.sas.upenn.edu/rss.xml"
     },
     {
@@ -1802,10 +1802,10 @@
           "items": [],
           "feedUrl": null,
           "source": "",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
-      "lastSyncAt": "2026-11-04T13:29:47.601737Z",
+      "lastSyncAt": "2026-11-04T13:41:00.791557Z",
       "lastSource": ""
     },
     {
@@ -1898,7 +1898,7 @@
           "items": [],
           "feedUrl": null,
           "source": "",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
       "lastSyncAt": "2026-11-03T21:29:13.003469Z",
@@ -1970,7 +1970,7 @@
           "items": [],
           "feedUrl": null,
           "source": "",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
       "lastSyncAt": "2026-10-28T18:40:29.452025Z",
@@ -1993,10 +1993,10 @@
           "items": [],
           "feedUrl": null,
           "source": "",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
-      "lastSyncAt": "2026-11-04T13:29:47.601737Z",
+      "lastSyncAt": "2026-11-04T13:41:00.791557Z",
       "lastSource": ""
     },
     {
@@ -2089,7 +2089,7 @@
           "items": [],
           "feedUrl": null,
           "source": "",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
       "lastSyncAt": "2026-10-28T18:40:29.452025Z",
@@ -2112,10 +2112,10 @@
           "items": [],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
-      "lastSyncAt": "2026-11-04T13:29:47.601737Z",
+      "lastSyncAt": "2026-11-04T13:41:00.791557Z",
       "lastSource": ""
     },
     {
@@ -2277,10 +2277,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://creative.writing.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
-      "lastSyncAt": "2026-11-04T13:29:47.601737Z",
+      "lastSyncAt": "2026-11-04T13:41:00.791557Z",
       "lastSource": "feed:https://creative.writing.upenn.edu/rss.xml"
     },
     {
@@ -2300,10 +2300,10 @@
           "items": [],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
-      "lastSyncAt": "2026-11-04T13:29:47.601737Z",
+      "lastSyncAt": "2026-11-04T13:41:00.791557Z",
       "lastSource": ""
     },
     {
@@ -2465,10 +2465,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://kleinmanenergy.upenn.edu/feed/",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
-      "lastSyncAt": "2026-11-04T13:29:47.601737Z",
+      "lastSyncAt": "2026-11-04T13:41:00.791557Z",
       "lastSource": "feed:https://kleinmanenergy.upenn.edu/feed/"
     },
     {
@@ -2488,10 +2488,10 @@
           "items": [],
           "feedUrl": null,
           "source": "",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
-      "lastSyncAt": "2026-11-04T13:29:47.601737Z",
+      "lastSyncAt": "2026-11-04T13:41:00.791557Z",
       "lastSource": ""
     },
     {
@@ -2592,7 +2592,7 @@
           "items": [],
           "feedUrl": null,
           "source": "",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
       "lastSyncAt": "2026-11-03T21:29:13.003469Z",
@@ -2757,10 +2757,10 @@
           ],
           "feedUrl": "https://pennovation.upenn.edu/feed/",
           "source": "feed:https://pennovation.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
-      "lastSyncAt": "2026-11-04T13:29:47.601737Z",
+      "lastSyncAt": "2026-11-04T13:41:00.791557Z",
       "lastSource": "feed:https://pennovation.upenn.edu/rss.xml"
     },
     {
@@ -2922,10 +2922,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://katz.sas.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
-      "lastSyncAt": "2026-11-04T13:29:47.601737Z",
+      "lastSyncAt": "2026-11-04T13:41:00.791557Z",
       "lastSource": "feed:https://katz.sas.upenn.edu/rss.xml"
     },
     {
@@ -2945,10 +2945,10 @@
           "items": [],
           "feedUrl": null,
           "source": "",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
-      "lastSyncAt": "2026-11-04T13:29:47.601737Z",
+      "lastSyncAt": "2026-11-04T13:41:00.791557Z",
       "lastSource": ""
     },
     {
@@ -3026,10 +3026,10 @@
           ],
           "feedUrl": "https://www.mceas.org/feed/",
           "source": "feed:https://www.mceas.org/rss.xml",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
-      "lastSyncAt": "2026-11-04T13:29:47.601737Z",
+      "lastSyncAt": "2026-11-04T13:41:00.791557Z",
       "lastSource": "feed:https://www.mceas.org/rss.xml"
     },
     {
@@ -3191,10 +3191,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://www.fels.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
-      "lastSyncAt": "2026-11-04T13:29:47.601737Z",
+      "lastSyncAt": "2026-11-04T13:41:00.791557Z",
       "lastSource": "feed:https://www.fels.upenn.edu/rss.xml"
     },
     {
@@ -3214,10 +3214,10 @@
           "items": [],
           "feedUrl": "https://icaphila.org/feed/",
           "source": "",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
-      "lastSyncAt": "2026-11-04T13:29:47.601737Z",
+      "lastSyncAt": "2026-11-04T13:41:00.791557Z",
       "lastSource": ""
     },
     {
@@ -3237,10 +3237,10 @@
           "items": [],
           "feedUrl": null,
           "source": "",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
-      "lastSyncAt": "2026-11-04T13:29:47.601737Z",
+      "lastSyncAt": "2026-11-04T13:41:00.791557Z",
       "lastSource": ""
     },
     {
@@ -3402,10 +3402,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://lauder.wharton.upenn.edu/feed/",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
-      "lastSyncAt": "2026-11-04T13:29:47.601737Z",
+      "lastSyncAt": "2026-11-04T13:41:00.791557Z",
       "lastSource": "feed:https://lauder.wharton.upenn.edu/feed/"
     },
     {
@@ -3498,7 +3498,7 @@
           "items": [],
           "feedUrl": null,
           "source": "",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
       "lastSyncAt": "2026-10-28T18:40:29.452025Z",
@@ -3663,10 +3663,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://fisher.wharton.upenn.edu/feed/",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
-      "lastSyncAt": "2026-11-04T13:29:47.601737Z",
+      "lastSyncAt": "2026-11-04T13:41:00.791557Z",
       "lastSource": "feed:https://fisher.wharton.upenn.edu/feed/"
     },
     {
@@ -3814,10 +3814,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://pores.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
-      "lastSyncAt": "2026-11-04T13:29:47.601737Z",
+      "lastSyncAt": "2026-11-04T13:41:00.791557Z",
       "lastSource": "feed:https://pores.upenn.edu/rss.xml"
     },
     {
@@ -3998,7 +3998,7 @@
           "items": [],
           "feedUrl": "https://snfpaideia.upenn.edu/feed/",
           "source": "",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
       "lastSyncAt": "2026-10-28T18:40:29.452025Z",
@@ -4163,10 +4163,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://pricelab.sas.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
-      "lastSyncAt": "2026-11-04T13:29:47.601737Z",
+      "lastSyncAt": "2026-11-04T13:41:00.791557Z",
       "lastSource": "feed:https://pricelab.sas.upenn.edu/rss.xml"
     },
     {
@@ -4216,10 +4216,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://www.grasp.upenn.edu/feed/",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
-      "lastSyncAt": "2026-11-04T13:29:47.601737Z",
+      "lastSyncAt": "2026-11-04T13:41:00.791557Z",
       "lastSource": "feed:https://www.grasp.upenn.edu/feed/"
     },
     {
@@ -4381,10 +4381,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://climate.upenn.edu/feed/",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
-      "lastSyncAt": "2026-11-04T13:29:47.601737Z",
+      "lastSyncAt": "2026-11-04T13:41:00.791557Z",
       "lastSource": "feed:https://climate.upenn.edu/feed/"
     },
     {
@@ -4565,7 +4565,7 @@
           "items": [],
           "feedUrl": null,
           "source": "",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
       "lastSyncAt": "2026-10-28T18:40:29.452025Z",
@@ -4730,10 +4730,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://penniur.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
-      "lastSyncAt": "2026-11-04T13:29:47.601737Z",
+      "lastSyncAt": "2026-11-04T13:41:00.791557Z",
       "lastSource": "feed:https://penniur.upenn.edu/rss.xml"
     },
     {
@@ -4753,10 +4753,10 @@
           "items": [],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
-      "lastSyncAt": "2026-11-04T13:29:47.601737Z",
+      "lastSyncAt": "2026-11-04T13:41:00.791557Z",
       "lastSource": ""
     },
     {
@@ -4937,7 +4937,7 @@
           "items": [],
           "feedUrl": null,
           "source": "",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
       "lastSyncAt": "2026-11-03T21:29:13.003469Z",
@@ -5102,10 +5102,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://writing.upenn.edu/?feed=rss2",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
-      "lastSyncAt": "2026-11-04T13:29:47.601737Z",
+      "lastSyncAt": "2026-11-04T13:41:00.791557Z",
       "lastSource": "feed:https://writing.upenn.edu/?feed=rss2"
     },
     {
@@ -5125,10 +5125,10 @@
           "items": [],
           "feedUrl": "https://perryworldhouse.upenn.edu/feed/",
           "source": "html",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
-      "lastSyncAt": "2026-11-04T13:29:47.601737Z",
+      "lastSyncAt": "2026-11-04T13:41:00.791557Z",
       "lastSource": ""
     },
     {
@@ -5290,10 +5290,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://platthouse.universitylife.upenn.edu/feed/",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
-      "lastSyncAt": "2026-11-04T13:29:47.601737Z",
+      "lastSyncAt": "2026-11-04T13:41:00.791557Z",
       "lastSource": "feed:https://platthouse.universitylife.upenn.edu/feed/"
     },
     {
@@ -5313,10 +5313,10 @@
           "items": [],
           "feedUrl": null,
           "source": "",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
-      "lastSyncAt": "2026-11-04T13:29:47.601737Z",
+      "lastSyncAt": "2026-11-04T13:41:00.791557Z",
       "lastSource": ""
     },
     {
@@ -5618,10 +5618,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://arthurrossgallery.org/category/press-releases/feed/",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
-      "lastSyncAt": "2026-11-04T13:29:47.601737Z",
+      "lastSyncAt": "2026-11-04T13:41:00.791557Z",
       "lastSource": "feed:https://arthurrossgallery.org/category/press-releases/feed/"
     },
     {
@@ -5783,10 +5783,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://www.penn.museum/about/press-room/press-releases?format=feed&type=rss",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
-      "lastSyncAt": "2026-11-04T13:29:47.601737Z",
+      "lastSyncAt": "2026-11-04T13:41:00.791557Z",
       "lastSource": "feed:https://www.penn.museum/about/press-room/press-releases?format=feed&type=rss"
     },
     {
@@ -5847,7 +5847,7 @@
           "items": [],
           "feedUrl": null,
           "source": "",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
       "lastSyncAt": "2026-10-28T18:40:29.452025Z",
@@ -5870,10 +5870,10 @@
           "items": [],
           "feedUrl": null,
           "source": "",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
-      "lastSyncAt": "2026-11-04T13:29:47.601737Z",
+      "lastSyncAt": "2026-11-04T13:41:00.791557Z",
       "lastSource": ""
     },
     {
@@ -6035,10 +6035,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://complit.sas.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
-      "lastSyncAt": "2026-11-04T13:29:47.601737Z",
+      "lastSyncAt": "2026-11-04T13:41:00.791557Z",
       "lastSource": "feed:https://complit.sas.upenn.edu/rss.xml"
     },
     {
@@ -6200,10 +6200,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://www.classics.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
-      "lastSyncAt": "2026-11-04T13:29:47.601737Z",
+      "lastSyncAt": "2026-11-04T13:41:00.791557Z",
       "lastSource": "feed:https://www.classics.upenn.edu/rss.xml"
     },
     {
@@ -6223,10 +6223,10 @@
           "items": [],
           "feedUrl": null,
           "source": "",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
-      "lastSyncAt": "2026-11-04T13:29:47.601737Z",
+      "lastSyncAt": "2026-11-04T13:41:00.791557Z",
       "lastSource": ""
     },
     {
@@ -6388,10 +6388,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://pan-school.sas.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
-      "lastSyncAt": "2026-11-04T13:29:47.601737Z",
+      "lastSyncAt": "2026-11-04T13:41:00.791557Z",
       "lastSource": "feed:https://pan-school.sas.upenn.edu/rss.xml"
     },
     {
@@ -6553,10 +6553,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://chibe.upenn.edu/feed/",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
-      "lastSyncAt": "2026-11-04T13:29:47.601737Z",
+      "lastSyncAt": "2026-11-04T13:41:00.791557Z",
       "lastSource": "feed:https://chibe.upenn.edu/feed/"
     },
     {
@@ -6718,10 +6718,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://www.bio.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
-      "lastSyncAt": "2026-11-04T13:29:47.601737Z",
+      "lastSyncAt": "2026-11-04T13:41:00.791557Z",
       "lastSource": "feed:https://www.bio.upenn.edu/rss.xml"
     },
     {
@@ -6883,10 +6883,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://www.chem.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
-      "lastSyncAt": "2026-11-04T13:29:47.601737Z",
+      "lastSyncAt": "2026-11-04T13:41:00.791557Z",
       "lastSource": "feed:https://www.chem.upenn.edu/rss.xml"
     },
     {
@@ -7048,10 +7048,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://www.ling.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
-      "lastSyncAt": "2026-11-04T13:29:47.601737Z",
+      "lastSyncAt": "2026-11-04T13:41:00.791557Z",
       "lastSource": "feed:https://www.ling.upenn.edu/rss.xml"
     },
     {
@@ -7129,10 +7129,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://cinemastudies.sas.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
-      "lastSyncAt": "2026-11-04T13:29:47.601737Z",
+      "lastSyncAt": "2026-11-04T13:41:00.791557Z",
       "lastSource": "feed:https://cinemastudies.sas.upenn.edu/rss.xml"
     },
     {
@@ -7294,10 +7294,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://earth.sas.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
-      "lastSyncAt": "2026-11-04T13:29:47.601737Z",
+      "lastSyncAt": "2026-11-04T13:41:00.791557Z",
       "lastSource": "feed:https://earth.sas.upenn.edu/rss.xml"
     },
     {
@@ -7459,10 +7459,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
-      "lastSyncAt": "2026-11-04T13:29:47.601737Z",
+      "lastSyncAt": "2026-11-04T13:41:00.791557Z",
       "lastSource": "html"
     },
     {
@@ -7482,16 +7482,16 @@
           "items": [],
           "feedUrl": null,
           "source": "",
-          "fetchedAt": "2026-11-04T13:29:47.601737Z"
+          "fetchedAt": "2026-11-04T13:41:00.791557Z"
         }
       },
-      "lastSyncAt": "2026-11-04T13:29:47.601737Z",
+      "lastSyncAt": "2026-11-04T13:41:00.791557Z",
       "lastSource": ""
     }
   ],
-  "lastRefreshAt": "2026-11-04T13:29:47.601737Z",
+  "lastRefreshAt": "2026-11-04T13:41:00.791557Z",
   "refreshErrors": [
-    "Annenberg: HTTP 403 from https://www.asc.upenn.edu/news-events",
+    "Annenberg: HTTP 403 from https://www.asc.upenn.edu/news-events/news",
     "Nursing: No articles found after browser scrape",
     "Vet: Latest check returned no articles; showing earlier results. HTTP 403 from https://www.vet.upenn.edu/penn-vet-news/",
     "APPC: Latest check returned no articles; showing earlier results. HTTP 403 from https://www.annenbergpublicpolicycenter.org/",
@@ -7523,9 +7523,9 @@
   "showAddSite": false,
   "schemaVersion": 3,
   "collection": {
-    "sourceVersion": "48ab35e3403e970042a4f9daf5fdd955c37cb15647a39b8a882668c4f15a6904",
-    "runId": "41838355300",
-    "commit": "1f041a817a279e03d26f8ea64939e4a39e65c760",
-    "runUrl": "https://github.com/BigChief-at-illuminathidotorg/Penn-News-Scraper/actions/runs/41838355300"
+    "sourceVersion": "652766672d6f74212af6f59fbc4939321082f2c94119c0886b5725aac4fc180f",
+    "runId": "41840123828",
+    "commit": "8f33cc32efc98f386af1f9ec070d403ea8755318",
+    "runUrl": "https://github.com/BigChief-at-illuminathidotorg/Penn-News-Scraper/actions/runs/41840123828"
   }
 }
