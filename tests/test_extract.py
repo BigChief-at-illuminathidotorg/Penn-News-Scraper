@@ -8,6 +8,16 @@ CARD = ('<div class="card card--news"><span class="calendar"><time datetime="202
 LISTING = '<html><body><article class="basic-page"><h1>News</h1>' + ''.join(CARD.format(n=n) for n in (5, 4, 3, 2)) + '</article></body></html>'
 
 
+# GSE-style list: the school's own stories mixed with "in the news" links elsewhere.
+ITEM = ('<div class="news_list_item"><h2><a href="{href}">{title} for the extraction test</a></h2>'
+        '<time class="news_list_item_date" datetime="2026-11-0{n}">Nov {n}, 2026</time></div>')
+MIXED = '<html><body>' + ''.join(ITEM.format(n=n, href=h, title=t) for n, h, t in (
+    (4, '/news/our-own-story-number-one', 'Our own story one'),
+    (3, 'https://www.forbes.com/sites/someone/2026/11/03/a-quote', 'An outside outlet quotes us'),
+    (2, '/news/our-own-story-number-two', 'Our own story two'),
+    (1, '/news/our-own-story-number-three', 'Our own story three'))) + '</body></html>'
+
+
 class Extract(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
@@ -39,6 +49,13 @@ class Extract(unittest.TestCase):
             links = [a['link'] for a in self.extract(LISTING, site_id)]
             self.assertEqual(len(links), 4, site_id)
             self.assertEqual(links[0], first, site_id)
+
+
+    def test_same_host_keeps_only_the_sites_own_stories(self):
+        links = [a['link'] for a in self.extract(MIXED, 'gse')]
+        self.assertEqual(len(links), 3)
+        self.assertTrue(all(l.startswith('https://news.example.edu/news/') for l in links))
+        self.assertEqual(len(self.extract(MIXED, 'a-site-with-no-rules')), 4)
 
 
 if __name__ == '__main__':
