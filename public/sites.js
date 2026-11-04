@@ -73,7 +73,7 @@ window.PENN_MONITOR_DEFAULT_SITES = [
     "subhead": "Care systems, public health, training, outcomes",
     "newsUrl": "https://www.nursing.upenn.edu/news-events/news-archives/",
     "magazineUrl": "https://www.nursing.upenn.edu/magazine/",
-    "notes": "URL fixed 2026-08-04: old /news-events/ landing page is a curated homepage widget with only 4 items, most with no visible date. /news-events/news-archives/ (confirmed via search) is the real dated archive.",
+    "notes": "No dates shown on this page; the monitor keeps the 7 newest stories.",
     "posts": [],
     "feedUrl": null
   },
@@ -107,9 +107,9 @@ window.PENN_MONITOR_DEFAULT_SITES = [
     "parentUnit": "Vet",
     "bucket": "School",
     "subhead": "Animal health, veterinary medicine, translational work",
-    "newsUrl": "https://www.vet.upenn.edu/penn-vet-news/",
+    "newsUrl": "https://www.vet.upenn.edu/all-news/?filter[article_type][]=penn-vet-news",
     "magazineUrl": "https://www.vet.upenn.edu/bellwether-magazine/",
-    "notes": "URL fixed 2026-08-04: old /all-news/?filter[article_type][]=... URL returns a hard 403 (Varnish/WAF block), likely triggered by the bracketed query string. /penn-vet-news/ is the real WordPress listing (confirmed via search) and matches the site's own feed path pattern.",
+    "notes": "2026-11-04: filtered Penn Vet News listing (the old page mixed in outside coverage).",
     "posts": [],
     "feedUrl": null
   },
@@ -143,11 +143,11 @@ window.PENN_MONITOR_DEFAULT_SITES = [
     "parentUnit": "Annenberg",
     "bucket": "Unit",
     "subhead": "Policy research and public opinion",
-    "newsUrl": "https://www.annenbergpublicpolicycenter.org/",
+    "newsUrl": "https://www.annenbergpublicpolicycenter.org/appc-general-news/",
     "magazineUrl": null,
-    "notes": "URL fixed 2026-08-04: old /newsroom/ path now 404s. Real news lives on the homepage itself (WordPress), which also has a real RSS feed — set as feedUrl below.",
+    "notes": "2026-11-04: APPC General News listing (the site-wide feed mixes in other posts).",
     "posts": [],
-    "feedUrl": "https://www.annenbergpublicpolicycenter.org/feed/"
+    "feedUrl": null
   },
   {
     "id": "knowledge-at-wharton",
@@ -167,21 +167,9 @@ window.PENN_MONITOR_DEFAULT_SITES = [
     "parentUnit": "SAS",
     "bucket": "Unit",
     "subhead": "Arts and sciences stories, essays, ideas",
-    "newsUrl": "https://omnia.sas.upenn.edu/",
+    "newsUrl": "https://omnia.sas.upenn.edu/latest",
     "magazineUrl": null,
-    "notes": "",
-    "posts": [],
-    "feedUrl": "https://omnia.sas.upenn.edu/feed/"
-  },
-  {
-    "id": "fox-leadership",
-    "name": "Fox Leadership",
-    "parentUnit": "Penn",
-    "bucket": "Unit",
-    "subhead": "Penn communications source",
-    "newsUrl": null,
-    "magazineUrl": null,
-    "notes": "No news URL found yet.",
+    "notes": "No dates shown on this page; the monitor keeps the 7 newest stories.",
     "posts": [],
     "feedUrl": null
   },
@@ -234,18 +222,6 @@ window.PENN_MONITOR_DEFAULT_SITES = [
     "feedUrl": null
   },
   {
-    "id": "christopher-h-browne-center-for-international-politics",
-    "name": "Christopher H. Browne Center",
-    "parentUnit": "SAS",
-    "bucket": "Center",
-    "subhead": "International politics",
-    "newsUrl": "https://bc.sas.upenn.edu/news",
-    "magazineUrl": null,
-    "notes": "SAS Drupal - JS-rendered",
-    "posts": [],
-    "feedUrl": null
-  },
-  {
     "id": "center-for-creative-writing",
     "name": "Center for Creative Writing",
     "parentUnit": "SAS",
@@ -258,38 +234,14 @@ window.PENN_MONITOR_DEFAULT_SITES = [
     "feedUrl": null
   },
   {
-    "id": "center-for-technology-innovation-and-competition",
-    "name": "Center for Technology, Innovation & Competition",
-    "parentUnit": "Law",
-    "bucket": "Center",
-    "subhead": "Penn communications source",
-    "newsUrl": "https://www.law.upenn.edu/institutes/ctic/research-news.php",
-    "magazineUrl": null,
-    "notes": "FLAGGED 2026-08-04: this URL is indexed by Google with real, current content, but a live Playwright fetch instead loaded the Law School homepage — looks like an intermittent redirect, not a dead page. Couldn't verify further without live browser access; if scraper still returns nothing here, try https://www.law.upenn.edu/institutes/ctic/ as a fallback (real but sparser — showed 2017-era items on one fetch) or run --dump-html and share the result.",
-    "posts": [],
-    "feedUrl": null
-  },
-  {
     "id": "kleinman-center-for-energy-policy",
     "name": "Kleinman Center for Energy Policy",
-    "parentUnit": "Wharton",
+    "parentUnit": "Weitzman",
     "bucket": "Center",
     "subhead": "Energy policy research",
     "newsUrl": "https://kleinmanenergy.upenn.edu/about/news/",
     "magazineUrl": null,
-    "notes": "Scraper works — most recent article is May 2026. Nothing in current week is expected.",
-    "posts": [],
-    "feedUrl": null
-  },
-  {
-    "id": "the-marks-family-center-for-excellence-in-writing",
-    "name": "Marks Family Center for Excellence in Writing",
-    "parentUnit": "SAS",
-    "bucket": "Center",
-    "subhead": "Penn communications source",
-    "newsUrl": null,
-    "magazineUrl": null,
-    "notes": "URL disabled 2026-08-04: old writing.upenn.edu/critical/news/index.php now 404s. The center moved to markscenter.sas.upenn.edu, which has no dedicated news/press page of its own — its announcements are published on the SAS umbrella news site (sas.upenn.edu/news) instead. Leaving newsUrl empty rather than guessing; may not be worth tracking as a standalone site.",
+    "notes": "",
     "posts": [],
     "feedUrl": null
   },
@@ -330,18 +282,6 @@ window.PENN_MONITOR_DEFAULT_SITES = [
     "feedUrl": null
   },
   {
-    "id": "wolf-humanities-center",
-    "name": "Wolf Humanities Center",
-    "parentUnit": "SAS",
-    "bucket": "Center",
-    "subhead": "Penn communications source",
-    "newsUrl": null,
-    "magazineUrl": null,
-    "notes": "No news URL found yet.",
-    "posts": [],
-    "feedUrl": null
-  },
-  {
     "id": "mcneil-center-for-early-american-studies",
     "name": "McNeil Center for Early American Studies",
     "parentUnit": "Penn",
@@ -376,18 +316,6 @@ window.PENN_MONITOR_DEFAULT_SITES = [
     "notes": "",
     "posts": [],
     "feedUrl": "https://icaphila.org/feed/"
-  },
-  {
-    "id": "penn-institute-for-economic-research",
-    "name": "Penn Institute for Economic Research",
-    "parentUnit": "Penn",
-    "bucket": "Institute",
-    "subhead": "Penn communications source",
-    "newsUrl": null,
-    "magazineUrl": null,
-    "notes": "No news URL found yet.",
-    "posts": [],
-    "feedUrl": null
   },
   {
     "id": "the-lauder-institute",
@@ -517,7 +445,7 @@ window.PENN_MONITOR_DEFAULT_SITES = [
     "subhead": "Campus sustainability initiatives",
     "newsUrl": "https://www.sustainability.upenn.edu/news",
     "magazineUrl": null,
-    "notes": "",
+    "notes": "No dates shown on this page; the monitor keeps the 7 newest stories.",
     "posts": [],
     "feedUrl": null
   },
@@ -553,7 +481,7 @@ window.PENN_MONITOR_DEFAULT_SITES = [
     "subhead": "Global affairs and policy",
     "newsUrl": "https://perryworldhouse.upenn.edu/news-and-insight/",
     "magazineUrl": null,
-    "notes": "",
+    "notes": "No dates shown on this page; the monitor keeps the 7 newest stories.",
     "posts": [],
     "feedUrl": "https://perryworldhouse.upenn.edu/feed/"
   },
@@ -566,18 +494,6 @@ window.PENN_MONITOR_DEFAULT_SITES = [
     "newsUrl": "https://platthouse.universitylife.upenn.edu/community-news-and-stories/",
     "magazineUrl": null,
     "notes": "Shares blog with Katz Center",
-    "posts": [],
-    "feedUrl": null
-  },
-  {
-    "id": "weiss-tech-house",
-    "name": "Weiss Tech House",
-    "parentUnit": "Penn",
-    "bucket": "House",
-    "subhead": "Technology and entrepreneurship",
-    "newsUrl": null,
-    "magazineUrl": null,
-    "notes": "No news URL found yet.",
     "posts": [],
     "feedUrl": null
   },
@@ -611,21 +527,9 @@ window.PENN_MONITOR_DEFAULT_SITES = [
     "parentUnit": "Penn",
     "bucket": "Library",
     "subhead": "Collections, scholarship, research services",
-    "newsUrl": "https://www.library.upenn.edu/news",
+    "newsUrl": "https://www.library.upenn.edu/news/all",
     "magazineUrl": null,
     "notes": "",
-    "posts": [],
-    "feedUrl": null
-  },
-  {
-    "id": "the-botswana-upenn-partnership",
-    "name": "The Botswana UPenn Partnership",
-    "parentUnit": "Penn",
-    "bucket": "Partnership",
-    "subhead": "Penn communications source",
-    "newsUrl": null,
-    "magazineUrl": null,
-    "notes": "No news URL found yet.",
     "posts": [],
     "feedUrl": null
   },
@@ -647,7 +551,7 @@ window.PENN_MONITOR_DEFAULT_SITES = [
     "parentUnit": "SAS",
     "bucket": "Department",
     "subhead": "",
-    "newsUrl": "https://www.classics.upenn.edu/",
+    "newsUrl": "https://www.classics.upenn.edu/news",
     "magazineUrl": null,
     "notes": "Added from owner source list, November 3, 2026.",
     "posts": [],
@@ -659,7 +563,7 @@ window.PENN_MONITOR_DEFAULT_SITES = [
     "parentUnit": "SAS",
     "bucket": "Department",
     "subhead": "",
-    "newsUrl": "https://spanish.sas.upenn.edu/",
+    "newsUrl": "https://spanish.sas.upenn.edu/news",
     "magazineUrl": null,
     "notes": "Added from owner source list, November 3, 2026.",
     "posts": [],
@@ -795,8 +699,7 @@ window.PENN_MONITOR_GROUPS = [
     "sites": [
       "wharton",
       "knowledge-at-wharton",
-      "the-lauder-institute",
-      "kleinman-center-for-energy-policy"
+      "the-lauder-institute"
     ]
   },
   {
@@ -829,14 +732,11 @@ window.PENN_MONITOR_GROUPS = [
       "center-for-east-asian-studies",
       "center-for-study-of-contemporary-china",
       "center-for-the-study-of-ethnicity-race-immigration",
-      "christopher-h-browne-center-for-international-politics",
       "the-water-center",
       "digital-humanities-price-lab",
       "center-for-creative-writing",
-      "the-marks-family-center-for-excellence-in-writing",
       "kelly-writers-house",
-      "herbert-d-katz-center-for-advanced-judaic-studies",
-      "wolf-humanities-center"
+      "herbert-d-katz-center-for-advanced-judaic-studies"
     ]
   },
   {
@@ -846,7 +746,6 @@ window.PENN_MONITOR_GROUPS = [
     "sites": [
       "law",
       "fels-institute-of-government",
-      "center-for-technology-innovation-and-competition",
       "penn-program-on-opinion-research-and-election-studies"
     ]
   },
@@ -865,7 +764,8 @@ window.PENN_MONITOR_GROUPS = [
     "label": "Weitzman / Design",
     "color": "#1a3040",
     "sites": [
-      "weitzman"
+      "weitzman",
+      "kleinman-center-for-energy-policy"
     ]
   },
   {
@@ -876,7 +776,6 @@ window.PENN_MONITOR_GROUPS = [
       "penn-global",
       "penn-washington",
       "perry-world-house",
-      "the-botswana-upenn-partnership",
       "penn-eii",
       "penn-sustainability",
       "penn-iur",
@@ -900,8 +799,6 @@ window.PENN_MONITOR_GROUPS = [
     "label": "Innovation & Enterprise",
     "color": "#2a1a10",
     "sites": [
-      "fox-leadership",
-      "weiss-tech-house",
       "penn-program-on-opinion-research-and-election-studies"
     ]
   }

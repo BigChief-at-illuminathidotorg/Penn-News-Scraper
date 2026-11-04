@@ -1,17 +1,16 @@
 {
-  "vet": "https://www.vet.upenn.edu/penn-vet-news/",
+  "vet": "https://www.vet.upenn.edu/all-news/?filter[article_type][]=penn-vet-news",
   "sp2": "https://sp2.upenn.edu/news/",
   "dental": "https://www.dental.upenn.edu/news-events/recent-news/",
   "medicine": "https://www.pennmedicine.org/news/search?hideFADListing=false&pageType=taxonomyTemplatePage&pageTypeId=97a5141a-e62c-4dde-8fc0-160f2571b56a&sort=created&sortOrder=DESC&page=1&resultsPerPage=10&pageContentType=*",
   "gse": "https://www.gse.upenn.edu/news-and-events/news",
-  "sas-omnia": "https://omnia.sas.upenn.edu/",
+  "sas-omnia": "https://omnia.sas.upenn.edu/latest",
   "comparative-literature": "https://complit.sas.upenn.edu/news",
-  "classics": "https://www.classics.upenn.edu/",
-  "spanish": "https://spanish.sas.upenn.edu/",
+  "classics": "https://www.classics.upenn.edu/news",
+  "spanish": "https://spanish.sas.upenn.edu/news",
   "penn-museum": "https://www.penn.museum/about/press-room/press-releases",
-  "penn-libraries": "https://www.library.upenn.edu/news",
+  "penn-libraries": "https://www.library.upenn.edu/news/all",
   "pan-school": "https://pan-school.sas.upenn.edu/news",
-  "center-for-technology-innovation-and-competition": "https://www.law.upenn.edu/institutes/ctic/research-news.php",
   "law": "https://www.law.upenn.edu/newsevents/",
   "penn-sustainability": "https://www.sustainability.upenn.edu/news",
   "penn-global": "https://global.upenn.edu/penn-global-news/",
@@ -38,5 +37,6 @@
   "economics": "https://economics.sas.upenn.edu/news",
   "french-italian-germanic-studies": "https://figs.sas.upenn.edu/news",
   "seas": "https://www.engineering.upenn.edu/stories/",
-  "weitzman": "https://www.design.upenn.edu/news"
+  "weitzman": "https://www.design.upenn.edu/news",
+  "appc": "https://www.annenbergpublicpolicycenter.org/appc-general-news/"
 }
