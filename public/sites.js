@@ -1,7 +1,8 @@
 // PENN NEWS MONITOR - SITE LIST
 // Single source of truth for both the dashboard and scraper.
 // Edit here to add/change sites and groups.
-// Fields: id, name, parentUnit, bucket, subhead, newsUrl, magazineUrl, notes, posts
+// Fields: id, name, exportName, parentUnit, bucket, subhead, newsUrl, extraUrls
+// (more listing pages read as part of the same source), magazineUrl, notes, posts, feedUrl
 // Do NOT add a 'code' field - it has been removed.
 
 window.PENN_MONITOR_DEFAULT_SITES = [
@@ -145,8 +146,11 @@ window.PENN_MONITOR_DEFAULT_SITES = [
     "bucket": "Unit",
     "subhead": "Policy research and public opinion",
     "newsUrl": "https://www.annenbergpublicpolicycenter.org/appc-general-news/",
+    "extraUrls": [
+      "https://www.annenbergpublicpolicycenter.org/tag/press-releases/"
+    ],
     "magazineUrl": null,
-    "notes": "2026-11-04: APPC General News listing (the site-wide feed mixes in other posts).",
+    "notes": "2026-11-04: General news plus press releases (the site-wide feed mixes in other posts).",
     "posts": [],
     "feedUrl": null
   },
@@ -377,6 +381,18 @@ window.PENN_MONITOR_DEFAULT_SITES = [
     "notes": "",
     "posts": [],
     "feedUrl": "https://snfpaideia.upenn.edu/feed/"
+  },
+  {
+    "id": "snf-paideia-perspectives",
+    "name": "SNF Paideia Perspectives",
+    "parentUnit": "Penn",
+    "bucket": "Program",
+    "subhead": "Blog posts on dialogue and civic life",
+    "newsUrl": "https://snfpaideia.upenn.edu/engage/perspectives/",
+    "magazineUrl": null,
+    "notes": "2026-11-04: Perspectives posts. Dates come from the site's WordPress data feed; its RSS feed sits behind a bot check.",
+    "posts": [],
+    "feedUrl": "https://snfpaideia.upenn.edu/wp-json/wp/v2/posts?per_page=20&_fields=id,date,link,title,excerpt"
   },
   {
     "id": "digital-humanities-price-lab",
@@ -757,7 +773,8 @@ window.PENN_MONITOR_GROUPS = [
     "sites": [
       "gse",
       "sp2",
-      "snf-paideia-program"
+      "snf-paideia-program",
+      "snf-paideia-perspectives"
     ]
   },
   {

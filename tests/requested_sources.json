@@ -38,5 +38,9 @@
   "french-italian-germanic-studies": "https://figs.sas.upenn.edu/news",
   "seas": "https://www.engineering.upenn.edu/stories/",
   "weitzman": "https://www.design.upenn.edu/news",
-  "appc": "https://www.annenbergpublicpolicycenter.org/appc-general-news/"
+  "appc": [
+    "https://www.annenbergpublicpolicycenter.org/appc-general-news/",
+    "https://www.annenbergpublicpolicycenter.org/tag/press-releases/"
+  ],
+  "snf-paideia-perspectives": "https://snfpaideia.upenn.edu/engage/perspectives/"
 }

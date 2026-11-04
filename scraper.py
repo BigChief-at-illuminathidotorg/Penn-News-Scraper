@@ -12,10 +12,13 @@ Penn News Monitor — local scraper (v3, clean rebuild)
 For every site in sites.js, tries these in order and stops at the first that
 yields articles:
 
-  1. feed      explicit feedUrl, then a feed discovered from <link rel=alternate>,
-               then a few common feed paths
+  1. feed      explicit feedUrl (RSS, Atom, or WordPress REST data), then a feed
+               discovered from <link rel=alternate>, then a few common feed paths
   2. jsonld    schema.org NewsArticle / ItemList data embedded in the page
   3. html      rendered-DOM extraction (EXTRACT_JS below), guided by SITE_RULES
+
+A site with extraUrls in sites.js is read from each of those pages as well, with
+the same rules, and the stories are merged (newest first).
 
 All network access goes through the Playwright browser (Penn's firewall blocks
 plain urllib for many sites); urllib is only used as a cheap first try for feeds.
@@ -170,6 +173,28 @@ def parse_feed(xml_text):
                                 _text(_first(it, "description", CONTENT + "encoded"))))
     return [a for a in out if a]
 
+# WordPress REST data (/wp-json/wp/v2/posts) reads like a feed: some sites put
+# their RSS behind a bot check but leave the data their own pages load open.
+def is_wp_json(text):
+    return bool(text) and text.lstrip()[:1] == "[" and '"link"' in text[:4000]
+
+def parse_wp_json(text):
+    try:
+        posts = json.loads(text)
+    except ValueError:
+        return []
+    out = []
+    for p in posts if isinstance(posts, list) else []:
+        if not isinstance(p, dict):
+            continue
+        rendered = lambda k: p[k].get("rendered", "") if isinstance(p.get(k), dict) else ""
+        out.append(_article(rendered("title"), p.get("link") or "",
+                            parse_date(str(p.get("date") or "")[:10]), rendered("excerpt")))
+    return [a for a in out if a]
+
+def read_feed(text):
+    return parse_wp_json(text) if is_wp_json(text) else parse_feed(text)
+
 def _article(title, link, d, dek):
     title = clean_title(strip_tags(title))
     if not (title and link and d):
@@ -248,7 +273,7 @@ _WORDPRESS = {"containers": ["article", ".post"], "date": ["time", ".entry-date"
 SITE_RULES = {
     # Drupal Views (SAS centers)
     **{s: _VIEWS for s in (
-        "annenberg", "center-for-east-asian-studies",
+        "center-for-east-asian-studies",
         "andrea-mitchell-center-for-the-study-of-democracy",
         "center-for-the-study-of-ethnicity-race-immigration", "the-water-center",
         "digital-humanities-price-lab", "dental", "fels-institute-of-government",
@@ -257,6 +282,9 @@ SITE_RULES = {
         "comparative-literature", "classics", "spanish", "biology", "chemistry",
         "linguistics", "cinema-media-studies", "earth-environmental-science",
         "french-italian-germanic-studies")},
+    # Each story is a .card--news; one <article> wraps the whole listing.
+    "annenberg":   {"containers": [".card--news", ".views-row", "article"],
+                    "date": ["time", ".field--name-created"]},
     "penn-eii":    {"containers": [".views-row", "article", ".card"],
                     "date": [".field--name-created", "time", ".card-date"]},
     "penn-iur":    {"containers": ["article", ".views-row"], "date": ["time", ".field--name-created"]},
@@ -280,6 +308,9 @@ SITE_RULES = {
     # Category and filtered listings: their site-wide feeds carry other posts.
     "appc":        dict(_WORDPRESS, containers=["article.card", "article"], page_first=True, shallow_links=True),
     "penn-global": dict(_WORDPRESS, page_first=True),
+    # Perspectives cards carry no dates; the WordPress data feed (feedUrl) does.
+    "snf-paideia-perspectives": {"containers": [".c-entry-card", "article"], "date": ["time"],
+                                 "shallow_links": True},
     "vet":         {"containers": [".card", "article", ".post"],
                     "date": ["time.card__date", "time", ".entry-date", "[class*=date]"],
                     "page_first": True, "shallow_links": True},
@@ -368,17 +399,20 @@ EXTRACT_JS = r"""
   // ---- pass 1: containers -------------------------------------------------
   const dateSels = (cfg.date && cfg.date.length) ? cfg.date : DATE_DEFAULT;
   const selectorGroups = [cfg.containers || [], GENERIC].filter(g => g.length);
+  // A selector that matches fewer than 3 stories is set aside, and so are the
+  // links it found: one <article> wrapping a whole listing yields only its
+  // first story, which the later passes must still be free to pick up.
   outer:
   for (const group of selectorGroups) {
     for (const sel of group) {
-      const batch = [];
+      const batch = [], batchSeen = new Set();
       for (const node of document.querySelectorAll(sel)) {
         let a = headlineLink(node), title = a ? titleOf(a) : "";
         if (!a) { const d = decoupled(node); if (!d) continue; a = d.a; title = d.title; }
         const href = a.getAttribute("href");
         if (badHref(href)) continue;
         const link = abs(href);
-        if (!accept(link) || seen.has(link)) continue;
+        if (!accept(link) || batchSeen.has(link)) continue;
         let dateText = "";
         for (const ds of dateSels) {
           const el = node.querySelector(ds);
@@ -386,11 +420,11 @@ EXTRACT_JS = r"""
         }
         if (!dateText) { const m = txt(node).match(DATE_RE); if (m) dateText = m[0]; }
         if (!dateText) { if (!cfg.dateOptional) continue; dateText = "__TODAY__"; }
-        seen.add(link);
+        batchSeen.add(link);
         const dek = node.querySelector("p, .field--name-body, .summary, .teaser-text, .dek, .description, .excerpt, .entry-summary");
         batch.push({ title, link, dateText, dek: dek ? txt(dek).slice(0, 280) : "" });
       }
-      if (batch.length >= 3) { out.push(...batch); break outer; }
+      if (batch.length >= 3) { out.push(...batch); batchSeen.forEach(l => seen.add(l)); break outer; }
     }
   }
 
@@ -527,7 +561,7 @@ async def fetch_feed_text(page, url, timeout=10, ua=None):
     """urllib first (fast); browser network stack if that's blocked or fails."""
     try:
         text = await asyncio.get_running_loop().run_in_executor(None, _urllib_get, url, min(timeout, 12), ua)
-        if is_feed(text):
+        if is_feed(text) or is_wp_json(text):
             return text
     except Exception:
         pass
@@ -536,7 +570,7 @@ async def fetch_feed_text(page, url, timeout=10, ua=None):
         r = await page.context.request.get(url, timeout=timeout * 1000, headers={"User-Agent": ua or UA})
         if r.ok:
             text = await r.text()
-            if is_feed(text):
+            if is_feed(text) or is_wp_json(text):
                 return text
     except Exception:
         pass
@@ -558,7 +592,7 @@ def news_only(arts):
 
 async def try_feed(page, url, timeout, ua=None):
     text = await fetch_feed_text(page, url, timeout, ua)
-    arts = news_only(parse_feed(text) if text else [])
+    arts = news_only(read_feed(text) if text else [])
     return sorted(arts, key=lambda a: a["date"], reverse=True)
 
 # ══ Per-site pipeline ══════════════════════════════════════════════════════════
@@ -576,8 +610,40 @@ def loadable(url):
     # firewalls; the percent-encoded form means the same thing to the site.
     return url.replace("[", "%5B").replace("]", "%5D")
 
+def merge_articles(arts):
+    """Stories gathered from several pages -> each link once, newest first."""
+    seen, out = set(), []
+    for a in arts:
+        if a["link"] not in seen:
+            seen.add(a["link"])
+            out.append(a)
+    return sorted(out, key=lambda a: a["date"], reverse=True)
+
 async def scrape_site(browser, site, timeout, dump_dir=None, ua=None):
-    """-> (articles, error, method)"""
+    """-> (articles, error, method). A source can span several listings
+    (extraUrls in sites.js, e.g. APPC's general news and its press releases):
+    each page is read with the same rules, then the stories are merged."""
+    extra = [u for u in site.get("extraUrls") or [] if u]
+    if not extra:
+        return await _scrape_page(browser, site, timeout, dump_dir, ua)
+    pages = [site] + [dict(site, newsUrl=u, feedUrl=None) for u in extra]
+    found, problems, methods = [], [], []
+    for n, page_site in enumerate(pages, 1):
+        arts, err, method = await _scrape_page(browser, page_site, timeout, dump_dir, ua,
+                                               dump_name=f"{site['id']}-{n}" if n > 1 else None)
+        found += arts
+        if err:
+            problems.append(err if page_site["newsUrl"] in err else f"{err} ({page_site['newsUrl']})")
+        if arts and method:
+            methods.append(method)
+    cap = min(SITE_RULES.get(site.get("id", ""), {}).get("max_items", MAX_PER_SITE), MAX_PER_SITE)
+    merged = merge_articles(found)[:cap]
+    if not merged:
+        return [], "; ".join(problems) or "No articles found after browser scrape", ""
+    return merged, "; ".join(problems) or None, "+".join(dict.fromkeys(methods))
+
+async def _scrape_page(browser, site, timeout, dump_dir=None, ua=None, dump_name=None):
+    """One listing page (and its feeds) -> (articles, error, method)"""
     sid, news_url, feed_url = site.get("id", ""), site.get("newsUrl"), site.get("feedUrl")
     rules = SITE_RULES.get(sid, {})
     cap = min(rules.get("max_items", MAX_PER_SITE), MAX_PER_SITE)
@@ -662,8 +728,9 @@ async def scrape_site(browser, site, timeout, dump_dir=None, ua=None):
             if dump_dir:
                 try:
                     dump_dir.mkdir(parents=True, exist_ok=True)
-                    (dump_dir / f"{sid}.html").write_text(await page.content(), encoding="utf-8")
-                    (dump_dir / f"{sid}.raw.html").write_text(raw_html, encoding="utf-8")
+                    name = dump_name or sid
+                    (dump_dir / f"{name}.html").write_text(await page.content(), encoding="utf-8")
+                    (dump_dir / f"{name}.raw.html").write_text(raw_html, encoding="utf-8")
                 except Exception:
                     pass
             if rules.get("max_items"):
@@ -693,6 +760,7 @@ def build_snapshot(all_sites, results, now):
             "id": s["id"], "name": s["name"], "parentUnit": s.get("parentUnit", s["name"]),
             "bucket": s.get("bucket", "Unit"), "subhead": s.get("subhead", ""),
             "newsUrl": s.get("newsUrl"), "feedUrl": s.get("feedUrl"),
+            **({"extraUrls": s["extraUrls"]} if s.get("extraUrls") else {}),
             "magazineUrl": s.get("magazineUrl"), "notes": notes, "posts": posts,
             "lastError": err or ("" if arts else "No articles found" + (f" — {notes}" if notes else "")),
             "_cache": {"news": {"items": arts, "feedUrl": s.get("feedUrl", ""), "source": method, "fetchedAt": now}},
@@ -757,7 +825,9 @@ async def run(args):
 
         # Second pass: blocks from Penn's firewalls come and go, so revisit the
         # sites that refused or dropped the first visit, slowly and one at a time.
-        retry = [s for s in todo if not results[s["id"]][0] and RETRYABLE.search(results[s["id"]][1] or "")]
+        # (Sources with several pages are revisited when any one page refused.)
+        retry = [s for s in todo if RETRYABLE.search(results[s["id"]][1] or "")
+                 and (not results[s["id"]][0] or s.get("extraUrls"))]
         if retry and not args.no_retry:
             console.print(f"\nTrying {len(retry)} site{'' if len(retry) == 1 else 's'} again in {RETRY_PAUSE_SECONDS} seconds, one at a time:")
             await asyncio.sleep(RETRY_PAUSE_SECONDS)
@@ -765,6 +835,8 @@ async def run(args):
             ua = await browser_user_agent(browser)
             for site in retry:
                 arts, err, method = await scrape_site(browser, site, args.timeout + 10, dump_dir, ua)
+                if len(arts) < len(results[site["id"]][0]):
+                    arts, err, method = results[site["id"]]   # the first visit found more
                 results[site["id"]] = (arts, err, method)
                 status = f"[green]{len(arts)} articles[/green]" if arts else f"[red]{(err or '0')[:60]}[/red]"
                 console.print(f"  {site['name'][:44]:44} {label(method):18} {status}")
