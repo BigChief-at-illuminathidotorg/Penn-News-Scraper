@@ -164,10 +164,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T20:55:36.340351Z"
+          "fetchedAt": "2026-11-04T21:02:19.374577Z"
         }
       },
-      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
+      "lastSyncAt": "2026-11-04T21:02:19.374577Z",
       "lastSource": "html"
     },
     {
@@ -329,10 +329,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://www.dental.upenn.edu/feed/",
-          "fetchedAt": "2026-11-04T20:55:36.340351Z"
+          "fetchedAt": "2026-11-04T21:02:19.374577Z"
         }
       },
-      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
+      "lastSyncAt": "2026-11-04T21:02:19.374577Z",
       "lastSource": "feed:https://www.dental.upenn.edu/feed/"
     },
     {
@@ -368,10 +368,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://www.gse.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-04T20:55:36.340351Z"
+          "fetchedAt": "2026-11-04T21:02:19.374577Z"
         }
       },
-      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
+      "lastSyncAt": "2026-11-04T21:02:19.374577Z",
       "lastSource": "feed:https://www.gse.upenn.edu/rss.xml"
     },
     {
@@ -473,10 +473,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T20:55:36.340351Z"
+          "fetchedAt": "2026-11-04T21:02:19.374577Z"
         }
       },
-      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
+      "lastSyncAt": "2026-11-04T21:02:19.374577Z",
       "lastSource": "html"
     },
     {
@@ -638,10 +638,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T20:55:36.340351Z"
+          "fetchedAt": "2026-11-04T21:02:19.374577Z"
         }
       },
-      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
+      "lastSyncAt": "2026-11-04T21:02:19.374577Z",
       "lastSource": "html"
     },
     {
@@ -775,10 +775,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T20:55:36.340351Z"
+          "fetchedAt": "2026-11-04T21:02:19.374577Z"
         }
       },
-      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
+      "lastSyncAt": "2026-11-04T21:02:19.374577Z",
       "lastSource": "html"
     },
     {
@@ -873,17 +873,78 @@
           "source": "feed:https://www.engineering.upenn.edu/feed/"
         }
       ],
-      "lastError": "Latest check returned no articles; showing earlier results. Could not load page: Page.goto: Timeout 35000ms exceeded.",
+      "lastError": "",
       "_cache": {
         "news": {
-          "items": [],
+          "items": [
+            {
+              "title": "Three Penn Engineering Faculty Elected American Physical Society Fellows",
+              "link": "https://www.engineering.upenn.edu/stories/three-penn-engineering-faculty-elected-american-physical-society-fellows/",
+              "date": "2026-11-04",
+              "dek": "Liang Feng, Robert Riggleman and Deep Jariwala of Penn Engineering have been elected Fellows of the American Physical Society (APS), recognizing their contributions to physics and its applications in photonics, materials science and emerging technologies."
+            },
+            {
+              "title": "Stopping Muscular Dystrophy with a ‘Backup’ Protein",
+              "link": "https://www.engineering.upenn.edu/stories/stopping-muscular-dystrophy-with-a-backup-protein/",
+              "date": "2026-11-03",
+              "dek": "Combining techniques used to deliver COVID vaccines, a new use of gene editing might stop or even reverse progression of Duchenne muscular dystrophy."
+            },
+            {
+              "title": "Research to Develop Personalized Treatments for Children with Neurodevelopmental Disabilities",
+              "link": "https://www.engineering.upenn.edu/stories/research-to-develop-personalized-treatments-for-children-with-neurodevelopmental-disabilities/",
+              "date": "2026-11-02",
+              "dek": "The Hartwell Foundation will fund collaboration between UC Davis Health and University of Pennsylvania researchers."
+            },
+            {
+              "title": "Quantum ‘Skyrmions’ Could Help Build More Resilient Networks",
+              "link": "https://www.engineering.upenn.edu/stories/quantum-skyrmions-could-help-build-more-resilient-networks/",
+              "date": "2026-10-30",
+              "dek": "By manipulating quantum ‘skyrmions’ (distinctive patterns in polarized light), Penn engineers discover a potentially powerful new approach to making quantum networks more resilient."
+            },
+            {
+              "title": "The Missing Link Between Event Cameras and Robot Vision",
+              "link": "https://www.engineering.upenn.edu/stories/the-missing-link-between-event-cameras-and-robot-vision/",
+              "date": "2026-10-29",
+              "dek": "Penn's Fast Feature Field could make ultrafast, eye-inspired cameras as practical for robots as conventional cameras."
+            },
+            {
+              "title": "Penn Engineering’s George Pappas Helps Chart More Secure Future for U.S. Robotics",
+              "link": "https://www.engineering.upenn.edu/stories/penn-engineerings-george-pappas-helps-chart-more-secure-future-for-u-s-robotics/",
+              "date": "2026-10-28",
+              "dek": "A new report co-authored by Associate Dean George Pappas outlines research priorities and federal investment opportunities to make American robotics more secure and competitive."
+            },
+            {
+              "title": "How a Penn-based Consortium has Shaped Modern AI",
+              "link": "https://www.engineering.upenn.edu/stories/how-a-penn-based-consortium-has-shaped-modern-ai/",
+              "date": "2026-10-26",
+              "dek": "The Linguistic Data Consortium, hosted at Penn and directed by Penn linguistics professor Mark Liberman, laid the groundwork for modern large language models."
+            },
+            {
+              "title": "Penn Engineers Turn Everyday Mylar Into a Promising Insulator for the Moon",
+              "link": "https://www.engineering.upenn.edu/stories/penn-engineers-turn-everyday-mylar-into-a-promising-insulator-for-the-moon/",
+              "date": "2026-10-23",
+              "dek": "By stacking hundreds of sheets of Mylar, Penn Engineers have created a flexible, durable insulator that could help protect future lunar habitats."
+            },
+            {
+              "title": "Penn’s Schlein Center for Cybersecurity to Combat AI Threats and More",
+              "link": "https://www.engineering.upenn.edu/stories/penns-schlein-center-for-cybersecurity-to-combat-ai-threats-and-more/",
+              "date": "2026-10-22",
+              "dek": "New center unites faculty from across Penn in disciplines like medicine, law, business, public policy and national security."
+            },
+            {
+              "title": "Powering the AI Revolution: The Future of Data Centers with Ben Lee",
+              "link": "https://www.engineering.upenn.edu/stories/powering-the-ai-revolution-the-future-of-data-centers-with-ben-lee/",
+              "date": "2026-10-20",
+              "dek": "As artificial intelligence expands, so does its demand for electricity, water and computing infrastructure. Penn Engineering’s Ben Lee explores how chip design, data center operations and advances in computer architecture could make AI more efficient and reduce its environmental "
+            }
+          ],
           "feedUrl": null,
-          "source": "",
-          "fetchedAt": "2026-11-04T20:55:36.340351Z"
+          "source": "feed:https://www.engineering.upenn.edu/feed/",
+          "fetchedAt": "2026-11-04T21:02:19.374577Z"
         }
       },
-      "lastSyncAt": "2026-11-04T18:42:10.677402Z",
-      "lastSource": ""
+      "lastSyncAt": "2026-11-04T21:02:19.374577Z",
+      "lastSource": "feed:https://www.engineering.upenn.edu/feed/"
     },
     {
       "id": "sp2",
@@ -1184,10 +1245,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T20:55:36.340351Z"
+          "fetchedAt": "2026-11-04T21:02:19.374577Z"
         }
       },
-      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
+      "lastSyncAt": "2026-11-04T21:02:19.374577Z",
       "lastSource": "html"
     },
     {
@@ -1475,10 +1536,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T20:55:36.340351Z"
+          "fetchedAt": "2026-11-04T21:02:19.374577Z"
         }
       },
-      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
+      "lastSyncAt": "2026-11-04T21:02:19.374577Z",
       "lastSource": "html"
     },
     {
@@ -1780,10 +1841,10 @@
           ],
           "feedUrl": "https://news.wharton.upenn.edu/feed/",
           "source": "feed:https://news.wharton.upenn.edu/feed/",
-          "fetchedAt": "2026-11-04T20:55:36.340351Z"
+          "fetchedAt": "2026-11-04T21:02:19.374577Z"
         }
       },
-      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
+      "lastSyncAt": "2026-11-04T21:02:19.374577Z",
       "lastSource": "feed:https://news.wharton.upenn.edu/feed/"
     },
     {
@@ -1945,10 +2006,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T20:55:36.340351Z"
+          "fetchedAt": "2026-11-04T21:02:19.374577Z"
         }
       },
-      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
+      "lastSyncAt": "2026-11-04T21:02:19.374577Z",
       "lastSource": "html"
     },
     {
@@ -2253,10 +2314,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T20:55:36.340351Z"
+          "fetchedAt": "2026-11-04T21:02:19.374577Z"
         }
       },
-      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
+      "lastSyncAt": "2026-11-04T21:02:19.374577Z",
       "lastSource": "html"
     },
     {
@@ -2418,10 +2479,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://knowledge.wharton.upenn.edu/feed/",
-          "fetchedAt": "2026-11-04T20:55:36.340351Z"
+          "fetchedAt": "2026-11-04T21:02:19.374577Z"
         }
       },
-      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
+      "lastSyncAt": "2026-11-04T21:02:19.374577Z",
       "lastSource": "feed:https://knowledge.wharton.upenn.edu/feed/"
     },
     {
@@ -2541,10 +2602,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T20:55:36.340351Z"
+          "fetchedAt": "2026-11-04T21:02:19.374577Z"
         }
       },
-      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
+      "lastSyncAt": "2026-11-04T21:02:19.374577Z",
       "lastSource": "html"
     },
     {
@@ -2692,10 +2753,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T20:55:36.340351Z"
+          "fetchedAt": "2026-11-04T21:02:19.374577Z"
         }
       },
-      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
+      "lastSyncAt": "2026-11-04T21:02:19.374577Z",
       "lastSource": "html"
     },
     {
@@ -2787,10 +2848,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T20:55:36.340351Z"
+          "fetchedAt": "2026-11-04T21:02:19.374577Z"
         }
       },
-      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
+      "lastSyncAt": "2026-11-04T21:02:19.374577Z",
       "lastSource": "html"
     },
     {
@@ -2810,10 +2871,10 @@
           "items": [],
           "feedUrl": null,
           "source": "",
-          "fetchedAt": "2026-11-04T20:55:36.340351Z"
+          "fetchedAt": "2026-11-04T21:02:19.374577Z"
         }
       },
-      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
+      "lastSyncAt": "2026-11-04T21:02:19.374577Z",
       "lastSource": ""
     },
     {
@@ -2961,10 +3022,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T20:55:36.340351Z"
+          "fetchedAt": "2026-11-04T21:02:19.374577Z"
         }
       },
-      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
+      "lastSyncAt": "2026-11-04T21:02:19.374577Z",
       "lastSource": "html"
     },
     {
@@ -3126,10 +3187,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://creative.writing.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-04T20:55:36.340351Z"
+          "fetchedAt": "2026-11-04T21:02:19.374577Z"
         }
       },
-      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
+      "lastSyncAt": "2026-11-04T21:02:19.374577Z",
       "lastSource": "feed:https://creative.writing.upenn.edu/rss.xml"
     },
     {
@@ -3291,10 +3352,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://kleinmanenergy.upenn.edu/feed/",
-          "fetchedAt": "2026-11-04T20:55:36.340351Z"
+          "fetchedAt": "2026-11-04T21:02:19.374577Z"
         }
       },
-      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
+      "lastSyncAt": "2026-11-04T21:02:19.374577Z",
       "lastSource": "feed:https://kleinmanenergy.upenn.edu/feed/"
     },
     {
@@ -3456,10 +3517,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T20:55:36.340351Z"
+          "fetchedAt": "2026-11-04T21:02:19.374577Z"
         }
       },
-      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
+      "lastSyncAt": "2026-11-04T21:02:19.374577Z",
       "lastSource": "html"
     },
     {
@@ -3593,10 +3654,10 @@
           ],
           "feedUrl": "https://pennovation.upenn.edu/feed/",
           "source": "feed:https://pennovation.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-04T20:55:36.340351Z"
+          "fetchedAt": "2026-11-04T21:02:19.374577Z"
         }
       },
-      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
+      "lastSyncAt": "2026-11-04T21:02:19.374577Z",
       "lastSource": "feed:https://pennovation.upenn.edu/rss.xml"
     },
     {
@@ -3758,10 +3819,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://katz.sas.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-04T20:55:36.340351Z"
+          "fetchedAt": "2026-11-04T21:02:19.374577Z"
         }
       },
-      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
+      "lastSyncAt": "2026-11-04T21:02:19.374577Z",
       "lastSource": "feed:https://katz.sas.upenn.edu/rss.xml"
     },
     {
@@ -3825,10 +3886,10 @@
           ],
           "feedUrl": "https://www.mceas.org/feed/",
           "source": "feed:https://www.mceas.org/rss.xml",
-          "fetchedAt": "2026-11-04T20:55:36.340351Z"
+          "fetchedAt": "2026-11-04T21:02:19.374577Z"
         }
       },
-      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
+      "lastSyncAt": "2026-11-04T21:02:19.374577Z",
       "lastSource": "feed:https://www.mceas.org/rss.xml"
     },
     {
@@ -3990,10 +4051,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://www.fels.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-04T20:55:36.340351Z"
+          "fetchedAt": "2026-11-04T21:02:19.374577Z"
         }
       },
-      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
+      "lastSyncAt": "2026-11-04T21:02:19.374577Z",
       "lastSource": "feed:https://www.fels.upenn.edu/rss.xml"
     },
     {
@@ -4155,10 +4216,10 @@
           ],
           "feedUrl": "https://icaphila.org/feed/",
           "source": "feed:https://icaphila.org/feed/",
-          "fetchedAt": "2026-11-04T20:55:36.340351Z"
+          "fetchedAt": "2026-11-04T21:02:19.374577Z"
         }
       },
-      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
+      "lastSyncAt": "2026-11-04T21:02:19.374577Z",
       "lastSource": "feed:https://icaphila.org/feed/"
     },
     {
@@ -4320,10 +4381,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://lauder.wharton.upenn.edu/feed/",
-          "fetchedAt": "2026-11-04T20:55:36.340351Z"
+          "fetchedAt": "2026-11-04T21:02:19.374577Z"
         }
       },
-      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
+      "lastSyncAt": "2026-11-04T21:02:19.374577Z",
       "lastSource": "feed:https://lauder.wharton.upenn.edu/feed/"
     },
     {
@@ -4471,10 +4532,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T20:55:36.340351Z"
+          "fetchedAt": "2026-11-04T21:02:19.374577Z"
         }
       },
-      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
+      "lastSyncAt": "2026-11-04T21:02:19.374577Z",
       "lastSource": "html"
     },
     {
@@ -4636,10 +4697,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://fisher.wharton.upenn.edu/feed/",
-          "fetchedAt": "2026-11-04T20:55:36.340351Z"
+          "fetchedAt": "2026-11-04T21:02:19.374577Z"
         }
       },
-      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
+      "lastSyncAt": "2026-11-04T21:02:19.374577Z",
       "lastSource": "feed:https://fisher.wharton.upenn.edu/feed/"
     },
     {
@@ -4787,10 +4848,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://pores.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-04T20:55:36.340351Z"
+          "fetchedAt": "2026-11-04T21:02:19.374577Z"
         }
       },
-      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
+      "lastSyncAt": "2026-11-04T21:02:19.374577Z",
       "lastSource": "feed:https://pores.upenn.edu/rss.xml"
     },
     {
@@ -5092,10 +5153,10 @@
           ],
           "feedUrl": "https://snfpaideia.upenn.edu/feed/",
           "source": "html",
-          "fetchedAt": "2026-11-04T20:55:36.340351Z"
+          "fetchedAt": "2026-11-04T21:02:19.374577Z"
         }
       },
-      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
+      "lastSyncAt": "2026-11-04T21:02:19.374577Z",
       "lastSource": "html"
     },
     {
@@ -5397,10 +5458,10 @@
           ],
           "feedUrl": "https://snfpaideia.upenn.edu/wp-json/wp/v2/posts?per_page=20&_fields=id,date,link,title,excerpt",
           "source": "feed:https://snfpaideia.upenn.edu/wp-json/wp/v2/posts?per_page=20&_fields=id,date,link,title,excerpt",
-          "fetchedAt": "2026-11-04T20:55:36.340351Z"
+          "fetchedAt": "2026-11-04T21:02:19.374577Z"
         }
       },
-      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
+      "lastSyncAt": "2026-11-04T21:02:19.374577Z",
       "lastSource": "feed:https://snfpaideia.upenn.edu/wp-json/wp/v2/posts?per_page=20&_fields=id,date,link,title,excerpt"
     },
     {
@@ -5562,10 +5623,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://pricelab.sas.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-04T20:55:36.340351Z"
+          "fetchedAt": "2026-11-04T21:02:19.374577Z"
         }
       },
-      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
+      "lastSyncAt": "2026-11-04T21:02:19.374577Z",
       "lastSource": "feed:https://pricelab.sas.upenn.edu/rss.xml"
     },
     {
@@ -5596,17 +5657,30 @@
           "source": "feed:https://www.grasp.upenn.edu/feed/"
         }
       ],
-      "lastError": "Latest check returned no articles; showing earlier results. Could not load page: Page.goto: Timeout 35000ms exceeded.",
+      "lastError": "",
       "_cache": {
         "news": {
-          "items": [],
+          "items": [
+            {
+              "title": "Protected: GRASP holds its first Volunteer Awards Ceremony",
+              "link": "https://www.grasp.upenn.edu/uncategorized/grasp-holds-its-first-volunteer-awards-ceremony/",
+              "date": "2025-06-03",
+              "dek": "There is no excerpt because this is a protected post."
+            },
+            {
+              "title": "Kirigami Structures Pull Water from the Air",
+              "link": "https://www.grasp.upenn.edu/uncategorized/kirigami-structures-pull-water-from-the-air/",
+              "date": "2023-03-02",
+              "dek": "Original Article Written by Melissa Pappas. Read the Original article here! Climate change is forcing us to reshape our relationship […]"
+            }
+          ],
           "feedUrl": null,
-          "source": "",
-          "fetchedAt": "2026-11-04T20:55:36.340351Z"
+          "source": "feed:https://www.grasp.upenn.edu/feed/",
+          "fetchedAt": "2026-11-04T21:02:19.374577Z"
         }
       },
-      "lastSyncAt": "2026-11-04T18:42:10.677402Z",
-      "lastSource": ""
+      "lastSyncAt": "2026-11-04T21:02:19.374577Z",
+      "lastSource": "feed:https://www.grasp.upenn.edu/feed/"
     },
     {
       "id": "penn-eii",
@@ -5767,10 +5841,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://climate.upenn.edu/feed/",
-          "fetchedAt": "2026-11-04T20:55:36.340351Z"
+          "fetchedAt": "2026-11-04T21:02:19.374577Z"
         }
       },
-      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
+      "lastSyncAt": "2026-11-04T21:02:19.374577Z",
       "lastSource": "feed:https://climate.upenn.edu/feed/"
     },
     {
@@ -6072,10 +6146,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T20:55:36.340351Z"
+          "fetchedAt": "2026-11-04T21:02:19.374577Z"
         }
       },
-      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
+      "lastSyncAt": "2026-11-04T21:02:19.374577Z",
       "lastSource": "html"
     },
     {
@@ -6237,10 +6311,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://penniur.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-04T20:55:36.340351Z"
+          "fetchedAt": "2026-11-04T21:02:19.374577Z"
         }
       },
-      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
+      "lastSyncAt": "2026-11-04T21:02:19.374577Z",
       "lastSource": "feed:https://penniur.upenn.edu/rss.xml"
     },
     {
@@ -6374,10 +6448,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T20:55:36.340351Z"
+          "fetchedAt": "2026-11-04T21:02:19.374577Z"
         }
       },
-      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
+      "lastSyncAt": "2026-11-04T21:02:19.374577Z",
       "lastSource": "html"
     },
     {
@@ -6679,10 +6753,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T20:55:36.340351Z"
+          "fetchedAt": "2026-11-04T21:02:19.374577Z"
         }
       },
-      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
+      "lastSyncAt": "2026-11-04T21:02:19.374577Z",
       "lastSource": "html"
     },
     {
@@ -6844,10 +6918,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://writing.upenn.edu/?feed=rss2",
-          "fetchedAt": "2026-11-04T20:55:36.340351Z"
+          "fetchedAt": "2026-11-04T21:02:19.374577Z"
         }
       },
-      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
+      "lastSyncAt": "2026-11-04T21:02:19.374577Z",
       "lastSource": "feed:https://writing.upenn.edu/?feed=rss2"
     },
     {
@@ -6981,10 +7055,10 @@
           ],
           "feedUrl": "https://perryworldhouse.upenn.edu/feed/",
           "source": "html",
-          "fetchedAt": "2026-11-04T20:55:36.340351Z"
+          "fetchedAt": "2026-11-04T21:02:19.374577Z"
         }
       },
-      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
+      "lastSyncAt": "2026-11-04T21:02:19.374577Z",
       "lastSource": "html"
     },
     {
@@ -7146,10 +7220,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://platthouse.universitylife.upenn.edu/feed/",
-          "fetchedAt": "2026-11-04T20:55:36.340351Z"
+          "fetchedAt": "2026-11-04T21:02:19.374577Z"
         }
       },
-      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
+      "lastSyncAt": "2026-11-04T21:02:19.374577Z",
       "lastSource": "feed:https://platthouse.universitylife.upenn.edu/feed/"
     },
     {
@@ -7451,10 +7525,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://arthurrossgallery.org/category/press-releases/feed/",
-          "fetchedAt": "2026-11-04T20:55:36.340351Z"
+          "fetchedAt": "2026-11-04T21:02:19.374577Z"
         }
       },
-      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
+      "lastSyncAt": "2026-11-04T21:02:19.374577Z",
       "lastSource": "feed:https://arthurrossgallery.org/category/press-releases/feed/"
     },
     {
@@ -7616,10 +7690,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://www.penn.museum/about/press-room/press-releases?format=feed&type=rss",
-          "fetchedAt": "2026-11-04T20:55:36.340351Z"
+          "fetchedAt": "2026-11-04T21:02:19.374577Z"
         }
       },
-      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
+      "lastSyncAt": "2026-11-04T21:02:19.374577Z",
       "lastSource": "feed:https://www.penn.museum/about/press-room/press-releases?format=feed&type=rss"
     },
     {
@@ -7767,10 +7841,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T20:55:36.340351Z"
+          "fetchedAt": "2026-11-04T21:02:19.374577Z"
         }
       },
-      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
+      "lastSyncAt": "2026-11-04T21:02:19.374577Z",
       "lastSource": "html"
     },
     {
@@ -7932,10 +8006,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T20:55:36.340351Z"
+          "fetchedAt": "2026-11-04T21:02:19.374577Z"
         }
       },
-      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
+      "lastSyncAt": "2026-11-04T21:02:19.374577Z",
       "lastSource": "html"
     },
     {
@@ -8097,10 +8171,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T20:55:36.340351Z"
+          "fetchedAt": "2026-11-04T21:02:19.374577Z"
         }
       },
-      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
+      "lastSyncAt": "2026-11-04T21:02:19.374577Z",
       "lastSource": "html"
     },
     {
@@ -8248,10 +8322,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T20:55:36.340351Z"
+          "fetchedAt": "2026-11-04T21:02:19.374577Z"
         }
       },
-      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
+      "lastSyncAt": "2026-11-04T21:02:19.374577Z",
       "lastSource": "html"
     },
     {
@@ -8413,10 +8487,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://pan-school.sas.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-04T20:55:36.340351Z"
+          "fetchedAt": "2026-11-04T21:02:19.374577Z"
         }
       },
-      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
+      "lastSyncAt": "2026-11-04T21:02:19.374577Z",
       "lastSource": "feed:https://pan-school.sas.upenn.edu/rss.xml"
     },
     {
@@ -8578,10 +8652,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://chibe.upenn.edu/feed/",
-          "fetchedAt": "2026-11-04T20:55:36.340351Z"
+          "fetchedAt": "2026-11-04T21:02:19.374577Z"
         }
       },
-      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
+      "lastSyncAt": "2026-11-04T21:02:19.374577Z",
       "lastSource": "feed:https://chibe.upenn.edu/feed/"
     },
     {
@@ -8743,10 +8817,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T20:55:36.340351Z"
+          "fetchedAt": "2026-11-04T21:02:19.374577Z"
         }
       },
-      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
+      "lastSyncAt": "2026-11-04T21:02:19.374577Z",
       "lastSource": "html"
     },
     {
@@ -8908,10 +8982,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T20:55:36.340351Z"
+          "fetchedAt": "2026-11-04T21:02:19.374577Z"
         }
       },
-      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
+      "lastSyncAt": "2026-11-04T21:02:19.374577Z",
       "lastSource": "html"
     },
     {
@@ -9073,10 +9147,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T20:55:36.340351Z"
+          "fetchedAt": "2026-11-04T21:02:19.374577Z"
         }
       },
-      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
+      "lastSyncAt": "2026-11-04T21:02:19.374577Z",
       "lastSource": "html"
     },
     {
@@ -9238,10 +9312,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T20:55:36.340351Z"
+          "fetchedAt": "2026-11-04T21:02:19.374577Z"
         }
       },
-      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
+      "lastSyncAt": "2026-11-04T21:02:19.374577Z",
       "lastSource": "html"
     },
     {
@@ -9403,10 +9477,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T20:55:36.340351Z"
+          "fetchedAt": "2026-11-04T21:02:19.374577Z"
         }
       },
-      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
+      "lastSyncAt": "2026-11-04T21:02:19.374577Z",
       "lastSource": "html"
     },
     {
@@ -9568,10 +9642,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T20:55:36.340351Z"
+          "fetchedAt": "2026-11-04T21:02:19.374577Z"
         }
       },
-      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
+      "lastSyncAt": "2026-11-04T21:02:19.374577Z",
       "lastSource": "html"
     },
     {
@@ -9733,25 +9807,23 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T20:55:36.340351Z"
+          "fetchedAt": "2026-11-04T21:02:19.374577Z"
         }
       },
-      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
+      "lastSyncAt": "2026-11-04T21:02:19.374577Z",
       "lastSource": "html"
     }
   ],
-  "lastRefreshAt": "2026-11-04T20:55:36.340351Z",
+  "lastRefreshAt": "2026-11-04T21:02:19.374577Z",
   "refreshErrors": [
-    "SEAS: Latest check returned no articles; showing earlier results. Could not load page: Page.goto: Timeout 35000ms exceeded.",
-    "Center for Study of Contemporary China: No articles found — No news URL found yet.",
-    "GRASP Lab: Latest check returned no articles; showing earlier results. Could not load page: Page.goto: Timeout 35000ms exceeded."
+    "Center for Study of Contemporary China: No articles found — No news URL found yet."
   ],
   "showAddSite": false,
   "schemaVersion": 3,
   "collection": {
     "sourceVersion": "6b454412b5663a12d8a14e89122c1aceb0b73cc832340805cc82cfa8531fa8be",
-    "runId": "41909780123",
-    "commit": "a9ef135e663a0a97c26ccf60ef7ca1dc08abd522",
-    "runUrl": "https://github.com/BigChief-at-illuminathidotorg/Penn-News-Scraper/actions/runs/41909780123"
+    "runId": "41911397907",
+    "commit": "da765471139c6d26fcf5ab377828d47328385265",
+    "runUrl": "https://github.com/BigChief-at-illuminathidotorg/Penn-News-Scraper/actions/runs/41911397907"
   }
 }
