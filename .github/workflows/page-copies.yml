@@ -1,0 +1,26 @@
+name: Save page copies (temporary)
+on:
+  push:
+    branches: ['diag/page-copies']
+permissions:
+  contents: write
+jobs:
+  copies:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - run: python -m playwright install --with-deps chromium
+      - name: Save page copies
+        run: python diag_pages.py
+      - name: Commit the copies to this branch
+        run: |
+          git config user.name 'Penn News Monitor'
+          git config user.email 'monitor@users.noreply.github.com'
+          git add -f html_dumps
+          git commit -m 'Page copies from GitHub servers' || echo 'nothing to commit'
+          git push origin HEAD:diag/page-copies
