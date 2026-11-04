@@ -9,7 +9,7 @@ def source_version():
     return hashlib.sha256(Path(__file__).with_name('sites.js').read_bytes()).hexdigest()
 
 def catalog():
-    fields=('id','name','parentUnit','bucket','subhead','newsUrl','magazineUrl','notes','feedUrl')
+    fields=('id','name','exportName','parentUnit','bucket','subhead','newsUrl','magazineUrl','notes','feedUrl')
     sites=load_sites()
     if len({s['id'] for s in sites})!=len(sites):
         raise ValueError('Source IDs must be unique')

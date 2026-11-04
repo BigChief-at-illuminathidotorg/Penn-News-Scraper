@@ -1,11 +1,12 @@
 {
   "schemaVersion": 1,
-  "version": "697e830377fb5d0a0a06b8412e324fde9653bed807046d8a3059c8b99999aa5d",
-  "publishedAt": "2026-11-04T14:54:28.544633+00:00",
+  "version": "45588b9f374843b2872eb1cc1f4549d97f9562150d9d02d95a5f965b23572a16",
+  "publishedAt": "2026-11-04T15:45:22.392037+00:00",
   "sites": [
     {
       "id": "annenberg",
       "name": "Annenberg",
+      "exportName": null,
       "parentUnit": "Annenberg",
       "bucket": "School",
       "subhead": "Media, communications, public discourse",
@@ -17,6 +18,7 @@
     {
       "id": "dental",
       "name": "Dental",
+      "exportName": null,
       "parentUnit": "Dental",
       "bucket": "School",
       "subhead": "Oral health, clinics, biomedical discovery",
@@ -28,6 +30,7 @@
     {
       "id": "gse",
       "name": "GSE",
+      "exportName": null,
       "parentUnit": "GSE",
       "bucket": "School",
       "subhead": "Education research, teaching, policy",
@@ -39,6 +42,7 @@
     {
       "id": "law",
       "name": "Law",
+      "exportName": null,
       "parentUnit": "Law",
       "bucket": "School",
       "subhead": "Legal scholarship, policy, institutions",
@@ -50,6 +54,7 @@
     {
       "id": "medicine",
       "name": "Medicine",
+      "exportName": null,
       "parentUnit": "Medicine",
       "bucket": "School",
       "subhead": "Clinical research, translational science, care delivery",
@@ -61,6 +66,7 @@
     {
       "id": "nursing",
       "name": "Nursing",
+      "exportName": null,
       "parentUnit": "Nursing",
       "bucket": "School",
       "subhead": "Care systems, public health, training, outcomes",
@@ -72,6 +78,7 @@
     {
       "id": "seas",
       "name": "SEAS",
+      "exportName": "Engineering",
       "parentUnit": "SEAS",
       "bucket": "School",
       "subhead": "Engineering, AI, robotics, materials, systems",
@@ -83,6 +90,7 @@
     {
       "id": "sp2",
       "name": "SP2",
+      "exportName": null,
       "parentUnit": "SP2",
       "bucket": "School",
       "subhead": "Social policy, social work, community research",
@@ -94,6 +102,7 @@
     {
       "id": "vet",
       "name": "Vet",
+      "exportName": null,
       "parentUnit": "Vet",
       "bucket": "School",
       "subhead": "Animal health, veterinary medicine, translational work",
@@ -105,6 +114,7 @@
     {
       "id": "wharton",
       "name": "Wharton",
+      "exportName": null,
       "parentUnit": "Wharton",
       "bucket": "School",
       "subhead": "Business, markets, management, decision-making",
@@ -116,6 +126,7 @@
     {
       "id": "weitzman",
       "name": "Weitzman",
+      "exportName": null,
       "parentUnit": "Weitzman",
       "bucket": "School",
       "subhead": "Architecture, planning, preservation, design",
@@ -127,6 +138,7 @@
     {
       "id": "appc",
       "name": "APPC",
+      "exportName": null,
       "parentUnit": "Annenberg",
       "bucket": "Unit",
       "subhead": "Policy research and public opinion",
@@ -138,6 +150,7 @@
     {
       "id": "knowledge-at-wharton",
       "name": "Knowledge at Wharton",
+      "exportName": null,
       "parentUnit": "Wharton",
       "bucket": "Unit",
       "subhead": "Business analysis, markets, management, ideas",
@@ -149,6 +162,7 @@
     {
       "id": "sas-omnia",
       "name": "SAS - Omnia",
+      "exportName": null,
       "parentUnit": "SAS",
       "bucket": "Unit",
       "subhead": "Arts and sciences stories, essays, ideas",
@@ -160,6 +174,7 @@
     {
       "id": "andrea-mitchell-center-for-the-study-of-democracy",
       "name": "Andrea Mitchell Center",
+      "exportName": null,
       "parentUnit": "SAS",
       "bucket": "Center",
       "subhead": "Democracy, politics, public discourse",
@@ -171,6 +186,7 @@
     {
       "id": "center-for-east-asian-studies",
       "name": "Center for East Asian Studies",
+      "exportName": null,
       "parentUnit": "SAS",
       "bucket": "Center",
       "subhead": "Penn communications source",
@@ -182,6 +198,7 @@
     {
       "id": "center-for-study-of-contemporary-china",
       "name": "Center for Study of Contemporary China",
+      "exportName": null,
       "parentUnit": "SAS",
       "bucket": "Center",
       "subhead": "Penn communications source",
@@ -193,6 +210,7 @@
     {
       "id": "center-for-the-study-of-ethnicity-race-immigration",
       "name": "Center for Ethnicity, Race & Immigration",
+      "exportName": null,
       "parentUnit": "SAS",
       "bucket": "Center",
       "subhead": "Penn communications source",
@@ -204,6 +222,7 @@
     {
       "id": "center-for-creative-writing",
       "name": "Center for Creative Writing",
+      "exportName": null,
       "parentUnit": "SAS",
       "bucket": "Center",
       "subhead": "Penn communications source",
@@ -215,6 +234,7 @@
     {
       "id": "kleinman-center-for-energy-policy",
       "name": "Kleinman Center for Energy Policy",
+      "exportName": null,
       "parentUnit": "Weitzman",
       "bucket": "Center",
       "subhead": "Energy policy research",
@@ -226,6 +246,7 @@
     {
       "id": "the-water-center",
       "name": "The Water Center",
+      "exportName": null,
       "parentUnit": "SAS",
       "bucket": "Center",
       "subhead": "Water research and policy",
@@ -237,6 +258,7 @@
     {
       "id": "pennovation-center",
       "name": "Pennovation Center",
+      "exportName": null,
       "parentUnit": "Penn",
       "bucket": "Center",
       "subhead": "Innovation and entrepreneurship",
@@ -248,6 +270,7 @@
     {
       "id": "herbert-d-katz-center-for-advanced-judaic-studies",
       "name": "Herbert D Katz Center",
+      "exportName": null,
       "parentUnit": "SAS",
       "bucket": "Center",
       "subhead": "Judaic studies",
@@ -259,6 +282,7 @@
     {
       "id": "mcneil-center-for-early-american-studies",
       "name": "McNeil Center for Early American Studies",
+      "exportName": null,
       "parentUnit": "Penn",
       "bucket": "Center",
       "subhead": "Early American history",
@@ -270,6 +294,7 @@
     {
       "id": "fels-institute-of-government",
       "name": "Fels Institute of Government",
+      "exportName": null,
       "parentUnit": "Penn",
       "bucket": "Institute",
       "subhead": "Public policy and governance",
@@ -281,6 +306,7 @@
     {
       "id": "institute-of-contemporary-art",
       "name": "Institute of Contemporary Art",
+      "exportName": null,
       "parentUnit": "Penn",
       "bucket": "Institute",
       "subhead": "Contemporary art and culture",
@@ -292,6 +318,7 @@
     {
       "id": "the-lauder-institute",
       "name": "The Lauder Institute",
+      "exportName": null,
       "parentUnit": "Wharton",
       "bucket": "Institute",
       "subhead": "Global management and languages",
@@ -303,6 +330,7 @@
     {
       "id": "vagelos-institute-for-energy-science-and-technology",
       "name": "Vagelos Institute for Energy Science",
+      "exportName": null,
       "parentUnit": "SEAS",
       "bucket": "Institute",
       "subhead": "Energy science and technology",
@@ -314,6 +342,7 @@
     {
       "id": "jerome-fisher-program-in-management-and-technology",
       "name": "Jerome Fisher Program",
+      "exportName": null,
       "parentUnit": "SEAS/Wharton",
       "bucket": "Program",
       "subhead": "Management and technology",
@@ -325,6 +354,7 @@
     {
       "id": "penn-program-on-opinion-research-and-election-studies",
       "name": "Penn Program on Opinion Research",
+      "exportName": null,
       "parentUnit": "Penn",
       "bucket": "Program",
       "subhead": "Opinion research and elections",
@@ -336,6 +366,7 @@
     {
       "id": "snf-paideia-program",
       "name": "SNF Paideia Program",
+      "exportName": null,
       "parentUnit": "Penn",
       "bucket": "Program",
       "subhead": "Civic engagement and dialogue",
@@ -347,6 +378,7 @@
     {
       "id": "digital-humanities-price-lab",
       "name": "Digital Humanities / Price Lab",
+      "exportName": null,
       "parentUnit": "SAS",
       "bucket": "Lab",
       "subhead": "Digital humanities research",
@@ -358,6 +390,7 @@
     {
       "id": "grasp-lab",
       "name": "GRASP Lab",
+      "exportName": null,
       "parentUnit": "SEAS",
       "bucket": "Lab",
       "subhead": "Robotics and perception",
@@ -369,6 +402,7 @@
     {
       "id": "penn-eii",
       "name": "Penn Climate (fka EII)",
+      "exportName": null,
       "parentUnit": "Penn",
       "bucket": "Affiliate",
       "subhead": "Climate science, policy, and action",
@@ -380,6 +414,7 @@
     {
       "id": "penn-global",
       "name": "Penn Global",
+      "exportName": null,
       "parentUnit": "Penn",
       "bucket": "Affiliate",
       "subhead": "Global engagement and partnerships",
@@ -391,6 +426,7 @@
     {
       "id": "penn-iur",
       "name": "Penn IUR",
+      "exportName": null,
       "parentUnit": "Penn",
       "bucket": "Affiliate",
       "subhead": "Urban research and practice",
@@ -402,6 +438,7 @@
     {
       "id": "penn-sustainability",
       "name": "Penn Sustainability",
+      "exportName": null,
       "parentUnit": "Penn",
       "bucket": "Affiliate",
       "subhead": "Campus sustainability initiatives",
@@ -413,6 +450,7 @@
     {
       "id": "penn-washington",
       "name": "Penn Washington",
+      "exportName": null,
       "parentUnit": "Penn",
       "bucket": "Affiliate",
       "subhead": "Penn in Washington DC",
@@ -424,6 +462,7 @@
     {
       "id": "kelly-writers-house",
       "name": "Kelly Writers House",
+      "exportName": null,
       "parentUnit": "Penn",
       "bucket": "House",
       "subhead": "Writing, literature, arts",
@@ -435,6 +474,7 @@
     {
       "id": "perry-world-house",
       "name": "Perry World House",
+      "exportName": null,
       "parentUnit": "Penn",
       "bucket": "House",
       "subhead": "Global affairs and policy",
@@ -446,6 +486,7 @@
     {
       "id": "platt-house",
       "name": "Platt House",
+      "exportName": null,
       "parentUnit": "Penn",
       "bucket": "House",
       "subhead": "Penn communications source",
@@ -457,6 +498,7 @@
     {
       "id": "arthur-ross-gallery",
       "name": "Arthur Ross Gallery",
+      "exportName": null,
       "parentUnit": "Penn",
       "bucket": "Gallery",
       "subhead": "Art exhibitions and collections",
@@ -468,6 +510,7 @@
     {
       "id": "penn-museum",
       "name": "Penn Museum",
+      "exportName": null,
       "parentUnit": "Penn",
       "bucket": "Museum",
       "subhead": "Archaeology, collections, public humanities",
@@ -479,6 +522,7 @@
     {
       "id": "penn-libraries",
       "name": "Penn Libraries",
+      "exportName": null,
       "parentUnit": "Penn",
       "bucket": "Library",
       "subhead": "Collections, scholarship, research services",
@@ -490,6 +534,7 @@
     {
       "id": "comparative-literature",
       "name": "Comparative Literature",
+      "exportName": null,
       "parentUnit": "SAS",
       "bucket": "Department",
       "subhead": "",
@@ -501,6 +546,7 @@
     {
       "id": "classics",
       "name": "Classics",
+      "exportName": null,
       "parentUnit": "SAS",
       "bucket": "Department",
       "subhead": "",
@@ -512,6 +558,7 @@
     {
       "id": "spanish",
       "name": "Spanish",
+      "exportName": null,
       "parentUnit": "SAS",
       "bucket": "Department",
       "subhead": "",
@@ -523,6 +570,7 @@
     {
       "id": "pan-school",
       "name": "Pan-School news",
+      "exportName": null,
       "parentUnit": "SAS",
       "bucket": "Department",
       "subhead": "",
@@ -534,6 +582,7 @@
     {
       "id": "chibe",
       "name": "CHIBE",
+      "exportName": null,
       "parentUnit": "Medicine",
       "bucket": "Center",
       "subhead": "",
@@ -545,6 +594,7 @@
     {
       "id": "biology",
       "name": "Biology",
+      "exportName": null,
       "parentUnit": "SAS",
       "bucket": "Department",
       "subhead": "",
@@ -556,6 +606,7 @@
     {
       "id": "chemistry",
       "name": "Chemistry",
+      "exportName": null,
       "parentUnit": "SAS",
       "bucket": "Department",
       "subhead": "",
@@ -567,6 +618,7 @@
     {
       "id": "linguistics",
       "name": "Linguistics",
+      "exportName": null,
       "parentUnit": "SAS",
       "bucket": "Department",
       "subhead": "",
@@ -578,6 +630,7 @@
     {
       "id": "cinema-media-studies",
       "name": "Cinema & Media Studies",
+      "exportName": null,
       "parentUnit": "SAS",
       "bucket": "Department",
       "subhead": "",
@@ -589,6 +642,7 @@
     {
       "id": "earth-environmental-science",
       "name": "Earth & Environmental Science",
+      "exportName": null,
       "parentUnit": "SAS",
       "bucket": "Department",
       "subhead": "",
@@ -600,6 +654,7 @@
     {
       "id": "economics",
       "name": "Economics",
+      "exportName": null,
       "parentUnit": "SAS",
       "bucket": "Department",
       "subhead": "",
@@ -611,6 +666,7 @@
     {
       "id": "french-italian-germanic-studies",
       "name": "French, Italian & Germanic Studies",
+      "exportName": null,
       "parentUnit": "SAS",
       "bucket": "Department",
       "subhead": "",

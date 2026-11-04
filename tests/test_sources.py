@@ -1,6 +1,6 @@
 import json, unittest
 from pathlib import Path
-from scraper import load_sites, news_only, clean_title, loadable, SITE_RULES
+from scraper import load_sites, news_only, clean_title, loadable, strip_tags, SITE_RULES
 from publish_snapshot import merge_snapshot
 REMOVED = {'fox-leadership', 'wolf-humanities-center', 'the-botswana-upenn-partnership', 'weiss-tech-house',
            'christopher-h-browne-center-for-international-politics', 'center-for-technology-innovation-and-competition',
@@ -30,6 +30,7 @@ class Sources(unittest.TestCase):
   self.assertEqual(news_only(news+courses[:1]),news)
  def test_titles_and_links_cleaned(self):
   self.assertEqual(clean_title('Joint Therapies with Dr. Ortved (link is external)'),'Joint Therapies with Dr. Ortved')
+  self.assertEqual(strip_tags('Gases [&#8230;] and &amp;#8217;more&amp;#8217;'),'Gases […] and ’more’')
   self.assertEqual(loadable('https://v.edu/all-news/?filter[article_type][]=penn-vet-news'),'https://v.edu/all-news/?filter%5Barticle_type%5D%5B%5D=penn-vet-news')
  def test_undated_story_keeps_first_seen_date(self):
   old={'sites':[{'id':'x','newsUrl':'https://x.edu/news','posts':[{'title':'Old story','link':'https://x.edu/a','date':'2026-11-02'}]}]}
