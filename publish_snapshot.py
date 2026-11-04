@@ -5,6 +5,19 @@ from prepare_sources import source_version
 from pathlib import Path
 from datetime import datetime
 
+def keep_first_seen_dates(site, prior):
+    """Stories from sites that show no dates are dated the day they were found.
+    Keep the earliest such date, so a story doesn't look new on every run."""
+    if not prior or prior.get('newsUrl') != site.get('newsUrl'):
+        return
+    seen = {p.get('link'): p.get('date', '') for p in prior.get('posts', []) if p.get('link')}
+    for post in site['posts']:
+        earlier = seen.get(post.get('link'))
+        if post.get('undated') and earlier and earlier < post.get('date', ''):
+            post['date'] = earlier
+    site['posts'].sort(key=lambda p: p.get('date', ''), reverse=True)
+
+
 def merge_snapshot(current, previous):
     sites = current.get('sites')
     if not isinstance(sites, list) or not sites:
@@ -22,6 +35,7 @@ def merge_snapshot(current, previous):
                 raise ValueError('Invalid article')
         if site['posts']:
             good += 1
+            keep_first_seen_dates(site, old.get(site['id']))
         elif old.get(site['id'], {}).get('posts') and old[site['id']].get('newsUrl') == site.get('newsUrl'):
             prior = old[site['id']]
             site['posts'] = prior['posts']

@@ -48,6 +48,14 @@ UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36")
 MAX_PER_SITE = 20
 TODAY_SENTINEL = "__TODAY__"
+# Look like an ordinary browser: hide the automation flag, and (in scrape_sites)
+# send the browser's own user-agent minus "Headless".
+BROWSER_ARGS = ["--disable-blink-features=AutomationControlled"]
+# Second pass for sites that refused or dropped the first visit. Some Penn
+# servers also break headless HTTP/2 connections (net::ERR_HTTP2_PROTOCOL_ERROR).
+RETRY_ARGS = BROWSER_ARGS + ["--disable-http2"]
+RETRY_PAUSE_SECONDS = 30
+RETRYABLE = re.compile(r"HTTP (?:403|408|429|5\d\d)|Could not load page|blocked or empty|net::ERR_", re.I)
 
 # ══ sites.js ═══════════════════════════════════════════════════════════════════
 def load_sites():
@@ -165,7 +173,7 @@ def parse_feed(xml_text):
     return [a for a in out if a]
 
 def _article(title, link, d, dek):
-    title = strip_tags(title)
+    title = clean_title(strip_tags(title))
     if not (title and link and d):
         return None
     return {"title": title, "link": link, "date": d, "dek": strip_tags(dek)[:280]}
@@ -223,35 +231,62 @@ def extract_jsonld_articles(html, base_url):
 #                    generic list (a hint, not exclusive)
 #   date             CSS selectors for the date element inside a container
 #   url_must_contain substring every article URL must contain
-#   date_optional    True -> keep dateless items, stamped with the scrape date
-#                    (only for genuinely dateless "featured" widgets)
+#   date_optional    True -> keep dateless items, dated the day they're first
+#                    found (for sites that show no dates at all)
+#   max_items        keep only the first N stories in page order (newest first)
+#   page_first       read the news page itself before trying any feed (feeds
+#                    stay a fallback); for sites whose feed isn't their news
+#   scrolls          how many times to scroll before reading (default 3)
+#   min_items        keep scrolling until at least this many stories show up
+#   wait_for         CSS selector to wait for before reading the page
 _VIEWS = {"containers": [".views-row", "article"], "date": [".field--name-created", "time"]}
+# SAS department sites: the site-wide /rss.xml is the course catalogue, so read
+# the dated /news page (like Economics, which already worked that way).
+_DEPARTMENT = dict(_VIEWS, page_first=True)
+# No dates anywhere on the page: keep the 7 newest, in page order.
+_UNDATED = {"date_optional": True, "max_items": 7}
+_WORDPRESS = {"containers": ["article", ".post"], "date": ["time", ".entry-date", ".date"]}
 SITE_RULES = {
     # Drupal Views (SAS centers)
     **{s: _VIEWS for s in (
         "annenberg", "center-for-east-asian-studies",
         "andrea-mitchell-center-for-the-study-of-democracy",
-        "christopher-h-browne-center-for-international-politics",
         "center-for-the-study-of-ethnicity-race-immigration", "the-water-center",
-        "digital-humanities-price-lab", "dental", "nursing", "penn-sustainability",
-        "fels-institute-of-government", "arthur-ross-gallery", "vet",
-        "comparative-literature", "classics", "spanish", "pan-school", "biology",
-        "chemistry", "linguistics", "cinema-media-studies",
-        "earth-environmental-science", "economics", "french-italian-germanic-studies")},
+        "digital-humanities-price-lab", "dental", "fels-institute-of-government",
+        "arthur-ross-gallery", "pan-school", "economics")},
+    **{s: _DEPARTMENT for s in (
+        "comparative-literature", "classics", "spanish", "biology", "chemistry",
+        "linguistics", "cinema-media-studies", "earth-environmental-science",
+        "french-italian-germanic-studies")},
     "penn-eii":    {"containers": [".views-row", "article", ".card"],
                     "date": [".field--name-created", "time", ".card-date"]},
     "penn-iur":    {"containers": ["article", ".views-row"], "date": ["time", ".field--name-created"]},
-    # LiveWhale homepage widget and Libraries feature cards show no dates at all.
+    # LiveWhale homepage widget shows no dates at all.
     "law":         {"containers": [".large-block-container", ".sub-block", ".views-row", ".news-item"],
                     "date": [".field--name-created", ".date", "time"], "date_optional": True},
+    "nursing":     dict(_UNDATED, containers=[".section__entry", ".lw_news_headline", "article", "li"],
+                        url_must_contain="/live/news/"),
+    "penn-sustainability": dict(_VIEWS, **_UNDATED, page_first=True),
+    "perry-world-house": dict(_UNDATED, containers=["article.tease-news", "article", ".post"],
+                              date=["time", ".entry-date", ".date"]),
+    "sas-omnia":   dict(_UNDATED, containers=["article", ".views-row", "[class*=card]", "[class*=Card]"],
+                        page_first=True),
+    # The /news/all archive is dated (the old /news page was undated feature cards).
     "penn-libraries": {"containers": [".article-card", ".views-row", "article"],
-                       "date": [".field--name-created", "time"], "date_optional": True},
+                       "date": [".field--name-created", "time", "[class*=date]"], "page_first": True},
     # WordPress
-    **{s: {"containers": ["article", ".post"], "date": ["time", ".entry-date", ".date"]}
-       for s in ("appc", "sas-omnia", "perry-world-house", "sp2", "grasp-lab",
-                 "snf-paideia-program", "the-lauder-institute",
-                 "jerome-fisher-program-in-management-and-technology",
-                 "wharton", "knowledge-at-wharton", "chibe", "platt-house")},
+    **{s: _WORDPRESS for s in ("sp2", "grasp-lab", "snf-paideia-program", "the-lauder-institute",
+                               "jerome-fisher-program-in-management-and-technology",
+                               "wharton", "chibe", "platt-house")},
+    # Category and filtered listings: their site-wide feeds carry other posts.
+    "appc":        dict(_WORDPRESS, page_first=True),
+    "penn-global": dict(_WORDPRESS, page_first=True),
+    "vet":         {"containers": ["article", ".post", ".views-row", ".news-item"],
+                    "date": ["time", ".entry-date", ".date", "[class*=date]"], "page_first": True},
+    # Articles load as the page scrolls; read further down.
+    "knowledge-at-wharton": {"containers": ["article", "[class*=card]", "[class*=Card]", ".post"],
+                             "date": ["time", ".date", "[class*=date]"], "url_must_contain": "/article/",
+                             "scrolls": 8, "min_items": 12, "wait_for": "a[href*='/article/']"},
     "kleinman-center-for-energy-policy": {"containers": [".card", "article"], "date": ["time", ".date", "p"]},
     "pennovation-center": {"containers": [".views-row", "article"], "date": ["time"]},   # headline is plain <h2> + "Read More"
     # Sitecore/React: hashed CSS-module classes, date nested in .date-without-time
@@ -265,8 +300,8 @@ SITE_RULES = {
     "gse":         {"containers": [".news_list_item", "article", ".views-row"],
                     "date": ["time.news_list_item_date", "time", ".field--name-created"]},
     # Katz blog: undated items are not assigned an invented publication date.
-    **{s: {"containers": ["article.teaser", ".views-row"], "date": [".field--name-created", "time"]}
-       for s in ("herbert-d-katz-center-for-advanced-judaic-studies",)},
+    "herbert-d-katz-center-for-advanced-judaic-studies": {"containers": ["article.teaser", ".views-row"],
+                                                          "date": [".field--name-created", "time"]},
 }
 
 # ══ Browser-side extraction ════════════════════════════════════════════════════
@@ -417,6 +452,21 @@ EXTRACT_JS = r"""
       out.push({ title: titleOf(a), link, dateText: (dEl.getAttribute("datetime") || txt(dEl)), dek: p ? txt(p).slice(0, 280) : "" });
     }
   }
+
+  // ---- pass 4: linked headlines in page order (sites with no dates) -------
+  if (out.length < 3 && cfg.dateOptional) {
+    for (const h of document.querySelectorAll("h1, h2, h3, h4")) {
+      const a = h.querySelector("a[href]") || h.closest("a[href]");
+      if (!a) continue;
+      const href = a.getAttribute("href");
+      if (badHref(href)) continue;
+      const link = abs(href), title = txt(h);
+      if (!okTitle(title) || !accept(link) || seen.has(link)) continue;
+      seen.add(link);
+      const box = h.parentElement, p = box && box.querySelector("p");
+      out.push({ title, link, dateText: "__TODAY__", dek: p ? txt(p).slice(0, 280) : "" });
+    }
+  }
   return out;
 }
 """
@@ -430,22 +480,31 @@ _TITLE_DATE = re.compile(
     r"^\W*(?:[A-Za-z&]+\s+){0,3}(?:(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.?\s+\d{1,2},?\s+\d{4}"
     r"|\d{1,2}\s+(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.?\s+\d{4}|\d{1,2}[/.]\d{1,2}[/.]\d{2,4})[\s\-–—|:]*", re.I)
 
+_LINK_MARKERS = re.compile(r"\s*\((?:link is external|link sends e-?mail|opens in (?:a )?new (?:window|tab))\)", re.I)
+
 def clean_title(t):
     """Drop a leading 'News July 27, 2026 ' style prefix that some themes put
-    inside the headline link (penn-iur). Keeps the title if nothing is left."""
-    t = re.sub(r"\s+", " ", t).strip()
+    inside the headline link (penn-iur), and "(link is external)" markers that
+    Drupal adds to outside links (vet). Keeps the title if nothing is left."""
+    t = re.sub(r"\s+", " ", _LINK_MARKERS.sub("", t)).strip()
     cleaned = _TITLE_DATE.sub("", t, count=1).strip()
     return cleaned if len(cleaned) >= 12 else t
 
 def finalize_raw(raw, today=None):
-    """Browser results -> article dicts (parse dates, drop undated, dedupe, newest first)."""
+    """Browser results -> article dicts (parse dates, drop undated, dedupe, newest first).
+    Stories from date_optional sites are marked "undated"; their date is the day
+    they were found, and publish_snapshot.py keeps the first such date."""
     today = today or date.today().isoformat()
     out, seen = [], set()
     for a in raw:
-        d = today if a["dateText"] == TODAY_SENTINEL else parse_date(a["dateText"])
+        undated = a["dateText"] == TODAY_SENTINEL
+        d = today if undated else parse_date(a["dateText"])
         if d and a["link"] not in seen:
             seen.add(a["link"])
-            out.append({"title": clean_title(a["title"]), "link": a["link"], "date": d, "dek": a["dek"]})
+            item = {"title": clean_title(a["title"]), "link": a["link"], "date": d, "dek": a["dek"]}
+            if undated:
+                item["undated"] = True
+            out.append(item)
     return sorted(out, key=lambda x: x["date"], reverse=True)
 
 # ══ Fetching ═══════════════════════════════════════════════════════════════════
@@ -455,22 +514,22 @@ _BLOCKED = ("403 forbidden", "access denied", "error 403", "error 404", "page no
 def looks_blocked(text):
     return not text or len(text) < 200 or any(m in text[:2000].lower() for m in _BLOCKED)
 
-def _urllib_get(url, timeout):
-    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/rss+xml, application/xml, text/xml, */*;q=0.8"})
+def _urllib_get(url, timeout, ua=None):
+    req = urllib.request.Request(url, headers={"User-Agent": ua or UA, "Accept": "application/rss+xml, application/xml, text/xml, */*;q=0.8"})
     with urllib.request.urlopen(req, timeout=timeout) as r:
         return r.read().decode("utf-8", errors="replace")
 
-async def fetch_feed_text(page, url, timeout=10):
+async def fetch_feed_text(page, url, timeout=10, ua=None):
     """urllib first (fast); browser network stack if that's blocked or fails."""
     try:
-        text = await asyncio.get_running_loop().run_in_executor(None, _urllib_get, url, min(timeout, 12))
+        text = await asyncio.get_running_loop().run_in_executor(None, _urllib_get, url, min(timeout, 12), ua)
         if is_feed(text):
             return text
     except Exception:
         pass
     # context.request shares the browser's TLS/cookies but never navigates the page
     try:
-        r = await page.context.request.get(url, timeout=timeout * 1000, headers={"User-Agent": UA})
+        r = await page.context.request.get(url, timeout=timeout * 1000, headers={"User-Agent": ua or UA})
         if r.ok:
             text = await r.text()
             if is_feed(text):
@@ -479,78 +538,140 @@ async def fetch_feed_text(page, url, timeout=10):
         pass
     return None
 
-async def try_feed(page, url, timeout):
-    text = await fetch_feed_text(page, url, timeout)
-    arts = parse_feed(text) if text else []
+# Site-wide Drupal feeds (/rss.xml) on SAS department sites list course
+# catalogue entries ("BIOL3004 - Infectious Disease Biology") and bare
+# /node/123 pages (photos), not news.
+_COURSE_TITLE = re.compile(r"^[A-Z]{2,5}\s?\d{3,4}[A-Z]?\s*[-–—:]\s")
+_BARE_NODE = re.compile(r"^/node/\d+/?$")
+
+def looks_like_news(a):
+    return not _COURSE_TITLE.match(a["title"]) and not _BARE_NODE.match(urlparse(a["link"]).path)
+
+def news_only(arts):
+    """Drop course listings and bare pages; reject the feed if they're most of it."""
+    news = [a for a in arts if looks_like_news(a)]
+    return [] if len(news) * 2 < len(arts) else news
+
+async def try_feed(page, url, timeout, ua=None):
+    text = await fetch_feed_text(page, url, timeout, ua)
+    arts = news_only(parse_feed(text) if text else [])
     return sorted(arts, key=lambda a: a["date"], reverse=True)
 
 # ══ Per-site pipeline ══════════════════════════════════════════════════════════
-async def scrape_site(browser, site, timeout, dump_dir=None):
+async def browser_user_agent(browser):
+    """The browser's own user-agent with "HeadlessChrome" -> "Chrome", so the
+    version it claims matches the browser actually making the request."""
+    page = await browser.new_page()
+    try:
+        return (await page.evaluate("navigator.userAgent")).replace("HeadlessChrome", "Chrome")
+    finally:
+        await page.close()
+
+def loadable(url):
+    # Literal [ ] in a query (vet's ?filter[article_type][]=...) trip some
+    # firewalls; the percent-encoded form means the same thing to the site.
+    return url.replace("[", "%5B").replace("]", "%5D")
+
+async def scrape_site(browser, site, timeout, dump_dir=None, ua=None):
     """-> (articles, error, method)"""
     sid, news_url, feed_url = site.get("id", ""), site.get("newsUrl"), site.get("feedUrl")
-    ctx = await browser.new_context(user_agent=UA)
+    rules = SITE_RULES.get(sid, {})
+    cap = min(rules.get("max_items", MAX_PER_SITE), MAX_PER_SITE)
+    ctx = await browser.new_context(user_agent=ua or UA, locale="en-US", timezone_id="America/New_York",
+                                    viewport={"width": 1366, "height": 900},
+                                    extra_http_headers={"Accept-Language": "en-US,en;q=0.9"})
     page = await ctx.new_page()
     try:
-        # 1a. explicit feed
-        if feed_url:
-            arts = await try_feed(page, feed_url, 12)
+        # 1a. explicit feed (unless this site's own page comes first)
+        if feed_url and not rules.get("page_first"):
+            arts = await try_feed(page, feed_url, 12, ua)
             if arts:
-                return arts[:MAX_PER_SITE], None, f"feed:{feed_url}"
+                return arts[:cap], None, f"feed:{feed_url}"
         if not news_url:
+            if feed_url:
+                arts = await try_feed(page, feed_url, 12, ua)
+                if arts:
+                    return arts[:cap], None, f"feed:{feed_url}"
             return [], "No news URL configured", ""
 
         # Load the news page once; reuse the raw response for discovery + JSON-LD.
+        resp, raw_html, page_error = None, "", None
         try:
-            resp = await page.goto(news_url, wait_until="domcontentloaded", timeout=timeout * 1000)
+            resp = await page.goto(loadable(news_url), wait_until="domcontentloaded", timeout=timeout * 1000)
         except Exception as e:
-            return [], f"Could not load page: {str(e).splitlines()[0][:80]}", ""
-        try:
-            raw_html = await resp.text() if resp else ""
-        except Exception:
-            raw_html = ""
-        if resp is not None and resp.status >= 400:
-            return [], f"HTTP {resp.status} from {news_url}", ""
-        if looks_blocked(raw_html):
-            return [], f"Page looks blocked or empty ({news_url})", ""
-
-        # 1b. feed advertised in <link rel=alternate>, 1c. common paths
-        candidates = []
-        found = discover_feed_url(raw_html, news_url)
-        if found and found != feed_url:
-            candidates.append(found)
-        p = urlparse(news_url)
-        candidates += [f"{p.scheme}://{p.netloc}{path}" for path in COMMON_FEED_PATHS]
-        for c in candidates:
-            arts = await try_feed(page, c, 8)
-            if arts:
-                return arts[:MAX_PER_SITE], None, f"feed:{c}"
-
-        # 2. JSON-LD
-        ld = extract_jsonld_articles(raw_html, news_url)
-        if len(ld) >= 3:
-            return sorted(ld, key=lambda a: a["date"], reverse=True)[:MAX_PER_SITE], None, "jsonld"
-
-        # 3. rendered DOM — let AJAX views settle, scroll, retry
-        try:
-            await page.wait_for_load_state("networkidle", timeout=9000)
-        except Exception:
-            pass
-        await page.wait_for_timeout(1200)
-        args, raw = rule_args(sid), []
-        for _ in range(3):
-            await page.evaluate("window.scrollBy(0, document.body.scrollHeight * 0.6)")
-            await page.wait_for_timeout(900)
-            raw = await page.evaluate(EXTRACT_JS, args)
-            if len(raw) >= 3:
-                break
-        if dump_dir:
+            page_error = f"Could not load page: {str(e).splitlines()[0][:80]}"
+        if resp is not None:
             try:
-                dump_dir.mkdir(parents=True, exist_ok=True)
-                (dump_dir / f"{sid}.html").write_text(await page.content(), encoding="utf-8")
+                raw_html = await resp.text()
+            except Exception:
+                raw_html = ""
+            if resp.status >= 400:
+                page_error = f"HTTP {resp.status} from {news_url}"
+            elif looks_blocked(raw_html):
+                page_error = f"Page looks blocked or empty ({news_url})"
+
+        async def from_feeds():
+            # A blocked page can still have a reachable feed, so try these anyway.
+            # (Without page_first, the explicit feed was already tried in 1a.)
+            already = set() if rules.get("page_first") else {feed_url}
+            candidates = [feed_url] if rules.get("page_first") else []
+            if raw_html and not page_error:
+                candidates.append(discover_feed_url(raw_html, news_url))
+            u = urlparse(news_url)
+            candidates += [f"{u.scheme}://{u.netloc}{path}" for path in COMMON_FEED_PATHS]
+            for c in dict.fromkeys(c for c in candidates if c and c not in already):
+                arts = await try_feed(page, c, 8, ua)
+                if arts:
+                    return arts, f"feed:{c}"
+            return [], ""
+
+        async def from_page():
+            if page_error:
+                return [], ""
+            # 2. JSON-LD
+            ld = extract_jsonld_articles(raw_html, news_url)
+            if len(ld) >= 3:
+                return sorted(ld, key=lambda a: a["date"], reverse=True), "jsonld"
+            # 3. rendered DOM: let AJAX views settle, scroll, retry
+            try:
+                await page.wait_for_load_state("networkidle", timeout=9000)
             except Exception:
                 pass
-        arts = finalize_raw(raw)
-        return arts[:MAX_PER_SITE], (None if arts else "No articles found after browser scrape"), "html"
+            if rules.get("wait_for"):
+                try:
+                    await page.wait_for_selector(rules["wait_for"], timeout=10000)
+                except Exception:
+                    pass
+            await page.wait_for_timeout(1200)
+            args, raw = rule_args(sid), []
+            scrolls, want = rules.get("scrolls", 3), rules.get("min_items", 3)
+            for _ in range(scrolls):
+                if scrolls > 3:   # infinite-scroll lists load more near the bottom
+                    await page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+                    await page.wait_for_timeout(1600)
+                else:
+                    await page.evaluate("window.scrollBy(0, document.body.scrollHeight * 0.6)")
+                    await page.wait_for_timeout(900)
+                raw = await page.evaluate(EXTRACT_JS, args)
+                if len(raw) >= want:
+                    break
+            if dump_dir:
+                try:
+                    dump_dir.mkdir(parents=True, exist_ok=True)
+                    (dump_dir / f"{sid}.html").write_text(await page.content(), encoding="utf-8")
+                    (dump_dir / f"{sid}.raw.html").write_text(raw_html, encoding="utf-8")
+                except Exception:
+                    pass
+            if rules.get("max_items"):
+                raw = raw[:cap]           # page order = newest first on undated sites
+            return finalize_raw(raw), "html"
+
+        steps = (from_page, from_feeds) if rules.get("page_first") else (from_feeds, from_page)
+        for step in steps:
+            arts, method = await step()
+            if arts:
+                return arts[:cap], None, method
+        return [], page_error or "No articles found after browser scrape", ("" if page_error else "html")
     except Exception as e:
         return [], str(e).splitlines()[0][:120] if str(e) else repr(e), ""
     finally:
@@ -596,7 +717,8 @@ async def run(args):
         console.print(t)
         return
 
-    sites = [s for s in all_sites if not args.site or s["id"] == args.site.lower()]
+    wanted = {x.strip().lower() for x in (args.site or "").split(",") if x.strip()}
+    sites = [s for s in all_sites if not wanted or s["id"] in wanted]
     if not sites:
         sys.exit(f"No site with id '{args.site}'")
     todo = [s for s in sites if s.get("newsUrl") or s.get("feedUrl")]
@@ -611,11 +733,12 @@ async def run(args):
                        else "[yellow]html[/yellow]" if m == "html" else "[dim]—[/dim]")
 
     async with async_playwright() as pw:
-        browser = await pw.chromium.launch(headless=True)
+        browser = await pw.chromium.launch(headless=True, args=BROWSER_ARGS)
+        ua = await browser_user_agent(browser)
 
         async def one(site):
             async with sem:
-                return site, await scrape_site(browser, site, args.timeout, dump_dir)
+                return site, await scrape_site(browser, site, args.timeout, dump_dir, ua)
 
         with Progress(SpinnerColumn(), TextColumn("{task.description}"), BarColumn(),
                       MofNCompleteColumn(), console=console) as prog:
@@ -627,6 +750,22 @@ async def run(args):
                 prog.console.print(f"  {site['name'][:44]:44} {label(method):18} {status}")
                 prog.advance(task)
         await browser.close()
+
+        # Second pass: blocks from Penn's firewalls come and go, so revisit the
+        # sites that refused or dropped the first visit, slowly and one at a time.
+        retry = [s for s in todo if not results[s["id"]][0] and RETRYABLE.search(results[s["id"]][1] or "")]
+        if retry and not args.no_retry:
+            console.print(f"\nTrying {len(retry)} site{'' if len(retry) == 1 else 's'} again in {RETRY_PAUSE_SECONDS} seconds, one at a time:")
+            await asyncio.sleep(RETRY_PAUSE_SECONDS)
+            browser = await pw.chromium.launch(headless=True, args=RETRY_ARGS)
+            ua = await browser_user_agent(browser)
+            for site in retry:
+                arts, err, method = await scrape_site(browser, site, args.timeout + 10, dump_dir, ua)
+                results[site["id"]] = (arts, err, method)
+                status = f"[green]{len(arts)} articles[/green]" if arts else f"[red]{(err or '0')[:60]}[/red]"
+                console.print(f"  {site['name'][:44]:44} {label(method):18} {status}")
+                await asyncio.sleep(4)
+            await browser.close()
 
     now = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
     out = Path(args.out or f"penn-news-scraped-{date.today().isoformat()}.json")
@@ -654,6 +793,7 @@ def main():
     p.add_argument("--list", action="store_true")
     p.add_argument("--install-browser", action="store_true")
     p.add_argument("--dump-html", action="store_true")
+    p.add_argument("--no-retry", action="store_true", help="skip the slower second pass for blocked sites")
     args = p.parse_args()
     if args.install_browser:
         import subprocess
