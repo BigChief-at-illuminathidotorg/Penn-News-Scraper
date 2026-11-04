@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": "45588b9f374843b2872eb1cc1f4549d97f9562150d9d02d95a5f965b23572a16",
-  "publishedAt": "2026-11-04T18:38:39.873054+00:00",
+  "version": "6b454412b5663a12d8a14e89122c1aceb0b73cc832340805cc82cfa8531fa8be",
+  "publishedAt": "2026-11-04T20:38:52.675528+00:00",
   "sites": [
     {
       "id": "annenberg",
@@ -11,6 +11,7 @@
       "bucket": "School",
       "subhead": "Media, communications, public discourse",
       "newsUrl": "https://www.asc.upenn.edu/news-events/news",
+      "extraUrls": null,
       "magazineUrl": "https://www.asc.upenn.edu/news-events/connections-year-annenberg",
       "notes": "",
       "feedUrl": null
@@ -23,6 +24,7 @@
       "bucket": "School",
       "subhead": "Oral health, clinics, biomedical discovery",
       "newsUrl": "https://www.dental.upenn.edu/news-events/recent-news/",
+      "extraUrls": null,
       "magazineUrl": "https://www.dental.upenn.edu/news-events/penn-dental-medicine-journal/",
       "notes": "",
       "feedUrl": null
@@ -35,6 +37,7 @@
       "bucket": "School",
       "subhead": "Education research, teaching, policy",
       "newsUrl": "https://www.gse.upenn.edu/news-and-events/news",
+      "extraUrls": null,
       "magazineUrl": "https://publications.gse.upenn.edu/",
       "notes": "",
       "feedUrl": null
@@ -47,6 +50,7 @@
       "bucket": "School",
       "subhead": "Legal scholarship, policy, institutions",
       "newsUrl": "https://www.law.upenn.edu/newsevents/",
+      "extraUrls": null,
       "magazineUrl": "https://journal.law.upenn.edu/",
       "notes": "Confirmed 2026-08-04: this page is a curated 'Featured' homepage widget with NO date shown anywhere in the DOM for any item (LiveWhale CMS). date_optional is enabled in SITE_RULES so items still surface (using the scrape date as a stand-in), but there's no way to tell how old a given 'Featured' item actually is from this page alone.",
       "feedUrl": null
@@ -59,6 +63,7 @@
       "bucket": "School",
       "subhead": "Clinical research, translational science, care delivery",
       "newsUrl": "https://www.pennmedicine.org/news/search?hideFADListing=false&pageType=taxonomyTemplatePage&pageTypeId=97a5141a-e62c-4dde-8fc0-160f2571b56a&sort=created&sortOrder=DESC&page=1&resultsPerPage=10&pageContentType=*",
+      "extraUrls": null,
       "magazineUrl": "https://www.pennmedicine.org/news/penn-medicine-magazine",
       "notes": "",
       "feedUrl": null
@@ -71,6 +76,7 @@
       "bucket": "School",
       "subhead": "Care systems, public health, training, outcomes",
       "newsUrl": "https://www.nursing.upenn.edu/news-events/news-archives/",
+      "extraUrls": null,
       "magazineUrl": "https://www.nursing.upenn.edu/magazine/",
       "notes": "No dates shown on this page; the monitor keeps the 7 newest stories.",
       "feedUrl": null
@@ -83,6 +89,7 @@
       "bucket": "School",
       "subhead": "Engineering, AI, robotics, materials, systems",
       "newsUrl": "https://www.engineering.upenn.edu/stories/",
+      "extraUrls": null,
       "magazineUrl": "https://magazine.seas.upenn.edu/",
       "notes": "URL fixed 2026-08-04: old engineering.upenn.edu/stories/ domain is dead/wrong, current site is www.seas.upenn.edu/stories/ (WordPress). Byline pattern is 'Category, Category / Month D, YYYY' as plain text, not a <time> element.",
       "feedUrl": null
@@ -95,6 +102,7 @@
       "bucket": "School",
       "subhead": "Social policy, social work, community research",
       "newsUrl": "https://sp2.upenn.edu/news/",
+      "extraUrls": null,
       "magazineUrl": null,
       "notes": "",
       "feedUrl": null
@@ -107,6 +115,7 @@
       "bucket": "School",
       "subhead": "Animal health, veterinary medicine, translational work",
       "newsUrl": "https://www.vet.upenn.edu/all-news/?filter[article_type][]=penn-vet-news",
+      "extraUrls": null,
       "magazineUrl": "https://www.vet.upenn.edu/bellwether-magazine/",
       "notes": "2026-11-04: filtered Penn Vet News listing (the old page mixed in outside coverage).",
       "feedUrl": null
@@ -119,6 +128,7 @@
       "bucket": "School",
       "subhead": "Business, markets, management, decision-making",
       "newsUrl": "https://news.wharton.upenn.edu/feed/",
+      "extraUrls": null,
       "magazineUrl": "https://magazine.wharton.upenn.edu/",
       "notes": "WordPress RSS feed — much cleaner than scraping the newsroom HTML",
       "feedUrl": "https://news.wharton.upenn.edu/feed/"
@@ -131,6 +141,7 @@
       "bucket": "School",
       "subhead": "Architecture, planning, preservation, design",
       "newsUrl": "https://www.design.upenn.edu/news",
+      "extraUrls": null,
       "magazineUrl": null,
       "notes": "URL fixed 2026-08-04: /news/press-releases now 404s. /news defaults to today's date filter. /weitzman-news is the real dated listing (confirmed via search) — dates there are US-style MM.DD.YYYY.",
       "feedUrl": null
@@ -143,8 +154,11 @@
       "bucket": "Unit",
       "subhead": "Policy research and public opinion",
       "newsUrl": "https://www.annenbergpublicpolicycenter.org/appc-general-news/",
+      "extraUrls": [
+        "https://www.annenbergpublicpolicycenter.org/tag/press-releases/"
+      ],
       "magazineUrl": null,
-      "notes": "2026-11-04: APPC General News listing (the site-wide feed mixes in other posts).",
+      "notes": "2026-11-04: General news plus press releases (the site-wide feed mixes in other posts).",
       "feedUrl": null
     },
     {
@@ -155,6 +169,7 @@
       "bucket": "Unit",
       "subhead": "Business analysis, markets, management, ideas",
       "newsUrl": "https://knowledge.wharton.upenn.edu/articles/#t=All&sort=date%20descending",
+      "extraUrls": null,
       "magazineUrl": null,
       "notes": "2026-10-28: /feed/ returns HTTP 403 (WAF), so feed disabled; scraping the JS-rendered articles page instead.",
       "feedUrl": null
@@ -167,6 +182,7 @@
       "bucket": "Unit",
       "subhead": "Arts and sciences stories, essays, ideas",
       "newsUrl": "https://omnia.sas.upenn.edu/latest",
+      "extraUrls": null,
       "magazineUrl": null,
       "notes": "No dates shown on this page; the monitor keeps the 7 newest stories.",
       "feedUrl": null
@@ -179,6 +195,7 @@
       "bucket": "Center",
       "subhead": "Democracy, politics, public discourse",
       "newsUrl": "https://amc.sas.upenn.edu/news",
+      "extraUrls": null,
       "magazineUrl": null,
       "notes": "SAS Drupal - JS-rendered",
       "feedUrl": null
@@ -191,6 +208,7 @@
       "bucket": "Center",
       "subhead": "Penn communications source",
       "newsUrl": "https://ceas.sas.upenn.edu/news",
+      "extraUrls": null,
       "magazineUrl": null,
       "notes": "SAS Drupal - JS-rendered",
       "feedUrl": null
@@ -203,6 +221,7 @@
       "bucket": "Center",
       "subhead": "Penn communications source",
       "newsUrl": null,
+      "extraUrls": null,
       "magazineUrl": null,
       "notes": "No news URL found yet.",
       "feedUrl": null
@@ -215,6 +234,7 @@
       "bucket": "Center",
       "subhead": "Penn communications source",
       "newsUrl": "https://cseri.sas.upenn.edu/news",
+      "extraUrls": null,
       "magazineUrl": null,
       "notes": "SAS Drupal - JS-rendered",
       "feedUrl": null
@@ -227,6 +247,7 @@
       "bucket": "Center",
       "subhead": "Penn communications source",
       "newsUrl": "https://creative.writing.upenn.edu/news",
+      "extraUrls": null,
       "magazineUrl": null,
       "notes": "",
       "feedUrl": null
@@ -239,6 +260,7 @@
       "bucket": "Center",
       "subhead": "Energy policy research",
       "newsUrl": "https://kleinmanenergy.upenn.edu/about/news/",
+      "extraUrls": null,
       "magazineUrl": null,
       "notes": "",
       "feedUrl": null
@@ -251,6 +273,7 @@
       "bucket": "Center",
       "subhead": "Water research and policy",
       "newsUrl": "https://watercenter.sas.upenn.edu/news",
+      "extraUrls": null,
       "magazineUrl": null,
       "notes": "SAS Drupal - JS-rendered",
       "feedUrl": null
@@ -263,6 +286,7 @@
       "bucket": "Center",
       "subhead": "Innovation and entrepreneurship",
       "newsUrl": "https://pennovation.upenn.edu/news",
+      "extraUrls": null,
       "magazineUrl": null,
       "notes": "",
       "feedUrl": "https://pennovation.upenn.edu/feed/"
@@ -275,6 +299,7 @@
       "bucket": "Center",
       "subhead": "Judaic studies",
       "newsUrl": "https://katz.sas.upenn.edu/blog/katz-center",
+      "extraUrls": null,
       "magazineUrl": null,
       "notes": "FLAGGED 2026-08-04: confirmed real content here (article.teaser containers) but NO date shown anywhere in the DOM, and the posts visible look years old (image paths from 2019). This may not be a live reverse-chronological feed at all — worth checking katz.sas.upenn.edu for a proper dated news/blog archive URL instead of enabling date_optional here (which would make stale posts look freshly published every run).",
       "feedUrl": null
@@ -287,6 +312,7 @@
       "bucket": "Center",
       "subhead": "Early American history",
       "newsUrl": "https://www.mceas.org/news",
+      "extraUrls": null,
       "magazineUrl": null,
       "notes": "",
       "feedUrl": "https://www.mceas.org/feed/"
@@ -299,6 +325,7 @@
       "bucket": "Institute",
       "subhead": "Public policy and governance",
       "newsUrl": "https://www.fels.upenn.edu/news-events",
+      "extraUrls": null,
       "magazineUrl": null,
       "notes": "",
       "feedUrl": null
@@ -311,6 +338,7 @@
       "bucket": "Institute",
       "subhead": "Contemporary art and culture",
       "newsUrl": "https://icaphila.org/press/",
+      "extraUrls": null,
       "magazineUrl": null,
       "notes": "",
       "feedUrl": "https://icaphila.org/feed/"
@@ -323,6 +351,7 @@
       "bucket": "Institute",
       "subhead": "Global management and languages",
       "newsUrl": "https://lauder.wharton.upenn.edu/news/",
+      "extraUrls": null,
       "magazineUrl": null,
       "notes": "",
       "feedUrl": null
@@ -335,6 +364,7 @@
       "bucket": "Institute",
       "subhead": "Energy science and technology",
       "newsUrl": "https://viest.upenn.edu/news",
+      "extraUrls": null,
       "magazineUrl": null,
       "notes": "Site working correctly — most recent article is Feb 2026, so nothing appears in current week view. Not a scraper bug.",
       "feedUrl": null
@@ -347,6 +377,7 @@
       "bucket": "Program",
       "subhead": "Management and technology",
       "newsUrl": "https://fisher.wharton.upenn.edu/news/",
+      "extraUrls": null,
       "magazineUrl": null,
       "notes": "",
       "feedUrl": null
@@ -359,6 +390,7 @@
       "bucket": "Program",
       "subhead": "Opinion research and elections",
       "newsUrl": "https://pores.upenn.edu/news",
+      "extraUrls": null,
       "magazineUrl": null,
       "notes": "",
       "feedUrl": null
@@ -371,9 +403,23 @@
       "bucket": "Program",
       "subhead": "Civic engagement and dialogue",
       "newsUrl": "https://snfpaideia.upenn.edu/media-center/",
+      "extraUrls": null,
       "magazineUrl": null,
       "notes": "",
       "feedUrl": "https://snfpaideia.upenn.edu/feed/"
+    },
+    {
+      "id": "snf-paideia-perspectives",
+      "name": "SNF Paideia Perspectives",
+      "exportName": null,
+      "parentUnit": "Penn",
+      "bucket": "Program",
+      "subhead": "Blog posts on dialogue and civic life",
+      "newsUrl": "https://snfpaideia.upenn.edu/engage/perspectives/",
+      "extraUrls": null,
+      "magazineUrl": null,
+      "notes": "2026-11-04: Perspectives posts. Dates come from the site's WordPress data feed; its RSS feed sits behind a bot check.",
+      "feedUrl": "https://snfpaideia.upenn.edu/wp-json/wp/v2/posts?per_page=20&_fields=id,date,link,title,excerpt"
     },
     {
       "id": "digital-humanities-price-lab",
@@ -383,6 +429,7 @@
       "bucket": "Lab",
       "subhead": "Digital humanities research",
       "newsUrl": "https://pricelab.sas.upenn.edu/news",
+      "extraUrls": null,
       "magazineUrl": null,
       "notes": "",
       "feedUrl": null
@@ -395,6 +442,7 @@
       "bucket": "Lab",
       "subhead": "Robotics and perception",
       "newsUrl": "https://www.grasp.upenn.edu/news/",
+      "extraUrls": null,
       "magazineUrl": null,
       "notes": "",
       "feedUrl": null
@@ -407,6 +455,7 @@
       "bucket": "Affiliate",
       "subhead": "Climate science, policy, and action",
       "newsUrl": "https://climate.upenn.edu/news/news/",
+      "extraUrls": null,
       "magazineUrl": null,
       "notes": "URL fixed 2026-08-04: the Environmental Innovations Initiative was absorbed into the new Office of the Vice Provost for Climate Science, Policy, and Action (\"Penn Climate\") in 2024–2026; environment.upenn.edu now redirects to climate.upenn.edu. Old news-events/news path 404s under the new site. 2026-10-28: /news-knowledge/news/ also 404s; real listing is /news/news/.",
       "feedUrl": null
@@ -419,6 +468,7 @@
       "bucket": "Affiliate",
       "subhead": "Global engagement and partnerships",
       "newsUrl": "https://global.upenn.edu/penn-global-news/",
+      "extraUrls": null,
       "magazineUrl": null,
       "notes": "",
       "feedUrl": null
@@ -431,6 +481,7 @@
       "bucket": "Affiliate",
       "subhead": "Urban research and practice",
       "newsUrl": "https://penniur.upenn.edu/media/news",
+      "extraUrls": null,
       "magazineUrl": null,
       "notes": "",
       "feedUrl": null
@@ -443,6 +494,7 @@
       "bucket": "Affiliate",
       "subhead": "Campus sustainability initiatives",
       "newsUrl": "https://www.sustainability.upenn.edu/news",
+      "extraUrls": null,
       "magazineUrl": null,
       "notes": "No dates shown on this page; the monitor keeps the 7 newest stories.",
       "feedUrl": null
@@ -455,6 +507,7 @@
       "bucket": "Affiliate",
       "subhead": "Penn in Washington DC",
       "newsUrl": "https://global.upenn.edu/penn-washington/penn-washington-news/",
+      "extraUrls": null,
       "magazineUrl": null,
       "notes": "",
       "feedUrl": null
@@ -467,6 +520,7 @@
       "bucket": "House",
       "subhead": "Writing, literature, arts",
       "newsUrl": "https://writing.upenn.edu/wh/about/news/",
+      "extraUrls": null,
       "magazineUrl": null,
       "notes": "",
       "feedUrl": null
@@ -479,6 +533,7 @@
       "bucket": "House",
       "subhead": "Global affairs and policy",
       "newsUrl": "https://perryworldhouse.upenn.edu/news-and-insight/",
+      "extraUrls": null,
       "magazineUrl": null,
       "notes": "No dates shown on this page; the monitor keeps the 7 newest stories.",
       "feedUrl": "https://perryworldhouse.upenn.edu/feed/"
@@ -491,6 +546,7 @@
       "bucket": "House",
       "subhead": "Penn communications source",
       "newsUrl": "https://platthouse.universitylife.upenn.edu/community-news-and-stories/",
+      "extraUrls": null,
       "magazineUrl": null,
       "notes": "Shares blog with Katz Center",
       "feedUrl": null
@@ -503,6 +559,7 @@
       "bucket": "Gallery",
       "subhead": "Art exhibitions and collections",
       "newsUrl": "https://arthurrossgallery.org/press-releases/",
+      "extraUrls": null,
       "magazineUrl": null,
       "notes": "",
       "feedUrl": null
@@ -515,6 +572,7 @@
       "bucket": "Museum",
       "subhead": "Archaeology, collections, public humanities",
       "newsUrl": "https://www.penn.museum/about/press-room/press-releases",
+      "extraUrls": null,
       "magazineUrl": null,
       "notes": "",
       "feedUrl": null
@@ -527,6 +585,7 @@
       "bucket": "Library",
       "subhead": "Collections, scholarship, research services",
       "newsUrl": "https://www.library.upenn.edu/news/all",
+      "extraUrls": null,
       "magazineUrl": null,
       "notes": "",
       "feedUrl": null
@@ -539,6 +598,7 @@
       "bucket": "Department",
       "subhead": "",
       "newsUrl": "https://complit.sas.upenn.edu/news",
+      "extraUrls": null,
       "magazineUrl": null,
       "notes": "Added from owner source list, November 3, 2026.",
       "feedUrl": null
@@ -551,6 +611,7 @@
       "bucket": "Department",
       "subhead": "",
       "newsUrl": "https://www.classics.upenn.edu/news",
+      "extraUrls": null,
       "magazineUrl": null,
       "notes": "Added from owner source list, November 3, 2026.",
       "feedUrl": null
@@ -563,6 +624,7 @@
       "bucket": "Department",
       "subhead": "",
       "newsUrl": "https://spanish.sas.upenn.edu/news",
+      "extraUrls": null,
       "magazineUrl": null,
       "notes": "Added from owner source list, November 3, 2026.",
       "feedUrl": null
@@ -575,6 +637,7 @@
       "bucket": "Department",
       "subhead": "",
       "newsUrl": "https://pan-school.sas.upenn.edu/news",
+      "extraUrls": null,
       "magazineUrl": null,
       "notes": "Added from owner source list, November 3, 2026.",
       "feedUrl": null
@@ -587,6 +650,7 @@
       "bucket": "Center",
       "subhead": "",
       "newsUrl": "https://chibe.upenn.edu/blog/",
+      "extraUrls": null,
       "magazineUrl": null,
       "notes": "Added from owner source list, November 3, 2026.",
       "feedUrl": null
@@ -599,6 +663,7 @@
       "bucket": "Department",
       "subhead": "",
       "newsUrl": "https://www.bio.upenn.edu/news",
+      "extraUrls": null,
       "magazineUrl": null,
       "notes": "Added from owner source list, November 3, 2026.",
       "feedUrl": null
@@ -611,6 +676,7 @@
       "bucket": "Department",
       "subhead": "",
       "newsUrl": "https://www.chem.upenn.edu/news",
+      "extraUrls": null,
       "magazineUrl": null,
       "notes": "Added from owner source list, November 3, 2026.",
       "feedUrl": null
@@ -623,6 +689,7 @@
       "bucket": "Department",
       "subhead": "",
       "newsUrl": "https://www.ling.upenn.edu/news/",
+      "extraUrls": null,
       "magazineUrl": null,
       "notes": "Added from owner source list, November 3, 2026.",
       "feedUrl": null
@@ -635,6 +702,7 @@
       "bucket": "Department",
       "subhead": "",
       "newsUrl": "https://cinemastudies.sas.upenn.edu/news",
+      "extraUrls": null,
       "magazineUrl": null,
       "notes": "Added from owner source list, November 3, 2026.",
       "feedUrl": null
@@ -647,6 +715,7 @@
       "bucket": "Department",
       "subhead": "",
       "newsUrl": "https://earth.sas.upenn.edu/index%2ephp/news",
+      "extraUrls": null,
       "magazineUrl": null,
       "notes": "Added from owner source list, November 3, 2026.",
       "feedUrl": null
@@ -659,6 +728,7 @@
       "bucket": "Department",
       "subhead": "",
       "newsUrl": "https://economics.sas.upenn.edu/news",
+      "extraUrls": null,
       "magazineUrl": null,
       "notes": "Added from owner source list, November 3, 2026.",
       "feedUrl": null
@@ -671,6 +741,7 @@
       "bucket": "Department",
       "subhead": "",
       "newsUrl": "https://figs.sas.upenn.edu/news",
+      "extraUrls": null,
       "magazineUrl": null,
       "notes": "Added from owner source list, November 3, 2026.",
       "feedUrl": null

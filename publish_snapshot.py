@@ -18,6 +18,11 @@ def keep_first_seen_dates(site, prior):
     site['posts'].sort(key=lambda p: p.get('date', ''), reverse=True)
 
 
+def same_pages(a, b):
+    """Both collections read the same listing page(s)."""
+    return a.get('newsUrl') == b.get('newsUrl') and (a.get('extraUrls') or []) == (b.get('extraUrls') or [])
+
+
 def merge_snapshot(current, previous):
     sites = current.get('sites')
     if not isinstance(sites, list) or not sites:
@@ -36,7 +41,7 @@ def merge_snapshot(current, previous):
         if site['posts']:
             good += 1
             keep_first_seen_dates(site, old.get(site['id']))
-        elif old.get(site['id'], {}).get('posts') and old[site['id']].get('newsUrl') == site.get('newsUrl'):
+        elif old.get(site['id'], {}).get('posts') and same_pages(old[site['id']], site):
             prior = old[site['id']]
             site['posts'] = prior['posts']
             site['lastSyncAt'] = prior.get('lastSyncAt', '')
