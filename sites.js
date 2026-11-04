@@ -11,7 +11,7 @@ window.PENN_MONITOR_DEFAULT_SITES = [
     "parentUnit": "Annenberg",
     "bucket": "School",
     "subhead": "Media, communications, public discourse",
-    "newsUrl": "https://www.asc.upenn.edu/news-events",
+    "newsUrl": "https://www.asc.upenn.edu/news-events/news",
     "magazineUrl": "https://www.asc.upenn.edu/news-events/connections-year-annenberg",
     "notes": "",
     "posts": [],
