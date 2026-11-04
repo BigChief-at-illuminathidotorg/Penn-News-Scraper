@@ -1,9 +1,9 @@
 # Penn News Monitor — online collection edition
 
-Prepared October 28, 2026. NOT DEPLOYED. Cloudflare sign-in in the assisted browser returned a 403; no account or domain changes were made.
+Live at https://penn-news-monitor.pages.dev. GitHub Actions collects the news and deploys the site.
 
 ## Staff
-Open the website. Search, choose a week, and follow headlines. No software installation or Python commands required. Export copies or downloads the stories you check, formatted for the For Consideration email. Import opens saved JSON snapshots. Imported data stays in this browser, pauses automatic updates, and is replaced by shared results only when Check for updates succeeds. “Check for updates” retrieves the published collection; it does not start the scraper. The included help page explains warnings and source-change requests.
+Open the website. Search, choose a week, and follow headlines. No software installation or Python commands required. Export copies or downloads the stories you check, formatted for the For Consideration email. Import opens saved JSON snapshots. Imported data stays in this browser, pauses automatic updates, and is replaced by shared results only when Check for updates succeeds. “Check for updates” starts a new collection on GitHub (unless one is running or just finished) and loads it once it is published. View all sources can add, edit or remove sources. Both need the team passcode. The help page explains the rest.
 
 ## Hosting design
 GitHub Actions runs the existing Python/Chromium scraper online. Cloudflare Pages serves only the public/ folder. The supplied snapshot is starter data, not proof that an online run has succeeded. It contains 52 sources, 37 with articles. Some sources require further tuning or may block hosted browsers.
@@ -22,7 +22,10 @@ No Python or Node installation is needed on anyone's work machine. They are inst
 The workflow targets the existing penn-news-monitor.pages.dev project. Prefer news.illuminathi.org as a custom domain so the main personal website stays intact. Add that hostname through the Pages project's Custom domains screen first, then follow Cloudflare's DNS instructions. Do not simply replace illuminathi.org DNS. Hosting under illuminathi.org/news/ requires integration with its current hosting platform; its configuration has not been inspected.
 
 ## Source maintenance
-Edit the central sites.js file in the repository; copy it to public/sites.js when changing the source list. The scraper reads newsUrl, feedUrl, and extraUrls (more listing pages merged into the same source, as APPC does with its press releases), not magazineUrl. The dashboard deliberately removes local-only source editing because those edits would not change online collection. A future authenticated source editor would be a separate feature.
+sites.js is the source list. The monitor edits it through functions/api, a Cloudflare Pages Function that holds a GitHub token, and it can also be edited in the repository. Each change starts a collection; prepare_sources.py checks the list's shape and publishes public/data/sources.json and public/sites.js. The scraper reads newsUrl, feedUrl, and extraUrls (more listing pages merged into the same source, as APPC does with its press releases), not magazineUrl.
+
+## Changes from the monitor (one-time setup)
+Create a fine-grained GitHub token for this repository only, with Actions and Contents set to Read and write. In the Cloudflare Pages project, add two Production secrets: GITHUB_TOKEN (the token) and MONITOR_PASSCODE (a team passphrase of at least 12 characters). They take effect with the next deployment. The helper refuses changes without the passcode, never sends the token to browsers, and starts at most one collection at a time, waiting ten minutes after a successful one. Tests: node --test tests/functions.test.mjs.
 
 ## Failure behavior and limits
 Failed/empty sources retain prior articles with a warning and their original source sync time. If every source returns no articles, publication fails and the old deployed collection remains. If deployment fails, the old site remains live; retry the workflow after fixing the failure. The page warns when its collection is over 30 hours old, including weekends. Results are bounded by the scraper's per-source limit; this is not an indefinite archive. Source selectors, date extraction and hosted-runner access still need live validation.

@@ -51,6 +51,10 @@ from xml.etree import ElementTree as ET
 UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36")
 MAX_PER_SITE = 20
+# A feed whose newest story is older than this may have stopped updating while
+# the news page carries on (Drupal's site-wide /rss.xml often does), so the page
+# is read too and the newer of the two is kept.
+STALE_FEED_DAYS = 30
 TODAY_SENTINEL = "__TODAY__"
 # Look like an ordinary browser: hide the automation flag, and (in scrape_sites)
 # send the browser's own user-agent minus "Headless".
@@ -263,6 +267,8 @@ def extract_jsonld_articles(html, base_url):
 #   min_items        keep scrolling until at least this many stories show up
 #   wait_for         CSS selector to wait for before reading the page
 #   shallow_links    stories live at one-level addresses (site.edu/story-name/)
+#   same_host        keep only stories on the page's own site (drops "in the news"
+#                    links to outside outlets)
 _VIEWS = {"containers": [".views-row", "article"], "date": [".field--name-created", "time"]}
 # SAS department sites: the site-wide /rss.xml is the course catalogue, so read
 # the dated /news page (like Economics, which already worked that way).
@@ -328,15 +334,23 @@ SITE_RULES = {
     "seas":        {"containers": ["article", ".story"], "date": ["time", ".date"]},
     "weitzman":    {"containers": ["article", ".story", "[class*=story]"],     # dates are MM.DD.YYYY
                     "date": ["time", ".date", "[class*=date]"]},
+    # The site-wide /rss.xml stopped in 2024. The news page mixes GSE's own
+    # stories with "in the news" links to outside outlets; keep GSE's own.
     "gse":         {"containers": [".news_list_item", "article", ".views-row"],
-                    "date": ["time.news_list_item_date", "time", ".field--name-created"]},
+                    "date": ["time.news_list_item_date", "time", ".field--name-created"],
+                    "page_first": True, "url_must_contain": "/news/", "same_host": True},
+    # Headline, then its date just below, one .views-row each. The /rss.xml feed
+    # is years out of date and mixes in events.
+    "mcneil-center-for-early-american-studies": {"containers": [".views-row", ".field-content"],
+                                                 "date": ["time", ".news-date"], "page_first": True,
+                                                 "url_must_contain": "/news/"},
     # Katz blog: undated items are not assigned an invented publication date.
     "herbert-d-katz-center-for-advanced-judaic-studies": {"containers": ["article.teaser", ".views-row"],
                                                           "date": [".field--name-created", "time"]},
 }
 
 # ══ Browser-side extraction ════════════════════════════════════════════════════
-# Runs inside the page. Receives {containers, date, urlMust, dateOptional}.
+# Runs inside the page. Receives {containers, date, urlMust, dateOptional, shallowLinks, sameHost}.
 # Pass 1: walk container selectors (site hint first, then generic list).
 # Pass 2 (if <3 found): find "Category / Month D, YYYY" bylines, walk up to the
 #         nearest headline link.
@@ -371,7 +385,9 @@ EXTRACT_JS = r"""
       return !/^(news|press|events?|media|about|contact|faculty|staff|research|programs?|people|home|feed|rss)$/i.test(segs[segs.length - 1]);
     } catch (e) { return false; }
   };
-  const accept = link => looksLikeArticle(link) && (!cfg.urlMust || link.indexOf(cfg.urlMust) !== -1);
+  const sameHost = link => { try { return new URL(link).hostname === location.hostname; } catch (e) { return false; } };
+  const accept = link => looksLikeArticle(link) && (!cfg.urlMust || link.indexOf(cfg.urlMust) !== -1)
+                         && (!cfg.sameHost || sameHost(link));
 
   // An anchor that wraps a heading (<a><h2>Title</h2><small>date</small></a>) is
   // titled by the heading only, not by the date/byline text around it.
@@ -512,7 +528,7 @@ def rule_args(site_id):
     r = SITE_RULES.get(site_id, {})
     return {"containers": r.get("containers", []), "date": r.get("date", []),
             "urlMust": r.get("url_must_contain", ""), "dateOptional": bool(r.get("date_optional")),
-            "shallowLinks": bool(r.get("shallow_links"))}
+            "shallowLinks": bool(r.get("shallow_links")), "sameHost": bool(r.get("same_host"))}
 
 _TITLE_DATE = re.compile(
     r"^\W*(?:[A-Za-z&]+\s+){0,3}(?:(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.?\s+\d{1,2},?\s+\d{4}"
@@ -610,6 +626,14 @@ def loadable(url):
     # firewalls; the percent-encoded form means the same thing to the site.
     return url.replace("[", "%5B").replace("]", "%5D")
 
+def newest(arts):
+    """Date of the newest story, ignoring dates still to come (events)."""
+    today = date.today().isoformat()
+    return max((a["date"] for a in arts if a["date"] <= today), default="")
+
+def is_current(arts):
+    return newest(arts) >= (date.today() - timedelta(days=STALE_FEED_DAYS)).isoformat()
+
 def merge_articles(arts):
     """Stories gathered from several pages -> each link once, newest first."""
     seen, out = set(), []
@@ -652,16 +676,19 @@ async def _scrape_page(browser, site, timeout, dump_dir=None, ua=None, dump_name
                                     extra_http_headers={"Accept-Language": "en-US,en;q=0.9"})
     page = await ctx.new_page()
     try:
-        # 1a. explicit feed (unless this site's own page comes first)
+        # 1a. explicit feed (unless this site's own page comes first). A current
+        # feed is used as is; one that has gone quiet is checked against the page.
+        early, early_method = [], ""
         if feed_url and not rules.get("page_first"):
-            arts = await try_feed(page, feed_url, 12, ua)
-            if arts:
-                return arts[:cap], None, f"feed:{feed_url}"
+            early = await try_feed(page, feed_url, 12, ua)
+            if early and is_current(early):
+                return early[:cap], None, f"feed:{feed_url}"
+            early_method = f"feed:{feed_url}" if early else ""
         if not news_url:
-            if feed_url:
-                arts = await try_feed(page, feed_url, 12, ua)
-                if arts:
-                    return arts[:cap], None, f"feed:{feed_url}"
+            if feed_url and not early:
+                early = await try_feed(page, feed_url, 12, ua)
+            if early:
+                return early[:cap], None, f"feed:{feed_url}"
             return [], "No news URL configured", ""
 
         # Load the news page once; reuse the raw response for discovery + JSON-LD.
@@ -737,11 +764,23 @@ async def _scrape_page(browser, site, timeout, dump_dir=None, ua=None, dump_name
                 raw = raw[:cap]           # page order = newest first on undated sites
             return finalize_raw(raw), "html"
 
-        steps = (from_page, from_feeds) if rules.get("page_first") else (from_feeds, from_page)
-        for step in steps:
-            arts, method = await step()
-            if arts:
-                return arts[:cap], None, method
+        if rules.get("page_first"):
+            for step in (from_page, from_feeds):
+                arts, method = await step()
+                if arts:
+                    return arts[:cap], None, method
+        else:
+            feed_arts, feed_method = early, early_method
+            if not feed_arts:
+                feed_arts, feed_method = await from_feeds()
+                if feed_arts and is_current(feed_arts):
+                    return feed_arts[:cap], None, feed_method
+            # No feed, or one that has gone quiet: the news page may be newer.
+            page_arts, page_method = await from_page()
+            if page_arts and (not feed_arts or newest(page_arts) > newest(feed_arts)):
+                return page_arts[:cap], None, page_method
+            if feed_arts:
+                return feed_arts[:cap], None, feed_method
         return [], page_error or "No articles found after browser scrape", ("" if page_error else "html")
     except Exception as e:
         return [], str(e).splitlines()[0][:120] if str(e) else repr(e), ""

@@ -38,7 +38,7 @@ window.PENN_MONITOR_DEFAULT_SITES = [
     "subhead": "Education research, teaching, policy",
     "newsUrl": "https://www.gse.upenn.edu/news-and-events/news",
     "magazineUrl": "https://publications.gse.upenn.edu/",
-    "notes": "",
+    "notes": "2026-11-04: Read from the news page (GSE's own stories); the site-wide feed stopped in 2024.",
     "posts": [],
     "feedUrl": null
   },
@@ -294,9 +294,9 @@ window.PENN_MONITOR_DEFAULT_SITES = [
     "subhead": "Early American history",
     "newsUrl": "https://www.mceas.org/news",
     "magazineUrl": null,
-    "notes": "",
+    "notes": "2026-11-04: Read from the news page; the site-wide feed is years out of date.",
     "posts": [],
-    "feedUrl": "https://www.mceas.org/feed/"
+    "feedUrl": null
   },
   {
     "id": "fels-institute-of-government",

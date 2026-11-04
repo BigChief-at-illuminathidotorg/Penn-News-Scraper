@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": "6b454412b5663a12d8a14e89122c1aceb0b73cc832340805cc82cfa8531fa8be",
-  "publishedAt": "2026-11-04T20:57:23.475626+00:00",
+  "version": "1d132df286eae77ff94b6aea2aca5f26e1464c6479e87e265c77ae1b17f51f47",
+  "publishedAt": "2026-11-04T21:56:08.858383+00:00",
   "sites": [
     {
       "id": "annenberg",
@@ -39,7 +39,7 @@
       "newsUrl": "https://www.gse.upenn.edu/news-and-events/news",
       "extraUrls": null,
       "magazineUrl": "https://publications.gse.upenn.edu/",
-      "notes": "",
+      "notes": "2026-11-04: Read from the news page (GSE's own stories); the site-wide feed stopped in 2024.",
       "feedUrl": null
     },
     {
@@ -314,8 +314,8 @@
       "newsUrl": "https://www.mceas.org/news",
       "extraUrls": null,
       "magazineUrl": null,
-      "notes": "",
-      "feedUrl": "https://www.mceas.org/feed/"
+      "notes": "2026-11-04: Read from the news page; the site-wide feed is years out of date.",
+      "feedUrl": null
     },
     {
       "id": "fels-institute-of-government",

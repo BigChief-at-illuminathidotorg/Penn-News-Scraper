@@ -1,24 +1,22 @@
 import json, unittest
 from pathlib import Path
-from scraper import load_sites, news_only, clean_title, loadable, strip_tags, SITE_RULES, merge_articles, is_wp_json, read_feed
+from scraper import load_sites, news_only, clean_title, loadable, strip_tags, SITE_RULES, merge_articles, is_wp_json, read_feed, newest, is_current
+from prepare_sources import validate_sites
 from publish_snapshot import merge_snapshot
-REMOVED = {'fox-leadership', 'wolf-humanities-center', 'the-botswana-upenn-partnership', 'weiss-tech-house',
-           'christopher-h-browne-center-for-international-politics', 'center-for-technology-innovation-and-competition',
-           'the-marks-family-center-for-excellence-in-writing', 'penn-institute-for-economic-research'}
 class Sources(unittest.TestCase):
- def test_requested(self):
-  sites=load_sites(); requested=json.loads(Path('tests/requested_sources.json').read_text())
-  pages={s['id']:[s['newsUrl']]+(s.get('extraUrls') or []) for s in sites}
-  self.assertEqual(len(sites),57)
-  self.assertEqual(len(pages),57)
-  for sid,urls in requested.items():
-   for url in ([urls] if isinstance(urls,str) else urls): self.assertIn(url,pages[sid])
-  self.assertEqual(Path('sites.js').read_bytes(),Path('public/sites.js').read_bytes())
-  self.assertEqual({s['id'] for s in sites},{s['id'] for s in json.loads(Path('public/data/sources.json').read_text())['sites']})
- def test_removed_and_moved(self):
-  sites={s['id']:s for s in load_sites()}
-  self.assertFalse(REMOVED & set(sites))
-  self.assertEqual(sites['kleinman-center-for-energy-policy']['parentUnit'],'Weitzman')
+ # The list itself is edited from the monitor, so check its shape, not its contents.
+ def test_source_list_is_valid(self):
+  sites=validate_sites(load_sites())
+  self.assertGreater(len(sites),20)
+  with self.assertRaises(ValueError):validate_sites(sites+[dict(sites[0])])
+  with self.assertRaises(ValueError):validate_sites([{'id':'x','name':'X','newsUrl':'javascript:alert(1)'}])
+  with self.assertRaises(ValueError):validate_sites([{'id':'Not An Id','name':'X','newsUrl':'https://x.edu/news'}])
+  with self.assertRaises(ValueError):validate_sites([{'id':'x','name':'X','newsUrl':'https://x.edu/news','extraUrls':'https://x.edu/more'}])
+ def test_stale_feeds_spotted(self):
+  from datetime import date, timedelta
+  day=lambda n:(date.today()-timedelta(days=n)).isoformat()
+  self.assertEqual(newest([{'date':day(40)},{'date':day(-30)}]),day(40))
+  self.assertFalse(is_current([{'date':day(40)}]));self.assertTrue(is_current([{'date':day(3)}]))
  def test_undated_sites_keep_seven(self):
   for sid in ('perry-world-house','penn-sustainability','nursing','sas-omnia'):
    self.assertTrue(SITE_RULES[sid].get('date_optional')); self.assertEqual(SITE_RULES[sid].get('max_items'),7)
@@ -26,6 +24,8 @@ class Sources(unittest.TestCase):
   self.assertTrue(SITE_RULES['vet'].get('shallow_links')); self.assertTrue(SITE_RULES['appc'].get('shallow_links'))
   self.assertIn('.widget-story',SITE_RULES['nursing']['containers'])
   self.assertEqual(SITE_RULES['annenberg']['containers'][0],'.card--news')
+  for sid in ('gse','mcneil-center-for-early-american-studies'):self.assertTrue(SITE_RULES[sid].get('page_first'))
+  self.assertTrue(SITE_RULES['gse'].get('same_host'))
  def test_pages_merged_newest_first(self):
   general=[{'title':'Old','link':'https://x.edu/old','date':'2026-06-30'}]
   press=[{'title':'New','link':'https://x.edu/new','date':'2026-11-03'},{'title':'Old','link':'https://x.edu/old','date':'2026-06-30'}]
