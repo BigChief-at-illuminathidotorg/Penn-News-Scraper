@@ -239,6 +239,7 @@ def extract_jsonld_articles(html, base_url):
 #   scrolls          how many times to scroll before reading (default 3)
 #   min_items        keep scrolling until at least this many stories show up
 #   wait_for         CSS selector to wait for before reading the page
+#   shallow_links    stories live at one-level addresses (site.edu/story-name/)
 _VIEWS = {"containers": [".views-row", "article"], "date": [".field--name-created", "time"]}
 # SAS department sites: the site-wide /rss.xml is the course catalogue, so read
 # the dated /news page (like Economics, which already worked that way).
@@ -264,7 +265,7 @@ SITE_RULES = {
     # LiveWhale homepage widget shows no dates at all.
     "law":         {"containers": [".large-block-container", ".sub-block", ".views-row", ".news-item"],
                     "date": [".field--name-created", ".date", "time"], "date_optional": True},
-    "nursing":     dict(_UNDATED, containers=[".section__entry", ".lw_news_headline", "article", "li"],
+    "nursing":     dict(_UNDATED, containers=[".widget-story", ".section__entry", "article", "li"],
                         url_must_contain="/live/news/"),
     "penn-sustainability": dict(_VIEWS, **_UNDATED, page_first=True),
     "perry-world-house": dict(_UNDATED, containers=["article.tease-news", "article", ".post"],
@@ -279,10 +280,11 @@ SITE_RULES = {
                                "jerome-fisher-program-in-management-and-technology",
                                "wharton", "chibe", "platt-house")},
     # Category and filtered listings: their site-wide feeds carry other posts.
-    "appc":        dict(_WORDPRESS, page_first=True),
+    "appc":        dict(_WORDPRESS, containers=["article.card", "article"], page_first=True, shallow_links=True),
     "penn-global": dict(_WORDPRESS, page_first=True),
-    "vet":         {"containers": ["article", ".post", ".views-row", ".news-item"],
-                    "date": ["time", ".entry-date", ".date", "[class*=date]"], "page_first": True},
+    "vet":         {"containers": [".card", "article", ".post"],
+                    "date": ["time.card__date", "time", ".entry-date", "[class*=date]"],
+                    "page_first": True, "shallow_links": True},
     # Articles load as the page scrolls; read further down.
     "knowledge-at-wharton": {"containers": ["article", "[class*=card]", "[class*=Card]", ".post"],
                              "date": ["time", ".date", "[class*=date]"], "url_must_contain": "/article/",
@@ -333,6 +335,9 @@ EXTRACT_JS = r"""
   const looksLikeArticle = href => {
     try {
       const segs = new URL(href).pathname.replace(/\/+$/, "").split("/").filter(Boolean);
+      // One-level addresses (/story-name/) are usually section pages, unless the
+      // site says otherwise (shallow_links) and the slug reads like a headline.
+      if (segs.length === 1 && cfg.shallowLinks && segs[0].split("-").length >= 4) return true;
       if (segs.length < 2) return false;
       return !/^(news|press|events?|media|about|contact|faculty|staff|research|programs?|people|home|feed|rss)$/i.test(segs[segs.length - 1]);
     } catch (e) { return false; }
@@ -474,7 +479,8 @@ EXTRACT_JS = r"""
 def rule_args(site_id):
     r = SITE_RULES.get(site_id, {})
     return {"containers": r.get("containers", []), "date": r.get("date", []),
-            "urlMust": r.get("url_must_contain", ""), "dateOptional": bool(r.get("date_optional"))}
+            "urlMust": r.get("url_must_contain", ""), "dateOptional": bool(r.get("date_optional")),
+            "shallowLinks": bool(r.get("shallow_links"))}
 
 _TITLE_DATE = re.compile(
     r"^\W*(?:[A-Za-z&]+\s+){0,3}(?:(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.?\s+\d{1,2},?\s+\d{4}"

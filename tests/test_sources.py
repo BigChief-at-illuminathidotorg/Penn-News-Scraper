@@ -20,6 +20,9 @@ class Sources(unittest.TestCase):
  def test_undated_sites_keep_seven(self):
   for sid in ('perry-world-house','penn-sustainability','nursing','sas-omnia'):
    self.assertTrue(SITE_RULES[sid].get('date_optional')); self.assertEqual(SITE_RULES[sid].get('max_items'),7)
+ def test_page_layout_rules(self):
+  self.assertTrue(SITE_RULES['vet'].get('shallow_links')); self.assertTrue(SITE_RULES['appc'].get('shallow_links'))
+  self.assertIn('.widget-story',SITE_RULES['nursing']['containers'])
  def test_course_feeds_rejected(self):
   courses=[{'title':f'BIOL{n} - Biology {n}','link':f'https://x.edu/node/{n}','date':'2026-10-12'} for n in range(3000,3010)]
   news=[{'title':'Lab wins award','link':'https://x.edu/news/lab-wins-award','date':'2026-10-20'}]
