@@ -1,0 +1,479 @@
+{
+  "https://snfpaideia.upenn.edu/feed/": {
+    "urllib": {
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "browser": {
+      "status": 403,
+      "ctype": "text/html; charset=UTF-8",
+      "len": 5713,
+      "head": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA"
+    }
+  },
+  "https://snfpaideia.upenn.edu/category/blog/feed/": {
+    "urllib": {
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "browser": {
+      "status": 403,
+      "ctype": "text/html; charset=UTF-8",
+      "len": 5776,
+      "head": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA"
+    }
+  },
+  "https://snfpaideia.upenn.edu/?cat=1&feed=rss2": {
+    "urllib": {
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "browser": {
+      "status": 403,
+      "ctype": "text/html; charset=UTF-8",
+      "len": 5776,
+      "head": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA"
+    }
+  },
+  "https://snfpaideia.upenn.edu/engage/perspectives/feed/": {
+    "urllib": {
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "browser": {
+      "status": 403,
+      "ctype": "text/html; charset=UTF-8",
+      "len": 5794,
+      "head": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA"
+    }
+  },
+  "https://snfpaideia.upenn.edu/wp-json/wp/v2/posts?per_page=20&_fields=id,date,link,title,categories": {
+    "urllib": {
+      "len": 8104,
+      "head": "[{\"id\":10753,\"date\":\"2026-10-28T15:39:15\",\"link\":\"https:\\/\\/snfpaideia.upenn.edu\\/political-empathy-lab-iii-travels-during-2026-midterm-election-season\\/\",\"titl",
+      "json_items": 20,
+      "first": [
+        [
+          "2026-10-28T15:39:15",
+          "Political Empathy Lab III Travels During 2026 Midterm Election Season",
+          "https://snfpaideia.upenn.edu/political-empathy-lab-iii-travels-during-2026-midterm-election-season/",
+          [
+            {
+              "term_id": 1,
+              "name": "Blog",
+              "slug": "blog",
+              "term_group": 0,
+              "term_taxonomy_id": 1,
+              "taxonomy": "category",
+              "description": "",
+              "parent": 0,
+              "count": 151,
+              "filter": "raw"
+            }
+          ]
+        ],
+        [
+          "2026-10-19T12:50:41",
+          "Open Hours at Tusculum Gateway Garden",
+          "https://snfpaideia.upenn.edu/open-hours-at-tusculum-gateway-garden/",
+          [
+            {
+              "term_id": 1,
+              "name": "Blog",
+              "slug": "blog",
+              "term_group": 0,
+              "term_taxonomy_id": 1,
+              "taxonomy": "category",
+              "description": "",
+              "parent": 0,
+              "count": 151,
+              "filter": "raw"
+            }
+          ]
+        ],
+        [
+          "2026-09-28T19:47:31",
+          "A Room Full of Good Causes: Singularity in Mission",
+          "https://snfpaideia.upenn.edu/a-room-full-of-good-causes-singularity-in-mission/",
+          [
+            {
+              "term_id": 1,
+              "name": "Blog",
+              "slug": "blog",
+              "term_group": 0,
+              "term_taxonomy_id": 1,
+              "taxonomy": "category",
+              "description": "",
+              "parent": 0,
+              "count": 151,
+              "filter": "raw"
+            }
+          ]
+        ],
+        [
+          "2026-08-01T13:36:24",
+          "Seeing Beyond the Canvas: How Art and Dialogue Rewire the Way We Talk to Each Ot",
+          "https://snfpaideia.upenn.edu/seeing-beyond-the-canvas-how-art-and-dialogue-rewire-the-way-we-talk-to-each-other/",
+          [
+            {
+              "term_id": 1,
+              "name": "Blog",
+              "slug": "blog",
+              "term_group": 0,
+              "term_taxonomy_id": 1,
+              "taxonomy": "category",
+              "description": "",
+              "parent": 0,
+              "count": 151,
+              "filter": "raw"
+            }
+          ]
+        ],
+        [
+          "2026-07-31T15:00:48",
+          "Leading with Curiosity and Intentionality: Lessons from Sweden on Social Impact ",
+          "https://snfpaideia.upenn.edu/leading-with-curiosity-and-intentionality-lessons-from-sweden-on-social-impact-and-environmental-justice/",
+          [
+            {
+              "term_id": 1,
+              "name": "Blog",
+              "slug": "blog",
+              "term_group": 0,
+              "term_taxonomy_id": 1,
+              "taxonomy": "category",
+              "description": "",
+              "parent": 0,
+              "count": 151,
+              "filter": "raw"
+            }
+          ]
+        ],
+        [
+          "2026-06-16T22:51:53",
+          "When the Camera Comes Out",
+          "https://snfpaideia.upenn.edu/when-the-camera-comes-out/",
+          [
+            {
+              "term_id": 1,
+              "name": "Blog",
+              "slug": "blog",
+              "term_group": 0,
+              "term_taxonomy_id": 1,
+              "taxonomy": "category",
+              "description": "",
+              "parent": 0,
+              "count": 151,
+              "filter": "raw"
+            }
+          ]
+        ],
+        [
+          "2026-06-03T13:30:31",
+          "Engaged in Dialogue and Dialogically Engaged: Dialogue as Both Genre and Mode",
+          "https://snfpaideia.upenn.edu/engaged-in-dialogue-and-dialogically-engaged-dialogue-as-both-genre-and-mode/",
+          [
+            {
+              "term_id": 1,
+              "name": "Blog",
+              "slug": "blog",
+              "term_group": 0,
+              "term_taxonomy_id": 1,
+              "taxonomy": "category",
+              "description": "",
+              "parent": 0,
+              "count": 151,
+              "filter": "raw"
+            }
+          ]
+        ],
+        [
+          "2026-04-30T06:56:19",
+          "Mind the Gap: On Diagrams in Dialogue",
+          "https://snfpaideia.upenn.edu/mind-the-gap-on-diagrams-in-dialogue/",
+          [
+            {
+              "term_id": 1,
+              "name": "Blog",
+              "slug": "blog",
+              "term_group": 0,
+              "term_taxonomy_id": 1,
+              "taxonomy": "category",
+              "description": "",
+              "parent": 0,
+              "count": 151,
+              "filter": "raw"
+            }
+          ]
+        ]
+      ]
+    },
+    "browser": {
+      "status": 200,
+      "ctype": "application/json; charset=UTF-8",
+      "len": 8104,
+      "head": "[{\"id\":10753,\"date\":\"2026-10-28T15:39:15\",\"link\":\"https:\\/\\/snfpaideia.upenn.edu\\/political-empathy-lab-iii-travels-during-2026-midterm-election-season\\/\",\"titl",
+      "json_items": 20,
+      "first": [
+        [
+          "2026-10-28T15:39:15",
+          "Political Empathy Lab III Travels During 2026 Midterm Election Season",
+          "https://snfpaideia.upenn.edu/political-empathy-lab-iii-travels-during-2026-midterm-election-season/",
+          [
+            {
+              "term_id": 1,
+              "name": "Blog",
+              "slug": "blog",
+              "term_group": 0,
+              "term_taxonomy_id": 1,
+              "taxonomy": "category",
+              "description": "",
+              "parent": 0,
+              "count": 151,
+              "filter": "raw"
+            }
+          ]
+        ],
+        [
+          "2026-10-19T12:50:41",
+          "Open Hours at Tusculum Gateway Garden",
+          "https://snfpaideia.upenn.edu/open-hours-at-tusculum-gateway-garden/",
+          [
+            {
+              "term_id": 1,
+              "name": "Blog",
+              "slug": "blog",
+              "term_group": 0,
+              "term_taxonomy_id": 1,
+              "taxonomy": "category",
+              "description": "",
+              "parent": 0,
+              "count": 151,
+              "filter": "raw"
+            }
+          ]
+        ],
+        [
+          "2026-09-28T19:47:31",
+          "A Room Full of Good Causes: Singularity in Mission",
+          "https://snfpaideia.upenn.edu/a-room-full-of-good-causes-singularity-in-mission/",
+          [
+            {
+              "term_id": 1,
+              "name": "Blog",
+              "slug": "blog",
+              "term_group": 0,
+              "term_taxonomy_id": 1,
+              "taxonomy": "category",
+              "description": "",
+              "parent": 0,
+              "count": 151,
+              "filter": "raw"
+            }
+          ]
+        ],
+        [
+          "2026-08-01T13:36:24",
+          "Seeing Beyond the Canvas: How Art and Dialogue Rewire the Way We Talk to Each Ot",
+          "https://snfpaideia.upenn.edu/seeing-beyond-the-canvas-how-art-and-dialogue-rewire-the-way-we-talk-to-each-other/",
+          [
+            {
+              "term_id": 1,
+              "name": "Blog",
+              "slug": "blog",
+              "term_group": 0,
+              "term_taxonomy_id": 1,
+              "taxonomy": "category",
+              "description": "",
+              "parent": 0,
+              "count": 151,
+              "filter": "raw"
+            }
+          ]
+        ],
+        [
+          "2026-07-31T15:00:48",
+          "Leading with Curiosity and Intentionality: Lessons from Sweden on Social Impact ",
+          "https://snfpaideia.upenn.edu/leading-with-curiosity-and-intentionality-lessons-from-sweden-on-social-impact-and-environmental-justice/",
+          [
+            {
+              "term_id": 1,
+              "name": "Blog",
+              "slug": "blog",
+              "term_group": 0,
+              "term_taxonomy_id": 1,
+              "taxonomy": "category",
+              "description": "",
+              "parent": 0,
+              "count": 151,
+              "filter": "raw"
+            }
+          ]
+        ],
+        [
+          "2026-06-16T22:51:53",
+          "When the Camera Comes Out",
+          "https://snfpaideia.upenn.edu/when-the-camera-comes-out/",
+          [
+            {
+              "term_id": 1,
+              "name": "Blog",
+              "slug": "blog",
+              "term_group": 0,
+              "term_taxonomy_id": 1,
+              "taxonomy": "category",
+              "description": "",
+              "parent": 0,
+              "count": 151,
+              "filter": "raw"
+            }
+          ]
+        ],
+        [
+          "2026-06-03T13:30:31",
+          "Engaged in Dialogue and Dialogically Engaged: Dialogue as Both Genre and Mode",
+          "https://snfpaideia.upenn.edu/engaged-in-dialogue-and-dialogically-engaged-dialogue-as-both-genre-and-mode/",
+          [
+            {
+              "term_id": 1,
+              "name": "Blog",
+              "slug": "blog",
+              "term_group": 0,
+              "term_taxonomy_id": 1,
+              "taxonomy": "category",
+              "description": "",
+              "parent": 0,
+              "count": 151,
+              "filter": "raw"
+            }
+          ]
+        ],
+        [
+          "2026-04-30T06:56:19",
+          "Mind the Gap: On Diagrams in Dialogue",
+          "https://snfpaideia.upenn.edu/mind-the-gap-on-diagrams-in-dialogue/",
+          [
+            {
+              "term_id": 1,
+              "name": "Blog",
+              "slug": "blog",
+              "term_group": 0,
+              "term_taxonomy_id": 1,
+              "taxonomy": "category",
+              "description": "",
+              "parent": 0,
+              "count": 151,
+              "filter": "raw"
+            }
+          ]
+        ]
+      ]
+    }
+  },
+  "https://snfpaideia.upenn.edu/wp-json/wp/v2/news?per_page=5&_fields=id,date,link,title": {
+    "urllib": {
+      "len": 1314,
+      "head": "[{\"id\":10781,\"date\":\"2026-10-01T17:56:50\",\"link\":\"https:\\/\\/snfpaideia.upenn.edu\\/news\\/political-empathy-lab-pel-enters-its-third-phase-with-pennsylvania-field",
+      "json_items": 5,
+      "first": [
+        [
+          "2026-10-01T17:56:50",
+          "Political Empathy Lab (PEL) Enters Its Third Phase with Pennsylvania Field Resea",
+          "https://snfpaideia.upenn.edu/news/political-empathy-lab-pel-enters-its-third-phase-with-pennsylvania-field-research-ahead-of-the-midterm-elections/",
+          null
+        ],
+        [
+          "2026-05-07T18:57:58",
+          "Sacrifice versus suffering: Examining unheard stories of the past",
+          "https://snfpaideia.upenn.edu/news/sacrifice-versus-suffering-examining-unheard-stories-of-the-past/",
+          null
+        ],
+        [
+          "2026-04-20T19:06:13",
+          "Why Young Voters Tune Out",
+          "https://snfpaideia.upenn.edu/news/why-young-voters-tune-out/",
+          null
+        ],
+        [
+          "2026-01-16T21:34:16",
+          "Discovering what powers community health organizations in Philadelphia",
+          "https://snfpaideia.upenn.edu/news/discovering-what-powers-community-health-organizations-in-philadelphia/",
+          null
+        ],
+        [
+          "2025-11-17T22:53:56",
+          "Amy Gutmann, once Penn president, is teaching again. Here’s what it’s like to be",
+          "https://snfpaideia.upenn.edu/news/amy-gutmann-once-penn-president-is-teaching-again-heres-what-its-like-to-be-her-student/",
+          null
+        ]
+      ]
+    },
+    "browser": {
+      "status": 200,
+      "ctype": "application/json; charset=UTF-8",
+      "len": 1314,
+      "head": "[{\"id\":10781,\"date\":\"2026-10-01T17:56:50\",\"link\":\"https:\\/\\/snfpaideia.upenn.edu\\/news\\/political-empathy-lab-pel-enters-its-third-phase-with-pennsylvania-field",
+      "json_items": 5,
+      "first": [
+        [
+          "2026-10-01T17:56:50",
+          "Political Empathy Lab (PEL) Enters Its Third Phase with Pennsylvania Field Resea",
+          "https://snfpaideia.upenn.edu/news/political-empathy-lab-pel-enters-its-third-phase-with-pennsylvania-field-research-ahead-of-the-midterm-elections/",
+          null
+        ],
+        [
+          "2026-05-07T18:57:58",
+          "Sacrifice versus suffering: Examining unheard stories of the past",
+          "https://snfpaideia.upenn.edu/news/sacrifice-versus-suffering-examining-unheard-stories-of-the-past/",
+          null
+        ],
+        [
+          "2026-04-20T19:06:13",
+          "Why Young Voters Tune Out",
+          "https://snfpaideia.upenn.edu/news/why-young-voters-tune-out/",
+          null
+        ],
+        [
+          "2026-01-16T21:34:16",
+          "Discovering what powers community health organizations in Philadelphia",
+          "https://snfpaideia.upenn.edu/news/discovering-what-powers-community-health-organizations-in-philadelphia/",
+          null
+        ],
+        [
+          "2025-11-17T22:53:56",
+          "Amy Gutmann, once Penn president, is teaching again. Here’s what it’s like to be",
+          "https://snfpaideia.upenn.edu/news/amy-gutmann-once-penn-president-is-teaching-again-heres-what-its-like-to-be-her-student/",
+          null
+        ]
+      ]
+    }
+  },
+  "https://www.annenbergpublicpolicycenter.org/tag/press-releases/feed/": {
+    "urllib": {
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "browser": {
+      "status": 403,
+      "ctype": "text/html; charset=UTF-8",
+      "len": 5828,
+      "head": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA"
+    }
+  },
+  "https://www.annenbergpublicpolicycenter.org/appc-general-news/feed/": {
+    "urllib": {
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "browser": {
+      "status": 403,
+      "ctype": "text/html; charset=UTF-8",
+      "len": 5825,
+      "head": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA"
+    }
+  },
+  "https://www.asc.upenn.edu/rss.xml": {
+    "urllib": {
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "browser": {
+      "status": 403,
+      "ctype": "text/html; charset=UTF-8",
+      "len": 5695,
+      "head": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA"
+    }
+  }
+}
