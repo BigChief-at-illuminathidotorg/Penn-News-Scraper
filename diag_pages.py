@@ -38,7 +38,7 @@ async def main():
                     await page.wait_for_load_state("networkidle", timeout=15000)
                 except Exception:
                     pass
-                for i in range(12):
+                for i in range(3):
                     found = await page.evaluate(scraper.EXTRACT_JS, scraper.rule_args(sid))
                     c = await page.evaluate(COUNT_JS)
                     dates = sorted(f["dateText"][:10] for f in found)
@@ -59,7 +59,7 @@ async def main():
         page = await ctx.new_page()
         for f in ("https://www.mceas.org/feed/", "https://www.mceas.org/rss.xml", "https://www.gse.upenn.edu/rss.xml", "https://www.gse.upenn.edu/feed/"):
             text = await scraper.fetch_feed_text(page, f, 12, ua)
-            arts = scraper.read_feed(text) if text else []
+            arts = scraper.parse_feed(text) if text else []
             report[f] = [(a["date"], a["title"][:80], a["link"]) for a in arts[:8]]
             print(f, len(arts))
         await browser.close()
