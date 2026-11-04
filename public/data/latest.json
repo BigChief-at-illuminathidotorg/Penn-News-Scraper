@@ -17,6 +17,14 @@
       "notes": "",
       "posts": [
         {
+          "title": "Dolores Albarracín Receives Two NIH Awards to Advance AI-Powered Health Interventions",
+          "link": "https://www.asc.upenn.edu/news-events/news/dolores-albarracin-receives-two-nih-awards-advance-ai-powered-health-interventions",
+          "date": "2026-11-02",
+          "dek": "The new projects will use AI and community partnerships to help more people get tested and stay healthy.",
+          "stream": "news",
+          "source": "html"
+        },
+        {
           "title": "Public Knowledge That Alcohol Causes Cancer Rebounds",
           "link": "https://www.asc.upenn.edu/news-events/news/public-knowledge-alcohol-causes-cancer-rebounds",
           "date": "2026-10-30",
@@ -79,12 +87,26 @@
           "dek": "Research analyzes the viral “Kamala is Brat” trend to show how everyday meme creators helped construct a presidential candidate’s public identity",
           "stream": "news",
           "source": "html"
+        },
+        {
+          "title": "Call for Applications: Postdoctoral Fellow, India Digital Society Lab",
+          "link": "https://www.asc.upenn.edu/news-events/news/call-applications-postdoctoral-fellow-india-digital-society-lab",
+          "date": "2026-10-08",
+          "dek": "The India Digital Society Lab – a collaborative initiative of the Center for the Advanced Study of India (CASI) and...",
+          "stream": "news",
+          "source": "html"
         }
       ],
       "lastError": "",
       "_cache": {
         "news": {
           "items": [
+            {
+              "title": "Dolores Albarracín Receives Two NIH Awards to Advance AI-Powered Health Interventions",
+              "link": "https://www.asc.upenn.edu/news-events/news/dolores-albarracin-receives-two-nih-awards-advance-ai-powered-health-interventions",
+              "date": "2026-11-02",
+              "dek": "The new projects will use AI and community partnerships to help more people get tested and stay healthy."
+            },
             {
               "title": "Public Knowledge That Alcohol Causes Cancer Rebounds",
               "link": "https://www.asc.upenn.edu/news-events/news/public-knowledge-alcohol-causes-cancer-rebounds",
@@ -132,14 +154,20 @@
               "link": "https://www.asc.upenn.edu/news-events/news/new-study-examines-how-tiktok-memes-shaped-kamala-harriss-public-image-during-2024-election",
               "date": "2026-10-12",
               "dek": "Research analyzes the viral “Kamala is Brat” trend to show how everyday meme creators helped construct a presidential candidate’s public identity"
+            },
+            {
+              "title": "Call for Applications: Postdoctoral Fellow, India Digital Society Lab",
+              "link": "https://www.asc.upenn.edu/news-events/news/call-applications-postdoctoral-fellow-india-digital-society-lab",
+              "date": "2026-10-08",
+              "dek": "The India Digital Society Lab – a collaborative initiative of the Center for the Advanced Study of India (CASI) and..."
             }
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T18:42:10.677402Z"
+          "fetchedAt": "2026-11-04T20:55:36.340351Z"
         }
       },
-      "lastSyncAt": "2026-11-04T18:42:10.677402Z",
+      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
       "lastSource": "html"
     },
     {
@@ -153,6 +181,14 @@
       "magazineUrl": "https://www.dental.upenn.edu/news-events/penn-dental-medicine-journal/",
       "notes": "",
       "posts": [
+        {
+          "title": "Penn Dental Medicine Brings Oral Health to the World’s Biggest Climate Summit",
+          "link": "https://www.dental.upenn.edu/news-events/2026/11/04/penn-dental-medicine-brings-oral-health-to-the-worlds-biggest-climate-summit/",
+          "date": "2026-11-04",
+          "dek": "As world leaders gather to confront the ecosystem’s most urgent climate challenges, dental researchers, policymakers and practitioners will take their seat at the table, discussing ways that oral medicine can provide care for people and the planet at the 5th Global Oral Health an",
+          "stream": "news",
+          "source": "feed:https://www.dental.upenn.edu/feed/"
+        },
         {
           "title": "University of Pennsylvania School of Dental Medicine Launches National Online Resource to Support Caregivers",
           "link": "https://www.dental.upenn.edu/news-events/2026/10/27/university-of-pennsylvania-school-of-dental-medicine-launches-national-online-resource-to-support-caregivers/",
@@ -224,20 +260,18 @@
           "dek": "The post In the News: WHYY Talks with Dr. Henry Daniell on his Bioengineered Chewing Gum to Fight HPV appeared first on Penn Dental Medicine .",
           "stream": "news",
           "source": "feed:https://www.dental.upenn.edu/feed/"
-        },
-        {
-          "title": "ACCE Day 2026 Celebrates Scholarship in Service, Education, Clinical Care",
-          "link": "https://www.dental.upenn.edu/news-events/2026/05/26/acce-day-2026-celebrates-scholarship-in-service-education-clinical-care/",
-          "date": "2026-05-26",
-          "dek": "The post ACCE Day 2026 Celebrates Scholarship in Service, Education, Clinical Care appeared first on Penn Dental Medicine .",
-          "stream": "news",
-          "source": "feed:https://www.dental.upenn.edu/feed/"
         }
       ],
       "lastError": "",
       "_cache": {
         "news": {
           "items": [
+            {
+              "title": "Penn Dental Medicine Brings Oral Health to the World’s Biggest Climate Summit",
+              "link": "https://www.dental.upenn.edu/news-events/2026/11/04/penn-dental-medicine-brings-oral-health-to-the-worlds-biggest-climate-summit/",
+              "date": "2026-11-04",
+              "dek": "As world leaders gather to confront the ecosystem’s most urgent climate challenges, dental researchers, policymakers and practitioners will take their seat at the table, discussing ways that oral medicine can provide care for people and the planet at the 5th Global Oral Health an"
+            },
             {
               "title": "University of Pennsylvania School of Dental Medicine Launches National Online Resource to Support Caregivers",
               "link": "https://www.dental.upenn.edu/news-events/2026/10/27/university-of-pennsylvania-school-of-dental-medicine-launches-national-online-resource-to-support-caregivers/",
@@ -291,20 +325,14 @@
               "link": "https://www.dental.upenn.edu/news-events/2026/05/27/in-the-news-whyy-talks-with-dr-henry-daniell-on-his-research-to-create-a-bioengineered-chewing-gum-to-fight-hpv/",
               "date": "2026-05-27",
               "dek": "The post In the News: WHYY Talks with Dr. Henry Daniell on his Bioengineered Chewing Gum to Fight HPV appeared first on Penn Dental Medicine ."
-            },
-            {
-              "title": "ACCE Day 2026 Celebrates Scholarship in Service, Education, Clinical Care",
-              "link": "https://www.dental.upenn.edu/news-events/2026/05/26/acce-day-2026-celebrates-scholarship-in-service-education-clinical-care/",
-              "date": "2026-05-26",
-              "dek": "The post ACCE Day 2026 Celebrates Scholarship in Service, Education, Clinical Care appeared first on Penn Dental Medicine ."
             }
           ],
           "feedUrl": null,
           "source": "feed:https://www.dental.upenn.edu/feed/",
-          "fetchedAt": "2026-11-04T18:42:10.677402Z"
+          "fetchedAt": "2026-11-04T20:55:36.340351Z"
         }
       },
-      "lastSyncAt": "2026-11-04T18:42:10.677402Z",
+      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
       "lastSource": "feed:https://www.dental.upenn.edu/feed/"
     },
     {
@@ -340,10 +368,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://www.gse.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-04T18:42:10.677402Z"
+          "fetchedAt": "2026-11-04T20:55:36.340351Z"
         }
       },
-      "lastSyncAt": "2026-11-04T18:42:10.677402Z",
+      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
       "lastSource": "feed:https://www.gse.upenn.edu/rss.xml"
     },
     {
@@ -445,10 +473,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T18:42:10.677402Z"
+          "fetchedAt": "2026-11-04T20:55:36.340351Z"
         }
       },
-      "lastSyncAt": "2026-11-04T18:42:10.677402Z",
+      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
       "lastSource": "html"
     },
     {
@@ -610,10 +638,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T18:42:10.677402Z"
+          "fetchedAt": "2026-11-04T20:55:36.340351Z"
         }
       },
-      "lastSyncAt": "2026-11-04T18:42:10.677402Z",
+      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
       "lastSource": "html"
     },
     {
@@ -747,10 +775,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T18:42:10.677402Z"
+          "fetchedAt": "2026-11-04T20:55:36.340351Z"
         }
       },
-      "lastSyncAt": "2026-11-04T18:42:10.677402Z",
+      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
       "lastSource": "html"
     },
     {
@@ -845,78 +873,17 @@
           "source": "feed:https://www.engineering.upenn.edu/feed/"
         }
       ],
-      "lastError": "",
+      "lastError": "Latest check returned no articles; showing earlier results. Could not load page: Page.goto: Timeout 35000ms exceeded.",
       "_cache": {
         "news": {
-          "items": [
-            {
-              "title": "Three Penn Engineering Faculty Elected American Physical Society Fellows",
-              "link": "https://www.engineering.upenn.edu/stories/three-penn-engineering-faculty-elected-american-physical-society-fellows/",
-              "date": "2026-11-04",
-              "dek": "Liang Feng, Robert Riggleman and Deep Jariwala of Penn Engineering have been elected Fellows of the American Physical Society (APS), recognizing their contributions to physics and its applications in photonics, materials science and emerging technologies."
-            },
-            {
-              "title": "Stopping Muscular Dystrophy with a ‘Backup’ Protein",
-              "link": "https://www.engineering.upenn.edu/stories/stopping-muscular-dystrophy-with-a-backup-protein/",
-              "date": "2026-11-03",
-              "dek": "Combining techniques used to deliver COVID vaccines, a new use of gene editing might stop or even reverse progression of Duchenne muscular dystrophy."
-            },
-            {
-              "title": "Research to Develop Personalized Treatments for Children with Neurodevelopmental Disabilities",
-              "link": "https://www.engineering.upenn.edu/stories/research-to-develop-personalized-treatments-for-children-with-neurodevelopmental-disabilities/",
-              "date": "2026-11-02",
-              "dek": "The Hartwell Foundation will fund collaboration between UC Davis Health and University of Pennsylvania researchers."
-            },
-            {
-              "title": "Quantum ‘Skyrmions’ Could Help Build More Resilient Networks",
-              "link": "https://www.engineering.upenn.edu/stories/quantum-skyrmions-could-help-build-more-resilient-networks/",
-              "date": "2026-10-30",
-              "dek": "By manipulating quantum ‘skyrmions’ (distinctive patterns in polarized light), Penn engineers discover a potentially powerful new approach to making quantum networks more resilient."
-            },
-            {
-              "title": "The Missing Link Between Event Cameras and Robot Vision",
-              "link": "https://www.engineering.upenn.edu/stories/the-missing-link-between-event-cameras-and-robot-vision/",
-              "date": "2026-10-29",
-              "dek": "Penn's Fast Feature Field could make ultrafast, eye-inspired cameras as practical for robots as conventional cameras."
-            },
-            {
-              "title": "Penn Engineering’s George Pappas Helps Chart More Secure Future for U.S. Robotics",
-              "link": "https://www.engineering.upenn.edu/stories/penn-engineerings-george-pappas-helps-chart-more-secure-future-for-u-s-robotics/",
-              "date": "2026-10-28",
-              "dek": "A new report co-authored by Associate Dean George Pappas outlines research priorities and federal investment opportunities to make American robotics more secure and competitive."
-            },
-            {
-              "title": "How a Penn-based Consortium has Shaped Modern AI",
-              "link": "https://www.engineering.upenn.edu/stories/how-a-penn-based-consortium-has-shaped-modern-ai/",
-              "date": "2026-10-26",
-              "dek": "The Linguistic Data Consortium, hosted at Penn and directed by Penn linguistics professor Mark Liberman, laid the groundwork for modern large language models."
-            },
-            {
-              "title": "Penn Engineers Turn Everyday Mylar Into a Promising Insulator for the Moon",
-              "link": "https://www.engineering.upenn.edu/stories/penn-engineers-turn-everyday-mylar-into-a-promising-insulator-for-the-moon/",
-              "date": "2026-10-23",
-              "dek": "By stacking hundreds of sheets of Mylar, Penn Engineers have created a flexible, durable insulator that could help protect future lunar habitats."
-            },
-            {
-              "title": "Penn’s Schlein Center for Cybersecurity to Combat AI Threats and More",
-              "link": "https://www.engineering.upenn.edu/stories/penns-schlein-center-for-cybersecurity-to-combat-ai-threats-and-more/",
-              "date": "2026-10-22",
-              "dek": "New center unites faculty from across Penn in disciplines like medicine, law, business, public policy and national security."
-            },
-            {
-              "title": "Powering the AI Revolution: The Future of Data Centers with Ben Lee",
-              "link": "https://www.engineering.upenn.edu/stories/powering-the-ai-revolution-the-future-of-data-centers-with-ben-lee/",
-              "date": "2026-10-20",
-              "dek": "As artificial intelligence expands, so does its demand for electricity, water and computing infrastructure. Penn Engineering’s Ben Lee explores how chip design, data center operations and advances in computer architecture could make AI more efficient and reduce its environmental "
-            }
-          ],
+          "items": [],
           "feedUrl": null,
-          "source": "feed:https://www.engineering.upenn.edu/feed/",
-          "fetchedAt": "2026-11-04T18:42:10.677402Z"
+          "source": "",
+          "fetchedAt": "2026-11-04T20:55:36.340351Z"
         }
       },
       "lastSyncAt": "2026-11-04T18:42:10.677402Z",
-      "lastSource": "feed:https://www.engineering.upenn.edu/feed/"
+      "lastSource": ""
     },
     {
       "id": "sp2",
@@ -962,10 +929,26 @@
           "source": "html"
         },
         {
+          "title": "Detroit’s Seniors Joined a Time Bank For Help. They Became Its Biggest Helpers.",
+          "link": "https://nextcity.org/urbanist-news/detroits-seniors-joined-a-time-bank-for-help-became-its-biggest-helpers",
+          "date": "2026-10-06",
+          "dek": "Dr. Chao Guo was featured in a Next City article discussing how time banking helps older adults exchange care and services, strengthen community connections, and…",
+          "stream": "news",
+          "source": "html"
+        },
+        {
           "title": "SP2 launches CARES to advance the science, practice, and future of healthcare social work",
           "link": "https://sp2.upenn.edu/news/sp2-launches-cares-to-advance-the-science-practice-and-future-of-healthcare-social-work/",
           "date": "2026-10-05",
           "dek": "New center brings together SP2, HUP, and CHOP to strengthen research, education, and workforce development in healthcare social work. Penn’s School of Social Policy &…",
+          "stream": "news",
+          "source": "html"
+        },
+        {
+          "title": "Nursing Homes Have Become Last-Resort Housing",
+          "link": "https://time.com/article/2026/09/27/nursing-homes-have-become-last-resort-housing/",
+          "date": "2026-09-27",
+          "dek": "Dr. Dennis Culhane was featured in TIME discussing how gaps in housing and long-term care systems leave older adults experiencing homelessness vulnerable to health risks, disability,…",
           "stream": "news",
           "source": "html"
         },
@@ -978,10 +961,34 @@
           "source": "html"
         },
         {
+          "title": "Higher Overdose Risk and Less Care for People with Autism and Substance Use Disorder",
+          "link": "https://ldi.upenn.edu/our-work/research-updates/higher-overdose-risk-and-less-care-for-people-with-autism-and-substance-use-disorder/",
+          "date": "2026-09-16",
+          "dek": "A new national study coauthored by Dr. Steven Marcus found that Medicaid enrollees with both autism and substance use disorder face higher risks of overdose…",
+          "stream": "news",
+          "source": "html"
+        },
+        {
+          "title": "Bans on screen time will uniquely affect students of color",
+          "link": "https://www.brookings.edu/articles/bans-on-screen-time-will-uniquely-affect-students-of-color-the-techtank-podcast/",
+          "date": "2026-09-09",
+          "dek": "Dr. Desmond Patton joined the Brookings Institution’s TechTank Podcast to discuss how restrictions on screen time and social media may disproportionately affect students of color,…",
+          "stream": "news",
+          "source": "html"
+        },
+        {
           "title": "A brief history of segregated beaches in America",
           "link": "https://sp2.upenn.edu/news/a-brief-history-of-segregated-beaches-in-america/",
           "date": "2026-09-03",
           "dek": "Many beaches in the United States were segregated until 1964. Social policy scholar DeMarcus A. Jenkins of the School of Social Policy & Practice discusses…",
+          "stream": "news",
+          "source": "html"
+        },
+        {
+          "title": "Ioana Marinescu: Why Workers Are Underpaid, and What We Could Do About It",
+          "link": "https://www.reveliolabs.com/podcasts/the-economics-of-work/ioana-marinescu-why-workers-are-underpaid-and-what-we-could-do-about-it#episode-player%20",
+          "date": "2026-09-03",
+          "dek": "Dr. Ioana Marinescu joined The Economics of Work podcast to discuss how labor market competition shapes wages and working conditions, the role of unions and…",
           "stream": "news",
           "source": "html"
         },
@@ -1026,6 +1033,14 @@
           "source": "html"
         },
         {
+          "title": "Italy’s $4.7 billion cheese economy is feeling the heat as climate change threatens its cheese banks that hold Parmigiano wheels as loan collateral",
+          "link": "https://fortune.com/2026/08/10/italy-5-billion-cheese-economy-heat-wave-climate-change/",
+          "date": "2026-08-10",
+          "dek": "Dr. R. Jisung Park was featured in Fortune discussing how extreme heat and climate change are disrupting Italy’s cheese, wine, and olive oil industries, highlighting…",
+          "stream": "news",
+          "source": "html"
+        },
+        {
           "title": "Would you join a club where the goal is to redistribute money?",
           "link": "https://www.marketplace.org/story/2026/08/04/after-doge-cuts-baltimore-club-offers-a-prototype-for-ubi-programs",
           "date": "2026-08-04",
@@ -1038,54 +1053,6 @@
           "link": "https://observer.com/2026/08/billionaire-low-profile-foundation/%20",
           "date": "2026-08-04",
           "dek": "Katherina Rosqueta, founding executive director of Penn’s Center for High Impact Philanthropy, discussed the inefficiencies of nonprofit funding and why some major philanthropists choose to maintain a…",
-          "stream": "news",
-          "source": "html"
-        },
-        {
-          "title": "A new role for dental providers? Rethinking where vaccines are given",
-          "link": "https://sp2.upenn.edu/news/rethinking-where-vaccines-are-given/",
-          "date": "2026-07-29",
-          "dek": "An interdisciplinary team of Penn researchers, including SP2’s Dr. Tamara Cadet, used statistical analysis and focus-group feedback to validate a survey that assesses patient perceptions…",
-          "stream": "news",
-          "source": "html"
-        },
-        {
-          "title": "New book by SP2’s Yoosun Park explores social work’s role in shaping American identity",
-          "link": "https://sp2.upenn.edu/news/new-book-by-sp2s-yoosun-park/",
-          "date": "2026-07-27",
-          "dek": "“Social Work, the Americanization Movement, and the Construction of Americans, 1874-1930” offers the first comprehensive study of social work’s involvement in the Americanization movement.",
-          "stream": "news",
-          "source": "html"
-        },
-        {
-          "title": "When funding shrinks, learning partnerships matter more than ever",
-          "link": "https://www.devex.com/news/sponsored/when-funding-shrinks-learning-partnerships-matter-more-than-ever-112942%20",
-          "date": "2026-07-23",
-          "dek": "Katherina Rosqueta of the Center for High Impact Philanthropy coauthored an op-ed examining how learning partnerships and cross-sector collaboration can support social impact organizations amid…",
-          "stream": "news",
-          "source": "html"
-        },
-        {
-          "title": "Dr. Desmond Upton Patton on the AI blind spot hurting Black youth",
-          "link": "https://rollingout.com/2026/07/11/desmond-patton-ai-black-youth-bias/%20",
-          "date": "2026-07-11",
-          "dek": "Dr. Desmond Patton discussed how AI can misinterpret the language and experiences of Black youth and emphasized the importance of cultural context and community voices…",
-          "stream": "news",
-          "source": "html"
-        },
-        {
-          "title": "Should you go to work during a heat wave? Your productivity suffers, and GDP tanks when it’s hot",
-          "link": "https://finance.yahoo.com/economy/articles/during-heat-wave-productivity-suffers-060000649.html?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cubGlua2VkaW4uY29tLw&guce_referrer_sig=AQAAAEVde8eatKNMcgX_5M7c8iUyEq0kE1i0owNQit1XuCIU-6aNq6v7u1SLPLj6l36IRP2VJtt_qXv5Okuix_77uv4nwM6SlnqbO-ox1c-xpcUvbUrNpcmJRBGHxRaleQstCs5oIyUHo6fxsddvNiYpm-vtTX_08UACZlEod8GybrsA%20",
-          "date": "2026-06-30",
-          "dek": "Dr. R. Jisung Park was quoted in Fortune on the growing economic impacts of extreme heat, highlighting how higher temperatures can reduce productivity and affect…",
-          "stream": "news",
-          "source": "html"
-        },
-        {
-          "title": "Annenberg Answers: AI Chatbots and Youth Mental Health",
-          "link": "https://www.asc.upenn.edu/news-events/news/annenberg-answers-ai-chatbots-and-youth-mental-health%20",
-          "date": "2026-06-15",
-          "dek": "Dr. Desmond Patton discusses AI, youth mental health, human connection, and responsible technology development.",
           "stream": "news",
           "source": "html"
         }
@@ -1119,10 +1086,22 @@
               "dek": "SP2 has welcomed its sixth cohort of SP2 Scholars, a competitive scholarship program with the aim of enhancing the School’s ongoing commitment to the recruitment and…"
             },
             {
+              "title": "Detroit’s Seniors Joined a Time Bank For Help. They Became Its Biggest Helpers.",
+              "link": "https://nextcity.org/urbanist-news/detroits-seniors-joined-a-time-bank-for-help-became-its-biggest-helpers",
+              "date": "2026-10-06",
+              "dek": "Dr. Chao Guo was featured in a Next City article discussing how time banking helps older adults exchange care and services, strengthen community connections, and…"
+            },
+            {
               "title": "SP2 launches CARES to advance the science, practice, and future of healthcare social work",
               "link": "https://sp2.upenn.edu/news/sp2-launches-cares-to-advance-the-science-practice-and-future-of-healthcare-social-work/",
               "date": "2026-10-05",
               "dek": "New center brings together SP2, HUP, and CHOP to strengthen research, education, and workforce development in healthcare social work. Penn’s School of Social Policy &…"
+            },
+            {
+              "title": "Nursing Homes Have Become Last-Resort Housing",
+              "link": "https://time.com/article/2026/09/27/nursing-homes-have-become-last-resort-housing/",
+              "date": "2026-09-27",
+              "dek": "Dr. Dennis Culhane was featured in TIME discussing how gaps in housing and long-term care systems leave older adults experiencing homelessness vulnerable to health risks, disability,…"
             },
             {
               "title": "Nonprofit vs. Business Leadership: What’s Different and Why It Matters",
@@ -1131,10 +1110,28 @@
               "dek": "More professionals are leaving traditional corporate careers in search of purpose-driven work. While many leadership skills transfer across sectors, nonprofit leadership requires a distinct understanding…"
             },
             {
+              "title": "Higher Overdose Risk and Less Care for People with Autism and Substance Use Disorder",
+              "link": "https://ldi.upenn.edu/our-work/research-updates/higher-overdose-risk-and-less-care-for-people-with-autism-and-substance-use-disorder/",
+              "date": "2026-09-16",
+              "dek": "A new national study coauthored by Dr. Steven Marcus found that Medicaid enrollees with both autism and substance use disorder face higher risks of overdose…"
+            },
+            {
+              "title": "Bans on screen time will uniquely affect students of color",
+              "link": "https://www.brookings.edu/articles/bans-on-screen-time-will-uniquely-affect-students-of-color-the-techtank-podcast/",
+              "date": "2026-09-09",
+              "dek": "Dr. Desmond Patton joined the Brookings Institution’s TechTank Podcast to discuss how restrictions on screen time and social media may disproportionately affect students of color,…"
+            },
+            {
               "title": "A brief history of segregated beaches in America",
               "link": "https://sp2.upenn.edu/news/a-brief-history-of-segregated-beaches-in-america/",
               "date": "2026-09-03",
               "dek": "Many beaches in the United States were segregated until 1964. Social policy scholar DeMarcus A. Jenkins of the School of Social Policy & Practice discusses…"
+            },
+            {
+              "title": "Ioana Marinescu: Why Workers Are Underpaid, and What We Could Do About It",
+              "link": "https://www.reveliolabs.com/podcasts/the-economics-of-work/ioana-marinescu-why-workers-are-underpaid-and-what-we-could-do-about-it#episode-player%20",
+              "date": "2026-09-03",
+              "dek": "Dr. Ioana Marinescu joined The Economics of Work podcast to discuss how labor market competition shapes wages and working conditions, the role of unions and…"
             },
             {
               "title": "Penn’s School of Social Policy & Practice launches redesigned website",
@@ -1167,6 +1164,12 @@
               "dek": "A team of Philadelphia-based content creators is collaborating with Penn public health experts to develop a comprehensive anti-violence campaign tailored for youth across the City,…"
             },
             {
+              "title": "Italy’s $4.7 billion cheese economy is feeling the heat as climate change threatens its cheese banks that hold Parmigiano wheels as loan collateral",
+              "link": "https://fortune.com/2026/08/10/italy-5-billion-cheese-economy-heat-wave-climate-change/",
+              "date": "2026-08-10",
+              "dek": "Dr. R. Jisung Park was featured in Fortune discussing how extreme heat and climate change are disrupting Italy’s cheese, wine, and olive oil industries, highlighting…"
+            },
+            {
               "title": "Would you join a club where the goal is to redistribute money?",
               "link": "https://www.marketplace.org/story/2026/08/04/after-doge-cuts-baltimore-club-offers-a-prototype-for-ubi-programs",
               "date": "2026-08-04",
@@ -1177,50 +1180,14 @@
               "link": "https://observer.com/2026/08/billionaire-low-profile-foundation/%20",
               "date": "2026-08-04",
               "dek": "Katherina Rosqueta, founding executive director of Penn’s Center for High Impact Philanthropy, discussed the inefficiencies of nonprofit funding and why some major philanthropists choose to maintain a…"
-            },
-            {
-              "title": "A new role for dental providers? Rethinking where vaccines are given",
-              "link": "https://sp2.upenn.edu/news/rethinking-where-vaccines-are-given/",
-              "date": "2026-07-29",
-              "dek": "An interdisciplinary team of Penn researchers, including SP2’s Dr. Tamara Cadet, used statistical analysis and focus-group feedback to validate a survey that assesses patient perceptions…"
-            },
-            {
-              "title": "New book by SP2’s Yoosun Park explores social work’s role in shaping American identity",
-              "link": "https://sp2.upenn.edu/news/new-book-by-sp2s-yoosun-park/",
-              "date": "2026-07-27",
-              "dek": "“Social Work, the Americanization Movement, and the Construction of Americans, 1874-1930” offers the first comprehensive study of social work’s involvement in the Americanization movement."
-            },
-            {
-              "title": "When funding shrinks, learning partnerships matter more than ever",
-              "link": "https://www.devex.com/news/sponsored/when-funding-shrinks-learning-partnerships-matter-more-than-ever-112942%20",
-              "date": "2026-07-23",
-              "dek": "Katherina Rosqueta of the Center for High Impact Philanthropy coauthored an op-ed examining how learning partnerships and cross-sector collaboration can support social impact organizations amid…"
-            },
-            {
-              "title": "Dr. Desmond Upton Patton on the AI blind spot hurting Black youth",
-              "link": "https://rollingout.com/2026/07/11/desmond-patton-ai-black-youth-bias/%20",
-              "date": "2026-07-11",
-              "dek": "Dr. Desmond Patton discussed how AI can misinterpret the language and experiences of Black youth and emphasized the importance of cultural context and community voices…"
-            },
-            {
-              "title": "Should you go to work during a heat wave? Your productivity suffers, and GDP tanks when it’s hot",
-              "link": "https://finance.yahoo.com/economy/articles/during-heat-wave-productivity-suffers-060000649.html?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cubGlua2VkaW4uY29tLw&guce_referrer_sig=AQAAAEVde8eatKNMcgX_5M7c8iUyEq0kE1i0owNQit1XuCIU-6aNq6v7u1SLPLj6l36IRP2VJtt_qXv5Okuix_77uv4nwM6SlnqbO-ox1c-xpcUvbUrNpcmJRBGHxRaleQstCs5oIyUHo6fxsddvNiYpm-vtTX_08UACZlEod8GybrsA%20",
-              "date": "2026-06-30",
-              "dek": "Dr. R. Jisung Park was quoted in Fortune on the growing economic impacts of extreme heat, highlighting how higher temperatures can reduce productivity and affect…"
-            },
-            {
-              "title": "Annenberg Answers: AI Chatbots and Youth Mental Health",
-              "link": "https://www.asc.upenn.edu/news-events/news/annenberg-answers-ai-chatbots-and-youth-mental-health%20",
-              "date": "2026-06-15",
-              "dek": "Dr. Desmond Patton discusses AI, youth mental health, human connection, and responsible technology development."
             }
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T18:42:10.677402Z"
+          "fetchedAt": "2026-11-04T20:55:36.340351Z"
         }
       },
-      "lastSyncAt": "2026-11-04T18:42:10.677402Z",
+      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
       "lastSource": "html"
     },
     {
@@ -1508,10 +1475,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T18:42:10.677402Z"
+          "fetchedAt": "2026-11-04T20:55:36.340351Z"
         }
       },
-      "lastSyncAt": "2026-11-04T18:42:10.677402Z",
+      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
       "lastSource": "html"
     },
     {
@@ -1813,10 +1780,10 @@
           ],
           "feedUrl": "https://news.wharton.upenn.edu/feed/",
           "source": "feed:https://news.wharton.upenn.edu/feed/",
-          "fetchedAt": "2026-11-04T18:42:10.677402Z"
+          "fetchedAt": "2026-11-04T20:55:36.340351Z"
         }
       },
-      "lastSyncAt": "2026-11-04T18:42:10.677402Z",
+      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
       "lastSource": "feed:https://news.wharton.upenn.edu/feed/"
     },
     {
@@ -1978,10 +1945,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T18:42:10.677402Z"
+          "fetchedAt": "2026-11-04T20:55:36.340351Z"
         }
       },
-      "lastSyncAt": "2026-11-04T18:42:10.677402Z",
+      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
       "lastSource": "html"
     },
     {
@@ -1992,9 +1959,92 @@
       "subhead": "Policy research and public opinion",
       "newsUrl": "https://www.annenbergpublicpolicycenter.org/appc-general-news/",
       "feedUrl": null,
+      "extraUrls": [
+        "https://www.annenbergpublicpolicycenter.org/tag/press-releases/"
+      ],
       "magazineUrl": null,
-      "notes": "2026-11-04: APPC General News listing (the site-wide feed mixes in other posts).",
+      "notes": "2026-11-04: General news plus press releases (the site-wide feed mixes in other posts).",
       "posts": [
+        {
+          "title": "Dolores Albarracín Receives Two NIH Awards to Advance AI-Powered Health Interventions",
+          "link": "https://www.annenbergpublicpolicycenter.org/dolores-albarracin-receives-two-nih-awards-to-advance-ai-powered-health-interventions/",
+          "date": "2026-11-03",
+          "dek": "APPC director Dolores Albarracín received two NIH awards for research focused on using AI and community partnerships to address public health concerns.",
+          "stream": "news",
+          "source": "html"
+        },
+        {
+          "title": "Public Knowledge That Alcohol Causes Cancer Rebounds",
+          "link": "https://www.annenbergpublicpolicycenter.org/public-knowledge-that-alcohol-causes-cancer-rebounds/",
+          "date": "2026-10-27",
+          "dek": "Nearly 6 in 10 Americans (58%) know that regularly consuming alcohol increases the chances of later developing cancer, a five-point increase from February 2026.",
+          "stream": "news",
+          "source": "html"
+        },
+        {
+          "title": "One in 4 Americans Supports MAHA, but Three Times as Many Share Food-Related Concerns",
+          "link": "https://www.annenbergpublicpolicycenter.org/one-in-4-americans-supports-maha-but-three-times-as-many-share-food-related-concerns/",
+          "date": "2026-10-22",
+          "dek": "An Annenberg survey finds that while just a quarter of Americans say they support the Make America Health Again movement, many more share its concerns over additives, chemicals, and highly processed foods.",
+          "stream": "news",
+          "source": "html"
+        },
+        {
+          "title": "Views of Science Help Explain Partisan Differences Over Vaccine Safety and Effectiveness",
+          "link": "https://www.annenbergpublicpolicycenter.org/views-of-science-help-explain-partisan-differences-over-vaccine-safety-and-effectiveness/",
+          "date": "2026-10-19",
+          "dek": "How Americans view science and scientists is strongly associated with whether they think vaccines are safe and effective, according to a new study.",
+          "stream": "news",
+          "source": "html"
+        },
+        {
+          "title": "Public Health Strategies Used Against Cigarettes Could Help Reduce Appeal of Firearms, Paper Argues",
+          "link": "https://www.annenbergpublicpolicycenter.org/public-health-strategies-used-against-cigarettes-could-help-reduce-appeal-of-firearms-paper-argues/",
+          "date": "2026-10-07",
+          "dek": "Dan Romer writes that public health strategies used to help reduce smoking offer an approach to help curb the appeal and use of firearms.",
+          "stream": "news",
+          "source": "html"
+        },
+        {
+          "title": "About 1 in 3 Americans Say RFK Jr. Recommends Measles Vaccine",
+          "link": "https://www.annenbergpublicpolicycenter.org/about-1-in-3-americans-say-rfk-jr-recommends-measles-vaccine/",
+          "date": "2026-09-29",
+          "dek": "About a third of U.S. adults say HHS Secretary Robert F. Kennedy Jr. recommends vaccinating children against measles - and about as many say he does not recommend it.",
+          "stream": "news",
+          "source": "html"
+        },
+        {
+          "title": "State HIV Prevention Policies May Benefit Racial and Ethnic Groups Unequally",
+          "link": "https://www.annenbergpublicpolicycenter.org/state-hiv-prevention-policies-may-benefit-racial-and-ethnic-groups-unequally/",
+          "date": "2026-09-24",
+          "dek": "State policies that make healthcare easier to obtain and protect LGBTQ+ people from discrimination are associated with greater use of HIV prevention measures among white adults. Those benefits may not extend equally to Black and Latino populations, a study finds.",
+          "stream": "news",
+          "source": "html"
+        },
+        {
+          "title": "In House Primaries, Organized Groups Matter More Than Voters, New Book Finds",
+          "link": "https://www.annenbergpublicpolicycenter.org/in-house-primaries-organized-groups-matter-more-than-voters-new-book-finds/",
+          "date": "2026-09-23",
+          "dek": "With most U.S. House seats safe for one party or the other, the primary is the election that usually determines who goes to Congress — and it's the election Americans know the least about.",
+          "stream": "news",
+          "source": "html"
+        },
+        {
+          "title": "In Hottest Summer on Record, 2 in 3 Americans Say Climate Change Is Increasing Heat-Related Illnesses",
+          "link": "https://www.annenbergpublicpolicycenter.org/in-hottest-summer-on-record-2-in-3-americans-say-climate-change-is-increasing-heat-related-illnesses/",
+          "date": "2026-09-17",
+          "dek": "Extreme heat is affecting the everyday lives of most Americans, and most of the public says climate change is raising the risk of respiratory diseases and heat- and insect-related illnesses.",
+          "stream": "news",
+          "source": "html"
+        },
+        {
+          "title": "A Third of Americans Cannot Name the Three Branches of Government",
+          "link": "https://www.annenbergpublicpolicycenter.org/a-third-of-americans-cannot-name-the-three-branches-of-government/",
+          "date": "2026-09-15",
+          "dek": "Of the five First Amendment rights, only freedom of speech is identified by more than half of survey respondents in the 2026 Annenberg Public Policy Center's Constitution Day Civics Survey.",
+          "stream": "news",
+          "source": "html"
+        },
         {
           "title": "Penn Professor Dolores Albarracín Is New Director of Annenberg Public Policy Center",
           "link": "https://www.annenbergpublicpolicycenter.org/penn-professor-dolores-albarracin-is-new-director-of-annenberg-public-policy-center/",
@@ -2081,6 +2131,66 @@
         "news": {
           "items": [
             {
+              "title": "Dolores Albarracín Receives Two NIH Awards to Advance AI-Powered Health Interventions",
+              "link": "https://www.annenbergpublicpolicycenter.org/dolores-albarracin-receives-two-nih-awards-to-advance-ai-powered-health-interventions/",
+              "date": "2026-11-03",
+              "dek": "APPC director Dolores Albarracín received two NIH awards for research focused on using AI and community partnerships to address public health concerns."
+            },
+            {
+              "title": "Public Knowledge That Alcohol Causes Cancer Rebounds",
+              "link": "https://www.annenbergpublicpolicycenter.org/public-knowledge-that-alcohol-causes-cancer-rebounds/",
+              "date": "2026-10-27",
+              "dek": "Nearly 6 in 10 Americans (58%) know that regularly consuming alcohol increases the chances of later developing cancer, a five-point increase from February 2026."
+            },
+            {
+              "title": "One in 4 Americans Supports MAHA, but Three Times as Many Share Food-Related Concerns",
+              "link": "https://www.annenbergpublicpolicycenter.org/one-in-4-americans-supports-maha-but-three-times-as-many-share-food-related-concerns/",
+              "date": "2026-10-22",
+              "dek": "An Annenberg survey finds that while just a quarter of Americans say they support the Make America Health Again movement, many more share its concerns over additives, chemicals, and highly processed foods."
+            },
+            {
+              "title": "Views of Science Help Explain Partisan Differences Over Vaccine Safety and Effectiveness",
+              "link": "https://www.annenbergpublicpolicycenter.org/views-of-science-help-explain-partisan-differences-over-vaccine-safety-and-effectiveness/",
+              "date": "2026-10-19",
+              "dek": "How Americans view science and scientists is strongly associated with whether they think vaccines are safe and effective, according to a new study."
+            },
+            {
+              "title": "Public Health Strategies Used Against Cigarettes Could Help Reduce Appeal of Firearms, Paper Argues",
+              "link": "https://www.annenbergpublicpolicycenter.org/public-health-strategies-used-against-cigarettes-could-help-reduce-appeal-of-firearms-paper-argues/",
+              "date": "2026-10-07",
+              "dek": "Dan Romer writes that public health strategies used to help reduce smoking offer an approach to help curb the appeal and use of firearms."
+            },
+            {
+              "title": "About 1 in 3 Americans Say RFK Jr. Recommends Measles Vaccine",
+              "link": "https://www.annenbergpublicpolicycenter.org/about-1-in-3-americans-say-rfk-jr-recommends-measles-vaccine/",
+              "date": "2026-09-29",
+              "dek": "About a third of U.S. adults say HHS Secretary Robert F. Kennedy Jr. recommends vaccinating children against measles - and about as many say he does not recommend it."
+            },
+            {
+              "title": "State HIV Prevention Policies May Benefit Racial and Ethnic Groups Unequally",
+              "link": "https://www.annenbergpublicpolicycenter.org/state-hiv-prevention-policies-may-benefit-racial-and-ethnic-groups-unequally/",
+              "date": "2026-09-24",
+              "dek": "State policies that make healthcare easier to obtain and protect LGBTQ+ people from discrimination are associated with greater use of HIV prevention measures among white adults. Those benefits may not extend equally to Black and Latino populations, a study finds."
+            },
+            {
+              "title": "In House Primaries, Organized Groups Matter More Than Voters, New Book Finds",
+              "link": "https://www.annenbergpublicpolicycenter.org/in-house-primaries-organized-groups-matter-more-than-voters-new-book-finds/",
+              "date": "2026-09-23",
+              "dek": "With most U.S. House seats safe for one party or the other, the primary is the election that usually determines who goes to Congress — and it's the election Americans know the least about."
+            },
+            {
+              "title": "In Hottest Summer on Record, 2 in 3 Americans Say Climate Change Is Increasing Heat-Related Illnesses",
+              "link": "https://www.annenbergpublicpolicycenter.org/in-hottest-summer-on-record-2-in-3-americans-say-climate-change-is-increasing-heat-related-illnesses/",
+              "date": "2026-09-17",
+              "dek": "Extreme heat is affecting the everyday lives of most Americans, and most of the public says climate change is raising the risk of respiratory diseases and heat- and insect-related illnesses."
+            },
+            {
+              "title": "A Third of Americans Cannot Name the Three Branches of Government",
+              "link": "https://www.annenbergpublicpolicycenter.org/a-third-of-americans-cannot-name-the-three-branches-of-government/",
+              "date": "2026-09-15",
+              "dek": "Of the five First Amendment rights, only freedom of speech is identified by more than half of survey respondents in the 2026 Annenberg Public Policy Center's Constitution Day Civics Survey."
+            },
+            {
               "title": "Penn Professor Dolores Albarracín Is New Director of Annenberg Public Policy Center",
               "link": "https://www.annenbergpublicpolicycenter.org/penn-professor-dolores-albarracin-is-new-director-of-annenberg-public-policy-center/",
               "date": "2026-06-30",
@@ -2143,10 +2253,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T18:42:10.677402Z"
+          "fetchedAt": "2026-11-04T20:55:36.340351Z"
         }
       },
-      "lastSyncAt": "2026-11-04T18:42:10.677402Z",
+      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
       "lastSource": "html"
     },
     {
@@ -2308,10 +2418,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://knowledge.wharton.upenn.edu/feed/",
-          "fetchedAt": "2026-11-04T18:42:10.677402Z"
+          "fetchedAt": "2026-11-04T20:55:36.340351Z"
         }
       },
-      "lastSyncAt": "2026-11-04T18:42:10.677402Z",
+      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
       "lastSource": "feed:https://knowledge.wharton.upenn.edu/feed/"
     },
     {
@@ -2334,16 +2444,16 @@
           "source": "html"
         },
         {
-          "title": "Three Questions from a Philosopher About ‘AI Slop’",
-          "link": "https://omnia.sas.upenn.edu/story/ai-slop-three-questions-philosopher-dan-singer",
+          "title": "Putting the Rare Within Reach",
+          "link": "https://omnia.sas.upenn.edu/story/john-pollack-curator-kislak-rare-books",
           "date": "2026-11-02",
           "dek": "",
           "stream": "news",
           "source": "html"
         },
         {
-          "title": "Putting the Rare Within Reach",
-          "link": "https://omnia.sas.upenn.edu/story/john-pollack-curator-kislak-rare-books",
+          "title": "Three Questions from a Philosopher About ‘AI Slop’",
+          "link": "https://omnia.sas.upenn.edu/story/ai-slop-three-questions-philosopher-dan-singer",
           "date": "2026-11-02",
           "dek": "",
           "stream": "news",
@@ -2393,14 +2503,14 @@
               "dek": ""
             },
             {
-              "title": "Three Questions from a Philosopher About ‘AI Slop’",
-              "link": "https://omnia.sas.upenn.edu/story/ai-slop-three-questions-philosopher-dan-singer",
+              "title": "Putting the Rare Within Reach",
+              "link": "https://omnia.sas.upenn.edu/story/john-pollack-curator-kislak-rare-books",
               "date": "2026-11-02",
               "dek": ""
             },
             {
-              "title": "Putting the Rare Within Reach",
-              "link": "https://omnia.sas.upenn.edu/story/john-pollack-curator-kislak-rare-books",
+              "title": "Three Questions from a Philosopher About ‘AI Slop’",
+              "link": "https://omnia.sas.upenn.edu/story/ai-slop-three-questions-philosopher-dan-singer",
               "date": "2026-11-02",
               "dek": ""
             },
@@ -2431,10 +2541,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T18:42:10.677402Z"
+          "fetchedAt": "2026-11-04T20:55:36.340351Z"
         }
       },
-      "lastSyncAt": "2026-11-04T18:42:10.677402Z",
+      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
       "lastSource": "html"
     },
     {
@@ -2582,10 +2692,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T18:42:10.677402Z"
+          "fetchedAt": "2026-11-04T20:55:36.340351Z"
         }
       },
-      "lastSyncAt": "2026-11-04T18:42:10.677402Z",
+      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
       "lastSource": "html"
     },
     {
@@ -2677,10 +2787,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T18:42:10.677402Z"
+          "fetchedAt": "2026-11-04T20:55:36.340351Z"
         }
       },
-      "lastSyncAt": "2026-11-04T18:42:10.677402Z",
+      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
       "lastSource": "html"
     },
     {
@@ -2700,10 +2810,10 @@
           "items": [],
           "feedUrl": null,
           "source": "",
-          "fetchedAt": "2026-11-04T18:42:10.677402Z"
+          "fetchedAt": "2026-11-04T20:55:36.340351Z"
         }
       },
-      "lastSyncAt": "2026-11-04T18:42:10.677402Z",
+      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
       "lastSource": ""
     },
     {
@@ -2851,10 +2961,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T18:42:10.677402Z"
+          "fetchedAt": "2026-11-04T20:55:36.340351Z"
         }
       },
-      "lastSyncAt": "2026-11-04T18:42:10.677402Z",
+      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
       "lastSource": "html"
     },
     {
@@ -3016,10 +3126,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://creative.writing.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-04T18:42:10.677402Z"
+          "fetchedAt": "2026-11-04T20:55:36.340351Z"
         }
       },
-      "lastSyncAt": "2026-11-04T18:42:10.677402Z",
+      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
       "lastSource": "feed:https://creative.writing.upenn.edu/rss.xml"
     },
     {
@@ -3033,6 +3143,14 @@
       "magazineUrl": null,
       "notes": "",
       "posts": [
+        {
+          "title": "Special Edition: Turning a Farming Solution Into Policy",
+          "link": "https://kleinmanenergy.upenn.edu/about/news/special-edition-turning-a-farming-solution-into-policy/",
+          "date": "2026-11-04",
+          "dek": "The post Special Edition: Turning a Farming Solution Into Policy appeared first on Kleinman Center for Energy Policy .",
+          "stream": "news",
+          "source": "feed:https://kleinmanenergy.upenn.edu/feed/"
+        },
         {
           "title": "The GHG Protocol Forestry Controversy Threatening CDR",
           "link": "https://kleinmanenergy.upenn.edu/about/news/the-ghg-protocol-forestry-controversy-threatening-cdr/",
@@ -3104,20 +3222,18 @@
           "dek": "The post Strengthening the Grid: U.S. Electricity Policy and Governance appeared first on Kleinman Center for Energy Policy .",
           "stream": "news",
           "source": "feed:https://kleinmanenergy.upenn.edu/feed/"
-        },
-        {
-          "title": "Climate Calculus",
-          "link": "https://kleinmanenergy.upenn.edu/about/news/climate-calculus/",
-          "date": "2026-10-30",
-          "dek": "The post Climate Calculus appeared first on Kleinman Center for Energy Policy .",
-          "stream": "news",
-          "source": "feed:https://kleinmanenergy.upenn.edu/feed/"
         }
       ],
       "lastError": "",
       "_cache": {
         "news": {
           "items": [
+            {
+              "title": "Special Edition: Turning a Farming Solution Into Policy",
+              "link": "https://kleinmanenergy.upenn.edu/about/news/special-edition-turning-a-farming-solution-into-policy/",
+              "date": "2026-11-04",
+              "dek": "The post Special Edition: Turning a Farming Solution Into Policy appeared first on Kleinman Center for Energy Policy ."
+            },
             {
               "title": "The GHG Protocol Forestry Controversy Threatening CDR",
               "link": "https://kleinmanenergy.upenn.edu/about/news/the-ghg-protocol-forestry-controversy-threatening-cdr/",
@@ -3171,20 +3287,14 @@
               "link": "https://kleinmanenergy.upenn.edu/about/news/strengthening-the-grid-u-s-electricity-policy-and-governance/",
               "date": "2026-10-30",
               "dek": "The post Strengthening the Grid: U.S. Electricity Policy and Governance appeared first on Kleinman Center for Energy Policy ."
-            },
-            {
-              "title": "Climate Calculus",
-              "link": "https://kleinmanenergy.upenn.edu/about/news/climate-calculus/",
-              "date": "2026-10-30",
-              "dek": "The post Climate Calculus appeared first on Kleinman Center for Energy Policy ."
             }
           ],
           "feedUrl": null,
           "source": "feed:https://kleinmanenergy.upenn.edu/feed/",
-          "fetchedAt": "2026-11-04T18:42:10.677402Z"
+          "fetchedAt": "2026-11-04T20:55:36.340351Z"
         }
       },
-      "lastSyncAt": "2026-11-04T18:42:10.677402Z",
+      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
       "lastSource": "feed:https://kleinmanenergy.upenn.edu/feed/"
     },
     {
@@ -3346,10 +3456,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T18:42:10.677402Z"
+          "fetchedAt": "2026-11-04T20:55:36.340351Z"
         }
       },
-      "lastSyncAt": "2026-11-04T18:42:10.677402Z",
+      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
       "lastSource": "html"
     },
     {
@@ -3483,10 +3593,10 @@
           ],
           "feedUrl": "https://pennovation.upenn.edu/feed/",
           "source": "feed:https://pennovation.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-04T18:42:10.677402Z"
+          "fetchedAt": "2026-11-04T20:55:36.340351Z"
         }
       },
-      "lastSyncAt": "2026-11-04T18:42:10.677402Z",
+      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
       "lastSource": "feed:https://pennovation.upenn.edu/rss.xml"
     },
     {
@@ -3648,10 +3758,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://katz.sas.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-04T18:42:10.677402Z"
+          "fetchedAt": "2026-11-04T20:55:36.340351Z"
         }
       },
-      "lastSyncAt": "2026-11-04T18:42:10.677402Z",
+      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
       "lastSource": "feed:https://katz.sas.upenn.edu/rss.xml"
     },
     {
@@ -3715,10 +3825,10 @@
           ],
           "feedUrl": "https://www.mceas.org/feed/",
           "source": "feed:https://www.mceas.org/rss.xml",
-          "fetchedAt": "2026-11-04T18:42:10.677402Z"
+          "fetchedAt": "2026-11-04T20:55:36.340351Z"
         }
       },
-      "lastSyncAt": "2026-11-04T18:42:10.677402Z",
+      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
       "lastSource": "feed:https://www.mceas.org/rss.xml"
     },
     {
@@ -3732,6 +3842,14 @@
       "magazineUrl": null,
       "notes": "",
       "posts": [
+        {
+          "title": "Student Event: Policy Coffee Talk with Claire Robertson-Kraft and guest Kathryn Ott Lovell",
+          "link": "https://www.fels.upenn.edu/news-events/student-event-policy-coffee-talk-claire-robertson-kraft-and-guest-kathryn-ott-lovell",
+          "date": "2026-11-04",
+          "dek": "Student Event: Policy Coffee Talk with Claire Robertson-Kraft and guest Kathryn Ott Lovell lyonsj@upenn.edu Wed, 11/04/2026 - 11:10 Friday, November 6, 2026, 8:30 - 9:15 am ET Join us for a Policy Coffee Talk featuring Claire Robertson-Kraft, Faculty Co-Director of the Executive ",
+          "stream": "news",
+          "source": "feed:https://www.fels.upenn.edu/rss.xml"
+        },
         {
           "title": "Fels and Pennsylvania Office of Attorney General Expand Access to Public Administration Education",
           "link": "https://www.fels.upenn.edu/news-events/fels-and-pennsylvania-office-attorney-general-expand-access-public-administration",
@@ -3803,20 +3921,18 @@
           "dek": "Expanding and Evaluating NKCDC’s Community Health Worker Program: Longitudinal Outcomes & Career Pathways Framework Organization: New Kensington Community Development Corporation (NKCDC) skates@upenn.edu Wed, 10/21/2026 - 14:33 City: Philadelphia State: Pennsylvania Organization ",
           "stream": "news",
           "source": "feed:https://www.fels.upenn.edu/rss.xml"
-        },
-        {
-          "title": "Develop a comprehensive market analysis of the Kensington market",
-          "link": "https://www.fels.upenn.edu/partner-fels/project-listing/develop-comprehensive-market-analysis-kensington-market",
-          "date": "2026-10-21",
-          "dek": "Develop a comprehensive market analysis of the Kensington market Organization: New Kensington CDC skates@upenn.edu Wed, 10/21/2026 - 14:25 City: Philadelphia State: Pennsylvania Organization Overview: New Kensington Community Development Corporation (NKCDC) is a Philadelphia nonp",
-          "stream": "news",
-          "source": "feed:https://www.fels.upenn.edu/rss.xml"
         }
       ],
       "lastError": "",
       "_cache": {
         "news": {
           "items": [
+            {
+              "title": "Student Event: Policy Coffee Talk with Claire Robertson-Kraft and guest Kathryn Ott Lovell",
+              "link": "https://www.fels.upenn.edu/news-events/student-event-policy-coffee-talk-claire-robertson-kraft-and-guest-kathryn-ott-lovell",
+              "date": "2026-11-04",
+              "dek": "Student Event: Policy Coffee Talk with Claire Robertson-Kraft and guest Kathryn Ott Lovell lyonsj@upenn.edu Wed, 11/04/2026 - 11:10 Friday, November 6, 2026, 8:30 - 9:15 am ET Join us for a Policy Coffee Talk featuring Claire Robertson-Kraft, Faculty Co-Director of the Executive "
+            },
             {
               "title": "Fels and Pennsylvania Office of Attorney General Expand Access to Public Administration Education",
               "link": "https://www.fels.upenn.edu/news-events/fels-and-pennsylvania-office-attorney-general-expand-access-public-administration",
@@ -3870,20 +3986,14 @@
               "link": "https://www.fels.upenn.edu/partner-fels/project-listing/expanding-and-evaluating-nkcdcs-community-health-worker-program",
               "date": "2026-10-21",
               "dek": "Expanding and Evaluating NKCDC’s Community Health Worker Program: Longitudinal Outcomes & Career Pathways Framework Organization: New Kensington Community Development Corporation (NKCDC) skates@upenn.edu Wed, 10/21/2026 - 14:33 City: Philadelphia State: Pennsylvania Organization "
-            },
-            {
-              "title": "Develop a comprehensive market analysis of the Kensington market",
-              "link": "https://www.fels.upenn.edu/partner-fels/project-listing/develop-comprehensive-market-analysis-kensington-market",
-              "date": "2026-10-21",
-              "dek": "Develop a comprehensive market analysis of the Kensington market Organization: New Kensington CDC skates@upenn.edu Wed, 10/21/2026 - 14:25 City: Philadelphia State: Pennsylvania Organization Overview: New Kensington Community Development Corporation (NKCDC) is a Philadelphia nonp"
             }
           ],
           "feedUrl": null,
           "source": "feed:https://www.fels.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-04T18:42:10.677402Z"
+          "fetchedAt": "2026-11-04T20:55:36.340351Z"
         }
       },
-      "lastSyncAt": "2026-11-04T18:42:10.677402Z",
+      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
       "lastSource": "feed:https://www.fels.upenn.edu/rss.xml"
     },
     {
@@ -4045,10 +4155,10 @@
           ],
           "feedUrl": "https://icaphila.org/feed/",
           "source": "feed:https://icaphila.org/feed/",
-          "fetchedAt": "2026-11-04T18:42:10.677402Z"
+          "fetchedAt": "2026-11-04T20:55:36.340351Z"
         }
       },
-      "lastSyncAt": "2026-11-04T18:42:10.677402Z",
+      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
       "lastSource": "feed:https://icaphila.org/feed/"
     },
     {
@@ -4210,10 +4320,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://lauder.wharton.upenn.edu/feed/",
-          "fetchedAt": "2026-11-04T18:42:10.677402Z"
+          "fetchedAt": "2026-11-04T20:55:36.340351Z"
         }
       },
-      "lastSyncAt": "2026-11-04T18:42:10.677402Z",
+      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
       "lastSource": "feed:https://lauder.wharton.upenn.edu/feed/"
     },
     {
@@ -4361,10 +4471,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T18:42:10.677402Z"
+          "fetchedAt": "2026-11-04T20:55:36.340351Z"
         }
       },
-      "lastSyncAt": "2026-11-04T18:42:10.677402Z",
+      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
       "lastSource": "html"
     },
     {
@@ -4526,10 +4636,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://fisher.wharton.upenn.edu/feed/",
-          "fetchedAt": "2026-11-04T18:42:10.677402Z"
+          "fetchedAt": "2026-11-04T20:55:36.340351Z"
         }
       },
-      "lastSyncAt": "2026-11-04T18:42:10.677402Z",
+      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
       "lastSource": "feed:https://fisher.wharton.upenn.edu/feed/"
     },
     {
@@ -4677,10 +4787,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://pores.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-04T18:42:10.677402Z"
+          "fetchedAt": "2026-11-04T20:55:36.340351Z"
         }
       },
-      "lastSyncAt": "2026-11-04T18:42:10.677402Z",
+      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
       "lastSource": "feed:https://pores.upenn.edu/rss.xml"
     },
     {
@@ -4982,11 +5092,316 @@
           ],
           "feedUrl": "https://snfpaideia.upenn.edu/feed/",
           "source": "html",
-          "fetchedAt": "2026-11-04T18:42:10.677402Z"
+          "fetchedAt": "2026-11-04T20:55:36.340351Z"
         }
       },
-      "lastSyncAt": "2026-11-04T18:42:10.677402Z",
+      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
       "lastSource": "html"
+    },
+    {
+      "id": "snf-paideia-perspectives",
+      "name": "SNF Paideia Perspectives",
+      "parentUnit": "Penn",
+      "bucket": "Program",
+      "subhead": "Blog posts on dialogue and civic life",
+      "newsUrl": "https://snfpaideia.upenn.edu/engage/perspectives/",
+      "feedUrl": "https://snfpaideia.upenn.edu/wp-json/wp/v2/posts?per_page=20&_fields=id,date,link,title,excerpt",
+      "magazineUrl": null,
+      "notes": "2026-11-04: Perspectives posts. Dates come from the site's WordPress data feed; its RSS feed sits behind a bot check.",
+      "posts": [
+        {
+          "title": "Political Empathy Lab III Travels During 2026 Midterm Election Season",
+          "link": "https://snfpaideia.upenn.edu/political-empathy-lab-iii-travels-during-2026-midterm-election-season/",
+          "date": "2026-10-28",
+          "dek": "",
+          "stream": "news",
+          "source": "feed:https://snfpaideia.upenn.edu/wp-json/wp/v2/posts?per_page=20&_fields=id,date,link,title,excerpt"
+        },
+        {
+          "title": "Open Hours at Tusculum Gateway Garden",
+          "link": "https://snfpaideia.upenn.edu/open-hours-at-tusculum-gateway-garden/",
+          "date": "2026-10-19",
+          "dek": "",
+          "stream": "news",
+          "source": "feed:https://snfpaideia.upenn.edu/wp-json/wp/v2/posts?per_page=20&_fields=id,date,link,title,excerpt"
+        },
+        {
+          "title": "A Room Full of Good Causes: Singularity in Mission",
+          "link": "https://snfpaideia.upenn.edu/a-room-full-of-good-causes-singularity-in-mission/",
+          "date": "2026-09-28",
+          "dek": "",
+          "stream": "news",
+          "source": "feed:https://snfpaideia.upenn.edu/wp-json/wp/v2/posts?per_page=20&_fields=id,date,link,title,excerpt"
+        },
+        {
+          "title": "Seeing Beyond the Canvas: How Art and Dialogue Rewire the Way We Talk to Each Other",
+          "link": "https://snfpaideia.upenn.edu/seeing-beyond-the-canvas-how-art-and-dialogue-rewire-the-way-we-talk-to-each-other/",
+          "date": "2026-08-01",
+          "dek": "",
+          "stream": "news",
+          "source": "feed:https://snfpaideia.upenn.edu/wp-json/wp/v2/posts?per_page=20&_fields=id,date,link,title,excerpt"
+        },
+        {
+          "title": "Leading with Curiosity and Intentionality: Lessons from Sweden on Social Impact and Environmental Justice",
+          "link": "https://snfpaideia.upenn.edu/leading-with-curiosity-and-intentionality-lessons-from-sweden-on-social-impact-and-environmental-justice/",
+          "date": "2026-07-31",
+          "dek": "",
+          "stream": "news",
+          "source": "feed:https://snfpaideia.upenn.edu/wp-json/wp/v2/posts?per_page=20&_fields=id,date,link,title,excerpt"
+        },
+        {
+          "title": "When the Camera Comes Out",
+          "link": "https://snfpaideia.upenn.edu/when-the-camera-comes-out/",
+          "date": "2026-06-16",
+          "dek": "",
+          "stream": "news",
+          "source": "feed:https://snfpaideia.upenn.edu/wp-json/wp/v2/posts?per_page=20&_fields=id,date,link,title,excerpt"
+        },
+        {
+          "title": "Engaged in Dialogue and Dialogically Engaged: Dialogue as Both Genre and Mode",
+          "link": "https://snfpaideia.upenn.edu/engaged-in-dialogue-and-dialogically-engaged-dialogue-as-both-genre-and-mode/",
+          "date": "2026-06-03",
+          "dek": "",
+          "stream": "news",
+          "source": "feed:https://snfpaideia.upenn.edu/wp-json/wp/v2/posts?per_page=20&_fields=id,date,link,title,excerpt"
+        },
+        {
+          "title": "Mind the Gap: On Diagrams in Dialogue",
+          "link": "https://snfpaideia.upenn.edu/mind-the-gap-on-diagrams-in-dialogue/",
+          "date": "2026-04-30",
+          "dek": "",
+          "stream": "news",
+          "source": "feed:https://snfpaideia.upenn.edu/wp-json/wp/v2/posts?per_page=20&_fields=id,date,link,title,excerpt"
+        },
+        {
+          "title": "Rethinking Spanishness: The Latin American Diaspora in Barcelona",
+          "link": "https://snfpaideia.upenn.edu/rethinking-spanishness-the-latin-american-diaspora-in-barcelona/",
+          "date": "2026-04-30",
+          "dek": "",
+          "stream": "news",
+          "source": "feed:https://snfpaideia.upenn.edu/wp-json/wp/v2/posts?per_page=20&_fields=id,date,link,title,excerpt"
+        },
+        {
+          "title": "Listening to the Listener: Field notes in four parts",
+          "link": "https://snfpaideia.upenn.edu/listening-to-the-listener-field-notes-in-four-parts/",
+          "date": "2026-03-25",
+          "dek": "",
+          "stream": "news",
+          "source": "feed:https://snfpaideia.upenn.edu/wp-json/wp/v2/posts?per_page=20&_fields=id,date,link,title,excerpt"
+        },
+        {
+          "title": "A Menu for Dialogue: Cultivating Connection With and Among Students",
+          "link": "https://snfpaideia.upenn.edu/a-menu-for-dialogue-cultivating-connection-with-and-among-students/",
+          "date": "2026-02-26",
+          "dek": "",
+          "stream": "news",
+          "source": "feed:https://snfpaideia.upenn.edu/wp-json/wp/v2/posts?per_page=20&_fields=id,date,link,title,excerpt"
+        },
+        {
+          "title": "Dialogue and the Contemplative Classroom",
+          "link": "https://snfpaideia.upenn.edu/dialogue-and-the-contemplative-classroom/",
+          "date": "2026-02-02",
+          "dek": "",
+          "stream": "news",
+          "source": "feed:https://snfpaideia.upenn.edu/wp-json/wp/v2/posts?per_page=20&_fields=id,date,link,title,excerpt"
+        },
+        {
+          "title": "A Journey to St. Helena: Return, Remoteness, and the Problem of a Single Story",
+          "link": "https://snfpaideia.upenn.edu/a-journey-to-st-helena-return-remoteness-and-the-problem-of-a-single-story/",
+          "date": "2026-01-25",
+          "dek": "",
+          "stream": "news",
+          "source": "feed:https://snfpaideia.upenn.edu/wp-json/wp/v2/posts?per_page=20&_fields=id,date,link,title,excerpt"
+        },
+        {
+          "title": "Dialogic Theory-Crafting: A Collaborative Meta-Testimony",
+          "link": "https://snfpaideia.upenn.edu/dialogic-theory-crafting-a-collaborative-meta-testimony/",
+          "date": "2026-01-08",
+          "dek": "",
+          "stream": "news",
+          "source": "feed:https://snfpaideia.upenn.edu/wp-json/wp/v2/posts?per_page=20&_fields=id,date,link,title,excerpt"
+        },
+        {
+          "title": "Rehearsing New Realities: The Infrastructure of Dialogue",
+          "link": "https://snfpaideia.upenn.edu/rehearsing-new-realities-the-infrastructure-of-dialogue/",
+          "date": "2025-11-22",
+          "dek": "",
+          "stream": "news",
+          "source": "feed:https://snfpaideia.upenn.edu/wp-json/wp/v2/posts?per_page=20&_fields=id,date,link,title,excerpt"
+        },
+        {
+          "title": "What Japan Taught Me About Identity, Language, and Being Human",
+          "link": "https://snfpaideia.upenn.edu/what-japan-taught-me-about-identity-language-and-being-human/",
+          "date": "2025-11-01",
+          "dek": "",
+          "stream": "news",
+          "source": "feed:https://snfpaideia.upenn.edu/wp-json/wp/v2/posts?per_page=20&_fields=id,date,link,title,excerpt"
+        },
+        {
+          "title": "iMEdD Highlights the Importance of Rethinking the Work of Journalism",
+          "link": "https://snfpaideia.upenn.edu/imedd-highlights-the-importance-of-rethinking-the-work-of-journalism/",
+          "date": "2025-10-29",
+          "dek": "",
+          "stream": "news",
+          "source": "feed:https://snfpaideia.upenn.edu/wp-json/wp/v2/posts?per_page=20&_fields=id,date,link,title,excerpt"
+        },
+        {
+          "title": "“Misunderstandings About Understanding,” A Tragic Meta-Dialogue in One Short Act",
+          "link": "https://snfpaideia.upenn.edu/dialogic-thinking-through-big-questions-for-dialogue-7/",
+          "date": "2025-10-26",
+          "dek": "",
+          "stream": "news",
+          "source": "feed:https://snfpaideia.upenn.edu/wp-json/wp/v2/posts?per_page=20&_fields=id,date,link,title,excerpt"
+        },
+        {
+          "title": "DiaLogic: Thinking Through Big Questions for Dialogue",
+          "link": "https://snfpaideia.upenn.edu/dialogic-thinking-through-big-questions-for-dialogue-6/",
+          "date": "2025-09-28",
+          "dek": "",
+          "stream": "news",
+          "source": "feed:https://snfpaideia.upenn.edu/wp-json/wp/v2/posts?per_page=20&_fields=id,date,link,title,excerpt"
+        },
+        {
+          "title": "From A Father’s Stories to Fieldwork: Discovering Athens Through a Library Lens and Public Health Collaboration",
+          "link": "https://snfpaideia.upenn.edu/from-a-fathers-stories-to-fieldwork-discovering-athens-through-a-library-lens-and-public-health-collaboration/",
+          "date": "2025-09-03",
+          "dek": "",
+          "stream": "news",
+          "source": "feed:https://snfpaideia.upenn.edu/wp-json/wp/v2/posts?per_page=20&_fields=id,date,link,title,excerpt"
+        }
+      ],
+      "lastError": "",
+      "_cache": {
+        "news": {
+          "items": [
+            {
+              "title": "Political Empathy Lab III Travels During 2026 Midterm Election Season",
+              "link": "https://snfpaideia.upenn.edu/political-empathy-lab-iii-travels-during-2026-midterm-election-season/",
+              "date": "2026-10-28",
+              "dek": ""
+            },
+            {
+              "title": "Open Hours at Tusculum Gateway Garden",
+              "link": "https://snfpaideia.upenn.edu/open-hours-at-tusculum-gateway-garden/",
+              "date": "2026-10-19",
+              "dek": ""
+            },
+            {
+              "title": "A Room Full of Good Causes: Singularity in Mission",
+              "link": "https://snfpaideia.upenn.edu/a-room-full-of-good-causes-singularity-in-mission/",
+              "date": "2026-09-28",
+              "dek": ""
+            },
+            {
+              "title": "Seeing Beyond the Canvas: How Art and Dialogue Rewire the Way We Talk to Each Other",
+              "link": "https://snfpaideia.upenn.edu/seeing-beyond-the-canvas-how-art-and-dialogue-rewire-the-way-we-talk-to-each-other/",
+              "date": "2026-08-01",
+              "dek": ""
+            },
+            {
+              "title": "Leading with Curiosity and Intentionality: Lessons from Sweden on Social Impact and Environmental Justice",
+              "link": "https://snfpaideia.upenn.edu/leading-with-curiosity-and-intentionality-lessons-from-sweden-on-social-impact-and-environmental-justice/",
+              "date": "2026-07-31",
+              "dek": ""
+            },
+            {
+              "title": "When the Camera Comes Out",
+              "link": "https://snfpaideia.upenn.edu/when-the-camera-comes-out/",
+              "date": "2026-06-16",
+              "dek": ""
+            },
+            {
+              "title": "Engaged in Dialogue and Dialogically Engaged: Dialogue as Both Genre and Mode",
+              "link": "https://snfpaideia.upenn.edu/engaged-in-dialogue-and-dialogically-engaged-dialogue-as-both-genre-and-mode/",
+              "date": "2026-06-03",
+              "dek": ""
+            },
+            {
+              "title": "Mind the Gap: On Diagrams in Dialogue",
+              "link": "https://snfpaideia.upenn.edu/mind-the-gap-on-diagrams-in-dialogue/",
+              "date": "2026-04-30",
+              "dek": ""
+            },
+            {
+              "title": "Rethinking Spanishness: The Latin American Diaspora in Barcelona",
+              "link": "https://snfpaideia.upenn.edu/rethinking-spanishness-the-latin-american-diaspora-in-barcelona/",
+              "date": "2026-04-30",
+              "dek": ""
+            },
+            {
+              "title": "Listening to the Listener: Field notes in four parts",
+              "link": "https://snfpaideia.upenn.edu/listening-to-the-listener-field-notes-in-four-parts/",
+              "date": "2026-03-25",
+              "dek": ""
+            },
+            {
+              "title": "A Menu for Dialogue: Cultivating Connection With and Among Students",
+              "link": "https://snfpaideia.upenn.edu/a-menu-for-dialogue-cultivating-connection-with-and-among-students/",
+              "date": "2026-02-26",
+              "dek": ""
+            },
+            {
+              "title": "Dialogue and the Contemplative Classroom",
+              "link": "https://snfpaideia.upenn.edu/dialogue-and-the-contemplative-classroom/",
+              "date": "2026-02-02",
+              "dek": ""
+            },
+            {
+              "title": "A Journey to St. Helena: Return, Remoteness, and the Problem of a Single Story",
+              "link": "https://snfpaideia.upenn.edu/a-journey-to-st-helena-return-remoteness-and-the-problem-of-a-single-story/",
+              "date": "2026-01-25",
+              "dek": ""
+            },
+            {
+              "title": "Dialogic Theory-Crafting: A Collaborative Meta-Testimony",
+              "link": "https://snfpaideia.upenn.edu/dialogic-theory-crafting-a-collaborative-meta-testimony/",
+              "date": "2026-01-08",
+              "dek": ""
+            },
+            {
+              "title": "Rehearsing New Realities: The Infrastructure of Dialogue",
+              "link": "https://snfpaideia.upenn.edu/rehearsing-new-realities-the-infrastructure-of-dialogue/",
+              "date": "2025-11-22",
+              "dek": ""
+            },
+            {
+              "title": "What Japan Taught Me About Identity, Language, and Being Human",
+              "link": "https://snfpaideia.upenn.edu/what-japan-taught-me-about-identity-language-and-being-human/",
+              "date": "2025-11-01",
+              "dek": ""
+            },
+            {
+              "title": "iMEdD Highlights the Importance of Rethinking the Work of Journalism",
+              "link": "https://snfpaideia.upenn.edu/imedd-highlights-the-importance-of-rethinking-the-work-of-journalism/",
+              "date": "2025-10-29",
+              "dek": ""
+            },
+            {
+              "title": "“Misunderstandings About Understanding,” A Tragic Meta-Dialogue in One Short Act",
+              "link": "https://snfpaideia.upenn.edu/dialogic-thinking-through-big-questions-for-dialogue-7/",
+              "date": "2025-10-26",
+              "dek": ""
+            },
+            {
+              "title": "DiaLogic: Thinking Through Big Questions for Dialogue",
+              "link": "https://snfpaideia.upenn.edu/dialogic-thinking-through-big-questions-for-dialogue-6/",
+              "date": "2025-09-28",
+              "dek": ""
+            },
+            {
+              "title": "From A Father’s Stories to Fieldwork: Discovering Athens Through a Library Lens and Public Health Collaboration",
+              "link": "https://snfpaideia.upenn.edu/from-a-fathers-stories-to-fieldwork-discovering-athens-through-a-library-lens-and-public-health-collaboration/",
+              "date": "2025-09-03",
+              "dek": ""
+            }
+          ],
+          "feedUrl": "https://snfpaideia.upenn.edu/wp-json/wp/v2/posts?per_page=20&_fields=id,date,link,title,excerpt",
+          "source": "feed:https://snfpaideia.upenn.edu/wp-json/wp/v2/posts?per_page=20&_fields=id,date,link,title,excerpt",
+          "fetchedAt": "2026-11-04T20:55:36.340351Z"
+        }
+      },
+      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
+      "lastSource": "feed:https://snfpaideia.upenn.edu/wp-json/wp/v2/posts?per_page=20&_fields=id,date,link,title,excerpt"
     },
     {
       "id": "digital-humanities-price-lab",
@@ -5147,10 +5562,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://pricelab.sas.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-04T18:42:10.677402Z"
+          "fetchedAt": "2026-11-04T20:55:36.340351Z"
         }
       },
-      "lastSyncAt": "2026-11-04T18:42:10.677402Z",
+      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
       "lastSource": "feed:https://pricelab.sas.upenn.edu/rss.xml"
     },
     {
@@ -5181,30 +5596,17 @@
           "source": "feed:https://www.grasp.upenn.edu/feed/"
         }
       ],
-      "lastError": "",
+      "lastError": "Latest check returned no articles; showing earlier results. Could not load page: Page.goto: Timeout 35000ms exceeded.",
       "_cache": {
         "news": {
-          "items": [
-            {
-              "title": "Protected: GRASP holds its first Volunteer Awards Ceremony",
-              "link": "https://www.grasp.upenn.edu/uncategorized/grasp-holds-its-first-volunteer-awards-ceremony/",
-              "date": "2025-06-03",
-              "dek": "There is no excerpt because this is a protected post."
-            },
-            {
-              "title": "Kirigami Structures Pull Water from the Air",
-              "link": "https://www.grasp.upenn.edu/uncategorized/kirigami-structures-pull-water-from-the-air/",
-              "date": "2023-03-02",
-              "dek": "Original Article Written by Melissa Pappas. Read the Original article here! Climate change is forcing us to reshape our relationship […]"
-            }
-          ],
+          "items": [],
           "feedUrl": null,
-          "source": "feed:https://www.grasp.upenn.edu/feed/",
-          "fetchedAt": "2026-11-04T18:42:10.677402Z"
+          "source": "",
+          "fetchedAt": "2026-11-04T20:55:36.340351Z"
         }
       },
       "lastSyncAt": "2026-11-04T18:42:10.677402Z",
-      "lastSource": "feed:https://www.grasp.upenn.edu/feed/"
+      "lastSource": ""
     },
     {
       "id": "penn-eii",
@@ -5365,10 +5767,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://climate.upenn.edu/feed/",
-          "fetchedAt": "2026-11-04T18:42:10.677402Z"
+          "fetchedAt": "2026-11-04T20:55:36.340351Z"
         }
       },
-      "lastSyncAt": "2026-11-04T18:42:10.677402Z",
+      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
       "lastSource": "feed:https://climate.upenn.edu/feed/"
     },
     {
@@ -5670,10 +6072,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T18:42:10.677402Z"
+          "fetchedAt": "2026-11-04T20:55:36.340351Z"
         }
       },
-      "lastSyncAt": "2026-11-04T18:42:10.677402Z",
+      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
       "lastSource": "html"
     },
     {
@@ -5835,10 +6237,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://penniur.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-04T18:42:10.677402Z"
+          "fetchedAt": "2026-11-04T20:55:36.340351Z"
         }
       },
-      "lastSyncAt": "2026-11-04T18:42:10.677402Z",
+      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
       "lastSource": "feed:https://penniur.upenn.edu/rss.xml"
     },
     {
@@ -5972,10 +6374,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T18:42:10.677402Z"
+          "fetchedAt": "2026-11-04T20:55:36.340351Z"
         }
       },
-      "lastSyncAt": "2026-11-04T18:42:10.677402Z",
+      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
       "lastSource": "html"
     },
     {
@@ -6277,10 +6679,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T18:42:10.677402Z"
+          "fetchedAt": "2026-11-04T20:55:36.340351Z"
         }
       },
-      "lastSyncAt": "2026-11-04T18:42:10.677402Z",
+      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
       "lastSource": "html"
     },
     {
@@ -6442,10 +6844,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://writing.upenn.edu/?feed=rss2",
-          "fetchedAt": "2026-11-04T18:42:10.677402Z"
+          "fetchedAt": "2026-11-04T20:55:36.340351Z"
         }
       },
-      "lastSyncAt": "2026-11-04T18:42:10.677402Z",
+      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
       "lastSource": "feed:https://writing.upenn.edu/?feed=rss2"
     },
     {
@@ -6579,10 +6981,10 @@
           ],
           "feedUrl": "https://perryworldhouse.upenn.edu/feed/",
           "source": "html",
-          "fetchedAt": "2026-11-04T18:42:10.677402Z"
+          "fetchedAt": "2026-11-04T20:55:36.340351Z"
         }
       },
-      "lastSyncAt": "2026-11-04T18:42:10.677402Z",
+      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
       "lastSource": "html"
     },
     {
@@ -6744,10 +7146,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://platthouse.universitylife.upenn.edu/feed/",
-          "fetchedAt": "2026-11-04T18:42:10.677402Z"
+          "fetchedAt": "2026-11-04T20:55:36.340351Z"
         }
       },
-      "lastSyncAt": "2026-11-04T18:42:10.677402Z",
+      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
       "lastSource": "feed:https://platthouse.universitylife.upenn.edu/feed/"
     },
     {
@@ -7049,10 +7451,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://arthurrossgallery.org/category/press-releases/feed/",
-          "fetchedAt": "2026-11-04T18:42:10.677402Z"
+          "fetchedAt": "2026-11-04T20:55:36.340351Z"
         }
       },
-      "lastSyncAt": "2026-11-04T18:42:10.677402Z",
+      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
       "lastSource": "feed:https://arthurrossgallery.org/category/press-releases/feed/"
     },
     {
@@ -7214,10 +7616,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://www.penn.museum/about/press-room/press-releases?format=feed&type=rss",
-          "fetchedAt": "2026-11-04T18:42:10.677402Z"
+          "fetchedAt": "2026-11-04T20:55:36.340351Z"
         }
       },
-      "lastSyncAt": "2026-11-04T18:42:10.677402Z",
+      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
       "lastSource": "feed:https://www.penn.museum/about/press-room/press-releases?format=feed&type=rss"
     },
     {
@@ -7365,10 +7767,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T18:42:10.677402Z"
+          "fetchedAt": "2026-11-04T20:55:36.340351Z"
         }
       },
-      "lastSyncAt": "2026-11-04T18:42:10.677402Z",
+      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
       "lastSource": "html"
     },
     {
@@ -7447,18 +7849,18 @@
           "source": "html"
         },
         {
-          "title": "Anastasia Klimchynskaya COML PhD '19 new book on Science Fiction and the Modern World:The Emergence of a Genre in a Revolutionary Age",
-          "link": "https://complit.sas.upenn.edu/news/anastasia-klimchynskaya-coml-phd-19-new-book-science-fiction-and-modern-worldthe-emergence",
+          "title": "Michael M. Shea COML PhD '24 wins 2026 PEN award for Poetry in Translation",
+          "link": "https://complit.sas.upenn.edu/news/michael-m-shea-coml-phd-24-wins-2026-pen-award-poetry-translation",
           "date": "2026-04-10",
-          "dek": "Anastasia Klimchynskaya's has recently published Science Fiction and the Modern World: The Emergence of a Genre in a Revolutionary Age",
+          "dek": "Michael M. Shea is named winner of the 2026 PEN Award for Poetry in Translation",
           "stream": "news",
           "source": "html"
         },
         {
-          "title": "COML's Chaya Sara Oppenheim is recipient of Penn Prize for Excellence in Teaching 2026",
-          "link": "https://complit.sas.upenn.edu/news/comls-chaya-sara-oppenheim-recipient-penn-prize-excellence-teaching-2026",
+          "title": "Anastasia Klimchynskaya COML PhD '19 new book on Science Fiction and the Modern World:The Emergence of a Genre in a Revolutionary Age",
+          "link": "https://complit.sas.upenn.edu/news/anastasia-klimchynskaya-coml-phd-19-new-book-science-fiction-and-modern-worldthe-emergence",
           "date": "2026-04-10",
-          "dek": "Third-year COML Ph.D. student Chaya Sara Oppenheim has been named one of this year's recipients of the Penn Prize for Excellence in Teaching by Graduate Students. She’ll receive the award at a reception on Tuesday, April 21, at 5 p.m. at the Graduate Student Center, 3615 Locust W",
+          "dek": "Anastasia Klimchynskaya's has recently published Science Fiction and the Modern World: The Emergence of a Genre in a Revolutionary Age",
           "stream": "news",
           "source": "html"
         }
@@ -7516,24 +7918,24 @@
               "dek": "Rosie Poku has won The Lynda S. Hart Teaching Award. This award recognizes student teachers who have cultivated a learning environment that facilitates, encourages, and engages feminist critique, pedagogy, and who prioritize inclusive classroom practices."
             },
             {
+              "title": "Michael M. Shea COML PhD '24 wins 2026 PEN award for Poetry in Translation",
+              "link": "https://complit.sas.upenn.edu/news/michael-m-shea-coml-phd-24-wins-2026-pen-award-poetry-translation",
+              "date": "2026-04-10",
+              "dek": "Michael M. Shea is named winner of the 2026 PEN Award for Poetry in Translation"
+            },
+            {
               "title": "Anastasia Klimchynskaya COML PhD '19 new book on Science Fiction and the Modern World:The Emergence of a Genre in a Revolutionary Age",
               "link": "https://complit.sas.upenn.edu/news/anastasia-klimchynskaya-coml-phd-19-new-book-science-fiction-and-modern-worldthe-emergence",
               "date": "2026-04-10",
               "dek": "Anastasia Klimchynskaya's has recently published Science Fiction and the Modern World: The Emergence of a Genre in a Revolutionary Age"
-            },
-            {
-              "title": "COML's Chaya Sara Oppenheim is recipient of Penn Prize for Excellence in Teaching 2026",
-              "link": "https://complit.sas.upenn.edu/news/comls-chaya-sara-oppenheim-recipient-penn-prize-excellence-teaching-2026",
-              "date": "2026-04-10",
-              "dek": "Third-year COML Ph.D. student Chaya Sara Oppenheim has been named one of this year's recipients of the Penn Prize for Excellence in Teaching by Graduate Students. She’ll receive the award at a reception on Tuesday, April 21, at 5 p.m. at the Graduate Student Center, 3615 Locust W"
             }
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T18:42:10.677402Z"
+          "fetchedAt": "2026-11-04T20:55:36.340351Z"
         }
       },
-      "lastSyncAt": "2026-11-04T18:42:10.677402Z",
+      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
       "lastSource": "html"
     },
     {
@@ -7548,6 +7950,14 @@
       "notes": "Added from owner source list, November 3, 2026.",
       "posts": [
         {
+          "title": "Thomas Tartaron Publishes New Book, \"The Future of Ethnoarchaeology\"",
+          "link": "https://www.classics.upenn.edu/news/2026/10/29/thomas-tartaron-publishes-new-book-future-ethnoarchaeology",
+          "date": "2026-10-29",
+          "dek": "October 29, 2026",
+          "stream": "news",
+          "source": "html"
+        },
+        {
           "title": "Jeremy McInerney Publishes New Book, \"By Land and by Sea\"",
           "link": "https://www.classics.upenn.edu/news/2026/10/29/jeremy-mcinerney-publishes-new-book-land-and-sea",
           "date": "2026-10-29",
@@ -7558,14 +7968,6 @@
         {
           "title": "Jeremy McInerney Publishes New Book, \"The Oxford History of the Classical Greek World: Volume I: The Environment and Resources\"",
           "link": "https://www.classics.upenn.edu/news/2026/10/29/jeremy-mcinerney-publishes-new-book-oxford-history-classical-greek-world-volume-i",
-          "date": "2026-10-29",
-          "dek": "October 29, 2026",
-          "stream": "news",
-          "source": "html"
-        },
-        {
-          "title": "Thomas Tartaron Publishes New Book, \"The Future of Ethnoarchaeology\"",
-          "link": "https://www.classics.upenn.edu/news/2026/10/29/thomas-tartaron-publishes-new-book-future-ethnoarchaeology",
           "date": "2026-10-29",
           "dek": "October 29, 2026",
           "stream": "news",
@@ -7633,6 +8035,12 @@
         "news": {
           "items": [
             {
+              "title": "Thomas Tartaron Publishes New Book, \"The Future of Ethnoarchaeology\"",
+              "link": "https://www.classics.upenn.edu/news/2026/10/29/thomas-tartaron-publishes-new-book-future-ethnoarchaeology",
+              "date": "2026-10-29",
+              "dek": "October 29, 2026"
+            },
+            {
               "title": "Jeremy McInerney Publishes New Book, \"By Land and by Sea\"",
               "link": "https://www.classics.upenn.edu/news/2026/10/29/jeremy-mcinerney-publishes-new-book-land-and-sea",
               "date": "2026-10-29",
@@ -7641,12 +8049,6 @@
             {
               "title": "Jeremy McInerney Publishes New Book, \"The Oxford History of the Classical Greek World: Volume I: The Environment and Resources\"",
               "link": "https://www.classics.upenn.edu/news/2026/10/29/jeremy-mcinerney-publishes-new-book-oxford-history-classical-greek-world-volume-i",
-              "date": "2026-10-29",
-              "dek": "October 29, 2026"
-            },
-            {
-              "title": "Thomas Tartaron Publishes New Book, \"The Future of Ethnoarchaeology\"",
-              "link": "https://www.classics.upenn.edu/news/2026/10/29/thomas-tartaron-publishes-new-book-future-ethnoarchaeology",
               "date": "2026-10-29",
               "dek": "October 29, 2026"
             },
@@ -7695,10 +8097,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T18:42:10.677402Z"
+          "fetchedAt": "2026-11-04T20:55:36.340351Z"
         }
       },
-      "lastSyncAt": "2026-11-04T18:42:10.677402Z",
+      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
       "lastSource": "html"
     },
     {
@@ -7846,10 +8248,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T18:42:10.677402Z"
+          "fetchedAt": "2026-11-04T20:55:36.340351Z"
         }
       },
-      "lastSyncAt": "2026-11-04T18:42:10.677402Z",
+      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
       "lastSource": "html"
     },
     {
@@ -8011,10 +8413,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://pan-school.sas.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-04T18:42:10.677402Z"
+          "fetchedAt": "2026-11-04T20:55:36.340351Z"
         }
       },
-      "lastSyncAt": "2026-11-04T18:42:10.677402Z",
+      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
       "lastSource": "feed:https://pan-school.sas.upenn.edu/rss.xml"
     },
     {
@@ -8176,10 +8578,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://chibe.upenn.edu/feed/",
-          "fetchedAt": "2026-11-04T18:42:10.677402Z"
+          "fetchedAt": "2026-11-04T20:55:36.340351Z"
         }
       },
-      "lastSyncAt": "2026-11-04T18:42:10.677402Z",
+      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
       "lastSource": "feed:https://chibe.upenn.edu/feed/"
     },
     {
@@ -8341,10 +8743,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T18:42:10.677402Z"
+          "fetchedAt": "2026-11-04T20:55:36.340351Z"
         }
       },
-      "lastSyncAt": "2026-11-04T18:42:10.677402Z",
+      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
       "lastSource": "html"
     },
     {
@@ -8506,10 +8908,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T18:42:10.677402Z"
+          "fetchedAt": "2026-11-04T20:55:36.340351Z"
         }
       },
-      "lastSyncAt": "2026-11-04T18:42:10.677402Z",
+      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
       "lastSource": "html"
     },
     {
@@ -8671,10 +9073,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T18:42:10.677402Z"
+          "fetchedAt": "2026-11-04T20:55:36.340351Z"
         }
       },
-      "lastSyncAt": "2026-11-04T18:42:10.677402Z",
+      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
       "lastSource": "html"
     },
     {
@@ -8836,10 +9238,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T18:42:10.677402Z"
+          "fetchedAt": "2026-11-04T20:55:36.340351Z"
         }
       },
-      "lastSyncAt": "2026-11-04T18:42:10.677402Z",
+      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
       "lastSource": "html"
     },
     {
@@ -9001,10 +9403,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T18:42:10.677402Z"
+          "fetchedAt": "2026-11-04T20:55:36.340351Z"
         }
       },
-      "lastSyncAt": "2026-11-04T18:42:10.677402Z",
+      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
       "lastSource": "html"
     },
     {
@@ -9166,10 +9568,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T18:42:10.677402Z"
+          "fetchedAt": "2026-11-04T20:55:36.340351Z"
         }
       },
-      "lastSyncAt": "2026-11-04T18:42:10.677402Z",
+      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
       "lastSource": "html"
     },
     {
@@ -9331,23 +9733,25 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-04T18:42:10.677402Z"
+          "fetchedAt": "2026-11-04T20:55:36.340351Z"
         }
       },
-      "lastSyncAt": "2026-11-04T18:42:10.677402Z",
+      "lastSyncAt": "2026-11-04T20:55:36.340351Z",
       "lastSource": "html"
     }
   ],
-  "lastRefreshAt": "2026-11-04T18:42:10.677402Z",
+  "lastRefreshAt": "2026-11-04T20:55:36.340351Z",
   "refreshErrors": [
-    "Center for Study of Contemporary China: No articles found — No news URL found yet."
+    "SEAS: Latest check returned no articles; showing earlier results. Could not load page: Page.goto: Timeout 35000ms exceeded.",
+    "Center for Study of Contemporary China: No articles found — No news URL found yet.",
+    "GRASP Lab: Latest check returned no articles; showing earlier results. Could not load page: Page.goto: Timeout 35000ms exceeded."
   ],
   "showAddSite": false,
   "schemaVersion": 3,
   "collection": {
-    "sourceVersion": "45588b9f374843b2872eb1cc1f4549d97f9562150d9d02d95a5f965b23572a16",
-    "runId": "41889090363",
-    "commit": "242772a11dbe6908f806baf274d3b835c601d30c",
-    "runUrl": "https://github.com/BigChief-at-illuminathidotorg/Penn-News-Scraper/actions/runs/41889090363"
+    "sourceVersion": "6b454412b5663a12d8a14e89122c1aceb0b73cc832340805cc82cfa8531fa8be",
+    "runId": "41909780123",
+    "commit": "a9ef135e663a0a97c26ccf60ef7ca1dc08abd522",
+    "runUrl": "https://github.com/BigChief-at-illuminathidotorg/Penn-News-Scraper/actions/runs/41909780123"
   }
 }
