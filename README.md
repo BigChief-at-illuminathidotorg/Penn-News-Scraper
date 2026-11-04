@@ -3,7 +3,7 @@
 Prepared October 28, 2026. NOT DEPLOYED. Cloudflare sign-in in the assisted browser returned a 403; no account or domain changes were made.
 
 ## Staff
-Open the website. Search, choose a week, and follow headlines. No software installation or Python commands required. Import and Export remain available for saved JSON snapshots. Imported data stays in this browser, pauses automatic updates, and is replaced by shared results only when Check for updates succeeds. “Check for updates” retrieves the published collection; it does not start the scraper. The included help page explains warnings and source-change requests.
+Open the website. Search, choose a week, and follow headlines. No software installation or Python commands required. Export copies or downloads the stories you check, formatted for the For Consideration email. Import opens saved JSON snapshots. Imported data stays in this browser, pauses automatic updates, and is replaced by shared results only when Check for updates succeeds. “Check for updates” retrieves the published collection; it does not start the scraper. The included help page explains warnings and source-change requests.
 
 ## Hosting design
 GitHub Actions runs the existing Python/Chromium scraper online. Cloudflare Pages serves only the public/ folder. The supplied snapshot is starter data, not proof that an online run has succeeded. It contains 52 sources, 37 with articles. Some sources require further tuning or may block hosted browsers.

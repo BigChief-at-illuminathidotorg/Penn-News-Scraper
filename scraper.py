@@ -39,6 +39,7 @@ the fix is usually one line in SITE_RULES.
 """
 
 import argparse, asyncio, json, re, sys, urllib.request
+from html import unescape as _unescape
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
@@ -127,11 +128,8 @@ CONTENT = "{http://purl.org/rss/1.0/modules/content/}"
 def strip_tags(html):
     if not html:
         return ""
-    t = re.sub(r"<[^>]+>", " ", html)
-    for a, b in (("&amp;", "&"), ("&lt;", "<"), ("&gt;", ">"), ("&nbsp;", " "),
-                 ("&#8217;", "'"), ("&#8216;", "'"), ("&#8220;", '"'), ("&#8221;", '"'),
-                 ("&quot;", '"'), ("&#039;", "'")):
-        t = t.replace(a, b)
+    # Decode every HTML entity (feeds often send "[&#8230;]"); twice for "&amp;#8230;".
+    t = _unescape(_unescape(re.sub(r"<[^>]+>", " ", html)))
     return re.sub(r"\s+", " ", t).strip()
 
 def _first(el, *tags):

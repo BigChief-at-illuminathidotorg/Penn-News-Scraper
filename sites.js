@@ -87,7 +87,8 @@ window.PENN_MONITOR_DEFAULT_SITES = [
     "magazineUrl": "https://magazine.seas.upenn.edu/",
     "notes": "URL fixed 2026-08-04: old engineering.upenn.edu/stories/ domain is dead/wrong, current site is www.seas.upenn.edu/stories/ (WordPress). Byline pattern is 'Category, Category / Month D, YYYY' as plain text, not a <time> element.",
     "posts": [],
-    "feedUrl": null
+    "feedUrl": null,
+    "exportName": "Engineering"
   },
   {
     "id": "sp2",
