@@ -59,7 +59,7 @@ window.PENN_MONITOR_DEFAULT_SITES = [
     "parentUnit": "Medicine",
     "bucket": "School",
     "subhead": "Clinical research, translational science, care delivery",
-    "newsUrl": "https://www.pennmedicine.org/news",
+    "newsUrl": "https://www.pennmedicine.org/news/search?hideFADListing=false&pageType=taxonomyTemplatePage&pageTypeId=97a5141a-e62c-4dde-8fc0-160f2571b56a&sort=created&sortOrder=DESC&page=1&resultsPerPage=10&pageContentType=*",
     "magazineUrl": "https://www.pennmedicine.org/news/penn-medicine-magazine",
     "notes": "",
     "posts": [],
