@@ -1,14 +1,38 @@
-"""Temporary: save what GitHub's servers see on pages being added or fixed."""
+"""Temporary: check which feeds GitHub's servers can read for pages being added."""
 import asyncio, json
 from pathlib import Path
 import scraper
 from playwright.async_api import async_playwright
 
-TARGETS = {   # name: (url, rules id to test with)
-    "annenberg": ("https://www.asc.upenn.edu/news-events/news", "annenberg"),
-    "appc-press": ("https://www.annenbergpublicpolicycenter.org/tag/press-releases/", "appc"),
-    "snf-perspectives": ("https://snfpaideia.upenn.edu/engage/perspectives/", "snf-paideia-program"),
-}
+PROBES = [
+    "https://snfpaideia.upenn.edu/feed/",
+    "https://snfpaideia.upenn.edu/category/blog/feed/",
+    "https://snfpaideia.upenn.edu/?cat=1&feed=rss2",
+    "https://snfpaideia.upenn.edu/engage/perspectives/feed/",
+    "https://snfpaideia.upenn.edu/wp-json/wp/v2/posts?per_page=20&_fields=id,date,link,title,categories",
+    "https://snfpaideia.upenn.edu/wp-json/wp/v2/news?per_page=5&_fields=id,date,link,title",
+    "https://www.annenbergpublicpolicycenter.org/tag/press-releases/feed/",
+    "https://www.annenbergpublicpolicycenter.org/appc-general-news/feed/",
+    "https://www.asc.upenn.edu/rss.xml",
+]
+
+def summarize(text):
+    if not text:
+        return {"len": 0}
+    info = {"len": len(text), "head": text[:160]}
+    if scraper.is_feed(text):
+        arts = scraper.parse_feed(text)
+        info["feed_items"] = len(arts)
+        info["first"] = [(a["date"], a["title"][:80], a["link"]) for a in arts[:6]]
+    else:
+        try:
+            data = json.loads(text)
+            if isinstance(data, list):
+                info["json_items"] = len(data)
+                info["first"] = [(d.get("date"), (d.get("title") or {}).get("rendered", "")[:80], d.get("link"), d.get("categories")) for d in data[:8]]
+        except Exception:
+            pass
+    return info
 
 async def main():
     out = Path("html_dumps"); out.mkdir(exist_ok=True)
@@ -16,48 +40,24 @@ async def main():
     async with async_playwright() as pw:
         browser = await pw.chromium.launch(headless=True, args=scraper.RETRY_ARGS)
         ua = await scraper.browser_user_agent(browser)
-        for name, (url, rid) in TARGETS.items():
-            ctx = await browser.new_context(user_agent=ua, locale="en-US", timezone_id="America/New_York",
-                                            viewport={"width": 1366, "height": 900},
-                                            extra_http_headers={"Accept-Language": "en-US,en;q=0.9"})
-            page = await ctx.new_page()
-            calls, bodies = [], []
-            async def keep(r, name=name):
-                if r.request.resource_type in ("xhr", "fetch", "document"):
-                    calls.append(f"{r.status} {r.request.resource_type} {r.request.method} {r.url[:240]}")
-                    if r.request.resource_type in ("xhr", "fetch") and "json" in (r.headers.get("content-type") or ""):
-                        try:
-                            bodies.append({"url": r.url, "body": (await r.text())[:200000]})
-                        except Exception:
-                            pass
-            page.on("response", lambda r: asyncio.ensure_future(keep(r)))
-            info = {"url": url}
+        ctx = await browser.new_context(user_agent=ua, locale="en-US")
+        page = await ctx.new_page()
+        for url in PROBES:
+            row = {}
             try:
-                resp = await page.goto(url, wait_until="domcontentloaded", timeout=30000)
-                info["status"] = resp.status if resp else None
-                raw = await resp.text() if resp else ""
-                (out / f"{name}.raw.html").write_text(raw)
-                try:
-                    await page.wait_for_load_state("networkidle", timeout=15000)
-                except Exception:
-                    pass
-                for _ in range(4):
-                    await page.evaluate("window.scrollBy(0, document.body.scrollHeight * 0.6)")
-                    await page.wait_for_timeout(1500)
-                html = await page.content()
-                (out / f"{name}.html").write_text(html)
-                info["raw_len"], info["rendered_len"] = len(raw), len(html)
-                info["found"] = await page.evaluate(scraper.EXTRACT_JS, scraper.rule_args(rid))
+                text = await asyncio.get_running_loop().run_in_executor(None, scraper._urllib_get, url, 15, ua)
+                row["urllib"] = summarize(text)
             except Exception as e:
-                info["error"] = str(e)[:300]
-            await page.wait_for_timeout(500)
-            info["requests"] = calls[:80]
-            (out / f"{name}.xhr.json").write_text(json.dumps(bodies, indent=1)[:2000000])
-            report[name] = info
-            await ctx.close()
+                row["urllib"] = {"error": str(e)[:200]}
+            try:
+                r = await ctx.request.get(url, timeout=20000, headers={"User-Agent": ua})
+                row["browser"] = dict(status=r.status, ctype=r.headers.get("content-type"), **summarize(await r.text()))
+            except Exception as e:
+                row["browser"] = {"error": str(e)[:200]}
+            report[url] = row
+            print(url, "| urllib:", row["urllib"].get("feed_items", row["urllib"].get("json_items", row["urllib"].get("error", row["urllib"].get("len")))),
+                  "| browser:", row["browser"].get("status"), row["browser"].get("feed_items", row["browser"].get("json_items", row["browser"].get("error", ""))))
         await browser.close()
-    (out / "report.json").write_text(json.dumps(report, indent=2))
-    for k, v in report.items():
-        print(k, v.get("status"), v.get("raw_len"), v.get("rendered_len"), len(v.get("found") or []), v.get("error", ""))
+    (out / "probe.json").write_text(json.dumps(report, indent=2, ensure_ascii=False))
 
 asyncio.run(main())
