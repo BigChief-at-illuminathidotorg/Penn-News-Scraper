@@ -291,8 +291,11 @@ SITE_RULES = {
     # Each story is a .card--news; one <article> wraps the whole listing.
     "annenberg":   {"containers": [".card--news", ".views-row", "article"],
                     "date": ["time", ".field--name-created"]},
-    "penn-eii":    {"containers": [".views-row", "article", ".card"],
-                    "date": [".field--name-created", "time", ".card-date"]},
+    "penn-eii":    {"containers": [".bdt-post-grid-item, .e-loop-item", ".views-row", "article", ".card"],
+                    "date": ["time", ".bdt-post-grid-date", ".field--name-created", ".card-date"],
+                    # News and Features are separate listings; a shared feed
+                    # must not replace either page before its stories are read.
+                    "page_first": True},
     "penn-iur":    {"containers": ["article", ".views-row"], "date": ["time", ".field--name-created"]},
     # LiveWhale homepage widget shows no dates at all.
     "law":         {"containers": [".large-block-container", ".sub-block", ".views-row", ".news-item"],

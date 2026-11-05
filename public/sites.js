@@ -425,6 +425,9 @@ window.PENN_MONITOR_DEFAULT_SITES = [
     "bucket": "Affiliate",
     "subhead": "Climate science, policy, and action",
     "newsUrl": "https://climate.upenn.edu/news/news/",
+    "extraUrls": [
+      "https://climate.upenn.edu/news/features/"
+    ],
     "magazineUrl": null,
     "notes": "URL fixed 2026-08-04: the Environmental Innovations Initiative was absorbed into the new Office of the Vice Provost for Climate Science, Policy, and Action (\"Penn Climate\") in 2024–2026; environment.upenn.edu now redirects to climate.upenn.edu. Old news-events/news path 404s under the new site. 2026-10-28: /news-knowledge/news/ also 404s; real listing is /news/news/.",
     "posts": [],
