@@ -164,10 +164,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T15:04:14.467029Z"
+          "fetchedAt": "2026-11-05T19:00:20.975042Z"
         }
       },
-      "lastSyncAt": "2026-11-05T15:04:14.467029Z",
+      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
       "lastSource": "html"
     },
     {
@@ -185,7 +185,7 @@
           "title": "Penn Dental Medicine Brings Oral Health to the World’s Biggest Climate Summit",
           "link": "https://www.dental.upenn.edu/news-events/2026/11/04/penn-dental-medicine-brings-oral-health-to-the-worlds-biggest-climate-summit/",
           "date": "2026-11-04",
-          "dek": "As world leaders gather to confront the ecosystem’s most urgent climate challenges, dental researchers, policymakers and practitioners will take their seat at the table, discussing ways that oral medicine can provide care for people and the planet at the 5th Global Oral Health an",
+          "dek": "The post Penn Dental Medicine Brings Oral Health to the World’s Biggest Climate Summit appeared first on Penn Dental Medicine .",
           "stream": "news",
           "source": "feed:https://www.dental.upenn.edu/feed/"
         },
@@ -270,7 +270,7 @@
               "title": "Penn Dental Medicine Brings Oral Health to the World’s Biggest Climate Summit",
               "link": "https://www.dental.upenn.edu/news-events/2026/11/04/penn-dental-medicine-brings-oral-health-to-the-worlds-biggest-climate-summit/",
               "date": "2026-11-04",
-              "dek": "As world leaders gather to confront the ecosystem’s most urgent climate challenges, dental researchers, policymakers and practitioners will take their seat at the table, discussing ways that oral medicine can provide care for people and the planet at the 5th Global Oral Health an"
+              "dek": "The post Penn Dental Medicine Brings Oral Health to the World’s Biggest Climate Summit appeared first on Penn Dental Medicine ."
             },
             {
               "title": "University of Pennsylvania School of Dental Medicine Launches National Online Resource to Support Caregivers",
@@ -329,10 +329,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://www.dental.upenn.edu/feed/",
-          "fetchedAt": "2026-11-05T15:04:14.467029Z"
+          "fetchedAt": "2026-11-05T19:00:20.975042Z"
         }
       },
-      "lastSyncAt": "2026-11-05T15:04:14.467029Z",
+      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
       "lastSource": "feed:https://www.dental.upenn.edu/feed/"
     },
     {
@@ -634,10 +634,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T15:04:14.467029Z"
+          "fetchedAt": "2026-11-05T19:00:20.975042Z"
         }
       },
-      "lastSyncAt": "2026-11-05T15:04:14.467029Z",
+      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
       "lastSource": "html"
     },
     {
@@ -739,10 +739,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T15:04:14.467029Z"
+          "fetchedAt": "2026-11-05T19:00:20.975042Z"
         }
       },
-      "lastSyncAt": "2026-11-05T15:04:14.467029Z",
+      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
       "lastSource": "html"
     },
     {
@@ -756,6 +756,14 @@
       "magazineUrl": "https://www.pennmedicine.org/news/penn-medicine-magazine",
       "notes": "",
       "posts": [
+        {
+          "title": "From the first X-rays to AI",
+          "link": "https://www.pennmedicine.org/news/from-the-first-x-rays-to-ai",
+          "date": "2026-11-05",
+          "dek": "",
+          "stream": "news",
+          "source": "html"
+        },
         {
           "title": "Penn Medicine, 76ers violence prevention program continues",
           "link": "https://www.pennmedicine.org/news/penn-medicine-76ers-violence-prevention-program-continues",
@@ -827,20 +835,18 @@
           "dek": "",
           "stream": "news",
           "source": "html"
-        },
-        {
-          "title": "The path for a future health care career starts at Penn",
-          "link": "https://www.pennmedicine.org/news/the-path-for-a-future-health-care-career-starts-at-penn",
-          "date": "2026-10-22",
-          "dek": "",
-          "stream": "news",
-          "source": "html"
         }
       ],
       "lastError": "",
       "_cache": {
         "news": {
           "items": [
+            {
+              "title": "From the first X-rays to AI",
+              "link": "https://www.pennmedicine.org/news/from-the-first-x-rays-to-ai",
+              "date": "2026-11-05",
+              "dek": ""
+            },
             {
               "title": "Penn Medicine, 76ers violence prevention program continues",
               "link": "https://www.pennmedicine.org/news/penn-medicine-76ers-violence-prevention-program-continues",
@@ -894,20 +900,14 @@
               "link": "https://www.pennmedicine.org/news/basser-center-for-brca-awards-global-prize-to-judy-garber",
               "date": "2026-10-22",
               "dek": ""
-            },
-            {
-              "title": "The path for a future health care career starts at Penn",
-              "link": "https://www.pennmedicine.org/news/the-path-for-a-future-health-care-career-starts-at-penn",
-              "date": "2026-10-22",
-              "dek": ""
             }
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T15:04:14.467029Z"
+          "fetchedAt": "2026-11-05T19:00:20.975042Z"
         }
       },
-      "lastSyncAt": "2026-11-05T15:04:14.467029Z",
+      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
       "lastSource": "html"
     },
     {
@@ -931,6 +931,15 @@
           "source": "html"
         },
         {
+          "title": "Honorary Fellowship for Penn Nursing Professor",
+          "link": "https://www.nursing.upenn.edu/live/news/3940-honorary-fellowship-for-penn-nursing-professor",
+          "date": "2026-11-05",
+          "dek": "Selena Ann Gilles, DNP, ANP-BC, CNEcl, ANEF, FNYAM, FADLN, FNAP, FAANP, FAAN, Associate Dean, School and Community Engagement, and Practice Professor in the Biobehavioral Health Sciences Department, was named an Honorary Fellow of the Society of Internationally Educated Nurses an",
+          "undated": true,
+          "stream": "news",
+          "source": "html"
+        },
+        {
           "title": "Penn Nursing Professor Co-Authors Landmark First-Ever Lancet Series Dedicated to Men’s Health",
           "link": "https://www.nursing.upenn.edu/live/news/3935-penn-nursing-professor-co-authors-landmark",
           "date": "2026-11-04",
@@ -944,15 +953,6 @@
           "link": "https://www.nursing.upenn.edu/live/news/3919-informatics-fellowship-for-penn-nursing-professor",
           "date": "2026-11-04",
           "dek": "Jiyoun Song, PhD, AGACNP-BC, APRN, Assistant Professor in Penn Nursing’s Department of Biobehavioral Health Sciences, has been elected a Fellow of the American Medical Informatics Association (FAMIA), a national distinction recognizing professional achievement and leadership in a",
-          "undated": true,
-          "stream": "news",
-          "source": "html"
-        },
-        {
-          "title": "Penn Nursing Professor Honored with Inaugural International Game Changers Award in Pediatric Critical Care",
-          "link": "https://www.nursing.upenn.edu/live/news/3913-penn-nursing-professor-honored-with-inaugural-internati",
-          "date": "2026-11-04",
-          "dek": "Martha A.Q. Curley, PhD, RN, FAAN, Professor in Penn Nursing’s Department of Family and Community Health and the Ruth M. Colket Endowed Chair in Pediatric Nursing at the Children’s Hospital of Philadelphia (CHOP), has been selected as one of the inaugural recipients of the World ",
           "undated": true,
           "stream": "news",
           "source": "html"
@@ -1011,10 +1011,10 @@
               "undated": true
             },
             {
-              "title": "Penn Nursing Professor Honored with Inaugural International Game Changers Award in Pediatric Critical Care",
-              "link": "https://www.nursing.upenn.edu/live/news/3913-penn-nursing-professor-honored-with-inaugural-internati",
+              "title": "Honorary Fellowship for Penn Nursing Professor",
+              "link": "https://www.nursing.upenn.edu/live/news/3940-honorary-fellowship-for-penn-nursing-professor",
               "date": "2026-11-05",
-              "dek": "Martha A.Q. Curley, PhD, RN, FAAN, Professor in Penn Nursing’s Department of Family and Community Health and the Ruth M. Colket Endowed Chair in Pediatric Nursing at the Children’s Hospital of Philadelphia (CHOP), has been selected as one of the inaugural recipients of the World ",
+              "dek": "Selena Ann Gilles, DNP, ANP-BC, CNEcl, ANEF, FNYAM, FADLN, FNAP, FAANP, FAAN, Associate Dean, School and Community Engagement, and Practice Professor in the Biobehavioral Health Sciences Department, was named an Honorary Fellow of the Society of Internationally Educated Nurses an",
               "undated": true
             },
             {
@@ -1041,10 +1041,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T15:04:14.467029Z"
+          "fetchedAt": "2026-11-05T19:00:20.975042Z"
         }
       },
-      "lastSyncAt": "2026-11-05T15:04:14.467029Z",
+      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
       "lastSource": "html"
     },
     {
@@ -1058,6 +1058,14 @@
       "magazineUrl": "https://magazine.seas.upenn.edu/",
       "notes": "URL fixed 2026-08-04: old engineering.upenn.edu/stories/ domain is dead/wrong, current site is www.seas.upenn.edu/stories/ (WordPress). Byline pattern is 'Category, Category / Month D, YYYY' as plain text, not a <time> element.",
       "posts": [
+        {
+          "title": "Engineering Dean Vijay Kumar’s Appointment Extended",
+          "link": "https://www.engineering.upenn.edu/stories/penn-engineering-extends-dean-vijay-kumars-appointment/",
+          "date": "2026-11-05",
+          "dek": "Dean Vijay Kumar’s term as dean of the School of Engineering and Applied Sciences has been extended through June 30, 2029.",
+          "stream": "news",
+          "source": "feed:https://www.engineering.upenn.edu/feed/"
+        },
         {
           "title": "Three Penn Engineering Faculty Elected American Physical Society Fellows",
           "link": "https://www.engineering.upenn.edu/stories/three-penn-engineering-faculty-elected-american-physical-society-fellows/",
@@ -1129,20 +1137,18 @@
           "dek": "New center unites faculty from across Penn in disciplines like medicine, law, business, public policy and national security.",
           "stream": "news",
           "source": "feed:https://www.engineering.upenn.edu/feed/"
-        },
-        {
-          "title": "Powering the AI Revolution: The Future of Data Centers with Ben Lee",
-          "link": "https://www.engineering.upenn.edu/stories/powering-the-ai-revolution-the-future-of-data-centers-with-ben-lee/",
-          "date": "2026-10-20",
-          "dek": "As artificial intelligence expands, so does its demand for electricity, water and computing infrastructure. Penn Engineering’s Ben Lee explores how chip design, data center operations and advances in computer architecture could make AI more efficient and reduce its environmental ",
-          "stream": "news",
-          "source": "feed:https://www.engineering.upenn.edu/feed/"
         }
       ],
       "lastError": "",
       "_cache": {
         "news": {
           "items": [
+            {
+              "title": "Engineering Dean Vijay Kumar’s Appointment Extended",
+              "link": "https://www.engineering.upenn.edu/stories/penn-engineering-extends-dean-vijay-kumars-appointment/",
+              "date": "2026-11-05",
+              "dek": "Dean Vijay Kumar’s term as dean of the School of Engineering and Applied Sciences has been extended through June 30, 2029."
+            },
             {
               "title": "Three Penn Engineering Faculty Elected American Physical Society Fellows",
               "link": "https://www.engineering.upenn.edu/stories/three-penn-engineering-faculty-elected-american-physical-society-fellows/",
@@ -1196,20 +1202,14 @@
               "link": "https://www.engineering.upenn.edu/stories/penns-schlein-center-for-cybersecurity-to-combat-ai-threats-and-more/",
               "date": "2026-10-22",
               "dek": "New center unites faculty from across Penn in disciplines like medicine, law, business, public policy and national security."
-            },
-            {
-              "title": "Powering the AI Revolution: The Future of Data Centers with Ben Lee",
-              "link": "https://www.engineering.upenn.edu/stories/powering-the-ai-revolution-the-future-of-data-centers-with-ben-lee/",
-              "date": "2026-10-20",
-              "dek": "As artificial intelligence expands, so does its demand for electricity, water and computing infrastructure. Penn Engineering’s Ben Lee explores how chip design, data center operations and advances in computer architecture could make AI more efficient and reduce its environmental "
             }
           ],
           "feedUrl": null,
           "source": "feed:https://www.engineering.upenn.edu/feed/",
-          "fetchedAt": "2026-11-05T15:04:14.467029Z"
+          "fetchedAt": "2026-11-05T19:00:20.975042Z"
         }
       },
-      "lastSyncAt": "2026-11-05T15:04:14.467029Z",
+      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
       "lastSource": "feed:https://www.engineering.upenn.edu/feed/"
     },
     {
@@ -1511,10 +1511,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T15:04:14.467029Z"
+          "fetchedAt": "2026-11-05T19:00:20.975042Z"
         }
       },
-      "lastSyncAt": "2026-11-05T15:04:14.467029Z",
+      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
       "lastSource": "html"
     },
     {
@@ -1802,10 +1802,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T15:04:14.467029Z"
+          "fetchedAt": "2026-11-05T19:00:20.975042Z"
         }
       },
-      "lastSyncAt": "2026-11-05T15:04:14.467029Z",
+      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
       "lastSource": "html"
     },
     {
@@ -2107,10 +2107,10 @@
           ],
           "feedUrl": "https://news.wharton.upenn.edu/feed/",
           "source": "feed:https://news.wharton.upenn.edu/feed/",
-          "fetchedAt": "2026-11-05T15:04:14.467029Z"
+          "fetchedAt": "2026-11-05T19:00:20.975042Z"
         }
       },
-      "lastSyncAt": "2026-11-05T15:04:14.467029Z",
+      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
       "lastSource": "feed:https://news.wharton.upenn.edu/feed/"
     },
     {
@@ -2124,6 +2124,14 @@
       "magazineUrl": null,
       "notes": "URL fixed 2026-08-04: /news/press-releases now 404s. /news defaults to today's date filter. /weitzman-news is the real dated listing (confirmed via search) — dates there are US-style MM.DD.YYYY.",
       "posts": [
+        {
+          "title": "Story | 11.04.2026 Excerpt: Vanessa Grossman and Pablo Meninato on Lina Bo Bardi",
+          "link": "https://www.design.upenn.edu/post/excerpt-vanessa-grossman-and-pablo-meninato-lina-bo-bardi",
+          "date": "2026-11-04",
+          "dek": "",
+          "stream": "news",
+          "source": "html"
+        },
         {
           "title": "Story | 11.04.2026 Richard Garber on the Montgomery Street Mosque",
           "link": "https://www.design.upenn.edu/post/richard-garber-montgomery-street-mosque",
@@ -2195,20 +2203,18 @@
           "dek": "",
           "stream": "news",
           "source": "html"
-        },
-        {
-          "title": "Story | 10.24.2026 PhD Graduate Group Faculty Vanessa Grossman’s Two Books and Three Awards in 2026",
-          "link": "https://www.design.upenn.edu/post/phd-graduate-group-faculty-vanessa-grossmans-two-books-and-three-awards-2026",
-          "date": "2026-10-24",
-          "dek": "",
-          "stream": "news",
-          "source": "html"
         }
       ],
       "lastError": "",
       "_cache": {
         "news": {
           "items": [
+            {
+              "title": "Story | 11.04.2026 Excerpt: Vanessa Grossman and Pablo Meninato on Lina Bo Bardi",
+              "link": "https://www.design.upenn.edu/post/excerpt-vanessa-grossman-and-pablo-meninato-lina-bo-bardi",
+              "date": "2026-11-04",
+              "dek": ""
+            },
             {
               "title": "Story | 11.04.2026 Richard Garber on the Montgomery Street Mosque",
               "link": "https://www.design.upenn.edu/post/richard-garber-montgomery-street-mosque",
@@ -2262,20 +2268,14 @@
               "link": "https://podcasts.apple.com/gb/podcast/witold-rybczynski-coming-to-terms-with-architecture/id1588790585?i=1000797258705",
               "date": "2026-10-26",
               "dek": ""
-            },
-            {
-              "title": "Story | 10.24.2026 PhD Graduate Group Faculty Vanessa Grossman’s Two Books and Three Awards in 2026",
-              "link": "https://www.design.upenn.edu/post/phd-graduate-group-faculty-vanessa-grossmans-two-books-and-three-awards-2026",
-              "date": "2026-10-24",
-              "dek": ""
             }
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T15:04:14.467029Z"
+          "fetchedAt": "2026-11-05T19:00:20.975042Z"
         }
       },
-      "lastSyncAt": "2026-11-05T15:04:14.467029Z",
+      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
       "lastSource": "html"
     },
     {
@@ -2580,10 +2580,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T15:04:14.467029Z"
+          "fetchedAt": "2026-11-05T19:00:20.975042Z"
         }
       },
-      "lastSyncAt": "2026-11-05T15:04:14.467029Z",
+      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
       "lastSource": "html"
     },
     {
@@ -2745,10 +2745,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://knowledge.wharton.upenn.edu/feed/",
-          "fetchedAt": "2026-11-05T15:04:14.467029Z"
+          "fetchedAt": "2026-11-05T19:00:20.975042Z"
         }
       },
-      "lastSyncAt": "2026-11-05T15:04:14.467029Z",
+      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
       "lastSource": "feed:https://knowledge.wharton.upenn.edu/feed/"
     },
     {
@@ -2771,16 +2771,16 @@
           "source": "html"
         },
         {
-          "title": "Putting the Rare Within Reach",
-          "link": "https://omnia.sas.upenn.edu/story/john-pollack-curator-kislak-rare-books",
+          "title": "Three Questions from a Philosopher About ‘AI Slop’",
+          "link": "https://omnia.sas.upenn.edu/story/ai-slop-three-questions-philosopher-dan-singer",
           "date": "2026-11-02",
           "dek": "",
           "stream": "news",
           "source": "html"
         },
         {
-          "title": "Three Questions from a Philosopher About ‘AI Slop’",
-          "link": "https://omnia.sas.upenn.edu/story/ai-slop-three-questions-philosopher-dan-singer",
+          "title": "Putting the Rare Within Reach",
+          "link": "https://omnia.sas.upenn.edu/story/john-pollack-curator-kislak-rare-books",
           "date": "2026-11-02",
           "dek": "",
           "stream": "news",
@@ -2830,14 +2830,14 @@
               "dek": ""
             },
             {
-              "title": "Putting the Rare Within Reach",
-              "link": "https://omnia.sas.upenn.edu/story/john-pollack-curator-kislak-rare-books",
+              "title": "Three Questions from a Philosopher About ‘AI Slop’",
+              "link": "https://omnia.sas.upenn.edu/story/ai-slop-three-questions-philosopher-dan-singer",
               "date": "2026-11-02",
               "dek": ""
             },
             {
-              "title": "Three Questions from a Philosopher About ‘AI Slop’",
-              "link": "https://omnia.sas.upenn.edu/story/ai-slop-three-questions-philosopher-dan-singer",
+              "title": "Putting the Rare Within Reach",
+              "link": "https://omnia.sas.upenn.edu/story/john-pollack-curator-kislak-rare-books",
               "date": "2026-11-02",
               "dek": ""
             },
@@ -2868,10 +2868,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T15:04:14.467029Z"
+          "fetchedAt": "2026-11-05T19:00:20.975042Z"
         }
       },
-      "lastSyncAt": "2026-11-05T15:04:14.467029Z",
+      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
       "lastSource": "html"
     },
     {
@@ -3019,10 +3019,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T15:04:14.467029Z"
+          "fetchedAt": "2026-11-05T19:00:20.975042Z"
         }
       },
-      "lastSyncAt": "2026-11-05T15:04:14.467029Z",
+      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
       "lastSource": "html"
     },
     {
@@ -3069,8 +3069,8 @@
           "source": "html"
         },
         {
-          "title": "New Endowment in Memory of Dora and Morris Lidz",
-          "link": "https://ceas.sas.upenn.edu/news/2026/09/03/new-endowment-memory-dora-and-morris-lidz",
+          "title": "CEAS Fall Reception",
+          "link": "https://ceas.sas.upenn.edu/news/2026/09/03/ceas-fall-reception",
           "date": "2026-09-03",
           "dek": "September 3, 2026",
           "stream": "news",
@@ -3106,18 +3106,18 @@
               "dek": "September 8, 2026"
             },
             {
-              "title": "New Endowment in Memory of Dora and Morris Lidz",
-              "link": "https://ceas.sas.upenn.edu/news/2026/09/03/new-endowment-memory-dora-and-morris-lidz",
+              "title": "CEAS Fall Reception",
+              "link": "https://ceas.sas.upenn.edu/news/2026/09/03/ceas-fall-reception",
               "date": "2026-09-03",
               "dek": "September 3, 2026"
             }
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T15:04:14.467029Z"
+          "fetchedAt": "2026-11-05T19:00:20.975042Z"
         }
       },
-      "lastSyncAt": "2026-11-05T15:04:14.467029Z",
+      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
       "lastSource": "html"
     },
     {
@@ -3137,10 +3137,10 @@
           "items": [],
           "feedUrl": null,
           "source": "",
-          "fetchedAt": "2026-11-05T15:04:14.467029Z"
+          "fetchedAt": "2026-11-05T19:00:20.975042Z"
         }
       },
-      "lastSyncAt": "2026-11-05T15:04:14.467029Z",
+      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
       "lastSource": ""
     },
     {
@@ -3288,10 +3288,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T15:04:14.467029Z"
+          "fetchedAt": "2026-11-05T19:00:20.975042Z"
         }
       },
-      "lastSyncAt": "2026-11-05T15:04:14.467029Z",
+      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
       "lastSource": "html"
     },
     {
@@ -3453,10 +3453,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://creative.writing.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-05T15:04:14.467029Z"
+          "fetchedAt": "2026-11-05T19:00:20.975042Z"
         }
       },
-      "lastSyncAt": "2026-11-05T15:04:14.467029Z",
+      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
       "lastSource": "feed:https://creative.writing.upenn.edu/rss.xml"
     },
     {
@@ -3470,6 +3470,14 @@
       "magazineUrl": null,
       "notes": "",
       "posts": [
+        {
+          "title": "Collective Representation as a Response to Worker Precarity in Logistics, Warehousing and Supply Chains",
+          "link": "https://kleinmanenergy.upenn.edu/about/news/collective-representation-as-a-response-to-worker-precarity-in-logistics-warehousing-and-supply-chains/",
+          "date": "2026-11-05",
+          "dek": "The post Collective Representation as a Response to Worker Precarity in Logistics, Warehousing and Supply Chains appeared first on Kleinman Center for Energy Policy .",
+          "stream": "news",
+          "source": "feed:https://kleinmanenergy.upenn.edu/feed/"
+        },
         {
           "title": "Special Edition: Turning a Farming Solution Into Policy",
           "link": "https://kleinmanenergy.upenn.edu/about/news/special-edition-turning-a-farming-solution-into-policy/",
@@ -3541,20 +3549,18 @@
           "dek": "The post The 9 Key States Where Voters Have a Say in Their Monthly Utility Bills This Year appeared first on Kleinman Center for Energy Policy .",
           "stream": "news",
           "source": "feed:https://kleinmanenergy.upenn.edu/feed/"
-        },
-        {
-          "title": "Strengthening the Grid: U.S. Electricity Policy and Governance",
-          "link": "https://kleinmanenergy.upenn.edu/about/news/strengthening-the-grid-u-s-electricity-policy-and-governance/",
-          "date": "2026-10-30",
-          "dek": "The post Strengthening the Grid: U.S. Electricity Policy and Governance appeared first on Kleinman Center for Energy Policy .",
-          "stream": "news",
-          "source": "feed:https://kleinmanenergy.upenn.edu/feed/"
         }
       ],
       "lastError": "",
       "_cache": {
         "news": {
           "items": [
+            {
+              "title": "Collective Representation as a Response to Worker Precarity in Logistics, Warehousing and Supply Chains",
+              "link": "https://kleinmanenergy.upenn.edu/about/news/collective-representation-as-a-response-to-worker-precarity-in-logistics-warehousing-and-supply-chains/",
+              "date": "2026-11-05",
+              "dek": "The post Collective Representation as a Response to Worker Precarity in Logistics, Warehousing and Supply Chains appeared first on Kleinman Center for Energy Policy ."
+            },
             {
               "title": "Special Edition: Turning a Farming Solution Into Policy",
               "link": "https://kleinmanenergy.upenn.edu/about/news/special-edition-turning-a-farming-solution-into-policy/",
@@ -3608,20 +3614,14 @@
               "link": "https://kleinmanenergy.upenn.edu/about/news/the-9-key-states-where-voters-have-a-say-in-their-monthly-utility-bills-this-year/",
               "date": "2026-10-30",
               "dek": "The post The 9 Key States Where Voters Have a Say in Their Monthly Utility Bills This Year appeared first on Kleinman Center for Energy Policy ."
-            },
-            {
-              "title": "Strengthening the Grid: U.S. Electricity Policy and Governance",
-              "link": "https://kleinmanenergy.upenn.edu/about/news/strengthening-the-grid-u-s-electricity-policy-and-governance/",
-              "date": "2026-10-30",
-              "dek": "The post Strengthening the Grid: U.S. Electricity Policy and Governance appeared first on Kleinman Center for Energy Policy ."
             }
           ],
           "feedUrl": null,
           "source": "feed:https://kleinmanenergy.upenn.edu/feed/",
-          "fetchedAt": "2026-11-05T15:04:14.467029Z"
+          "fetchedAt": "2026-11-05T19:00:20.975042Z"
         }
       },
-      "lastSyncAt": "2026-11-05T15:04:14.467029Z",
+      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
       "lastSource": "feed:https://kleinmanenergy.upenn.edu/feed/"
     },
     {
@@ -3635,6 +3635,14 @@
       "magazineUrl": null,
       "notes": "SAS Drupal - JS-rendered",
       "posts": [
+        {
+          "title": "New Report Explores Key Considerations for Water Reuse in the Greater Mid-Atlantic",
+          "link": "https://watercenter.sas.upenn.edu/news/2026/11/05/new-report-explores-key-considerations-water-reuse-greater-mid-atlantic",
+          "date": "2026-11-05",
+          "dek": "November 5, 2026",
+          "stream": "news",
+          "source": "html"
+        },
         {
           "title": "The Water Center at Penn and Global Water Alliance Release Volume 11 of the International Journal for Water Equity and Justice",
           "link": "https://watercenter.sas.upenn.edu/news/2026/11/03/water-center-penn-and-global-water-alliance-release-volume-11-international-journal",
@@ -3706,20 +3714,18 @@
           "dek": "July 30, 2026",
           "stream": "news",
           "source": "html"
-        },
-        {
-          "title": "Student Research Examines the Local Impact of AI-Driven Data Center Growth in Pennsylvania",
-          "link": "https://watercenter.sas.upenn.edu/news/2026/07/20/student-research-examines-local-impact-ai-driven-data-center-growth-pennsylvania",
-          "date": "2026-07-20",
-          "dek": "July 20, 2026",
-          "stream": "news",
-          "source": "html"
         }
       ],
       "lastError": "",
       "_cache": {
         "news": {
           "items": [
+            {
+              "title": "New Report Explores Key Considerations for Water Reuse in the Greater Mid-Atlantic",
+              "link": "https://watercenter.sas.upenn.edu/news/2026/11/05/new-report-explores-key-considerations-water-reuse-greater-mid-atlantic",
+              "date": "2026-11-05",
+              "dek": "November 5, 2026"
+            },
             {
               "title": "The Water Center at Penn and Global Water Alliance Release Volume 11 of the International Journal for Water Equity and Justice",
               "link": "https://watercenter.sas.upenn.edu/news/2026/11/03/water-center-penn-and-global-water-alliance-release-volume-11-international-journal",
@@ -3773,20 +3779,14 @@
               "link": "https://watercenter.sas.upenn.edu/news/2026/07/30/new-report-and-storymap-explore-us-action-drinking-water-contaminants-emerging",
               "date": "2026-07-30",
               "dek": "July 30, 2026"
-            },
-            {
-              "title": "Student Research Examines the Local Impact of AI-Driven Data Center Growth in Pennsylvania",
-              "link": "https://watercenter.sas.upenn.edu/news/2026/07/20/student-research-examines-local-impact-ai-driven-data-center-growth-pennsylvania",
-              "date": "2026-07-20",
-              "dek": "July 20, 2026"
             }
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T15:04:14.467029Z"
+          "fetchedAt": "2026-11-05T19:00:20.975042Z"
         }
       },
-      "lastSyncAt": "2026-11-05T15:04:14.467029Z",
+      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
       "lastSource": "html"
     },
     {
@@ -3920,10 +3920,10 @@
           ],
           "feedUrl": "https://pennovation.upenn.edu/feed/",
           "source": "html",
-          "fetchedAt": "2026-11-05T15:04:14.467029Z"
+          "fetchedAt": "2026-11-05T19:00:20.975042Z"
         }
       },
-      "lastSyncAt": "2026-11-05T15:04:14.467029Z",
+      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
       "lastSource": "html"
     },
     {
@@ -4085,10 +4085,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://katz.sas.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-05T15:04:14.467029Z"
+          "fetchedAt": "2026-11-05T19:00:20.975042Z"
         }
       },
-      "lastSyncAt": "2026-11-05T15:04:14.467029Z",
+      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
       "lastSource": "feed:https://katz.sas.upenn.edu/rss.xml"
     },
     {
@@ -4250,10 +4250,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T15:04:14.467029Z"
+          "fetchedAt": "2026-11-05T19:00:20.975042Z"
         }
       },
-      "lastSyncAt": "2026-11-05T15:04:14.467029Z",
+      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
       "lastSource": "html"
     },
     {
@@ -4415,10 +4415,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://www.fels.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-05T15:04:14.467029Z"
+          "fetchedAt": "2026-11-05T19:00:20.975042Z"
         }
       },
-      "lastSyncAt": "2026-11-05T15:04:14.467029Z",
+      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
       "lastSource": "feed:https://www.fels.upenn.edu/rss.xml"
     },
     {
@@ -4580,10 +4580,10 @@
           ],
           "feedUrl": "https://icaphila.org/feed/",
           "source": "feed:https://icaphila.org/feed/",
-          "fetchedAt": "2026-11-05T15:04:14.467029Z"
+          "fetchedAt": "2026-11-05T19:00:20.975042Z"
         }
       },
-      "lastSyncAt": "2026-11-05T15:04:14.467029Z",
+      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
       "lastSource": "feed:https://icaphila.org/feed/"
     },
     {
@@ -4745,10 +4745,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://lauder.wharton.upenn.edu/feed/",
-          "fetchedAt": "2026-11-05T15:04:14.467029Z"
+          "fetchedAt": "2026-11-05T19:00:20.975042Z"
         }
       },
-      "lastSyncAt": "2026-11-05T15:04:14.467029Z",
+      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
       "lastSource": "feed:https://lauder.wharton.upenn.edu/feed/"
     },
     {
@@ -4896,10 +4896,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T15:04:14.467029Z"
+          "fetchedAt": "2026-11-05T19:00:20.975042Z"
         }
       },
-      "lastSyncAt": "2026-11-05T15:04:14.467029Z",
+      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
       "lastSource": "html"
     },
     {
@@ -5061,10 +5061,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://fisher.wharton.upenn.edu/feed/",
-          "fetchedAt": "2026-11-05T15:04:14.467029Z"
+          "fetchedAt": "2026-11-05T19:00:20.975042Z"
         }
       },
-      "lastSyncAt": "2026-11-05T15:04:14.467029Z",
+      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
       "lastSource": "feed:https://fisher.wharton.upenn.edu/feed/"
     },
     {
@@ -5212,10 +5212,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://pores.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-05T15:04:14.467029Z"
+          "fetchedAt": "2026-11-05T19:00:20.975042Z"
         }
       },
-      "lastSyncAt": "2026-11-05T15:04:14.467029Z",
+      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
       "lastSource": "feed:https://pores.upenn.edu/rss.xml"
     },
     {
@@ -5517,10 +5517,10 @@
           ],
           "feedUrl": "https://snfpaideia.upenn.edu/feed/",
           "source": "html",
-          "fetchedAt": "2026-11-05T15:04:14.467029Z"
+          "fetchedAt": "2026-11-05T19:00:20.975042Z"
         }
       },
-      "lastSyncAt": "2026-11-05T15:04:14.467029Z",
+      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
       "lastSource": "html"
     },
     {
@@ -5822,10 +5822,10 @@
           ],
           "feedUrl": "https://snfpaideia.upenn.edu/wp-json/wp/v2/posts?per_page=20&_fields=id,date,link,title,excerpt",
           "source": "feed:https://snfpaideia.upenn.edu/wp-json/wp/v2/posts?per_page=20&_fields=id,date,link,title,excerpt",
-          "fetchedAt": "2026-11-05T15:04:14.467029Z"
+          "fetchedAt": "2026-11-05T19:00:20.975042Z"
         }
       },
-      "lastSyncAt": "2026-11-05T15:04:14.467029Z",
+      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
       "lastSource": "feed:https://snfpaideia.upenn.edu/wp-json/wp/v2/posts?per_page=20&_fields=id,date,link,title,excerpt"
     },
     {
@@ -5987,10 +5987,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://pricelab.sas.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-05T15:04:14.467029Z"
+          "fetchedAt": "2026-11-05T19:00:20.975042Z"
         }
       },
-      "lastSyncAt": "2026-11-05T15:04:14.467029Z",
+      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
       "lastSource": "feed:https://pricelab.sas.upenn.edu/rss.xml"
     },
     {
@@ -6152,10 +6152,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T15:04:14.467029Z"
+          "fetchedAt": "2026-11-05T19:00:20.975042Z"
         }
       },
-      "lastSyncAt": "2026-11-05T15:04:14.467029Z",
+      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
       "lastSource": "html"
     },
     {
@@ -6460,10 +6460,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T15:04:14.467029Z"
+          "fetchedAt": "2026-11-05T19:00:20.975042Z"
         }
       },
-      "lastSyncAt": "2026-11-05T15:04:14.467029Z",
+      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
       "lastSource": "html"
     },
     {
@@ -6765,10 +6765,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T15:04:14.467029Z"
+          "fetchedAt": "2026-11-05T19:00:20.975042Z"
         }
       },
-      "lastSyncAt": "2026-11-05T15:04:14.467029Z",
+      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
       "lastSource": "html"
     },
     {
@@ -6930,10 +6930,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://penniur.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-05T15:04:14.467029Z"
+          "fetchedAt": "2026-11-05T19:00:20.975042Z"
         }
       },
-      "lastSyncAt": "2026-11-05T15:04:14.467029Z",
+      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
       "lastSource": "feed:https://penniur.upenn.edu/rss.xml"
     },
     {
@@ -7067,10 +7067,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T15:04:14.467029Z"
+          "fetchedAt": "2026-11-05T19:00:20.975042Z"
         }
       },
-      "lastSyncAt": "2026-11-05T15:04:14.467029Z",
+      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
       "lastSource": "html"
     },
     {
@@ -7372,10 +7372,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T15:04:14.467029Z"
+          "fetchedAt": "2026-11-05T19:00:20.975042Z"
         }
       },
-      "lastSyncAt": "2026-11-05T15:04:14.467029Z",
+      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
       "lastSource": "html"
     },
     {
@@ -7537,10 +7537,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://writing.upenn.edu/?feed=rss2",
-          "fetchedAt": "2026-11-05T15:04:14.467029Z"
+          "fetchedAt": "2026-11-05T19:00:20.975042Z"
         }
       },
-      "lastSyncAt": "2026-11-05T15:04:14.467029Z",
+      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
       "lastSource": "feed:https://writing.upenn.edu/?feed=rss2"
     },
     {
@@ -7674,10 +7674,10 @@
           ],
           "feedUrl": "https://perryworldhouse.upenn.edu/feed/",
           "source": "html",
-          "fetchedAt": "2026-11-05T15:04:14.467029Z"
+          "fetchedAt": "2026-11-05T19:00:20.975042Z"
         }
       },
-      "lastSyncAt": "2026-11-05T15:04:14.467029Z",
+      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
       "lastSource": "html"
     },
     {
@@ -7839,10 +7839,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://platthouse.universitylife.upenn.edu/feed/",
-          "fetchedAt": "2026-11-05T15:04:14.467029Z"
+          "fetchedAt": "2026-11-05T19:00:20.975042Z"
         }
       },
-      "lastSyncAt": "2026-11-05T15:04:14.467029Z",
+      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
       "lastSource": "feed:https://platthouse.universitylife.upenn.edu/feed/"
     },
     {
@@ -8144,10 +8144,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://arthurrossgallery.org/category/press-releases/feed/",
-          "fetchedAt": "2026-11-05T15:04:14.467029Z"
+          "fetchedAt": "2026-11-05T19:00:20.975042Z"
         }
       },
-      "lastSyncAt": "2026-11-05T15:04:14.467029Z",
+      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
       "lastSource": "feed:https://arthurrossgallery.org/category/press-releases/feed/"
     },
     {
@@ -8309,10 +8309,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://www.penn.museum/about/press-room/press-releases?format=feed&type=rss",
-          "fetchedAt": "2026-11-05T15:04:14.467029Z"
+          "fetchedAt": "2026-11-05T19:00:20.975042Z"
         }
       },
-      "lastSyncAt": "2026-11-05T15:04:14.467029Z",
+      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
       "lastSource": "feed:https://www.penn.museum/about/press-room/press-releases?format=feed&type=rss"
     },
     {
@@ -8460,10 +8460,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T15:04:14.467029Z"
+          "fetchedAt": "2026-11-05T19:00:20.975042Z"
         }
       },
-      "lastSyncAt": "2026-11-05T15:04:14.467029Z",
+      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
       "lastSource": "html"
     },
     {
@@ -8625,10 +8625,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T15:04:14.467029Z"
+          "fetchedAt": "2026-11-05T19:00:20.975042Z"
         }
       },
-      "lastSyncAt": "2026-11-05T15:04:14.467029Z",
+      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
       "lastSource": "html"
     },
     {
@@ -8643,6 +8643,14 @@
       "notes": "Added from owner source list, November 3, 2026.",
       "posts": [
         {
+          "title": "Jeremy McInerney Publishes New Book, \"By Land and by Sea\"",
+          "link": "https://www.classics.upenn.edu/news/2026/10/29/jeremy-mcinerney-publishes-new-book-land-and-sea",
+          "date": "2026-10-29",
+          "dek": "October 29, 2026",
+          "stream": "news",
+          "source": "html"
+        },
+        {
           "title": "Jeremy McInerney Publishes New Book, \"The Oxford History of the Classical Greek World: Volume I: The Environment and Resources\"",
           "link": "https://www.classics.upenn.edu/news/2026/10/29/jeremy-mcinerney-publishes-new-book-oxford-history-classical-greek-world-volume-i",
           "date": "2026-10-29",
@@ -8653,14 +8661,6 @@
         {
           "title": "Thomas Tartaron Publishes New Book, \"The Future of Ethnoarchaeology\"",
           "link": "https://www.classics.upenn.edu/news/2026/10/29/thomas-tartaron-publishes-new-book-future-ethnoarchaeology",
-          "date": "2026-10-29",
-          "dek": "October 29, 2026",
-          "stream": "news",
-          "source": "html"
-        },
-        {
-          "title": "Jeremy McInerney Publishes New Book, \"By Land and by Sea\"",
-          "link": "https://www.classics.upenn.edu/news/2026/10/29/jeremy-mcinerney-publishes-new-book-land-and-sea",
           "date": "2026-10-29",
           "dek": "October 29, 2026",
           "stream": "news",
@@ -8728,6 +8728,12 @@
         "news": {
           "items": [
             {
+              "title": "Jeremy McInerney Publishes New Book, \"By Land and by Sea\"",
+              "link": "https://www.classics.upenn.edu/news/2026/10/29/jeremy-mcinerney-publishes-new-book-land-and-sea",
+              "date": "2026-10-29",
+              "dek": "October 29, 2026"
+            },
+            {
               "title": "Jeremy McInerney Publishes New Book, \"The Oxford History of the Classical Greek World: Volume I: The Environment and Resources\"",
               "link": "https://www.classics.upenn.edu/news/2026/10/29/jeremy-mcinerney-publishes-new-book-oxford-history-classical-greek-world-volume-i",
               "date": "2026-10-29",
@@ -8736,12 +8742,6 @@
             {
               "title": "Thomas Tartaron Publishes New Book, \"The Future of Ethnoarchaeology\"",
               "link": "https://www.classics.upenn.edu/news/2026/10/29/thomas-tartaron-publishes-new-book-future-ethnoarchaeology",
-              "date": "2026-10-29",
-              "dek": "October 29, 2026"
-            },
-            {
-              "title": "Jeremy McInerney Publishes New Book, \"By Land and by Sea\"",
-              "link": "https://www.classics.upenn.edu/news/2026/10/29/jeremy-mcinerney-publishes-new-book-land-and-sea",
               "date": "2026-10-29",
               "dek": "October 29, 2026"
             },
@@ -8790,10 +8790,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T15:04:14.467029Z"
+          "fetchedAt": "2026-11-05T19:00:20.975042Z"
         }
       },
-      "lastSyncAt": "2026-11-05T15:04:14.467029Z",
+      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
       "lastSource": "html"
     },
     {
@@ -8941,10 +8941,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T15:04:14.467029Z"
+          "fetchedAt": "2026-11-05T19:00:20.975042Z"
         }
       },
-      "lastSyncAt": "2026-11-05T15:04:14.467029Z",
+      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
       "lastSource": "html"
     },
     {
@@ -9106,10 +9106,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://pan-school.sas.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-05T15:04:14.467029Z"
+          "fetchedAt": "2026-11-05T19:00:20.975042Z"
         }
       },
-      "lastSyncAt": "2026-11-05T15:04:14.467029Z",
+      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
       "lastSource": "feed:https://pan-school.sas.upenn.edu/rss.xml"
     },
     {
@@ -9271,10 +9271,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://chibe.upenn.edu/feed/",
-          "fetchedAt": "2026-11-05T15:04:14.467029Z"
+          "fetchedAt": "2026-11-05T19:00:20.975042Z"
         }
       },
-      "lastSyncAt": "2026-11-05T15:04:14.467029Z",
+      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
       "lastSource": "feed:https://chibe.upenn.edu/feed/"
     },
     {
@@ -9436,10 +9436,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T15:04:14.467029Z"
+          "fetchedAt": "2026-11-05T19:00:20.975042Z"
         }
       },
-      "lastSyncAt": "2026-11-05T15:04:14.467029Z",
+      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
       "lastSource": "html"
     },
     {
@@ -9601,10 +9601,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T15:04:14.467029Z"
+          "fetchedAt": "2026-11-05T19:00:20.975042Z"
         }
       },
-      "lastSyncAt": "2026-11-05T15:04:14.467029Z",
+      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
       "lastSource": "html"
     },
     {
@@ -9766,10 +9766,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T15:04:14.467029Z"
+          "fetchedAt": "2026-11-05T19:00:20.975042Z"
         }
       },
-      "lastSyncAt": "2026-11-05T15:04:14.467029Z",
+      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
       "lastSource": "html"
     },
     {
@@ -9931,10 +9931,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T15:04:14.467029Z"
+          "fetchedAt": "2026-11-05T19:00:20.975042Z"
         }
       },
-      "lastSyncAt": "2026-11-05T15:04:14.467029Z",
+      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
       "lastSource": "html"
     },
     {
@@ -10096,10 +10096,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T15:04:14.467029Z"
+          "fetchedAt": "2026-11-05T19:00:20.975042Z"
         }
       },
-      "lastSyncAt": "2026-11-05T15:04:14.467029Z",
+      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
       "lastSource": "html"
     },
     {
@@ -10261,10 +10261,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T15:04:14.467029Z"
+          "fetchedAt": "2026-11-05T19:00:20.975042Z"
         }
       },
-      "lastSyncAt": "2026-11-05T15:04:14.467029Z",
+      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
       "lastSource": "html"
     },
     {
@@ -10426,14 +10426,14 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T15:04:14.467029Z"
+          "fetchedAt": "2026-11-05T19:00:20.975042Z"
         }
       },
-      "lastSyncAt": "2026-11-05T15:04:14.467029Z",
+      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
       "lastSource": "html"
     }
   ],
-  "lastRefreshAt": "2026-11-05T15:04:14.467029Z",
+  "lastRefreshAt": "2026-11-05T19:00:20.975042Z",
   "refreshErrors": [
     "Center for Study of Contemporary China: No articles found — No news URL found yet."
   ],
@@ -10441,8 +10441,8 @@
   "schemaVersion": 3,
   "collection": {
     "sourceVersion": "4fa80588c744879f586a1b2cf3fcfc20c61335a9736b5f4531dd62b151b920d0",
-    "runId": "42049040927",
-    "commit": "bd4b4d74e25802e966df8b2fd2a5952e26d26412",
-    "runUrl": "https://github.com/BigChief-at-illuminathidotorg/Penn-News-Scraper/actions/runs/42049040927"
+    "runId": "42087336536",
+    "commit": "f2bab4e923d32be24c4659ce8e3dffd0407c2566",
+    "runUrl": "https://github.com/BigChief-at-illuminathidotorg/Penn-News-Scraper/actions/runs/42087336536"
   }
 }
