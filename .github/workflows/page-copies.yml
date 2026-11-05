@@ -1,26 +1,26 @@
-name: Save page copies (temporary)
+name: Check Cloudflare secret access (temporary)
 on:
   push:
     branches: ['diag/page-copies']
 permissions:
-  contents: write
+  contents: read
 jobs:
-  copies:
+  check:
     runs-on: ubuntu-24.04
-    timeout-minutes: 20
+    timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-node@v4
         with:
-          python-version: '3.12'
-      - run: pip install -r requirements.txt
-      - run: python -m playwright install --with-deps chromium
-      - name: Save page copies
-        run: python diag_pages.py
-      - name: Commit the copies to this branch
+          node-version: '22'
+      - name: Can the deploy key manage the site's secrets?
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          PAGES_PROJECT: ${{ vars.PAGES_PROJECT || 'penn-news-monitor' }}
         run: |
-          git config user.name 'Penn News Monitor'
-          git config user.email 'monitor@users.noreply.github.com'
-          git add -f html_dumps
-          git commit -m 'Page copies from GitHub servers' || echo 'nothing to commit'
-          git push origin HEAD:diag/page-copies
+          set +e
+          echo "== secret names before"; npx --yes wrangler@4 pages secret list --project-name="$PAGES_PROJECT"; echo "list exit $?"
+          echo "== add a harmless test secret"; printf 'ok' | npx --yes wrangler@4 pages secret put MONITOR_SETUP_CHECK --project-name="$PAGES_PROJECT"; echo "put exit $?"
+          echo "== secret names after"; npx --yes wrangler@4 pages secret list --project-name="$PAGES_PROJECT"; echo "list exit $?"
+          echo "== remove the test secret"; npx --yes wrangler@4 pages secret delete MONITOR_SETUP_CHECK --project-name="$PAGES_PROJECT"; echo "delete exit $?"
+          echo "== secret names at the end"; npx --yes wrangler@4 pages secret list --project-name="$PAGES_PROJECT"; echo "list exit $?"
