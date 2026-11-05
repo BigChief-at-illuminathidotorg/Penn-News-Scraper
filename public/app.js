@@ -248,7 +248,7 @@ async function editingState(){
  return editing;
 }
 function setupText(state){
- if(state.setup==='weak-passcode')return `The team passcode saved in Cloudflare is too short. It needs at least ${state.minPasscode||12} characters; Help shows where it is kept.`;
+ if(state.setup==='weak-passcode')return `The team passcode is too short. It needs at least ${state.minPasscode||12} characters; Help shows how to change it.`;
  if(state.setup==='missing')return 'Adding sources and starting collections from here needs a one-time setup. Help explains it.';
  if(state.setup==='offline')return 'The monitor’s helper could not be reached. Check your connection and try again.';
  return 'Changes can’t be made from this copy of the monitor. Use the online monitor instead.';

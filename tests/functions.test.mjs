@@ -3,12 +3,17 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
-import { parseSitesJs, serializeSitesJs, applyChange, samePasscode, slugify,
+import { createHash } from 'node:crypto';
+import { parseSitesJs, serializeSitesJs, applyChange, samePasscode, matchesHash, slugify,
   startRun, changeSources, sessionStatus, checkPasscode } from '../lib/monitor-api.mjs';
+import { PASSCODE_HASH } from '../lib/passcode.mjs';
 
 const SITES_JS = readFileSync(new URL('../sites.js', import.meta.url), 'utf8');
 const ENV = { GITHUB_TOKEN: 'test-token', MONITOR_PASSCODE: 'correct horse battery', GITHUB_API: 'https://gh.test' };
 const NOW = Date.parse('2026-11-05T15:00:00Z');
+// A stored hash like the one set_passcode.py writes, for a passcode the tests know.
+const HASHED = 'qkz7m-4hdxt-w9pza-u2nre', SALT = '0123456789abcdef0123456789abcdef';
+const TEST_HASH = { salt: SALT, sha256: createHash('sha256').update(`${SALT}:${HASHED}`).digest('hex') };
 const doc = () => parseSitesJs(SITES_JS);
 const ask = (path, { passcode = ENV.MONITOR_PASSCODE, body, origin = 'https://monitor.test' } = {}) =>
   new Request(`https://monitor.test${path}`, {
@@ -96,6 +101,23 @@ test('passcodes compare exactly', async () => {
   assert.equal(await samePasscode('correct horse battery', 'correct horse battery'), true);
   assert.equal(await samePasscode('correct horse batter', 'correct horse battery'), false);
   assert.equal(await samePasscode('', 'correct horse battery'), false);
+});
+
+test('the stored passcode hash is checked, and a secret passcode overrides it', async () => {
+  assert.equal(await matchesHash(HASHED, TEST_HASH), true);
+  assert.equal(await matchesHash(HASHED + 'x', TEST_HASH), false);
+  assert.equal(await matchesHash('', TEST_HASH), false);
+  assert.match(PASSCODE_HASH.sha256, /^[0-9a-f]{64}$/, 'a real hash is committed');
+  assert.equal(await matchesHash(HASHED, PASSCODE_HASH), false);
+  const tokenOnly = { GITHUB_TOKEN: 'test-token', GITHUB_API: 'https://gh.test' };
+  assert.equal((await sessionStatus(tokenOnly).json()).configured, true, 'the key alone is enough once a hash is committed');
+  assert.equal((await sessionStatus(tokenOnly, { hash: null }).json()).setup, 'missing');
+  assert.equal((await checkPasscode(ask('/api/session', { passcode: HASHED }), tokenOnly, { pause: 0, hash: TEST_HASH })).status, 200);
+  assert.equal((await checkPasscode(ask('/api/session', { passcode: 'qkz7m-4hdxt-w9pza-u2nrf' }), tokenOnly, { pause: 0, hash: TEST_HASH })).status, 401);
+  assert.equal((await checkPasscode(ask('/api/session', { passcode: HASHED }), ENV, { pause: 0, hash: TEST_HASH })).status, 401, 'MONITOR_PASSCODE wins');
+  const gh = fakeGitHub({ runs: [] });
+  assert.equal((await startRun(ask('/api/run', { passcode: HASHED }), tokenOnly, { now: NOW, pause: 0, hash: TEST_HASH })).status, 202);
+  assert.equal(gh.calls.filter(c => c.path.endsWith('/dispatches')).length, 1);
 });
 
 test('setup status and passcode checks', async () => {
