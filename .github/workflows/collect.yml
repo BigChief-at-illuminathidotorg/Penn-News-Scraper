@@ -47,6 +47,27 @@ jobs:
           git diff --cached --quiet || git commit -m 'Update shared news collection'
           git pull --rebase origin main
           git push origin HEAD:main
+      # The site's helper (functions/api) reads its GitHub key from a Cloudflare
+      # secret. The owner saves the key once as the repository secret
+      # MONITOR_GITHUB_TOKEN; this hands it (and an optional MONITOR_PASSCODE)
+      # to Cloudflare so the deploy below picks it up.
+      - name: Pass the monitor's secrets to Cloudflare
+        continue-on-error: true
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          PAGES_PROJECT: ${{ vars.PAGES_PROJECT || 'penn-news-monitor' }}
+          MONITOR_GITHUB_TOKEN: ${{ secrets.MONITOR_GITHUB_TOKEN }}
+          MONITOR_PASSCODE: ${{ secrets.MONITOR_PASSCODE }}
+        run: |
+          if [ -n "$MONITOR_GITHUB_TOKEN" ]; then
+            printf '%s' "$MONITOR_GITHUB_TOKEN" | npx --yes wrangler@4 pages secret put GITHUB_TOKEN --project-name="$PAGES_PROJECT"
+          else
+            echo "No MONITOR_GITHUB_TOKEN repository secret yet: the monitor shows published results but cannot start collections or edit sources. Help explains the one-time setup."
+          fi
+          if [ -n "$MONITOR_PASSCODE" ]; then
+            printf '%s' "$MONITOR_PASSCODE" | npx --yes wrangler@4 pages secret put MONITOR_PASSCODE --project-name="$PAGES_PROJECT"
+          fi
       - name: Deploy the static dashboard
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
