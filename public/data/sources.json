@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": "1d132df286eae77ff94b6aea2aca5f26e1464c6479e87e265c77ae1b17f51f47",
-  "publishedAt": "2026-11-05T13:17:40.595824+00:00",
+  "version": "4fa80588c744879f586a1b2cf3fcfc20c61335a9736b5f4531dd62b151b920d0",
+  "publishedAt": "2026-11-05T14:46:01.865570+00:00",
   "sites": [
     {
       "id": "annenberg",
@@ -455,7 +455,9 @@
       "bucket": "Affiliate",
       "subhead": "Climate science, policy, and action",
       "newsUrl": "https://climate.upenn.edu/news/news/",
-      "extraUrls": null,
+      "extraUrls": [
+        "https://climate.upenn.edu/news/features/"
+      ],
       "magazineUrl": null,
       "notes": "URL fixed 2026-08-04: the Environmental Innovations Initiative was absorbed into the new Office of the Vice Provost for Climate Science, Policy, and Action (\"Penn Climate\") in 2024–2026; environment.upenn.edu now redirects to climate.upenn.edu. Old news-events/news path 404s under the new site. 2026-10-28: /news-knowledge/news/ also 404s; real listing is /news/news/.",
       "feedUrl": null
