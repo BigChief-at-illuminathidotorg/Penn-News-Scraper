@@ -1,11 +1,12 @@
-/* Penn News Monitor 3.4. Reads public data. Changes (starting a collection, editing sources) go through
-   the site's own helper in functions/api, which holds the GitHub key; the browser only sends the team passcode. */
+/* Penn News Monitor 3.4. Reads public data. GitHub signs in people who run the
+   collector or edit its source list; this public page never asks for a passcode. */
 (() => {
 'use strict';
 const REPO = 'BigChief-at-illuminathidotorg/Penn-News-Scraper';
 const RAW = `https://raw.githubusercontent.com/${REPO}/main/public/data/latest.json`;
 const JOBS = `https://api.github.com/repos/${REPO}/actions/workflows/collect.yml/runs?branch=main&per_page=1`;
 const ACTIONS = `https://github.com/${REPO}/actions/workflows/collect.yml`;
+const SITES_EDITOR = `https://github.com/${REPO}/edit/main/sites.js`;
 const KEY = 'penn-monitor-v3';
 const BUCKETS = ['School','Center','Department','Institute','Program','Unit','Affiliate','House','Lab','Gallery','Museum','Library'];
 const CATALOG_FIELDS = ['id','name','exportName','parentUnit','bucket','subhead','newsUrl','extraUrls','magazineUrl','notes','feedUrl'];
@@ -51,8 +52,7 @@ let catalog=null;
 let snapshot=null, imported=false, loading=false, generation=0, job=null, source='', lastChecked='', message='', loadWarning='';
 let prefs={theme:'light',compact:false};
 let picked=new Map(), shownStories=[], schoolOrder=[];
-let passcode='', editing=null, watching=null, formId=null;
-try { passcode=localStorage.getItem(KEY+'-pass')||''; } catch { /* Private browsing: ask each time. */ }
+let watching=null;
 try { prefs={...prefs,...JSON.parse(localStorage.getItem(KEY+'-prefs')||'{}')};const cached=JSON.parse(localStorage.getItem(KEY)||'null');if(cached){snapshot=validate(cached.data);imported=!!cached.imported;source=imported?'Imported file':'Browser cache';} } catch { /* An invalid cache must not prevent loading. */ }
 try { for(const item of JSON.parse(localStorage.getItem(KEY+'-picked')||'[]'))if(item && item.key && safeURL(item.link))picked.set(item.key,item); } catch { /* Selections are a convenience only. */ }
 function save() { try{localStorage.setItem(KEY,JSON.stringify({data:snapshot,imported}));}catch{/* Large snapshots remain usable in memory. */} }
@@ -68,7 +68,7 @@ function validateCatalog(c){if(!c || !Array.isArray(c.sites) || !c.sites.length 
 function renderStatus(){
  $('collectionTime').textContent=snapshot?timeLabel(snapshot.lastRefreshAt):'No collection loaded';
  $('connection').textContent=message || (snapshot?`${source}. Last checked ${lastChecked || 'not yet'}.`:'Waiting for published data.');
- $('refresh').disabled=loading;$('refresh').textContent=loading?'Checking…':imported?'Return to online collection':watching?'Collecting…':'Check for updates';
+ $('refresh').disabled=loading;$('refresh').textContent=loading?'Checking…':imported?'Return to online collection':'Check for updates';
  const issues=snapshot?viewSites().filter(s=>s.lastError||!s.newsUrl).length:0;
  $('sourceCount').textContent=snapshot?`${viewSites().length-issues} of ${viewSites().length} without warnings`:'—';
  const notices=[];
@@ -233,67 +233,12 @@ async function checkJob(){
  const url=safeURL(run.html_url);if(url && new URL(url).hostname==='github.com')$('jobLink').href=url;
  }catch{$('jobStatus').textContent='Job status unavailable (connection, permissions, or GitHub rate limit). Open GitHub to check.';}finally{$('checkJob').disabled=false;renderStatus();}
 }
-// ── Changes go through the site's helper (functions/api) ──────────────────
-async function apiCall(path,{method='GET',body,pass=passcode}={}){
- const headers={};if(body!==undefined)headers['Content-Type']='application/json';if(pass)headers['X-Monitor-Passcode']=pass;
- const response=await fetch(new URL(path,document.baseURI),{method,headers,body:body===undefined?undefined:JSON.stringify(body),cache:'no-store',signal:AbortSignal.timeout(30000)});
- let data={};try{data=(await response.json())||{};}catch{/* This copy of the site has no helper. */}
- return {status:response.status,data};
-}
-function setPasscode(value,remember){passcode=value;try{if(value&&remember)localStorage.setItem(KEY+'-pass',value);else localStorage.removeItem(KEY+'-pass');}catch{/* Kept for this visit only. */}}
-async function editingState(){
- if(editing)return editing;
- try{const r=await apiCall('api/session');editing=r.status===200&&typeof r.data.configured==='boolean'?r.data:{configured:false,setup:'unavailable'};}
- catch{return {configured:false,setup:'offline'};}
- return editing;
-}
-function setupText(state){
- if(state.setup==='weak-passcode')return `The team passcode is too short. It needs at least ${state.minPasscode||12} characters; Help shows how to change it.`;
- if(state.setup==='missing')return 'Adding sources and starting collections from here needs a one-time setup. Help explains it.';
- if(state.setup==='offline')return 'The monitor’s helper could not be reached. Check your connection and try again.';
- return 'Changes can’t be made from this copy of the monitor. Use the online monitor instead.';
-}
-function askPasscode(reason){
- return new Promise(resolve=>{
-  let done=false;const finish=value=>{if(done)return;done=true;$('passDialog').close();resolve(value);};
-  $('passWhy').textContent=reason;$('passStatus').textContent='';$('passInput').value='';$('passOk').disabled=false;
-  $('passCancel').onclick=()=>finish(null);$('passDialog').onclose=()=>finish(null);
-  $('passForm').onsubmit=async e=>{
-   e.preventDefault();const value=$('passInput').value.trim();
-   if(!value){$('passStatus').textContent='Enter the passcode.';return;}
-   $('passOk').disabled=true;$('passStatus').textContent='Checking…';
-   try{const r=await apiCall('api/session',{method:'POST',pass:value});
-    if(r.status===200){setPasscode(value,$('passRemember').checked);finish(value);return;}
-    $('passStatus').textContent=r.data.error||`That didn’t work (error ${r.status}).`;}
-   catch{$('passStatus').textContent='The connection failed. Try again.';}
-   $('passOk').disabled=false;
-  };
-  $('passDialog').showModal();
- });
-}
 function setJob(text){$('jobStatus').textContent=text;}
-// "Check for updates" starts a collection on GitHub (unless one is running or just finished),
-// then keeps checking until the new results are published.
+// Refresh the published data and take authorized editors to GitHub to start a job.
 async function checkForUpdates(){
- if(imported||watching)return refresh(true);
- const state=await editingState();
- if(!state.configured){await refresh(true);if(state.setup==='missing'||state.setup==='weak-passcode')setJob('Showing the latest published collection. '+setupText(state));return;}
- $('refresh').disabled=true;setJob('Starting a new collection on GitHub…');
- let r=null;
- try{
-  for(let tries=0;tries<2 && !r;tries++){
-   if(!passcode && !(await askPasscode('Starting a new collection needs the team passcode. Cancel just loads the latest published results.')))break;
-   const res=await apiCall('api/run',{method:'POST'});
-   if(res.status===401){setPasscode('',false);continue;}
-   r=res.status===200||res.status===202?res.data:{state:'error',error:res.data.error||`GitHub didn’t start a collection (error ${res.status}).`};
-  }
- }catch{r={state:'error',error:'The monitor’s helper could not be reached.'};}
- finally{$('refresh').disabled=false;}
- if(r && (r.state==='started'||r.state==='running')){watchCollection(r.state);return refresh(true);}
+ if(!imported)window.open(ACTIONS,'_blank','noopener');
  await refresh(true);
- if(r?.state==='recent')setJob(`The last collection finished ${r.minutesAgo<1?'less than a minute':r.minutesAgo===1?'a minute':r.minutesAgo+' minutes'} ago, so this is the newest news.`);
- else if(r?.state==='error')setJob(`${r.error} The last published collection is shown.`);
- else setJob('No new collection was started. Showing the latest published results.');
+ if(!imported)setJob('Showing published news. In GitHub, choose Run workflow → Run workflow. Return here when it finishes; this page checks for new results automatically.');
 }
 function watchCollection(state){
  if(watching)clearTimeout(watching.timer);
@@ -319,75 +264,19 @@ function watchCollection(state){
 }
 
 // ── Sources: view, add, edit, remove ──────────────────────────────────────
-const editorName=()=>{try{return localStorage.getItem(KEY+'-editor')||'';}catch{return '';}};
 function sourceHTML(s,canEdit){
  const u=safeURL(s.newsUrl);
  return `<div class="source"><div class="source-head"><strong>${escape(s.name)}</strong>${canEdit?`<span class="source-actions"><button data-edit="${escape(s.id)}">Edit</button><button data-remove="${escape(s.id)}">Remove</button></span>`:''}</div><p>${u?`<a href="${escape(u)}" target="_blank" rel="noopener noreferrer">${escape(u)}</a>`:'No news URL configured'}</p>${(s.extraUrls||[]).map(safeURL).filter(Boolean).map(x=>`<p>Also reads <a href="${escape(x)}" target="_blank" rel="noopener noreferrer">${escape(x)}</a></p>`).join('')}<small>${escape(s.parentUnit||'')}${s.parentUnit?' · ':''}${s.posts.length} saved articles · Last source check ${s.lastSyncAt?escape(timeLabel(s.lastSyncAt)):'unavailable'}</small><p class="${s.lastError?'warning':'meta'}">${escape(s.lastError||'No collection warning reported.')}</p></div>`;
 }
 function renderSources(){
- const canEdit=!imported && !!catalog && editing?.configured!==false;
- $('addSource').hidden=!canEdit;
+ $('addSource').hidden=!!imported;
  const sites=viewSites().slice().sort((a,b)=>schoolOf(a).localeCompare(schoolOf(b))||a.name.localeCompare(b.name));
- $('sourceList').innerHTML=sites.map(s=>sourceHTML(s,canEdit)).join('')||'No collection loaded.';
+ $('sourceList').innerHTML=sites.map(s=>sourceHTML(s,false)).join('')||'No collection loaded.';
 }
 async function openSources(){
  $('sourcesStatus').textContent='';renderSources();$('sourceDialog').showModal();
- if(imported){$('editState').hidden=false;$('editState').textContent='Sources can be changed when you return to the online collection.';return;}
- const state=await editingState();
- $('editState').hidden=!!state.configured;$('editState').textContent=state.configured?'':setupText(state);
- renderSources();
-}
-function openSourceForm(id){
- const s=id?viewSites().find(x=>x.id===id):null;if(id&&!s)return;
- formId=s?s.id:null;
- $('sfTitle').textContent=s?`Edit ${s.name}`:'Add a source';
- $('sfBucket').innerHTML=BUCKETS.map(b=>`<option>${escape(b)}</option>`).join('');
- $('schoolList').innerHTML=[...new Set(viewSites().map(x=>x.parentUnit).filter(Boolean))].sort().map(v=>`<option value="${escape(v)}"></option>`).join('');
- $('sfName').value=s?.name||'';$('sfSchool').value=s?.parentUnit||'';$('sfBucket').value=BUCKETS.includes(s?.bucket)?s.bucket:'Unit';
- $('sfNews').value=s?.newsUrl||'';$('sfExtra').value=(s?.extraUrls||[]).join('\n');$('sfFeed').value=s?.feedUrl||'';
- $('sfExport').value=s?.exportName||'';$('sfSubhead').value=s?.subhead||'';$('sfEditor').value=editorName();
- $('sfStatus').textContent='';$('sfSave').disabled=false;$('sourceForm').showModal();
-}
-function applyLocally(change,data){
- if(!catalog)return;
- let sites=catalog.sites.slice();
- if(change.action==='remove')sites=sites.filter(s=>s.id!==data.removed);
- else if(data.site){const entry=Object.fromEntries(CATALOG_FIELDS.map(k=>[k,data.site[k]??null]));const i=sites.findIndex(s=>s.id===entry.id);if(i>=0)sites[i]=entry;else sites.push(entry);}
- catalog={...catalog,sites,publishedAt:new Date().toISOString()};   // newer than any catalog published before this change
- sectionOptions();render();renderSources();
-}
-async function sendChange(change,status,button){
- const state=await editingState();
- if(!state.configured){status.textContent=setupText(state);return false;}
- if(!passcode && !(await askPasscode('Changing sources needs the team passcode.'))){status.textContent='Not saved.';return false;}
- button.disabled=true;status.textContent='Saving to GitHub…';
- try{
-  let r=await apiCall('api/sources',{method:'POST',body:change});
-  if(r.status===401){
-   setPasscode('',false);
-   if(!(await askPasscode('That passcode was not accepted. Try again.'))){status.textContent='Not saved.';return false;}
-   r=await apiCall('api/sources',{method:'POST',body:change});
-  }
-  if(r.status!==200){status.textContent=r.data.error||`Not saved (error ${r.status}).`;return false;}
-  applyLocally(change,r.data);
-  if(r.data.site)$('sourceList').querySelector?.(`[data-edit="${CSS.escape(r.data.site.id)}"]`)?.closest('.source')?.scrollIntoView({block:'center'});
-  const note=`${r.data.summary} A new collection has started, so the change shows up in about five minutes.`;
-  status.textContent=note;$('sourcesStatus').textContent=note;
-  watchCollection('started');
-  return true;
- }catch{status.textContent='Not saved: the connection failed. Try again.';return false;}
- finally{button.disabled=false;}
-}
-async function saveSource(e){
- e.preventDefault();
- const site={name:$('sfName').value,parentUnit:$('sfSchool').value,bucket:$('sfBucket').value,subhead:$('sfSubhead').value,newsUrl:$('sfNews').value,extraUrls:$('sfExtra').value,feedUrl:$('sfFeed').value,exportName:$('sfExport').value};
- const editor=$('sfEditor').value.trim();try{localStorage.setItem(KEY+'-editor',editor);}catch{/* Optional. */}
- if(await sendChange(formId?{action:'update',id:formId,site,editor}:{action:'add',site,editor},$('sfStatus'),$('sfSave')))$('sourceForm').close();
-}
-function armRemove(button){
- if(button.dataset.armed==='1'){button.dataset.armed='';sendChange({action:'remove',id:button.dataset.remove,editor:editorName()},$('sourcesStatus'),button);return;}
- button.dataset.armed='1';button.textContent='Confirm remove';button.classList.toggle('danger',true);
- setTimeout(()=>{if(button.dataset.armed==='1'){button.dataset.armed='';button.textContent='Remove';button.classList.toggle('danger',false);}},6000);
+ $('editState').hidden=!imported;
+ $('editState').textContent=imported?'Return to the online collection to manage sources.':'';
 }
 $('today').textContent=new Date().toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric',year:'numeric'});
 $('jobLink').href=ACTIONS;$('week').value='';$('active').checked=true;
@@ -404,8 +293,7 @@ $('copyExport').onclick=copyExport;$('downloadExport').onclick=downloadExport;
 $('selectShown').onclick=()=>{for(const {s,p} of shownStories)togglePick(pickKey(s,p),true);render();renderExport();exportStatus('');};
 $('clearExport').onclick=()=>{picked.clear();savePicked();render();renderExport();exportStatus('Selection cleared.');};
 $('sources').onclick=openSources;$('closeSources').onclick=()=>$('sourceDialog').close();
-$('addSource').onclick=()=>openSourceForm(null);$('sfForm').onsubmit=saveSource;$('sfCancel').onclick=()=>$('sourceForm').close();
-$('sourceList').onclick=e=>{const b=e.target.closest?.('button');if(!b)return;if(b.dataset.edit)openSourceForm(b.dataset.edit);else if(b.dataset.remove)armRemove(b);};
+$('addSource').onclick=()=>window.open(SITES_EDITOR,'_blank','noopener');
 $('import').onclick=()=>$('file').click();
 $('file').onchange=async e=>{const file=e.target.files[0];if(!file)return;try{if(file.size>20*1024*1024)throw Error('Choose a snapshot smaller than 20 MB.');const data=validate(JSON.parse(await file.text()));generation++;loading=false;snapshot=data;imported=true;source='Imported file';message='Imported snapshot. Automatic updates are paused.';loadWarning='';save();sectionOptions();render();}catch(error){alert('Import failed: '+error.message);}finally{e.target.value='';}};
 // The floating bar (week arrows, Export, back to top) fades in once the filters scroll away.
