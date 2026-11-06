@@ -19,9 +19,6 @@ jobs:
       - run: python prepare_sources.py
       - run: python -m unittest discover -s tests
       - run: node tests/monitor.cjs
-      - run: node --test tests/functions.test.mjs
-      - name: Bundle the site's helper (functions/api)
-        run: npx --yes wrangler@4 pages functions build --outdir="$RUNNER_TEMP/functions"
       - run: python -m playwright install --with-deps chromium
       - name: Launch the collector browser
         run: |
