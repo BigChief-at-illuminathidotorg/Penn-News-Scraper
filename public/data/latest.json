@@ -164,10 +164,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T19:00:20.975042Z"
+          "fetchedAt": "2026-11-06T12:22:59.740468Z"
         }
       },
-      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
+      "lastSyncAt": "2026-11-06T12:22:59.740468Z",
       "lastSource": "html"
     },
     {
@@ -181,6 +181,14 @@
       "magazineUrl": "https://www.dental.upenn.edu/news-events/penn-dental-medicine-journal/",
       "notes": "",
       "posts": [
+        {
+          "title": "Oral Health Is Planetary Health: Penn Dental Medicine Leads a Field-Defining JADA Special Issue",
+          "link": "https://www.dental.upenn.edu/news-events/2026/11/05/oral-health-is-planetary-health-penn-dental-medicine-leads-a-field-defining-jada-special-issue/",
+          "date": "2026-11-05",
+          "dek": "A supplement to The Journal of the American Dental Association on the topic of Planetary Health and Sustainability was published Friday, Oct. 30. Morton Amsterdam Dean Mark S. Wolff, Michael Glick, Fields-Rayant Professor and Executive Director of the Center for Integrative Globa",
+          "stream": "news",
+          "source": "feed:https://www.dental.upenn.edu/feed/"
+        },
         {
           "title": "Penn Dental Medicine Brings Oral Health to the World’s Biggest Climate Summit",
           "link": "https://www.dental.upenn.edu/news-events/2026/11/04/penn-dental-medicine-brings-oral-health-to-the-worlds-biggest-climate-summit/",
@@ -252,20 +260,18 @@
           "dek": "The post Center for Innovation & Precision Dentistry Presents Annual Symposium appeared first on Penn Dental Medicine .",
           "stream": "news",
           "source": "feed:https://www.dental.upenn.edu/feed/"
-        },
-        {
-          "title": "In the News: WHYY Talks with Dr. Henry Daniell on his Bioengineered Chewing Gum to Fight HPV",
-          "link": "https://www.dental.upenn.edu/news-events/2026/05/27/in-the-news-whyy-talks-with-dr-henry-daniell-on-his-research-to-create-a-bioengineered-chewing-gum-to-fight-hpv/",
-          "date": "2026-05-27",
-          "dek": "The post In the News: WHYY Talks with Dr. Henry Daniell on his Bioengineered Chewing Gum to Fight HPV appeared first on Penn Dental Medicine .",
-          "stream": "news",
-          "source": "feed:https://www.dental.upenn.edu/feed/"
         }
       ],
       "lastError": "",
       "_cache": {
         "news": {
           "items": [
+            {
+              "title": "Oral Health Is Planetary Health: Penn Dental Medicine Leads a Field-Defining JADA Special Issue",
+              "link": "https://www.dental.upenn.edu/news-events/2026/11/05/oral-health-is-planetary-health-penn-dental-medicine-leads-a-field-defining-jada-special-issue/",
+              "date": "2026-11-05",
+              "dek": "A supplement to The Journal of the American Dental Association on the topic of Planetary Health and Sustainability was published Friday, Oct. 30. Morton Amsterdam Dean Mark S. Wolff, Michael Glick, Fields-Rayant Professor and Executive Director of the Center for Integrative Globa"
+            },
             {
               "title": "Penn Dental Medicine Brings Oral Health to the World’s Biggest Climate Summit",
               "link": "https://www.dental.upenn.edu/news-events/2026/11/04/penn-dental-medicine-brings-oral-health-to-the-worlds-biggest-climate-summit/",
@@ -319,20 +325,14 @@
               "link": "https://www.dental.upenn.edu/news-events/2026/06/05/center-for-innovation-precision-dentistry-presents-annual-symposium-2/",
               "date": "2026-06-05",
               "dek": "The post Center for Innovation & Precision Dentistry Presents Annual Symposium appeared first on Penn Dental Medicine ."
-            },
-            {
-              "title": "In the News: WHYY Talks with Dr. Henry Daniell on his Bioengineered Chewing Gum to Fight HPV",
-              "link": "https://www.dental.upenn.edu/news-events/2026/05/27/in-the-news-whyy-talks-with-dr-henry-daniell-on-his-research-to-create-a-bioengineered-chewing-gum-to-fight-hpv/",
-              "date": "2026-05-27",
-              "dek": "The post In the News: WHYY Talks with Dr. Henry Daniell on his Bioengineered Chewing Gum to Fight HPV appeared first on Penn Dental Medicine ."
             }
           ],
           "feedUrl": null,
           "source": "feed:https://www.dental.upenn.edu/feed/",
-          "fetchedAt": "2026-11-05T19:00:20.975042Z"
+          "fetchedAt": "2026-11-06T12:22:59.740468Z"
         }
       },
-      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
+      "lastSyncAt": "2026-11-06T12:22:59.740468Z",
       "lastSource": "feed:https://www.dental.upenn.edu/feed/"
     },
     {
@@ -634,10 +634,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T19:00:20.975042Z"
+          "fetchedAt": "2026-11-06T12:22:59.740468Z"
         }
       },
-      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
+      "lastSyncAt": "2026-11-06T12:22:59.740468Z",
       "lastSource": "html"
     },
     {
@@ -704,45 +704,45 @@
             {
               "title": "New Book Analyzes China’s Rise Through the Lens of Labor and Land",
               "link": "https://www.law.upenn.edu/live/news/18985-new-book-analyzes-chinas-rise-through-the-lens-of",
-              "date": "2026-11-05",
+              "date": "2026-11-06",
               "dek": "“The Unmaking of the Chinese Working Class: How Communism Built a Capitalist Superpower,” by Professor Teemu Ruskola, explores the role China has played in global economic transformations over the 20th and 21st centuries.",
               "undated": true
             },
             {
               "title": "Legal Ethics and the Lessons of History",
               "link": "https://www.law.upenn.edu/live/news/19000-legal-ethics-and-the-lessons-of-history",
-              "date": "2026-11-05",
+              "date": "2026-11-06",
               "dek": "Last summer, Toll Scholar Boris Botchev L’27 (he/him) participated in the Fellowship at Auschwitz for the Study of Professional Ethics (FASPE) as a Law Fellow.",
               "undated": true
             },
             {
               "title": "Connecting Law and International Studies Through a JD/MA Degree",
               "link": "https://www.law.upenn.edu/live/news/19009-connecting-law-and-international-studies-through-a",
-              "date": "2026-11-05",
+              "date": "2026-11-06",
               "dek": "The Lauder Institute offers JD students at Penn Carey Law the opportunity to earn a Master’s in International Studies from Penn’s School of Arts and Sciences.",
               "undated": true
             },
             {
               "title": "New Certificate of Study in AI and Law",
               "link": "https://www.law.upenn.edu/live/news/18442-new-certificate-of-study-in-ai-and-law",
-              "date": "2026-11-05",
+              "date": "2026-11-06",
               "dek": "The certificate is now available to Penn Carey Law students.",
               "undated": true
             },
             {
               "title": "Rethinking Public Power",
               "link": "https://www.law.upenn.edu/live/news/18469-rethinking-public-power",
-              "date": "2026-11-05",
+              "date": "2026-11-06",
               "dek": "Shelley Welton examines how governments can work alongside private markets to accelerate the clean energy transition through new public renewables models.",
               "undated": true
             }
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T19:00:20.975042Z"
+          "fetchedAt": "2026-11-06T12:22:59.740468Z"
         }
       },
-      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
+      "lastSyncAt": "2026-11-06T12:22:59.740468Z",
       "lastSource": "html"
     },
     {
@@ -904,10 +904,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T19:00:20.975042Z"
+          "fetchedAt": "2026-11-06T12:22:59.740468Z"
         }
       },
-      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
+      "lastSyncAt": "2026-11-06T12:22:59.740468Z",
       "lastSource": "html"
     },
     {
@@ -992,59 +992,59 @@
             {
               "title": "International Study Finds that Prone Positioning and HFOV Do Not Improve ARDS Outcomes in Children",
               "link": "https://www.nursing.upenn.edu/live/news/3938-international-study-finds-that-prone-positioning",
-              "date": "2026-11-05",
+              "date": "2026-11-06",
               "dek": "Results from the largest international clinical trial of its kind show that early, routine use of prone positioning and/or high-frequency oscillatory ventilation (HFOV) do not increase ventilator-free days for children with pediatric acute respiratory distress syndrome (PARDS).",
               "undated": true
             },
             {
               "title": "Penn Nursing Professor Co-Authors Landmark First-Ever Lancet Series Dedicated to Men’s Health",
               "link": "https://www.nursing.upenn.edu/live/news/3935-penn-nursing-professor-co-authors-landmark",
-              "date": "2026-11-05",
+              "date": "2026-11-06",
               "dek": "Register for theofficial, virtual November 5 global launch event hosted by the Liverpool School of Tropical Medicine and The Lancet to engage with co-authors and health equity experts.",
               "undated": true
             },
             {
               "title": "Informatics Fellowship for Penn Nursing Professor",
               "link": "https://www.nursing.upenn.edu/live/news/3919-informatics-fellowship-for-penn-nursing-professor",
-              "date": "2026-11-05",
+              "date": "2026-11-06",
               "dek": "Jiyoun Song, PhD, AGACNP-BC, APRN, Assistant Professor in Penn Nursing’s Department of Biobehavioral Health Sciences, has been elected a Fellow of the American Medical Informatics Association (FAMIA), a national distinction recognizing professional achievement and leadership in a",
               "undated": true
             },
             {
               "title": "Honorary Fellowship for Penn Nursing Professor",
               "link": "https://www.nursing.upenn.edu/live/news/3940-honorary-fellowship-for-penn-nursing-professor",
-              "date": "2026-11-05",
+              "date": "2026-11-06",
               "dek": "Selena Ann Gilles, DNP, ANP-BC, CNEcl, ANEF, FNYAM, FADLN, FNAP, FAANP, FAAN, Associate Dean, School and Community Engagement, and Practice Professor in the Biobehavioral Health Sciences Department, was named an Honorary Fellow of the Society of Internationally Educated Nurses an",
               "undated": true
             },
             {
               "title": "Congratulations Dr. Cacchione!",
               "link": "https://www.nursing.upenn.edu/live/news/3910-congratulations-dr-cacchione",
-              "date": "2026-11-05",
+              "date": "2026-11-06",
               "dek": "Pamela Cacchione, PhD, CRNP, BC, FGSA, FAAN, received the Nursing Research Award at the 2026 Nightingale Nursing Awards, which recognizes nurses whose work demonstrates excellence across clinical practice, advanced practice, education, leadership, research, and patient care.",
               "undated": true
             },
             {
               "title": "Mindfulness in DNP Education: Cultivating Resilience and Leadership in Advanced Practice",
               "link": "https://www.nursing.upenn.edu/live/news/3902-mindfulness-in-dnp-education-cultivating-resilience-and",
-              "date": "2026-11-05",
+              "date": "2026-11-06",
               "dek": "A new study demonstrates that embedding short, asynchronous mindfulness practices into Doctor of Nursing Practice (DNP) curricula effectively reduces stress, combats burnout, and builds essential leadership skills. Published in Nurse Educator, the project evaluated student respon",
               "undated": true
             },
             {
               "title": "New Commentary Calls for Shift to Nurse-Sensitive Outcome Measures",
               "link": "https://www.nursing.upenn.edu/live/news/3896-new-commentary-calls-for-shift-to-nurse-sensitive",
-              "date": "2026-11-05",
+              "date": "2026-11-06",
               "dek": "Current health care metrics fail to capture the true value of acute and critical care nursing, evaluating the profession primarily by the absence of patient harm rather than positive clinical outcomes, according to a commentary in JAMA Internal Medicine.",
               "undated": true
             }
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T19:00:20.975042Z"
+          "fetchedAt": "2026-11-06T12:22:59.740468Z"
         }
       },
-      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
+      "lastSyncAt": "2026-11-06T12:22:59.740468Z",
       "lastSource": "html"
     },
     {
@@ -1206,10 +1206,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://www.engineering.upenn.edu/feed/",
-          "fetchedAt": "2026-11-05T19:00:20.975042Z"
+          "fetchedAt": "2026-11-06T12:22:59.740468Z"
         }
       },
-      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
+      "lastSyncAt": "2026-11-06T12:22:59.740468Z",
       "lastSource": "feed:https://www.engineering.upenn.edu/feed/"
     },
     {
@@ -1511,10 +1511,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T19:00:20.975042Z"
+          "fetchedAt": "2026-11-06T12:22:59.740468Z"
         }
       },
-      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
+      "lastSyncAt": "2026-11-06T12:22:59.740468Z",
       "lastSource": "html"
     },
     {
@@ -1802,10 +1802,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T19:00:20.975042Z"
+          "fetchedAt": "2026-11-06T12:22:59.740468Z"
         }
       },
-      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
+      "lastSyncAt": "2026-11-06T12:22:59.740468Z",
       "lastSource": "html"
     },
     {
@@ -2107,10 +2107,10 @@
           ],
           "feedUrl": "https://news.wharton.upenn.edu/feed/",
           "source": "feed:https://news.wharton.upenn.edu/feed/",
-          "fetchedAt": "2026-11-05T19:00:20.975042Z"
+          "fetchedAt": "2026-11-06T12:22:59.740468Z"
         }
       },
-      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
+      "lastSyncAt": "2026-11-06T12:22:59.740468Z",
       "lastSource": "feed:https://news.wharton.upenn.edu/feed/"
     },
     {
@@ -2157,8 +2157,8 @@
           "source": "html"
         },
         {
-          "title": "In the Media | 11.03.2026 Interview: Marion Weiss and Michael Manfredi “We try to touch the earth lightly,\" Cret Professor of Practice Marion Weiss tells Abitare of her firm's integrated approach to design. Abitare",
-          "link": "https://la.urbanize.city/post/work-begins-la-brea-tar-pits-and-page-museum-revamp",
+          "title": "In the Media | 11.03.2026 Interview: Marion Weiss and Michael Manfredi “We try to touch the earth lightly,\" Graham Professor of Practice Marion Weiss tells Abitare of her firm's integrated approach to design. Abitare",
+          "link": "https://www.abitare.it/en/architecture/projects/2026/10/14/weiss-manfredi-interview/",
           "date": "2026-11-03",
           "dek": "",
           "stream": "news",
@@ -2234,8 +2234,8 @@
               "dek": ""
             },
             {
-              "title": "In the Media | 11.03.2026 Interview: Marion Weiss and Michael Manfredi “We try to touch the earth lightly,\" Cret Professor of Practice Marion Weiss tells Abitare of her firm's integrated approach to design. Abitare",
-              "link": "https://la.urbanize.city/post/work-begins-la-brea-tar-pits-and-page-museum-revamp",
+              "title": "In the Media | 11.03.2026 Interview: Marion Weiss and Michael Manfredi “We try to touch the earth lightly,\" Graham Professor of Practice Marion Weiss tells Abitare of her firm's integrated approach to design. Abitare",
+              "link": "https://www.abitare.it/en/architecture/projects/2026/10/14/weiss-manfredi-interview/",
               "date": "2026-11-03",
               "dek": ""
             },
@@ -2272,10 +2272,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T19:00:20.975042Z"
+          "fetchedAt": "2026-11-06T12:22:59.740468Z"
         }
       },
-      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
+      "lastSyncAt": "2026-11-06T12:22:59.740468Z",
       "lastSource": "html"
     },
     {
@@ -2580,10 +2580,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T19:00:20.975042Z"
+          "fetchedAt": "2026-11-06T12:22:59.740468Z"
         }
       },
-      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
+      "lastSyncAt": "2026-11-06T12:22:59.740468Z",
       "lastSource": "html"
     },
     {
@@ -2745,10 +2745,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://knowledge.wharton.upenn.edu/feed/",
-          "fetchedAt": "2026-11-05T19:00:20.975042Z"
+          "fetchedAt": "2026-11-06T12:22:59.740468Z"
         }
       },
-      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
+      "lastSyncAt": "2026-11-06T12:22:59.740468Z",
       "lastSource": "feed:https://knowledge.wharton.upenn.edu/feed/"
     },
     {
@@ -2868,10 +2868,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T19:00:20.975042Z"
+          "fetchedAt": "2026-11-06T12:22:59.740468Z"
         }
       },
-      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
+      "lastSyncAt": "2026-11-06T12:22:59.740468Z",
       "lastSource": "html"
     },
     {
@@ -3019,10 +3019,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T19:00:20.975042Z"
+          "fetchedAt": "2026-11-06T12:22:59.740468Z"
         }
       },
-      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
+      "lastSyncAt": "2026-11-06T12:22:59.740468Z",
       "lastSource": "html"
     },
     {
@@ -3069,8 +3069,8 @@
           "source": "html"
         },
         {
-          "title": "CEAS Fall Reception",
-          "link": "https://ceas.sas.upenn.edu/news/2026/09/03/ceas-fall-reception",
+          "title": "New Endowment in Memory of Dora and Morris Lidz",
+          "link": "https://ceas.sas.upenn.edu/news/2026/09/03/new-endowment-memory-dora-and-morris-lidz",
           "date": "2026-09-03",
           "dek": "September 3, 2026",
           "stream": "news",
@@ -3106,18 +3106,18 @@
               "dek": "September 8, 2026"
             },
             {
-              "title": "CEAS Fall Reception",
-              "link": "https://ceas.sas.upenn.edu/news/2026/09/03/ceas-fall-reception",
+              "title": "New Endowment in Memory of Dora and Morris Lidz",
+              "link": "https://ceas.sas.upenn.edu/news/2026/09/03/new-endowment-memory-dora-and-morris-lidz",
               "date": "2026-09-03",
               "dek": "September 3, 2026"
             }
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T19:00:20.975042Z"
+          "fetchedAt": "2026-11-06T12:22:59.740468Z"
         }
       },
-      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
+      "lastSyncAt": "2026-11-06T12:22:59.740468Z",
       "lastSource": "html"
     },
     {
@@ -3137,10 +3137,10 @@
           "items": [],
           "feedUrl": null,
           "source": "",
-          "fetchedAt": "2026-11-05T19:00:20.975042Z"
+          "fetchedAt": "2026-11-06T12:22:59.740468Z"
         }
       },
-      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
+      "lastSyncAt": "2026-11-06T12:22:59.740468Z",
       "lastSource": ""
     },
     {
@@ -3288,10 +3288,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T19:00:20.975042Z"
+          "fetchedAt": "2026-11-06T12:22:59.740468Z"
         }
       },
-      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
+      "lastSyncAt": "2026-11-06T12:22:59.740468Z",
       "lastSource": "html"
     },
     {
@@ -3453,10 +3453,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://creative.writing.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-05T19:00:20.975042Z"
+          "fetchedAt": "2026-11-06T12:22:59.740468Z"
         }
       },
-      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
+      "lastSyncAt": "2026-11-06T12:22:59.740468Z",
       "lastSource": "feed:https://creative.writing.upenn.edu/rss.xml"
     },
     {
@@ -3618,10 +3618,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://kleinmanenergy.upenn.edu/feed/",
-          "fetchedAt": "2026-11-05T19:00:20.975042Z"
+          "fetchedAt": "2026-11-06T12:22:59.740468Z"
         }
       },
-      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
+      "lastSyncAt": "2026-11-06T12:22:59.740468Z",
       "lastSource": "feed:https://kleinmanenergy.upenn.edu/feed/"
     },
     {
@@ -3783,10 +3783,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T19:00:20.975042Z"
+          "fetchedAt": "2026-11-06T12:22:59.740468Z"
         }
       },
-      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
+      "lastSyncAt": "2026-11-06T12:22:59.740468Z",
       "lastSource": "html"
     },
     {
@@ -3920,10 +3920,10 @@
           ],
           "feedUrl": "https://pennovation.upenn.edu/feed/",
           "source": "html",
-          "fetchedAt": "2026-11-05T19:00:20.975042Z"
+          "fetchedAt": "2026-11-06T12:22:59.740468Z"
         }
       },
-      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
+      "lastSyncAt": "2026-11-06T12:22:59.740468Z",
       "lastSource": "html"
     },
     {
@@ -4085,10 +4085,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://katz.sas.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-05T19:00:20.975042Z"
+          "fetchedAt": "2026-11-06T12:22:59.740468Z"
         }
       },
-      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
+      "lastSyncAt": "2026-11-06T12:22:59.740468Z",
       "lastSource": "feed:https://katz.sas.upenn.edu/rss.xml"
     },
     {
@@ -4250,10 +4250,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T19:00:20.975042Z"
+          "fetchedAt": "2026-11-06T12:22:59.740468Z"
         }
       },
-      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
+      "lastSyncAt": "2026-11-06T12:22:59.740468Z",
       "lastSource": "html"
     },
     {
@@ -4415,10 +4415,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://www.fels.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-05T19:00:20.975042Z"
+          "fetchedAt": "2026-11-06T12:22:59.740468Z"
         }
       },
-      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
+      "lastSyncAt": "2026-11-06T12:22:59.740468Z",
       "lastSource": "feed:https://www.fels.upenn.edu/rss.xml"
     },
     {
@@ -4580,10 +4580,10 @@
           ],
           "feedUrl": "https://icaphila.org/feed/",
           "source": "feed:https://icaphila.org/feed/",
-          "fetchedAt": "2026-11-05T19:00:20.975042Z"
+          "fetchedAt": "2026-11-06T12:22:59.740468Z"
         }
       },
-      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
+      "lastSyncAt": "2026-11-06T12:22:59.740468Z",
       "lastSource": "feed:https://icaphila.org/feed/"
     },
     {
@@ -4745,10 +4745,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://lauder.wharton.upenn.edu/feed/",
-          "fetchedAt": "2026-11-05T19:00:20.975042Z"
+          "fetchedAt": "2026-11-06T12:22:59.740468Z"
         }
       },
-      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
+      "lastSyncAt": "2026-11-06T12:22:59.740468Z",
       "lastSource": "feed:https://lauder.wharton.upenn.edu/feed/"
     },
     {
@@ -4896,10 +4896,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T19:00:20.975042Z"
+          "fetchedAt": "2026-11-06T12:22:59.740468Z"
         }
       },
-      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
+      "lastSyncAt": "2026-11-06T12:22:59.740468Z",
       "lastSource": "html"
     },
     {
@@ -5061,10 +5061,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://fisher.wharton.upenn.edu/feed/",
-          "fetchedAt": "2026-11-05T19:00:20.975042Z"
+          "fetchedAt": "2026-11-06T12:22:59.740468Z"
         }
       },
-      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
+      "lastSyncAt": "2026-11-06T12:22:59.740468Z",
       "lastSource": "feed:https://fisher.wharton.upenn.edu/feed/"
     },
     {
@@ -5212,10 +5212,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://pores.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-05T19:00:20.975042Z"
+          "fetchedAt": "2026-11-06T12:22:59.740468Z"
         }
       },
-      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
+      "lastSyncAt": "2026-11-06T12:22:59.740468Z",
       "lastSource": "feed:https://pores.upenn.edu/rss.xml"
     },
     {
@@ -5517,10 +5517,10 @@
           ],
           "feedUrl": "https://snfpaideia.upenn.edu/feed/",
           "source": "html",
-          "fetchedAt": "2026-11-05T19:00:20.975042Z"
+          "fetchedAt": "2026-11-06T12:22:59.740468Z"
         }
       },
-      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
+      "lastSyncAt": "2026-11-06T12:22:59.740468Z",
       "lastSource": "html"
     },
     {
@@ -5822,10 +5822,10 @@
           ],
           "feedUrl": "https://snfpaideia.upenn.edu/wp-json/wp/v2/posts?per_page=20&_fields=id,date,link,title,excerpt",
           "source": "feed:https://snfpaideia.upenn.edu/wp-json/wp/v2/posts?per_page=20&_fields=id,date,link,title,excerpt",
-          "fetchedAt": "2026-11-05T19:00:20.975042Z"
+          "fetchedAt": "2026-11-06T12:22:59.740468Z"
         }
       },
-      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
+      "lastSyncAt": "2026-11-06T12:22:59.740468Z",
       "lastSource": "feed:https://snfpaideia.upenn.edu/wp-json/wp/v2/posts?per_page=20&_fields=id,date,link,title,excerpt"
     },
     {
@@ -5987,10 +5987,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://pricelab.sas.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-05T19:00:20.975042Z"
+          "fetchedAt": "2026-11-06T12:22:59.740468Z"
         }
       },
-      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
+      "lastSyncAt": "2026-11-06T12:22:59.740468Z",
       "lastSource": "feed:https://pricelab.sas.upenn.edu/rss.xml"
     },
     {
@@ -6152,10 +6152,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T19:00:20.975042Z"
+          "fetchedAt": "2026-11-06T12:22:59.740468Z"
         }
       },
-      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
+      "lastSyncAt": "2026-11-06T12:22:59.740468Z",
       "lastSource": "html"
     },
     {
@@ -6181,9 +6181,9 @@
           "source": "html"
         },
         {
-          "title": "What Basque Food Traditions and Cultural Memory Can Teach Us About Sustainability",
-          "link": "https://climate.upenn.edu/news/basque-food-traditions/",
-          "date": "2026-10-30",
+          "title": "One Health Certificate Program",
+          "link": "https://climate.upenn.edu/news/one-health-certificate-program/",
+          "date": "2026-11-02",
           "dek": "",
           "stream": "news",
           "source": "html"
@@ -6191,6 +6191,14 @@
         {
           "title": "A Look Inside the Morris Arboretum Herbarium",
           "link": "https://climate.upenn.edu/news/morris-arboretum-herbarium/",
+          "date": "2026-10-30",
+          "dek": "",
+          "stream": "news",
+          "source": "html"
+        },
+        {
+          "title": "What Basque Food Traditions and Cultural Memory Can Teach Us About Sustainability",
+          "link": "https://climate.upenn.edu/news/basque-food-traditions/",
           "date": "2026-10-30",
           "dek": "",
           "stream": "news",
@@ -6245,33 +6253,9 @@
           "source": "html"
         },
         {
-          "title": "An AI model shows how climate events drive human migration",
-          "link": "https://climate.upenn.edu/news/an-ai-model-shows-how-climate-events-drive-human-migration/",
-          "date": "2026-09-25",
-          "dek": "",
-          "stream": "news",
-          "source": "html"
-        },
-        {
-          "title": "Penn Hosts Climate Week NYC Plenary Event as the United Nations Grapples with Climate Change",
-          "link": "https://climate.upenn.edu/news/penn-hosts-climate-week-nyc-plenary-event-as-the-united-nations-grapples-with-climate-change/",
-          "date": "2026-09-24",
-          "dek": "",
-          "stream": "news",
-          "source": "html"
-        },
-        {
           "title": "EPA Repeals Carbon Pollution Standards on Power Plants",
           "link": "https://climate.upenn.edu/news/epa-repeals-carbon-pollution-standards-on-power-plants/",
           "date": "2026-09-22",
-          "dek": "",
-          "stream": "news",
-          "source": "html"
-        },
-        {
-          "title": "John Kerry awarded Carnot Prize",
-          "link": "https://climate.upenn.edu/news/john-kerry-awarded-carnot-prize/",
-          "date": "2026-09-18",
           "dek": "",
           "stream": "news",
           "source": "html"
@@ -6344,14 +6328,20 @@
               "dek": ""
             },
             {
-              "title": "What Basque Food Traditions and Cultural Memory Can Teach Us About Sustainability",
-              "link": "https://climate.upenn.edu/news/basque-food-traditions/",
-              "date": "2026-10-30",
+              "title": "One Health Certificate Program",
+              "link": "https://climate.upenn.edu/news/one-health-certificate-program/",
+              "date": "2026-11-02",
               "dek": ""
             },
             {
               "title": "A Look Inside the Morris Arboretum Herbarium",
               "link": "https://climate.upenn.edu/news/morris-arboretum-herbarium/",
+              "date": "2026-10-30",
+              "dek": ""
+            },
+            {
+              "title": "What Basque Food Traditions and Cultural Memory Can Teach Us About Sustainability",
+              "link": "https://climate.upenn.edu/news/basque-food-traditions/",
               "date": "2026-10-30",
               "dek": ""
             },
@@ -6392,27 +6382,9 @@
               "dek": ""
             },
             {
-              "title": "An AI model shows how climate events drive human migration",
-              "link": "https://climate.upenn.edu/news/an-ai-model-shows-how-climate-events-drive-human-migration/",
-              "date": "2026-09-25",
-              "dek": ""
-            },
-            {
-              "title": "Penn Hosts Climate Week NYC Plenary Event as the United Nations Grapples with Climate Change",
-              "link": "https://climate.upenn.edu/news/penn-hosts-climate-week-nyc-plenary-event-as-the-united-nations-grapples-with-climate-change/",
-              "date": "2026-09-24",
-              "dek": ""
-            },
-            {
               "title": "EPA Repeals Carbon Pollution Standards on Power Plants",
               "link": "https://climate.upenn.edu/news/epa-repeals-carbon-pollution-standards-on-power-plants/",
               "date": "2026-09-22",
-              "dek": ""
-            },
-            {
-              "title": "John Kerry awarded Carnot Prize",
-              "link": "https://climate.upenn.edu/news/john-kerry-awarded-carnot-prize/",
-              "date": "2026-09-18",
               "dek": ""
             },
             {
@@ -6460,10 +6432,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T19:00:20.975042Z"
+          "fetchedAt": "2026-11-06T12:22:59.740468Z"
         }
       },
-      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
+      "lastSyncAt": "2026-11-06T12:22:59.740468Z",
       "lastSource": "html"
     },
     {
@@ -6765,10 +6737,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T19:00:20.975042Z"
+          "fetchedAt": "2026-11-06T12:22:59.740468Z"
         }
       },
-      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
+      "lastSyncAt": "2026-11-06T12:22:59.740468Z",
       "lastSource": "html"
     },
     {
@@ -6930,10 +6902,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://penniur.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-05T19:00:20.975042Z"
+          "fetchedAt": "2026-11-06T12:22:59.740468Z"
         }
       },
-      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
+      "lastSyncAt": "2026-11-06T12:22:59.740468Z",
       "lastSource": "feed:https://penniur.upenn.edu/rss.xml"
     },
     {
@@ -7018,59 +6990,59 @@
             {
               "title": "PennGreen’s 2026 Pre-Orientation: Community and Common Purpose",
               "link": "https://www.sustainability.upenn.edu/news/penngreens-2026-pre-orientation-community-and-common-purpose-0",
-              "date": "2026-11-05",
+              "date": "2026-11-06",
               "dek": "Two new students and a PennGreen leader reflect on the connections and sustainability opportunities they found through the pre-orientation program.",
               "undated": true
             },
             {
               "title": "Weitzman Hall Earns LEED Platinum Certification",
               "link": "https://www.sustainability.upenn.edu/news/weitzman-hall-earns-leed-platinum-certification",
-              "date": "2026-11-05",
+              "date": "2026-11-06",
               "dek": "The achievement reflects Penn's commitment to sustainability through historic preservation, resource efficiency, and innovative design. Image credit: Target Building.",
               "undated": true
             },
             {
               "title": "Red Day Readiness: Planning Ahead for Campuswide Impact",
               "link": "https://www.sustainability.upenn.edu/news/red-day-readiness-planning-ahead-campuswide-impact",
-              "date": "2026-11-05",
+              "date": "2026-11-06",
               "dek": "During Earth Week 2026, Penn experts led an educational workshop on the importance of reducing electrical demand on the hottest days of the year. Image credit: Penn University Communications.",
               "undated": true
             },
             {
               "title": "Earth Week 2026: Turning Knowledge into Environmental Action",
               "link": "https://www.sustainability.upenn.edu/news/earth-week-2026-turning-knowledge-environmental-action",
-              "date": "2026-11-05",
+              "date": "2026-11-06",
               "dek": "Organized by Penn Sustainability and partners across the University, this year’s Earth Week celebration asked participants to “Inspire Informed Action.”",
               "undated": true
             },
             {
               "title": "Arbor Day 2026: Strategies Supporting Penn’s Urban Forest",
               "link": "https://www.sustainability.upenn.edu/news/arbor-day-2026-strategies-supporting-penns-urban-forest",
-              "date": "2026-11-05",
+              "date": "2026-11-06",
               "dek": "Penn's award-winning tree care requires strategic planning, decades-long maintenance, and a focus on renewal and balance within an urban landscape.",
               "undated": true
             },
             {
               "title": "Major Renovation of Historic College Hall Results in LEED Gold Certification",
               "link": "https://www.sustainability.upenn.edu/news/major-renovation-historic-college-hall-results-leed-gold-certification",
-              "date": "2026-11-05",
+              "date": "2026-11-06",
               "dek": "College Hall’s renovation and restoration blend historic preservation with modern sustainability, earning LEED Gold and multiple design and craftsmanship awards.",
               "undated": true
             },
             {
               "title": "Green Lab’s Freezer Inventory Project: Turning a ripple of change into a wave",
               "link": "https://www.sustainability.upenn.edu/news/green-labs-freezer-inventory-project-turning-ripple-change-wave",
-              "date": "2026-11-05",
+              "date": "2026-11-06",
               "dek": "The Freezer Inventory Project, launched in late 2023, aims to improve the efficiency of a major energy strain: ultra-low temperature freezers.",
               "undated": true
             }
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T19:00:20.975042Z"
+          "fetchedAt": "2026-11-06T12:22:59.740468Z"
         }
       },
-      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
+      "lastSyncAt": "2026-11-06T12:22:59.740468Z",
       "lastSource": "html"
     },
     {
@@ -7372,10 +7344,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T19:00:20.975042Z"
+          "fetchedAt": "2026-11-06T12:22:59.740468Z"
         }
       },
-      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
+      "lastSyncAt": "2026-11-06T12:22:59.740468Z",
       "lastSource": "html"
     },
     {
@@ -7537,10 +7509,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://writing.upenn.edu/?feed=rss2",
-          "fetchedAt": "2026-11-05T19:00:20.975042Z"
+          "fetchedAt": "2026-11-06T12:22:59.740468Z"
         }
       },
-      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
+      "lastSyncAt": "2026-11-06T12:22:59.740468Z",
       "lastSource": "feed:https://writing.upenn.edu/?feed=rss2"
     },
     {
@@ -7554,6 +7526,15 @@
       "magazineUrl": null,
       "notes": "No dates shown on this page; the monitor keeps the 7 newest stories.",
       "posts": [
+        {
+          "title": "Assessing the Foreign Policy Impact of the U.S. Midterm Elections",
+          "link": "https://perryworldhouse.upenn.edu/news-and-insight/assessing-the-foreign-policy-impact-of-the-u-s-midterm-elections/",
+          "date": "2026-11-06",
+          "dek": "",
+          "undated": true,
+          "stream": "news",
+          "source": "html"
+        },
         {
           "title": "How nuclear security can help bring the US and China together on AI",
           "link": "https://thebulletin.org/2026/10/how-nuclear-security-can-help-bring-the-us-and-china-together-on-ai/",
@@ -7607,15 +7588,6 @@
           "undated": true,
           "stream": "news",
           "source": "html"
-        },
-        {
-          "title": "The Autonomous Weapons Debate (Still) Has a Definition Problem",
-          "link": "https://www.cfr.org/articles/the-autonomous-weapons-debate-still-has-a-definition-problem",
-          "date": "2026-11-04",
-          "dek": "",
-          "undated": true,
-          "stream": "news",
-          "source": "html"
         }
       ],
       "lastError": "",
@@ -7623,61 +7595,61 @@
         "news": {
           "items": [
             {
+              "title": "Assessing the Foreign Policy Impact of the U.S. Midterm Elections",
+              "link": "https://perryworldhouse.upenn.edu/news-and-insight/assessing-the-foreign-policy-impact-of-the-u-s-midterm-elections/",
+              "date": "2026-11-06",
+              "dek": "",
+              "undated": true
+            },
+            {
               "title": "How nuclear security can help bring the US and China together on AI",
               "link": "https://thebulletin.org/2026/10/how-nuclear-security-can-help-bring-the-us-and-china-together-on-ai/",
-              "date": "2026-11-05",
+              "date": "2026-11-06",
               "dek": "",
               "undated": true
             },
             {
               "title": "The World's Most Impossible Job: Priorities for the Next Secretary-General",
               "link": "https://perryworldhouse.upenn.edu/news-and-insight/the-worlds-most-impossible-job-priorities-for-the-next-secretary-general/",
-              "date": "2026-11-05",
+              "date": "2026-11-06",
               "dek": "",
               "undated": true
             },
             {
               "title": "Washington is Debating the Wrong AI Risk",
               "link": "https://foreignpolicy.com/2026/11/02/ai-risk-washington-intelligence-iran-war/?tpcc=recirc_latest062921",
-              "date": "2026-11-05",
+              "date": "2026-11-06",
               "dek": "",
               "undated": true
             },
             {
               "title": "How to Spot a Zombie Election Monitor",
               "link": "https://nationalinterest.org/feature/how-to-spot-a-zombie-election-monitor",
-              "date": "2026-11-05",
+              "date": "2026-11-06",
               "dek": "",
               "undated": true
             },
             {
               "title": "Michael C. Horowitz Podcast Appearances: Meidas Defense and War on the Rocks",
               "link": "https://perryworldhouse.upenn.edu/news-and-insight/michael-c-horowitz-podcast-appearances-meidas-defense-and-war-on-the-rocks/",
-              "date": "2026-11-05",
+              "date": "2026-11-06",
               "dek": "",
               "undated": true
             },
             {
               "title": "The Israel Netanyahu Made: Why Bibi's National Security Vision Will Endure",
               "link": "https://www.foreignaffairs.com/israel/israel-netanyahu-made",
-              "date": "2026-11-05",
-              "dek": "",
-              "undated": true
-            },
-            {
-              "title": "The Autonomous Weapons Debate (Still) Has a Definition Problem",
-              "link": "https://www.cfr.org/articles/the-autonomous-weapons-debate-still-has-a-definition-problem",
-              "date": "2026-11-05",
+              "date": "2026-11-06",
               "dek": "",
               "undated": true
             }
           ],
           "feedUrl": "https://perryworldhouse.upenn.edu/feed/",
           "source": "html",
-          "fetchedAt": "2026-11-05T19:00:20.975042Z"
+          "fetchedAt": "2026-11-06T12:22:59.740468Z"
         }
       },
-      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
+      "lastSyncAt": "2026-11-06T12:22:59.740468Z",
       "lastSource": "html"
     },
     {
@@ -7839,10 +7811,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://platthouse.universitylife.upenn.edu/feed/",
-          "fetchedAt": "2026-11-05T19:00:20.975042Z"
+          "fetchedAt": "2026-11-06T12:22:59.740468Z"
         }
       },
-      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
+      "lastSyncAt": "2026-11-06T12:22:59.740468Z",
       "lastSource": "feed:https://platthouse.universitylife.upenn.edu/feed/"
     },
     {
@@ -8144,10 +8116,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://arthurrossgallery.org/category/press-releases/feed/",
-          "fetchedAt": "2026-11-05T19:00:20.975042Z"
+          "fetchedAt": "2026-11-06T12:22:59.740468Z"
         }
       },
-      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
+      "lastSyncAt": "2026-11-06T12:22:59.740468Z",
       "lastSource": "feed:https://arthurrossgallery.org/category/press-releases/feed/"
     },
     {
@@ -8309,10 +8281,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://www.penn.museum/about/press-room/press-releases?format=feed&type=rss",
-          "fetchedAt": "2026-11-05T19:00:20.975042Z"
+          "fetchedAt": "2026-11-06T12:22:59.740468Z"
         }
       },
-      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
+      "lastSyncAt": "2026-11-06T12:22:59.740468Z",
       "lastSource": "feed:https://www.penn.museum/about/press-room/press-releases?format=feed&type=rss"
     },
     {
@@ -8460,10 +8432,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T19:00:20.975042Z"
+          "fetchedAt": "2026-11-06T12:22:59.740468Z"
         }
       },
-      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
+      "lastSyncAt": "2026-11-06T12:22:59.740468Z",
       "lastSource": "html"
     },
     {
@@ -8625,10 +8597,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T19:00:20.975042Z"
+          "fetchedAt": "2026-11-06T12:22:59.740468Z"
         }
       },
-      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
+      "lastSyncAt": "2026-11-06T12:22:59.740468Z",
       "lastSource": "html"
     },
     {
@@ -8643,16 +8615,8 @@
       "notes": "Added from owner source list, November 3, 2026.",
       "posts": [
         {
-          "title": "Jeremy McInerney Publishes New Book, \"By Land and by Sea\"",
-          "link": "https://www.classics.upenn.edu/news/2026/10/29/jeremy-mcinerney-publishes-new-book-land-and-sea",
-          "date": "2026-10-29",
-          "dek": "October 29, 2026",
-          "stream": "news",
-          "source": "html"
-        },
-        {
           "title": "Jeremy McInerney Publishes New Book, \"The Oxford History of the Classical Greek World: Volume I: The Environment and Resources\"",
-          "link": "https://www.classics.upenn.edu/news/2026/10/29/jeremy-mcinerney-publishes-new-book-oxford-history-classical-greek-world-volume-i",
+          "link": "https://www.classics.upenn.edu/index.php/news/2026/10/29/jeremy-mcinerney-publishes-new-book-oxford-history-classical-greek-world-volume-i",
           "date": "2026-10-29",
           "dek": "October 29, 2026",
           "stream": "news",
@@ -8660,7 +8624,15 @@
         },
         {
           "title": "Thomas Tartaron Publishes New Book, \"The Future of Ethnoarchaeology\"",
-          "link": "https://www.classics.upenn.edu/news/2026/10/29/thomas-tartaron-publishes-new-book-future-ethnoarchaeology",
+          "link": "https://www.classics.upenn.edu/index.php/news/2026/10/29/thomas-tartaron-publishes-new-book-future-ethnoarchaeology",
+          "date": "2026-10-29",
+          "dek": "October 29, 2026",
+          "stream": "news",
+          "source": "html"
+        },
+        {
+          "title": "Jeremy McInerney Publishes New Book, \"By Land and by Sea\"",
+          "link": "https://www.classics.upenn.edu/index.php/news/2026/10/29/jeremy-mcinerney-publishes-new-book-land-and-sea",
           "date": "2026-10-29",
           "dek": "October 29, 2026",
           "stream": "news",
@@ -8668,7 +8640,7 @@
         },
         {
           "title": "Sheila Murnaghan Publishes New Book, \"Sharing in the Action: The Choral Plot of Classical Athenian Tragedy\"",
-          "link": "https://www.classics.upenn.edu/news/2026/10/15/sheila-murnaghan-publishes-new-book-sharing-action-choral-plot-classical-athenian-0",
+          "link": "https://www.classics.upenn.edu/index.php/news/2026/10/15/sheila-murnaghan-publishes-new-book-sharing-action-choral-plot-classical-athenian-0",
           "date": "2026-10-15",
           "dek": "October 15, 2026",
           "stream": "news",
@@ -8676,7 +8648,7 @@
         },
         {
           "title": "Emily Wilson Named one of 2026 New York Gala Honorees",
-          "link": "https://www.classics.upenn.edu/news/2026/10/12/emily-wilson-named-one-2026-new-york-gala-honorees",
+          "link": "https://www.classics.upenn.edu/index.php/news/2026/10/12/emily-wilson-named-one-2026-new-york-gala-honorees",
           "date": "2026-10-12",
           "dek": "October 12, 2026",
           "stream": "news",
@@ -8684,7 +8656,7 @@
         },
         {
           "title": "2026 Friends of Gordion Newsletter Published",
-          "link": "https://www.classics.upenn.edu/news/2026/10/05/2026-friends-gordion-newsletter-published",
+          "link": "https://www.classics.upenn.edu/index.php/news/2026/10/05/2026-friends-gordion-newsletter-published",
           "date": "2026-10-05",
           "dek": "October 5, 2026",
           "stream": "news",
@@ -8692,7 +8664,7 @@
         },
         {
           "title": "Brian Rose Publishes New Book, \"The Topography and Monuments of Ancient Rome\"",
-          "link": "https://www.classics.upenn.edu/news/2026/09/25/brian-rose-publishes-new-book-topography-and-monuments-ancient-rome",
+          "link": "https://www.classics.upenn.edu/index.php/news/2026/09/25/brian-rose-publishes-new-book-topography-and-monuments-ancient-rome",
           "date": "2026-09-25",
           "dek": "September 25, 2026",
           "stream": "news",
@@ -8700,7 +8672,7 @@
         },
         {
           "title": "Prof Brian Rose wins multiple prestigious grants to support his work on the Architectural Conservation at Iron Age Gordion",
-          "link": "https://www.classics.upenn.edu/news/2026/09/03/prof-brian-rose-wins-multiple-prestigious-grants-support-his-work-architectural",
+          "link": "https://www.classics.upenn.edu/index.php/news/2026/09/03/prof-brian-rose-wins-multiple-prestigious-grants-support-his-work-architectural",
           "date": "2026-09-03",
           "dek": "September 3, 2026",
           "stream": "news",
@@ -8708,7 +8680,7 @@
         },
         {
           "title": "Emily Wilson Publishes New Book, \"Crossing the Wine-Dark Sea: Journey's Through Ancient Literature\"",
-          "link": "https://www.classics.upenn.edu/news/2026/09/01/emily-wilson-publishes-new-book-crossing-wine-dark-sea-journeys-through-ancient",
+          "link": "https://www.classics.upenn.edu/index.php/news/2026/09/01/emily-wilson-publishes-new-book-crossing-wine-dark-sea-journeys-through-ancient",
           "date": "2026-09-01",
           "dek": "September 1, 2026",
           "stream": "news",
@@ -8716,7 +8688,7 @@
         },
         {
           "title": "Tiffany Nguyen (GLLL ’26): Visiting Faculty Position at Wake Forest University",
-          "link": "https://www.classics.upenn.edu/news/2026/08/10/tiffany-nguyen-glll-26-visiting-faculty-position-wake-forest-university",
+          "link": "https://www.classics.upenn.edu/index.php/news/2026/08/10/tiffany-nguyen-glll-26-visiting-faculty-position-wake-forest-university",
           "date": "2026-08-10",
           "dek": "August 10, 2026",
           "stream": "news",
@@ -8728,72 +8700,72 @@
         "news": {
           "items": [
             {
-              "title": "Jeremy McInerney Publishes New Book, \"By Land and by Sea\"",
-              "link": "https://www.classics.upenn.edu/news/2026/10/29/jeremy-mcinerney-publishes-new-book-land-and-sea",
-              "date": "2026-10-29",
-              "dek": "October 29, 2026"
-            },
-            {
               "title": "Jeremy McInerney Publishes New Book, \"The Oxford History of the Classical Greek World: Volume I: The Environment and Resources\"",
-              "link": "https://www.classics.upenn.edu/news/2026/10/29/jeremy-mcinerney-publishes-new-book-oxford-history-classical-greek-world-volume-i",
+              "link": "https://www.classics.upenn.edu/index.php/news/2026/10/29/jeremy-mcinerney-publishes-new-book-oxford-history-classical-greek-world-volume-i",
               "date": "2026-10-29",
               "dek": "October 29, 2026"
             },
             {
               "title": "Thomas Tartaron Publishes New Book, \"The Future of Ethnoarchaeology\"",
-              "link": "https://www.classics.upenn.edu/news/2026/10/29/thomas-tartaron-publishes-new-book-future-ethnoarchaeology",
+              "link": "https://www.classics.upenn.edu/index.php/news/2026/10/29/thomas-tartaron-publishes-new-book-future-ethnoarchaeology",
+              "date": "2026-10-29",
+              "dek": "October 29, 2026"
+            },
+            {
+              "title": "Jeremy McInerney Publishes New Book, \"By Land and by Sea\"",
+              "link": "https://www.classics.upenn.edu/index.php/news/2026/10/29/jeremy-mcinerney-publishes-new-book-land-and-sea",
               "date": "2026-10-29",
               "dek": "October 29, 2026"
             },
             {
               "title": "Sheila Murnaghan Publishes New Book, \"Sharing in the Action: The Choral Plot of Classical Athenian Tragedy\"",
-              "link": "https://www.classics.upenn.edu/news/2026/10/15/sheila-murnaghan-publishes-new-book-sharing-action-choral-plot-classical-athenian-0",
+              "link": "https://www.classics.upenn.edu/index.php/news/2026/10/15/sheila-murnaghan-publishes-new-book-sharing-action-choral-plot-classical-athenian-0",
               "date": "2026-10-15",
               "dek": "October 15, 2026"
             },
             {
               "title": "Emily Wilson Named one of 2026 New York Gala Honorees",
-              "link": "https://www.classics.upenn.edu/news/2026/10/12/emily-wilson-named-one-2026-new-york-gala-honorees",
+              "link": "https://www.classics.upenn.edu/index.php/news/2026/10/12/emily-wilson-named-one-2026-new-york-gala-honorees",
               "date": "2026-10-12",
               "dek": "October 12, 2026"
             },
             {
               "title": "2026 Friends of Gordion Newsletter Published",
-              "link": "https://www.classics.upenn.edu/news/2026/10/05/2026-friends-gordion-newsletter-published",
+              "link": "https://www.classics.upenn.edu/index.php/news/2026/10/05/2026-friends-gordion-newsletter-published",
               "date": "2026-10-05",
               "dek": "October 5, 2026"
             },
             {
               "title": "Brian Rose Publishes New Book, \"The Topography and Monuments of Ancient Rome\"",
-              "link": "https://www.classics.upenn.edu/news/2026/09/25/brian-rose-publishes-new-book-topography-and-monuments-ancient-rome",
+              "link": "https://www.classics.upenn.edu/index.php/news/2026/09/25/brian-rose-publishes-new-book-topography-and-monuments-ancient-rome",
               "date": "2026-09-25",
               "dek": "September 25, 2026"
             },
             {
               "title": "Prof Brian Rose wins multiple prestigious grants to support his work on the Architectural Conservation at Iron Age Gordion",
-              "link": "https://www.classics.upenn.edu/news/2026/09/03/prof-brian-rose-wins-multiple-prestigious-grants-support-his-work-architectural",
+              "link": "https://www.classics.upenn.edu/index.php/news/2026/09/03/prof-brian-rose-wins-multiple-prestigious-grants-support-his-work-architectural",
               "date": "2026-09-03",
               "dek": "September 3, 2026"
             },
             {
               "title": "Emily Wilson Publishes New Book, \"Crossing the Wine-Dark Sea: Journey's Through Ancient Literature\"",
-              "link": "https://www.classics.upenn.edu/news/2026/09/01/emily-wilson-publishes-new-book-crossing-wine-dark-sea-journeys-through-ancient",
+              "link": "https://www.classics.upenn.edu/index.php/news/2026/09/01/emily-wilson-publishes-new-book-crossing-wine-dark-sea-journeys-through-ancient",
               "date": "2026-09-01",
               "dek": "September 1, 2026"
             },
             {
               "title": "Tiffany Nguyen (GLLL ’26): Visiting Faculty Position at Wake Forest University",
-              "link": "https://www.classics.upenn.edu/news/2026/08/10/tiffany-nguyen-glll-26-visiting-faculty-position-wake-forest-university",
+              "link": "https://www.classics.upenn.edu/index.php/news/2026/08/10/tiffany-nguyen-glll-26-visiting-faculty-position-wake-forest-university",
               "date": "2026-08-10",
               "dek": "August 10, 2026"
             }
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T19:00:20.975042Z"
+          "fetchedAt": "2026-11-06T12:22:59.740468Z"
         }
       },
-      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
+      "lastSyncAt": "2026-11-06T12:22:59.740468Z",
       "lastSource": "html"
     },
     {
@@ -8941,10 +8913,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T19:00:20.975042Z"
+          "fetchedAt": "2026-11-06T12:22:59.740468Z"
         }
       },
-      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
+      "lastSyncAt": "2026-11-06T12:22:59.740468Z",
       "lastSource": "html"
     },
     {
@@ -9106,10 +9078,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://pan-school.sas.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-05T19:00:20.975042Z"
+          "fetchedAt": "2026-11-06T12:22:59.740468Z"
         }
       },
-      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
+      "lastSyncAt": "2026-11-06T12:22:59.740468Z",
       "lastSource": "feed:https://pan-school.sas.upenn.edu/rss.xml"
     },
     {
@@ -9271,10 +9243,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://chibe.upenn.edu/feed/",
-          "fetchedAt": "2026-11-05T19:00:20.975042Z"
+          "fetchedAt": "2026-11-06T12:22:59.740468Z"
         }
       },
-      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
+      "lastSyncAt": "2026-11-06T12:22:59.740468Z",
       "lastSource": "feed:https://chibe.upenn.edu/feed/"
     },
     {
@@ -9436,10 +9408,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T19:00:20.975042Z"
+          "fetchedAt": "2026-11-06T12:22:59.740468Z"
         }
       },
-      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
+      "lastSyncAt": "2026-11-06T12:22:59.740468Z",
       "lastSource": "html"
     },
     {
@@ -9601,10 +9573,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T19:00:20.975042Z"
+          "fetchedAt": "2026-11-06T12:22:59.740468Z"
         }
       },
-      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
+      "lastSyncAt": "2026-11-06T12:22:59.740468Z",
       "lastSource": "html"
     },
     {
@@ -9766,10 +9738,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T19:00:20.975042Z"
+          "fetchedAt": "2026-11-06T12:22:59.740468Z"
         }
       },
-      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
+      "lastSyncAt": "2026-11-06T12:22:59.740468Z",
       "lastSource": "html"
     },
     {
@@ -9931,10 +9903,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T19:00:20.975042Z"
+          "fetchedAt": "2026-11-06T12:22:59.740468Z"
         }
       },
-      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
+      "lastSyncAt": "2026-11-06T12:22:59.740468Z",
       "lastSource": "html"
     },
     {
@@ -10096,10 +10068,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T19:00:20.975042Z"
+          "fetchedAt": "2026-11-06T12:22:59.740468Z"
         }
       },
-      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
+      "lastSyncAt": "2026-11-06T12:22:59.740468Z",
       "lastSource": "html"
     },
     {
@@ -10261,10 +10233,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T19:00:20.975042Z"
+          "fetchedAt": "2026-11-06T12:22:59.740468Z"
         }
       },
-      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
+      "lastSyncAt": "2026-11-06T12:22:59.740468Z",
       "lastSource": "html"
     },
     {
@@ -10426,14 +10398,14 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-05T19:00:20.975042Z"
+          "fetchedAt": "2026-11-06T12:22:59.740468Z"
         }
       },
-      "lastSyncAt": "2026-11-05T19:00:20.975042Z",
+      "lastSyncAt": "2026-11-06T12:22:59.740468Z",
       "lastSource": "html"
     }
   ],
-  "lastRefreshAt": "2026-11-05T19:00:20.975042Z",
+  "lastRefreshAt": "2026-11-06T12:22:59.740468Z",
   "refreshErrors": [
     "Center for Study of Contemporary China: No articles found — No news URL found yet."
   ],
@@ -10441,8 +10413,8 @@
   "schemaVersion": 3,
   "collection": {
     "sourceVersion": "4fa80588c744879f586a1b2cf3fcfc20c61335a9736b5f4531dd62b151b920d0",
-    "runId": "42087336536",
-    "commit": "f2bab4e923d32be24c4659ce8e3dffd0407c2566",
-    "runUrl": "https://github.com/BigChief-at-illuminathidotorg/Penn-News-Scraper/actions/runs/42087336536"
+    "runId": "42216723193",
+    "commit": "a4fdbb03a9cf0a17035139bb2e570c5a981d5634",
+    "runUrl": "https://github.com/BigChief-at-illuminathidotorg/Penn-News-Scraper/actions/runs/42216723193"
   }
 }
