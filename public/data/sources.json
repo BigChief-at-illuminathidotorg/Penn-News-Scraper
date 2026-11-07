@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": "4fa80588c744879f586a1b2cf3fcfc20c61335a9736b5f4531dd62b151b920d0",
-  "publishedAt": "2026-11-07T17:51:46.075701+00:00",
+  "version": "40f6b0705c96a7515b60624626e8ddfb18c14cfdca8a82b4fedd9fc6cf9bfde6",
+  "publishedAt": "2026-11-07T18:03:53.363660+00:00",
   "sites": [
     {
       "id": "annenberg",
@@ -211,19 +211,6 @@
       "extraUrls": null,
       "magazineUrl": null,
       "notes": "SAS Drupal - JS-rendered",
-      "feedUrl": null
-    },
-    {
-      "id": "center-for-study-of-contemporary-china",
-      "name": "Center for Study of Contemporary China",
-      "exportName": null,
-      "parentUnit": "SAS",
-      "bucket": "Center",
-      "subhead": "Penn communications source",
-      "newsUrl": null,
-      "extraUrls": null,
-      "magazineUrl": null,
-      "notes": "No news URL found yet.",
       "feedUrl": null
     },
     {

@@ -203,18 +203,6 @@ window.PENN_MONITOR_DEFAULT_SITES = [
     "feedUrl": null
   },
   {
-    "id": "center-for-study-of-contemporary-china",
-    "name": "Center for Study of Contemporary China",
-    "parentUnit": "SAS",
-    "bucket": "Center",
-    "subhead": "Penn communications source",
-    "newsUrl": null,
-    "magazineUrl": null,
-    "notes": "No news URL found yet.",
-    "posts": [],
-    "feedUrl": null
-  },
-  {
     "id": "center-for-the-study-of-ethnicity-race-immigration",
     "name": "Center for Ethnicity, Race & Immigration",
     "parentUnit": "SAS",
