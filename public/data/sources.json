@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": "40f6b0705c96a7515b60624626e8ddfb18c14cfdca8a82b4fedd9fc6cf9bfde6",
-  "publishedAt": "2026-11-09T12:57:40.989369+00:00",
+  "version": "44f9026c3b016f42ca979d03cf646543bd1579d434f1765a6f57b43880ed2b3b",
+  "publishedAt": "2026-11-09T14:33:05.123805+00:00",
   "sites": [
     {
       "id": "annenberg",
@@ -733,6 +733,32 @@
       "extraUrls": null,
       "magazineUrl": null,
       "notes": "Added from owner source list, November 3, 2026.",
+      "feedUrl": null
+    },
+    {
+      "id": "penn-ldi",
+      "name": "Leonard Davis Institute (LDI)",
+      "exportName": null,
+      "parentUnit": "Penn",
+      "bucket": "Institute",
+      "subhead": "Health economics and policy research",
+      "newsUrl": "https://ldi.upenn.edu/our-work/research-updates/",
+      "extraUrls": null,
+      "magazineUrl": null,
+      "notes": "Research and policy updates with published dates.",
+      "feedUrl": null
+    },
+    {
+      "id": "curf",
+      "name": "Center for Undergraduate Research and Fellowships (CURF)",
+      "exportName": null,
+      "parentUnit": "Penn",
+      "bucket": "Center",
+      "subhead": "Student research and fellowships",
+      "newsUrl": "https://curf.upenn.edu/about-us/student-news",
+      "extraUrls": null,
+      "magazineUrl": null,
+      "notes": "Student news with published dates.",
       "feedUrl": null
     }
   ]

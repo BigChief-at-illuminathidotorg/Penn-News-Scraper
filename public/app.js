@@ -6,7 +6,7 @@ const REPO = 'BigChief-at-illuminathidotorg/Penn-News-Scraper';
 const RAW = `https://raw.githubusercontent.com/${REPO}/main/public/data/latest.json`;
 const JOBS = `https://api.github.com/repos/${REPO}/actions/workflows/collect.yml/runs?branch=main&per_page=1`;
 const ACTIONS = `https://github.com/${REPO}/actions/workflows/collect.yml`;
-const SITES_EDITOR = `https://github.com/${REPO}/edit/main/sites.js`;
+const SITES_EDITOR = 'source-editor.html';
 const KEY = 'penn-monitor-v3';
 const BUCKETS = ['School','Center','Department','Institute','Program','Unit','Affiliate','House','Lab','Gallery','Museum','Library'];
 const CATALOG_FIELDS = ['id','name','exportName','parentUnit','bucket','subhead','newsUrl','extraUrls','magazineUrl','notes','feedUrl'];
@@ -266,12 +266,13 @@ function watchCollection(state){
 // ── Sources: view, add, edit, remove ──────────────────────────────────────
 function sourceHTML(s,canEdit){
  const u=safeURL(s.newsUrl);
- return `<div class="source"><div class="source-head"><strong>${escape(s.name)}</strong>${canEdit?`<span class="source-actions"><button data-edit="${escape(s.id)}">Edit</button><button data-remove="${escape(s.id)}">Remove</button></span>`:''}</div><p>${u?`<a href="${escape(u)}" target="_blank" rel="noopener noreferrer">${escape(u)}</a>`:'No news URL configured'}</p>${(s.extraUrls||[]).map(safeURL).filter(Boolean).map(x=>`<p>Also reads <a href="${escape(x)}" target="_blank" rel="noopener noreferrer">${escape(x)}</a></p>`).join('')}<small>${escape(s.parentUnit||'')}${s.parentUnit?' · ':''}${s.posts.length} saved articles · Last source check ${s.lastSyncAt?escape(timeLabel(s.lastSyncAt)):'unavailable'}</small><p class="${s.lastError?'warning':'meta'}">${escape(s.lastError||'No collection warning reported.')}</p></div>`;
+ return `<div class="source"><div class="source-head"><strong>${escape(s.name)}</strong>${canEdit?`<a class="source-edit" href="${SITES_EDITOR}?id=${encodeURIComponent(s.id)}">Edit source</a>`:''}</div><p>${u?`<a href="${escape(u)}" target="_blank" rel="noopener noreferrer">${escape(u)}</a>`:'No news URL configured'}</p>${(s.extraUrls||[]).map(safeURL).filter(Boolean).map(x=>`<p>Also reads <a href="${escape(x)}" target="_blank" rel="noopener noreferrer">${escape(x)}</a></p>`).join('')}<small>${escape(s.parentUnit||'')}${s.parentUnit?' · ':''}${s.posts.length} saved articles · Last source check ${s.lastSyncAt?escape(timeLabel(s.lastSyncAt)):'unavailable'}</small><p class="${s.lastError?'warning':'meta'}">${escape(s.lastError||'No collection warning reported.')}</p></div>`;
 }
 function renderSources(){
  $('addSource').hidden=!!imported;
- const sites=viewSites().slice().sort((a,b)=>schoolOf(a).localeCompare(schoolOf(b))||a.name.localeCompare(b.name));
- $('sourceList').innerHTML=sites.map(s=>sourceHTML(s,false)).join('')||'No collection loaded.';
+ const query=$('sourceSearch').value.trim().toLowerCase();
+ const sites=viewSites().filter(s=>`${s.name} ${s.parentUnit} ${s.newsUrl} ${(s.extraUrls||[]).join(' ')}`.toLowerCase().includes(query)).sort((a,b)=>schoolOf(a).localeCompare(schoolOf(b))||a.name.localeCompare(b.name));
+ $('sourceList').innerHTML=sites.map(s=>sourceHTML(s,!imported)).join('')||'No matching sources.';
 }
 async function openSources(){
  $('sourcesStatus').textContent='';renderSources();$('sourceDialog').showModal();
@@ -293,7 +294,8 @@ $('copyExport').onclick=copyExport;$('downloadExport').onclick=downloadExport;
 $('selectShown').onclick=()=>{for(const {s,p} of shownStories)togglePick(pickKey(s,p),true);render();renderExport();exportStatus('');};
 $('clearExport').onclick=()=>{picked.clear();savePicked();render();renderExport();exportStatus('Selection cleared.');};
 $('sources').onclick=openSources;$('closeSources').onclick=()=>$('sourceDialog').close();
-$('addSource').onclick=()=>window.open(SITES_EDITOR,'_blank','noopener');
+$('sourceSearch').oninput=renderSources;
+$('addSource').onclick=()=>{window.location.href=SITES_EDITOR;};
 $('import').onclick=()=>$('file').click();
 $('file').onchange=async e=>{const file=e.target.files[0];if(!file)return;try{if(file.size>20*1024*1024)throw Error('Choose a snapshot smaller than 20 MB.');const data=validate(JSON.parse(await file.text()));generation++;loading=false;snapshot=data;imported=true;source='Imported file';message='Imported snapshot. Automatic updates are paused.';loadWarning='';save();sectionOptions();render();}catch(error){alert('Import failed: '+error.message);}finally{e.target.value='';}};
 // The floating bar (week arrows, Export, back to top) fades in once the filters scroll away.

@@ -47,6 +47,7 @@ body.deep .dock{opacity:1;transform:none;pointer-events:auto}
 .dialogactions{display:flex;gap:8px;align-items:center}
 .dialogactions .primary{padding:8px 14px}
 .source-head{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.source-edit{white-space:nowrap;font-size:12px}.source-search-label{display:block;font-size:12px;font-weight:700;margin-top:16px}.source-search-label+input{width:100%;margin:5px 0 15px}
 .source-actions{display:flex;gap:6px}
 .source-actions button{font-size:12px;padding:5px 11px}
 button.danger,button.danger:hover{background:#990000;border-color:#990000;color:#fff}
