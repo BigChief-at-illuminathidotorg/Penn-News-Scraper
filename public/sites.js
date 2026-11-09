@@ -684,6 +684,30 @@ window.PENN_MONITOR_DEFAULT_SITES = [
     "notes": "Added from owner source list, November 3, 2026.",
     "posts": [],
     "feedUrl": null
+  },
+  {
+    "id": "penn-ldi",
+    "name": "Leonard Davis Institute (LDI)",
+    "parentUnit": "Penn",
+    "bucket": "Institute",
+    "subhead": "Health economics and policy research",
+    "newsUrl": "https://ldi.upenn.edu/our-work/research-updates/",
+    "magazineUrl": null,
+    "notes": "Research and policy updates with published dates.",
+    "posts": [],
+    "feedUrl": null
+  },
+  {
+    "id": "curf",
+    "name": "Center for Undergraduate Research and Fellowships (CURF)",
+    "parentUnit": "Penn",
+    "bucket": "Center",
+    "subhead": "Student research and fellowships",
+    "newsUrl": "https://curf.upenn.edu/about-us/student-news",
+    "magazineUrl": null,
+    "notes": "Student news with published dates.",
+    "posts": [],
+    "feedUrl": null
   }
 ];
 
@@ -717,7 +741,8 @@ window.PENN_MONITOR_GROUPS = [
     "sites": [
       "medicine",
       "nursing",
-      "dental"
+      "dental",
+      "penn-ldi"
     ]
   },
   {
@@ -764,6 +789,7 @@ window.PENN_MONITOR_GROUPS = [
     "sites": [
       "gse",
       "sp2",
+      "curf",
       "snf-paideia-program",
       "snf-paideia-perspectives"
     ]

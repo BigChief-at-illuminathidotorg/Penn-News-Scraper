@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Manage sources · Penn News Monitor</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="source-editor.css">
+</head>
+<body>
+  <header><div class="brand"><span class="mark">P</span><div><p class="eyebrow">THE SHARED NEWS DESK</p><h1>Manage sources</h1></div></div><nav><a href="index.html">← Back to monitor</a></nav></header>
+  <main class="editor-layout">
+    <section class="editor-intro"><div><p class="eyebrow">SOURCE LIST</p><h2>Add and update news pages</h2><p>Choose a source to edit its address, or add a new one. You can paste more than one address into “Additional news pages,” one per line.</p></div><button class="primary" id="newSource" disabled>+ Add source</button></section>
+    <p id="editorStatus" role="status" aria-live="polite">Loading the current list from GitHub…</p>
+    <div class="editor-grid">
+      <section class="editor-panel" aria-label="Current sources"><label for="sourceSearch">Find a source</label><input id="sourceSearch" type="search" placeholder="Search by name or URL" disabled><p id="sourceTotal" class="editor-hint"></p><div id="editorList" class="editor-list"></div></section>
+      <section class="editor-panel" aria-label="Source details"><div id="emptyEditor" class="editor-empty">Choose a source on the left, or add a new one.</div>
+        <form id="sourceForm" hidden>
+          <div class="editor-form-title"><h3 id="formTitle">Source details</h3><button type="button" id="removeSource" class="editor-danger">Remove source</button></div>
+          <label for="siteName">Source name <span aria-hidden="true">*</span></label><input id="siteName" required maxlength="120" placeholder="e.g. Penn LDI">
+          <label for="siteUrl">News page <span aria-hidden="true">*</span></label><input id="siteUrl" type="url" required placeholder="https://example.upenn.edu/news/">
+          <label for="siteExtra">Additional news pages <small>(optional, one URL per line)</small></label><textarea id="siteExtra" rows="3" placeholder="https://example.upenn.edu/news/features/"></textarea>
+          <div class="editor-two"><div><label for="siteUnit">School or parent unit</label><input id="siteUnit" list="unitSuggestions" placeholder="Penn"><datalist id="unitSuggestions"></datalist></div><div><label for="siteBucket">Type</label><select id="siteBucket"><option>School</option><option>Center</option><option>Institute</option><option>Department</option><option>Program</option><option>Affiliate</option><option>Unit</option><option>House</option><option>Lab</option><option>Gallery</option><option>Museum</option><option>Library</option><option>Other</option></select></div></div>
+          <label for="siteGroup">Section on monitor</label><select id="siteGroup"></select>
+          <details><summary>More source details</summary><label for="siteSubhead">Description</label><input id="siteSubhead" placeholder="Short description"><label for="siteFeed">RSS or feed URL</label><input id="siteFeed" type="url" placeholder="https://example.upenn.edu/feed/"><label for="siteMagazine">Magazine URL</label><input id="siteMagazine" type="url" placeholder="https://example.upenn.edu/magazine/"><label for="siteNotes">Internal notes</label><textarea id="siteNotes" rows="2"></textarea></details>
+          <button type="submit" class="primary">Save to draft</button><p class="editor-hint">Your draft stays on this page until you save it on GitHub.</p>
+        </form>
+      </section>
+    </div>
+    <section class="editor-publish"><h2>Save the changes on GitHub</h2><p id="changeSummary">No changes yet.</p><div class="editor-steps"><p><strong>1.</strong> Copy the updated source list.</p><p><strong>2.</strong> Open GitHub, select the entire file, paste, and choose <strong>Commit changes</strong>. GitHub starts a new collection automatically.</p></div><div class="editor-publish-actions"><button id="copySites" class="primary" disabled>1 · Copy updated list</button><a id="openGitHub" href="https://github.com/BigChief-at-illuminathidotorg/Penn-News-Scraper/edit/main/sites.js" target="_blank" rel="noopener noreferrer" aria-disabled="true">2 · Open GitHub editor ↗</a></div><label for="manualCopy" id="manualCopyLabel" hidden>If copying is blocked, select all of this text and copy it:</label><textarea id="manualCopy" rows="8" readonly hidden></textarea><p id="copyStatus" role="status" aria-live="polite"></p></section>
+  </main>
+  <script src="source-editor.js"></script>
+</body>
+</html>

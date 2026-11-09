@@ -297,6 +297,10 @@ SITE_RULES = {
                     # must not replace either page before its stories are read.
                     "page_first": True},
     "penn-iur":    {"containers": ["article", ".views-row"], "date": ["time", ".field--name-created"]},
+    "penn-ldi":    {"containers": ["article", ".post", ".card"],
+                    "date": ["time", ".date", "[class*=date]"], "page_first": True},
+    "curf":        {"containers": [".views-row", "article", ".news-item"],
+                    "date": ["time", ".date", "[class*=date]"], "page_first": True},
     # LiveWhale homepage widget shows no dates at all.
     "law":         {"containers": [".large-block-container", ".sub-block", ".views-row", ".news-item"],
                     "date": [".field--name-created", ".date", "time"], "date_optional": True},
