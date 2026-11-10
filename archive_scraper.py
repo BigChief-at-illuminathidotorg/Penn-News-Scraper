@@ -7,9 +7,10 @@ not claim that every publisher exposes its full history through pagination.
 import argparse
 import asyncio
 import json
+import re
 from datetime import date, datetime, timezone
 from pathlib import Path
-from urllib.parse import urljoin, urlparse, urldefrag
+from urllib.parse import parse_qs, urlencode, urljoin, urlparse, urldefrag, urlunparse
 
 from scraper import (BROWSER_ARGS, EXTRACT_JS, SITE_RULES, browser_user_agent,
                      extract_jsonld_articles, finalize_raw, load_sites, loadable,
@@ -44,6 +45,17 @@ def next_url(current, candidate):
     return url
 
 
+def increment_page_url(current):
+    """Continue a numbered query listing even when its theme hides the next link."""
+    parsed = urlparse(current)
+    query = parse_qs(parsed.query, keep_blank_values=True)
+    key = next((k for k in ('page', 'paged') if k in query and len(query[k]) == 1), None)
+    if not key or not query[key][0].isdigit():
+        return None
+    query[key] = [str(int(query[key][0]) + 1)]
+    return urlunparse(parsed._replace(query=urlencode(query, doseq=True)))
+
+
 def merge_archive(site, discovered, existing, latest, metadata):
     """Keep earlier discoveries, but never mix archives after a source URL edit."""
     pages = [site['newsUrl']] + list(site.get('extraUrls') or [])
@@ -65,17 +77,18 @@ async def scrape_listing(browser, site, listing, earliest, max_pages, ua):
                                     viewport={'width': 1366, 'height': 900})
     page = await ctx.new_page()
     seen, found, warnings = set(), [], []
-    target = listing
+    target, navigate = listing, True
     count, reason = 0, 'no next-page link found'
     try:
         for _ in range(max_pages):
-            if target in seen:
-                reason = 'repeated page'; break
-            seen.add(target)
             try:
-                response = await page.goto(loadable(target), wait_until='domcontentloaded', timeout=30000)
-                if not response or response.status >= 400:
-                    raise RuntimeError(f'HTTP {response.status if response else "no response"}')
+                if navigate:
+                    if target in seen:
+                        reason = 'repeated page'; break
+                    seen.add(target)
+                    response = await page.goto(loadable(target), wait_until='domcontentloaded', timeout=30000)
+                    if not response or response.status >= 400:
+                        raise RuntimeError(f'HTTP {response.status if response else "no response"}')
                 try: await page.wait_for_load_state('networkidle', timeout=6000)
                 except Exception: pass
                 if rules.get('wait_for'):
@@ -87,20 +100,43 @@ async def scrape_listing(browser, site, listing, earliest, max_pages, ua):
                 raw = await page.evaluate(EXTRACT_JS, rule_args(site['id']))
                 html = await page.content()
                 articles = merge_articles(finalize_raw(raw) + extract_jsonld_articles(html, target))
+                previous = {a['link'] for a in found}
+                new_articles = [a for a in articles if a['link'] not in previous]
                 count += 1
-                found.extend(articles)
+                found.extend(new_articles)
                 candidate = next_url(target, await page.evaluate(NEXT_JS))
                 if not articles:
                     warnings.append(f'No dated stories extracted from page {count}: {target}')
+                    reason = 'no stories on next page' if count > 1 else 'no dated stories'; break
+                if not new_articles and count > 1:
+                    reason = 'no new stories on next page'; break
                 if candidate in seen:
                     reason = 'repeated page'; break
-                if not candidate:
-                    reason = 'no next-page link found'; break
                 # Page listings are ordinarily newest first. Stop only after an
                 # entire nonempty page is older than the requested boundary.
-                if earliest and articles and max(a['date'] for a in articles) < earliest:
+                if earliest and new_articles and max(a['date'] for a in new_articles) < earliest:
                     reason = 'reached requested date'; break
-                target = candidate
+                if candidate:
+                    target, navigate = candidate, True
+                    continue
+                # Some publishers append another batch to the same document.
+                # Re-read it, retaining only links that were not in earlier batches.
+                more = page.get_by_role('button', name=re.compile(r'^(load|show|view) more(?: stories| news| articles)?$', re.I)).first
+                if await more.count() and await more.is_visible():
+                    before = await page.locator('a[href]').count()
+                    await more.click(timeout=5000)
+                    try:
+                        await page.wait_for_function('(n) => document.querySelectorAll("a[href]").length > n', arg=before, timeout=12000)
+                        navigate = False
+                        continue
+                    except Exception:
+                        warnings.append(f'Load More did not reveal new links on {target}')
+                        reason = 'load more stopped'; break
+                candidate = increment_page_url(target)
+                if candidate:
+                    target, navigate = candidate, True
+                    continue
+                reason = 'no next-page link found'; break
             except Exception as exc:
                 warnings.append(f'Page {count + 1} failed: {str(exc).splitlines()[0][:160]}')
                 reason = 'page failed'; break
@@ -146,6 +182,9 @@ async def run(args):
                 discovered.extend(items); pages += n; warnings.extend(issues)
                 reasons.append(f'{listing}: {reason}')
         await browser.close()
+    if pages == 0:
+        details = '; '.join(warnings[:3]) or 'No listing page could be read'
+        raise RuntimeError(f'Archive scan could not read this source; existing archive left unchanged. {details}')
     path = ROOT / 'public' / 'data' / 'archive' / f"{site['id']}.json"
     path.parent.mkdir(parents=True, exist_ok=True)
     existing = json.loads(path.read_text()) if path.exists() else {}

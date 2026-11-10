@@ -1,6 +1,6 @@
 import unittest
 
-from archive_scraper import merge_archive, next_url
+from archive_scraper import increment_page_url, merge_archive, next_url
 
 
 class ArchiveTest(unittest.TestCase):
@@ -19,6 +19,11 @@ class ArchiveTest(unittest.TestCase):
         self.assertEqual(next_url(current, '/latest?page=2'), 'https://omnia.sas.upenn.edu/latest?page=2')
         self.assertIsNone(next_url(current, 'https://other.example/latest?page=2'))
         self.assertIsNone(next_url(current, 'javascript:alert(1)'))
+
+    def test_numbered_query_fallback(self):
+        self.assertEqual(increment_page_url('https://example.edu/news?page=1&sort=desc'),
+                         'https://example.edu/news?page=2&sort=desc')
+        self.assertIsNone(increment_page_url('https://example.edu/news'))
 
     def test_merges_discoveries_with_current_snapshot(self):
         latest = dict(self.site, posts=[self.two])
