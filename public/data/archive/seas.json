@@ -5,16 +5,14 @@
   "listingUrls": [
     "https://www.engineering.upenn.edu/stories/"
   ],
-  "lastScrapedAt": "2026-11-10T02:45:15.056495+00:00",
-  "pagesScanned": 1,
+  "lastScrapedAt": "2026-11-10T02:57:21.330413+00:00",
+  "pagesScanned": 10,
   "stopReasons": [
-    "https://www.engineering.upenn.edu/stories/: page failed"
+    "https://www.engineering.upenn.edu/stories/: 10-page limit reached"
   ],
-  "warnings": [
-    "Page 2 failed: HTTP 400"
-  ],
+  "warnings": [],
   "requestedFrom": "",
-  "oldestCaptured": "2026-10-26",
+  "oldestCaptured": "2026-04-23",
   "newestCaptured": "2026-11-09",
   "posts": [
     {
@@ -82,6 +80,546 @@
       "link": "https://www.engineering.upenn.edu/stories/how-a-penn-based-consortium-has-shaped-modern-ai/",
       "date": "2026-10-26",
       "dek": "AI / October 26, 2026"
+    },
+    {
+      "title": "Penn Engineers Turn Everyday Mylar Into a Promising Insulator for the Moon",
+      "link": "https://www.engineering.upenn.edu/stories/penn-engineers-turn-everyday-mylar-into-a-promising-insulator-for-the-moon/",
+      "date": "2026-10-23",
+      "dek": "Research and Innovation / October 23, 2026"
+    },
+    {
+      "title": "Penn’s Schlein Center for Cybersecurity to Combat AI Threats and More",
+      "link": "https://www.engineering.upenn.edu/stories/penns-schlein-center-for-cybersecurity-to-combat-ai-threats-and-more/",
+      "date": "2026-10-22",
+      "dek": "Academics, AI, Events, Faculty, Research and Innovation / October 22, 2026"
+    },
+    {
+      "title": "Powering the AI Revolution: The Future of Data Centers with Ben Lee",
+      "link": "https://www.engineering.upenn.edu/stories/powering-the-ai-revolution-the-future-of-data-centers-with-ben-lee/",
+      "date": "2026-10-20",
+      "dek": "AI, Faculty, In the News / October 20, 2026"
+    },
+    {
+      "title": "Lorena Grundy Named AIChE 35 Under 35 Award Recipient",
+      "link": "https://www.engineering.upenn.edu/stories/lorena-grundy-named-aiche-35-under-35-award-recipient/",
+      "date": "2026-10-19",
+      "dek": "Faculty, Honors and Awards, In the News / October 19, 2026"
+    },
+    {
+      "title": "Penn Engineering Brings Research, Innovation and Action to Climate Week at Penn",
+      "link": "https://www.engineering.upenn.edu/stories/penn-engineering-brings-research-innovation-and-action-to-climate-week-at-penn/",
+      "date": "2026-10-16",
+      "dek": "AI, Community, Events, Students / October 16, 2026"
+    },
+    {
+      "title": "Penn Engineers Use AI, Reddit to Identify Potential Side Effects of Unapproved New GLP-1",
+      "link": "https://www.engineering.upenn.edu/stories/penn-engineers-use-ai-reddit-to-identify-potential-side-effects-of-unapproved-new-glp-1/",
+      "date": "2026-10-15",
+      "dek": "AI, Research and Innovation / October 15, 2026"
+    },
+    {
+      "title": "AI Platform Allows Real-Time Conversation Between Patients and their Medical Devices",
+      "link": "https://www.engineering.upenn.edu/stories/ai-platform-allows-real-time-conversation-between-patients-and-their-medical-devices/",
+      "date": "2026-10-14",
+      "dek": "In the News, Research and Innovation / October 14, 2026"
+    },
+    {
+      "title": "Harnessing Technology to Help Farmers Assess Crop Health Earlier",
+      "link": "https://www.engineering.upenn.edu/stories/harnessing-technology-to-help-farmers-assess-crop-health-earlier/",
+      "date": "2026-10-13",
+      "dek": "AI, In the News, Research and Innovation / October 13, 2026"
+    },
+    {
+      "title": "Space Invaders: What Cybersecurity Looks Like in Space",
+      "link": "https://www.engineering.upenn.edu/stories/space-invaders-what-cybersecurity-looks-like-in-space/",
+      "date": "2026-10-12",
+      "dek": "AI, In the News, Research and Innovation / October 12, 2026"
+    },
+    {
+      "title": "GRASP Laboratory and DSTA Singapore Sign a New Master Research Agreement to Advance Multi-Robots System Research",
+      "link": "https://www.engineering.upenn.edu/stories/grasp-laboratory-and-dsta-singapore-sign-a-new-master-research-agreement-to-advance-multi-robots-system-research/",
+      "date": "2026-10-09",
+      "dek": "Academics, In the News, Research and Innovation / October 9, 2026"
+    },
+    {
+      "title": "Daeyeon Lee Receives 2026–27 Heilmeier Award",
+      "link": "https://www.engineering.upenn.edu/stories/daeyeon-lee-receives-2026-27-heilmeier-award/",
+      "date": "2026-10-08",
+      "dek": "Honors and Awards, Research and Innovation / October 8, 2026"
+    },
+    {
+      "title": "2026 CAREER Award Recipient: Yuanwen Jiang",
+      "link": "https://www.engineering.upenn.edu/stories/2026-career-award-recipient-yuanwen-jiang/",
+      "date": "2026-10-08",
+      "dek": "Honors and Awards, Research and Innovation / October 8, 2026"
+    },
+    {
+      "title": "Updating a Radio Astronomy Instrument at the Green Bank Telescope",
+      "link": "https://www.engineering.upenn.edu/stories/updating-a-radio-astronomy-instrument-at-the-green-bank-telescope/",
+      "date": "2026-10-07",
+      "dek": "Research and Innovation / October 7, 2026"
+    },
+    {
+      "title": "Innovation & Impact Podcast: The Future of Reasoning with Byron Cook",
+      "link": "https://www.engineering.upenn.edu/stories/innovation-impact-podcast-the-future-of-reasoning-with-byron-cook/",
+      "date": "2026-10-06",
+      "dek": "AI, In the News / October 6, 2026"
+    },
+    {
+      "title": "From the RoboRacer Course to the RoboRacer Track",
+      "link": "https://www.engineering.upenn.edu/stories/from-the-roboracer-course-to-the-roboracer-track/",
+      "date": "2026-10-05",
+      "dek": "Events, In the News, Research and Innovation / October 5, 2026"
+    },
+    {
+      "title": "Teaching Robots to Do More with Less Data",
+      "link": "https://www.engineering.upenn.edu/stories/teaching-robots-to-do-more-with-less-data/",
+      "date": "2026-10-02",
+      "dek": "AI, In the News, Research and Innovation / October 2, 2026"
+    },
+    {
+      "title": "Penn’s StartUP Fund Announces its First Investments",
+      "link": "https://www.engineering.upenn.edu/stories/penns-startup-fund-announces-its-first-investments/",
+      "date": "2026-09-30",
+      "dek": "In the News, Research and Innovation / September 30, 2026"
+    },
+    {
+      "title": "New Certificate of Study in AI and Law",
+      "link": "https://www.engineering.upenn.edu/stories/new-certificate-of-study-in-ai-and-law/",
+      "date": "2026-09-29",
+      "dek": "Academics, AI, In the News, Students / September 29, 2026"
+    },
+    {
+      "title": "AI Helps Detect Media Bias, Informing Voters and News Consumers",
+      "link": "https://www.engineering.upenn.edu/stories/ai-helps-detect-media-bias-informing-voters-and-news-consumers/",
+      "date": "2026-09-28",
+      "dek": "AI, In the News, Research and Innovation / September 28, 2026"
+    },
+    {
+      "title": "Penn Engineering Evolves Digital Media Design into Visual and Interactive Computing",
+      "link": "https://www.engineering.upenn.edu/stories/penn-engineering-evolves-digital-media-design-into-visual-and-interactive-computing/",
+      "date": "2026-09-24",
+      "dek": "Academics, Students / September 24, 2026"
+    },
+    {
+      "title": "Teaching Algorithm Auditing to Help Students Detect Bias in AI Outputs",
+      "link": "https://www.engineering.upenn.edu/stories/teaching-algorithm-auditing-to-help-students-detect-bias-in-ai-outputs/",
+      "date": "2026-09-23",
+      "dek": "AI, Faculty, Research and Innovation / September 23, 2026"
+    },
+    {
+      "title": "Accelerating Impact with David Meaney",
+      "link": "https://www.engineering.upenn.edu/stories/accelerating-impact-with-david-meaney/",
+      "date": "2026-09-16",
+      "dek": "AI, Research and Innovation / September 16, 2026"
+    },
+    {
+      "title": "Penn Engineering Launches New Master’s Degree in Data Science & Artificial Intelligence",
+      "link": "https://www.engineering.upenn.edu/stories/penn-engineering-launches-new-masters-degree-in-data-science-artificial-intelligence/",
+      "date": "2026-09-15",
+      "dek": "Academics, In the News, Students / September 15, 2026"
+    },
+    {
+      "title": "Reaching for the stars: Using light to sail through space",
+      "link": "https://www.engineering.upenn.edu/stories/reaching-for-the-stars-using-light-to-sail-through-space/",
+      "date": "2026-09-14",
+      "dek": "In the News, Research and Innovation / September 14, 2026"
+    },
+    {
+      "title": "Alumni Q&A: Girish Pancha",
+      "link": "https://www.engineering.upenn.edu/stories/alumni-qa-girish-pancha/",
+      "date": "2026-09-10",
+      "dek": "Alumni / September 10, 2026"
+    },
+    {
+      "title": "Penn Welcomes General Timothy D. Haugh",
+      "link": "https://www.engineering.upenn.edu/stories/penn-welcomes-general-timothy-d-haugh/",
+      "date": "2026-09-09",
+      "dek": "Faculty / September 9, 2026"
+    },
+    {
+      "title": "AI Helps Penn Engineers Improve a Gene-Editing Tool, Even with Limited Data",
+      "link": "https://www.engineering.upenn.edu/stories/ai-helps-penn-engineers-improve-a-gene-editing-tool-even-with-limited-data/",
+      "date": "2026-09-03",
+      "dek": "AI, In the News, Research and Innovation / September 3, 2026"
+    },
+    {
+      "title": "How the Environment Around Collagen Shapes Its Growth",
+      "link": "https://www.engineering.upenn.edu/stories/how-the-environment-around-collagen-shapes-its-growth/",
+      "date": "2026-09-02",
+      "dek": "In the News, Research and Innovation / September 2, 2026"
+    },
+    {
+      "title": "Soluble Signals Released by Neighboring Cells Direct How the Human Kidney is Built",
+      "link": "https://www.engineering.upenn.edu/stories/soluble-signals-released-by-neighboring-cells-direct-how-the-human-kidney-is-built/",
+      "date": "2026-08-25",
+      "dek": "In the News, Research and Innovation / August 25, 2026"
+    },
+    {
+      "title": "Scientists Use Force to ‘Write’ Atomically Thin Superconductors",
+      "link": "https://www.engineering.upenn.edu/stories/scientists-use-force-to-write-atomically-thin-superconductors/",
+      "date": "2026-08-20",
+      "dek": "In the News, Research and Innovation / August 20, 2026"
+    },
+    {
+      "title": "Welcome to the 2026–2027 Academic Year",
+      "link": "https://www.engineering.upenn.edu/stories/fall-2026-deans-welcome/",
+      "date": "2026-08-19",
+      "dek": "Community, Guest Posts, Students / August 19, 2026"
+    },
+    {
+      "title": "The Hidden Waves at the Beach",
+      "link": "https://www.engineering.upenn.edu/stories/the-hidden-waves-at-the-beach/",
+      "date": "2026-08-17",
+      "dek": "Faculty, In the News, Research and Innovation / August 17, 2026"
+    },
+    {
+      "title": "How a Soft Robotics Breakthrough is Revealing Stroke’s Earliest Moments",
+      "link": "https://www.engineering.upenn.edu/stories/how-a-soft-robotics-breakthrough-is-revealing-strokes-earliest-moments/",
+      "date": "2026-08-13",
+      "dek": "In the News, Research and Innovation / August 13, 2026"
+    },
+    {
+      "title": "Geomimicry Offers a New Framework for Engineering Sustainable Materials",
+      "link": "https://www.engineering.upenn.edu/stories/geomimicry-offers-a-new-framework-for-engineering-sustainable-materials/",
+      "date": "2026-08-12",
+      "dek": "In the News, Research and Innovation / August 12, 2026"
+    },
+    {
+      "title": "Alumni Q&A: Erdan Gu",
+      "link": "https://www.engineering.upenn.edu/stories/alumni-qa-erdan-gu/",
+      "date": "2026-08-10",
+      "dek": "Alumni / August 10, 2026"
+    },
+    {
+      "title": "Penn Engineering Students Receive IEEE Micro-Grant to Advance Acoustic Tool for Building Living Tissues",
+      "link": "https://www.engineering.upenn.edu/stories/penn-engineering-students-receive-ieee-micro-grant-to-advance-acoustic-tool-for-building-living-tissues/",
+      "date": "2026-08-06",
+      "dek": "Honors and Awards, Research and Innovation / August 6, 2026"
+    },
+    {
+      "title": "Getting into the Nitty Gritty of Sand",
+      "link": "https://www.engineering.upenn.edu/stories/getting-into-the-nitty-gritty-of-sand/",
+      "date": "2026-08-03",
+      "dek": "In the News, Research and Innovation / August 3, 2026"
+    },
+    {
+      "title": "Penn Partners in New National Science Foundation AI Institute for Human-AI Cooperation",
+      "link": "https://www.engineering.upenn.edu/stories/penn-partners-in-new-national-science-foundation-ai-institute-for-human-ai-cooperation/",
+      "date": "2026-07-30",
+      "dek": "Grants, In the News, Research and Innovation / July 30, 2026"
+    },
+    {
+      "title": "A New Kind of Light Sail Brings Interstellar Travel One Step Closer",
+      "link": "https://www.engineering.upenn.edu/stories/a-new-kind-of-light-sail-brings-interstellar-travel-one-step-closer/",
+      "date": "2026-07-30",
+      "dek": "Faculty, In the News, Research and Innovation / July 30, 2026"
+    },
+    {
+      "title": "Penn Electric Racing’s Comeback",
+      "link": "https://www.engineering.upenn.edu/stories/penn-electric-racings-comeback/",
+      "date": "2026-07-29",
+      "dek": "Events, In the News, Students / July 29, 2026"
+    },
+    {
+      "title": "How AI Could Make Autism Screening More Accessible",
+      "link": "https://www.engineering.upenn.edu/stories/how-ai-could-make-autism-screening-more-accessible/",
+      "date": "2026-07-28",
+      "dek": "In the News, Research and Innovation / July 28, 2026"
+    },
+    {
+      "title": "A One-Two Punch: Using Lipid Nanoparticles to Transform Oral Cancer Treatment",
+      "link": "https://www.engineering.upenn.edu/stories/a-one-two-punch-using-lipid-nanoparticles-to-transform-oral-cancer-treatment/",
+      "date": "2026-07-27",
+      "dek": "In the News, Research and Innovation / July 27, 2026"
+    },
+    {
+      "title": "Buildings That Cool Like African Elephants",
+      "link": "https://www.engineering.upenn.edu/stories/buildings-that-cool-like-african-elephants/",
+      "date": "2026-07-22",
+      "dek": "In the News, Research and Innovation / July 22, 2026"
+    },
+    {
+      "title": "AI Platform Could Speed Peptide Drug Discovery",
+      "link": "https://www.engineering.upenn.edu/stories/ai-platform-could-speed-peptide-drug-discovery/",
+      "date": "2026-07-21",
+      "dek": "AI, Research and Innovation / July 21, 2026"
+    },
+    {
+      "title": "NATO Explores the Future of Robotics at Penn’s GRASP Lab",
+      "link": "https://www.engineering.upenn.edu/stories/nato-explores-the-future-of-robotics-at-penns-grasp-lab/",
+      "date": "2026-07-20",
+      "dek": "AI, Events, In the News, Students / July 20, 2026"
+    },
+    {
+      "title": "The Impact of Microplastics and How to Limit Exposure",
+      "link": "https://www.engineering.upenn.edu/stories/the-impact-of-microplastics-and-how-to-limit-exposure/",
+      "date": "2026-07-15",
+      "dek": "In the News, Research and Innovation / July 15, 2026"
+    },
+    {
+      "title": "Virtual Patients, Real-World Training",
+      "link": "https://www.engineering.upenn.edu/stories/virtual-patients-real-world-training/",
+      "date": "2026-07-14",
+      "dek": "AI, In the News, Research and Innovation / July 14, 2026"
+    },
+    {
+      "title": "Penn Engineering Launches New Online Master’s Degree in Technology and Innovation",
+      "link": "https://www.engineering.upenn.edu/stories/penn-engineering-launches-new-online-masters-degree-in-technology-and-innovation/",
+      "date": "2026-07-13",
+      "dek": "Academics, Faculty, Students / July 13, 2026"
+    },
+    {
+      "title": "Penn Engineers Develop AI Tool to Design Peptides That Turn Signals On or Off",
+      "link": "https://www.engineering.upenn.edu/stories/penn-engineers-develop-ai-tool-to-design-peptides-that-turn-signals-on-or-off/",
+      "date": "2026-07-09",
+      "dek": "AI, Research and Innovation / July 9, 2026"
+    },
+    {
+      "title": "Unearthing New Cancer Treatments From Fungi",
+      "link": "https://www.engineering.upenn.edu/stories/unearthing-new-cancer-treatments-from-fungi/",
+      "date": "2026-07-08",
+      "dek": "In the News, Research and Innovation / July 8, 2026"
+    },
+    {
+      "title": "Penn Engineering Awards New Scholarly Professorship",
+      "link": "https://www.engineering.upenn.edu/stories/penn-engineering-awards-new-scholarly-professorship/",
+      "date": "2026-07-08",
+      "dek": "Academics, Faculty, Honors and Awards / July 8, 2026"
+    },
+    {
+      "title": "Opening AI’s Black Box",
+      "link": "https://www.engineering.upenn.edu/stories/opening-ais-black-box/",
+      "date": "2026-07-07",
+      "dek": "AI, Faculty, Research and Innovation / July 7, 2026"
+    },
+    {
+      "title": "How Sea Stars Build Materials That Can See",
+      "link": "https://www.engineering.upenn.edu/stories/how-sea-stars-build-materials-that-can-see/",
+      "date": "2026-07-06",
+      "dek": "In the News, Research and Innovation / July 6, 2026"
+    },
+    {
+      "title": "America 250: Penn’s Mark on History",
+      "link": "https://www.engineering.upenn.edu/stories/america-250-penns-mark-on-history/",
+      "date": "2026-07-01",
+      "dek": "In the News / July 1, 2026"
+    },
+    {
+      "title": "Eric Stach Named Chair of Materials Science and Engineering",
+      "link": "https://www.engineering.upenn.edu/stories/eric-stach-named-chair-of-materials-science-and-engineering/",
+      "date": "2026-06-29",
+      "dek": "Academics, Faculty / June 29, 2026"
+    },
+    {
+      "title": "Transforming Healthcare Logistics With Low-Cost AI",
+      "link": "https://www.engineering.upenn.edu/stories/transforming-healthcare-logistics-with-low-cost-ai/",
+      "date": "2026-06-25",
+      "dek": "AI, Research and Innovation / June 25, 2026"
+    },
+    {
+      "title": "Penn Engineers Study Asthma on Human Lung-on-a-Chip Technology",
+      "link": "https://www.engineering.upenn.edu/stories/penn-engineers-study-asthma-on-human-lung-on-a-chip-technology/",
+      "date": "2026-06-22",
+      "dek": "In the News, Research and Innovation / June 22, 2026"
+    },
+    {
+      "title": "Q&A: Juneteenth and the Emancipation Proclamation",
+      "link": "https://www.engineering.upenn.edu/stories/qa-juneteenth-and-the-emancipation-proclamation/",
+      "date": "2026-06-19",
+      "dek": "In the News / June 19, 2026"
+    },
+    {
+      "title": "Alumni Q&A: Kaikai Wang",
+      "link": "https://www.engineering.upenn.edu/stories/alumni-qa-kaikai-wang/",
+      "date": "2026-06-17",
+      "dek": "Alumni / June 17, 2026"
+    },
+    {
+      "title": "Artificial Versus Real Grass: How the Difference Changes the Game",
+      "link": "https://www.engineering.upenn.edu/stories/artificial-versus-real-grass-how-the-difference-changes-the-game/",
+      "date": "2026-06-15",
+      "dek": "Faculty, In the News, Research and Innovation / June 15, 2026"
+    },
+    {
+      "title": "Ottman Tertuliano Named 2026 CIFAR Global Scholar",
+      "link": "https://www.engineering.upenn.edu/stories/ottman-tertuliano-named-2026-cifar-global-scholar/",
+      "date": "2026-06-11",
+      "dek": "Faculty, Honors and Awards / June 11, 2026"
+    },
+    {
+      "title": "FireANTs Brings AI Speed and Geometric Precision to Medical Imaging",
+      "link": "https://www.engineering.upenn.edu/stories/fireants-brings-ai-speed-and-geometric-precision-to-medical-imaging/",
+      "date": "2026-06-09",
+      "dek": "AI, Research and Innovation / June 9, 2026"
+    },
+    {
+      "title": "Testing AI Against Public Health’s Existing Tools",
+      "link": "https://www.engineering.upenn.edu/stories/testing-ai-against-public-healths-existing-tools/",
+      "date": "2026-06-08",
+      "dek": "AI, Research and Innovation / June 8, 2026"
+    },
+    {
+      "title": "From Lab to Launch: How Vanessa Chan Is Training Ph.D. Engineers for Real-World Impact",
+      "link": "https://www.engineering.upenn.edu/stories/from-lab-to-launch-how-vanessa-chan-is-training-ph-d-engineers-for-real-world-impact/",
+      "date": "2026-06-04",
+      "dek": "Academics, Faculty, Students / June 4, 2026"
+    },
+    {
+      "title": "When Design Meets Engineering, Students Solve the Right Problems",
+      "link": "https://www.engineering.upenn.edu/stories/when-design-meets-engineering/",
+      "date": "2026-06-03",
+      "dek": "Academics, Faculty, Students / June 3, 2026"
+    },
+    {
+      "title": "Dancing Through Life: From Origami Robotics to Sculptural Art",
+      "link": "https://www.engineering.upenn.edu/stories/dancing-through-life-from-origami-robotics-to-sculptural-art/",
+      "date": "2026-06-02",
+      "dek": "Research and Innovation / June 2, 2026"
+    },
+    {
+      "title": "Qubits in the Classroom",
+      "link": "https://www.engineering.upenn.edu/stories/qubits-in-the-classroom/",
+      "date": "2026-05-28",
+      "dek": "Academics, Faculty, Research and Innovation, Students / May 28, 2026"
+    },
+    {
+      "title": "Innovation & Impact Podcast Episode 12: Driving the Future with Benedetto Vigna",
+      "link": "https://www.engineering.upenn.edu/stories/innovation-impact-podcast-episode-12-driving-the-future-with-benedetto-vigna/",
+      "date": "2026-05-26",
+      "dek": "AI, In the News / May 26, 2026"
+    },
+    {
+      "title": "Preparing Engineers To Think Like Founders",
+      "link": "https://www.engineering.upenn.edu/stories/preparing-engineers-to-think-like-founders/",
+      "date": "2026-05-22",
+      "dek": "Academics, Students / May 22, 2026"
+    },
+    {
+      "title": "Meet Penn Engineering’s First Graduates in AI",
+      "link": "https://www.engineering.upenn.edu/stories/meet-penn-engineerings-first-graduates-in-ai/",
+      "date": "2026-05-21",
+      "dek": "Academics, AI, Students / May 21, 2026"
+    },
+    {
+      "title": "Inside NSF AIRFoundry, Senator McCormick Gets a Look at the Future of RNA Discovery",
+      "link": "https://www.engineering.upenn.edu/stories/inside-nsf-airfoundry-senator-mccormick-gets-a-look-at-the-future-of-rna-discovery/",
+      "date": "2026-05-20",
+      "dek": "AI, Faculty, Research and Innovation / May 20, 2026"
+    },
+    {
+      "title": "Penn Engineers Awarded Fulbright 2026-27 U.S. Student Program Grants",
+      "link": "https://www.engineering.upenn.edu/stories/penn-students-and-alumni-awarded-fulbright-2026-27-u-s-student-program-grants/",
+      "date": "2026-05-19",
+      "dek": "Academics, Alumni, Honors and Awards, Students / May 19, 2026"
+    },
+    {
+      "title": "How To Build a Career in the Age of AI",
+      "link": "https://www.engineering.upenn.edu/stories/how-to-build-a-career-in-the-age-of-ai/",
+      "date": "2026-05-15",
+      "dek": "Academics, AI, Students / May 15, 2026"
+    },
+    {
+      "title": "Penn Student Develops a Way for Computer Chips To Run More Efficiently",
+      "link": "https://www.engineering.upenn.edu/stories/penn-student-develops-a-way-for-computer-chips-to-run-more-efficiently/",
+      "date": "2026-05-14",
+      "dek": "AI, Honors and Awards, Students / May 14, 2026"
+    },
+    {
+      "title": "Penn Engineers Create AI Tool to Speed Antibiotic Discovery",
+      "link": "https://www.engineering.upenn.edu/stories/penn-engineers-create-ai-tool-to-speed-antibiotic-discovery/",
+      "date": "2026-05-13",
+      "dek": "AI, Research and Innovation / May 13, 2026"
+    },
+    {
+      "title": "AI in the Physical World: Helping Robotic Arms Solve Problems Using Tools",
+      "link": "https://www.engineering.upenn.edu/stories/ai-in-the-physical-world-helping-robotic-arms-solve-problems-using-tools/",
+      "date": "2026-05-12",
+      "dek": "AI, In the News, Research and Innovation / May 12, 2026"
+    },
+    {
+      "title": "Solving Real-World Problems at Penn Engineering Senior Design",
+      "link": "https://www.engineering.upenn.edu/stories/solving-real-world-problems-at-penn-engineering-senior-design/",
+      "date": "2026-05-11",
+      "dek": "Academics, Alumni, Honors and Awards, Research and Innovation, Students / May 11, 2026"
+    },
+    {
+      "title": "Penn FoQuS 2026 Advances Quantum Connections",
+      "link": "https://www.engineering.upenn.edu/stories/penn-foqus-2026-advances-quantum-connections/",
+      "date": "2026-05-07",
+      "dek": "Community, Events, In the News / May 7, 2026"
+    },
+    {
+      "title": "Penn Engineers Shine at Venture Lab Startup Challenge",
+      "link": "https://www.engineering.upenn.edu/stories/penn-engineers-shine-at-venture-lab-startup-challenge/",
+      "date": "2026-05-06",
+      "dek": "AI, Honors and Awards, Students / May 6, 2026"
+    },
+    {
+      "title": "A Robotic Solution for Safer Tree Trimming",
+      "link": "https://www.engineering.upenn.edu/stories/a-robotic-solution-for-safer-tree-trimming/",
+      "date": "2026-05-05",
+      "dek": "Honors and Awards, Students / May 5, 2026"
+    },
+    {
+      "title": "How AI is Changing the Nature of Mathematical Research",
+      "link": "https://www.engineering.upenn.edu/stories/how-ai-is-changing-the-nature-of-mathematical-research/",
+      "date": "2026-05-04",
+      "dek": "AI, Research and Innovation / May 4, 2026"
+    },
+    {
+      "title": "AI Method Tackles One of Science’s Hardest Math Problems",
+      "link": "https://www.engineering.upenn.edu/stories/ai-method-tackles-one-of-sciences-hardest-math-problems/",
+      "date": "2026-05-01",
+      "dek": "AI, Research and Innovation / May 1, 2026"
+    },
+    {
+      "title": "Using AI to Help Predict Cardiac Arrests",
+      "link": "https://www.engineering.upenn.edu/stories/using-ai-to-help-predict-cardiac-arrests/",
+      "date": "2026-04-30",
+      "dek": "AI, Research and Innovation / April 30, 2026"
+    },
+    {
+      "title": "What It Will Take to Make AI-Enabled Robots Safer",
+      "link": "https://www.engineering.upenn.edu/stories/what-it-will-take-to-make-ai-enabled-robots-safer/",
+      "date": "2026-04-29",
+      "dek": "AI, Research and Innovation / April 29, 2026"
+    },
+    {
+      "title": "Fengrui Tian Named 2026 Apple Ph.D. Scholar in AIML",
+      "link": "https://www.engineering.upenn.edu/stories/fengrui-tian-named-2026-apple-ph-d-scholar-in-aiml/",
+      "date": "2026-04-28",
+      "dek": "AI, Honors and Awards, In the News, Students / April 28, 2026"
+    },
+    {
+      "title": "The Science of Winemaking",
+      "link": "https://www.engineering.upenn.edu/stories/the-science-of-winemaking/",
+      "date": "2026-04-27",
+      "dek": "Academics, Students / April 27, 2026"
+    },
+    {
+      "title": "SmartDJ Lets Users Reshape Audio Experiences with Simple Words",
+      "link": "https://www.engineering.upenn.edu/stories/smartdj-lets-users-reshape-audio-experiences-with-simple-words/",
+      "date": "2026-04-24",
+      "dek": "AI, Research and Innovation / April 24, 2026"
+    },
+    {
+      "title": "Five from Penn Elected to the American Academy of Arts & Sciences",
+      "link": "https://www.engineering.upenn.edu/stories/five-from-penn-elected-to-the-american-academy-of-arts-sciences/",
+      "date": "2026-04-24",
+      "dek": "Faculty, Honors and Awards / April 24, 2026"
+    },
+    {
+      "title": "Tiny, Knotted Robots Jump, Fly and Plant Seeds",
+      "link": "https://www.engineering.upenn.edu/stories/tiny-knotted-robots-jump-fly-and-plant-seeds/",
+      "date": "2026-04-23",
+      "dek": "In the News, Research and Innovation / April 23, 2026"
+    },
+    {
+      "title": "Innovation & Impact Podcast: Designing the Future of AI and the Next Era of Computing",
+      "link": "https://www.engineering.upenn.edu/stories/innovation-impact-podcast-designing-the-future-of-ai-and-the-next-era-of-computing/",
+      "date": "2026-04-23",
+      "dek": "In the News / April 23, 2026"
     }
   ]
 }
