@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "id": "seas",
+  "name": "SEAS",
+  "listingUrls": [
+    "https://www.engineering.upenn.edu/stories/"
+  ],
+  "lastScrapedAt": "2026-11-10T02:45:15.056495+00:00",
+  "pagesScanned": 1,
+  "stopReasons": [
+    "https://www.engineering.upenn.edu/stories/: page failed"
+  ],
+  "warnings": [
+    "Page 2 failed: HTTP 400"
+  ],
+  "requestedFrom": "",
+  "oldestCaptured": "2026-10-26",
+  "newestCaptured": "2026-11-09",
+  "posts": [
+    {
+      "title": "Oberlin and Penn Launch Partnership for 4+1 Accelerated Master’s in Engineering",
+      "link": "https://www.engineering.upenn.edu/stories/oberlin-and-penn-launch-partnership-for-41-accelerated-masters-in-engineering/",
+      "date": "2026-11-09",
+      "dek": "Academics / November 9, 2026"
+    },
+    {
+      "title": "Research and Innovation",
+      "link": "https://www.engineering.upenn.edu/stories/category/research-and-innovation/",
+      "date": "2026-11-06",
+      "dek": "In the News, Research and Innovation / November 6, 2026"
+    },
+    {
+      "title": "New Placenta-on-a-Chip Model Allows Penn Engineers to Study Environmental Toxins",
+      "link": "https://www.engineering.upenn.edu/stories/new-placenta-on-a-chip-model-allows-penn-engineers-to-study-environmental-toxins/",
+      "date": "2026-11-06",
+      "dek": "In the News, Research and Innovation / November 6, 2026"
+    },
+    {
+      "title": "Engineering Dean Vijay Kumar’s Appointment Extended",
+      "link": "https://www.engineering.upenn.edu/stories/penn-engineering-extends-dean-vijay-kumars-appointment/",
+      "date": "2026-11-05",
+      "dek": "Academics, Faculty / November 5, 2026"
+    },
+    {
+      "title": "Three Penn Engineering Faculty Elected American Physical Society Fellows",
+      "link": "https://www.engineering.upenn.edu/stories/three-penn-engineering-faculty-elected-american-physical-society-fellows/",
+      "date": "2026-11-04",
+      "dek": "Faculty, Honors and Awards, In the News / November 4, 2026"
+    },
+    {
+      "title": "Stopping Muscular Dystrophy with a ‘Backup’ Protein",
+      "link": "https://www.engineering.upenn.edu/stories/stopping-muscular-dystrophy-with-a-backup-protein/",
+      "date": "2026-11-03",
+      "dek": "Research and Innovation / November 3, 2026"
+    },
+    {
+      "title": "Research to Develop Personalized Treatments for Children with Neurodevelopmental Disabilities",
+      "link": "https://www.engineering.upenn.edu/stories/research-to-develop-personalized-treatments-for-children-with-neurodevelopmental-disabilities/",
+      "date": "2026-11-02",
+      "dek": "AI, Research and Innovation / November 2, 2026"
+    },
+    {
+      "title": "Quantum ‘Skyrmions’ Could Help Build More Resilient Networks",
+      "link": "https://www.engineering.upenn.edu/stories/quantum-skyrmions-could-help-build-more-resilient-networks/",
+      "date": "2026-10-30",
+      "dek": "Research and Innovation / October 30, 2026"
+    },
+    {
+      "title": "The Missing Link Between Event Cameras and Robot Vision",
+      "link": "https://www.engineering.upenn.edu/stories/the-missing-link-between-event-cameras-and-robot-vision/",
+      "date": "2026-10-29",
+      "dek": "AI, Research and Innovation / October 29, 2026"
+    },
+    {
+      "title": "Penn Engineering’s George Pappas Helps Chart More Secure Future for U.S. Robotics",
+      "link": "https://www.engineering.upenn.edu/stories/penn-engineerings-george-pappas-helps-chart-more-secure-future-for-u-s-robotics/",
+      "date": "2026-10-28",
+      "dek": "AI, Research and Innovation / October 28, 2026"
+    },
+    {
+      "title": "How a Penn-based Consortium has Shaped Modern AI",
+      "link": "https://www.engineering.upenn.edu/stories/how-a-penn-based-consortium-has-shaped-modern-ai/",
+      "date": "2026-10-26",
+      "dek": "AI / October 26, 2026"
+    }
+  ]
+}
