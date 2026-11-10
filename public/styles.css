@@ -64,3 +64,5 @@ button.danger,button.danger:hover{background:#990000;border-color:#990000;color:
 .passfield{margin-top:14px}
 .check{display:flex;align-items:center;gap:8px;font-size:13px;margin:12px 0 0}
 @media(max-width:800px){.form-grid{grid-template-columns:1fr}.dialoghead{flex-wrap:wrap}.dialogactions{flex-wrap:wrap}}
+.desk .archive-title{color:var(--ink);text-decoration:none}.desk .archive-title:hover{text-decoration:underline}
+.index-source{display:flex;align-items:stretch}.index-sites .archive-index-link{flex:1;min-width:0;padding-left:18px;overflow-wrap:anywhere}.index-sites .archive-index-link.no-match{opacity:.62}.index-sites .index-jump{flex:none;align-items:center;padding:3px 7px;color:var(--muted);font-size:11px}.index-sites .index-jump.active{background:var(--soft);box-shadow:inset 3px 0 0 var(--blue)}

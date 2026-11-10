@@ -1,0 +1,61 @@
+name: Expand a source archive
+on:
+  workflow_dispatch:
+    inputs:
+      source_id:
+        description: 'Source ID (shown on its archive page)'
+        required: true
+        type: string
+      earliest_date:
+        description: 'Go back to at least this date (YYYY-MM-DD); leave blank for oldest reachable'
+        required: false
+        type: string
+      page_limit:
+        description: 'Maximum listing pages per news address'
+        required: true
+        default: '25'
+        type: choice
+        options: ['10', '25', '50']
+permissions:
+  contents: write
+concurrency:
+  group: penn-news-production
+  cancel-in-progress: false
+jobs:
+  archive:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: pip install -r requirements.txt
+      - run: python -m unittest discover -s tests
+      - run: python -m playwright install --with-deps chromium
+      - name: Collect older stories for one source
+        env:
+          SOURCE_ID: ${{ inputs.source_id }}
+          EARLIEST_DATE: ${{ inputs.earliest_date }}
+          PAGE_LIMIT: ${{ inputs.page_limit }}
+        run: python archive_scraper.py --site "$SOURCE_ID" --from-date "$EARLIEST_DATE" --max-pages "$PAGE_LIMIT"
+      - name: Save archive on main
+        run: |
+          git config user.name 'Penn News Monitor'
+          git config user.email 'monitor@users.noreply.github.com'
+          git add public/data/archive/
+          git diff --cached --quiet || git commit -m 'Expand source archive'
+          git pull --rebase origin main
+          git push origin HEAD:main
+      - name: Publish archive
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          PAGES_PROJECT: ${{ vars.PAGES_PROJECT || 'penn-news-monitor' }}
+        run: npx --yes wrangler@4 pages deploy public --project-name="$PAGES_PROJECT" --branch=production
