@@ -56,6 +56,11 @@ def increment_page_url(current):
     return urlunparse(parsed._replace(query=urlencode(query, doseq=True)))
 
 
+def ajax_pagination_url(candidate):
+    """WordPress AJAX page links need their listing's JavaScript click handler."""
+    return bool(candidate and urlparse(candidate).path.endswith('/wp-admin/admin-ajax.php'))
+
+
 def merge_archive(site, discovered, existing, latest, metadata):
     """Keep earlier discoveries, but never mix archives after a source URL edit."""
     pages = [site['newsUrl']] + list(site.get('extraUrls') or [])
@@ -116,6 +121,20 @@ async def scrape_listing(browser, site, listing, earliest, max_pages, ua):
                 # entire nonempty page is older than the requested boundary.
                 if earliest and new_articles and max(a['date'] for a in new_articles) < earliest:
                     reason = 'reached requested date'; break
+                if ajax_pagination_url(candidate):
+                    before = await page.evaluate('() => [...document.querySelectorAll("a[href]")].map(a => a.href).join("|")')
+                    pager = page.locator('a.next[href], a[rel="next"][href], a.pagination-next[href]').first
+                    if not await pager.count():
+                        warnings.append(f'AJAX pagination link has no clickable next control: {target}')
+                        reason = 'AJAX pagination stopped'; break
+                    await pager.click(timeout=5000)
+                    try:
+                        await page.wait_for_function('(old) => [...document.querySelectorAll("a[href]")].map(a => a.href).join("|") !== old', arg=before, timeout=12000)
+                        navigate = False
+                        continue
+                    except Exception:
+                        warnings.append(f'AJAX next page did not load new links: {target}')
+                        reason = 'AJAX pagination stopped'; break
                 if candidate:
                     target, navigate = candidate, True
                     continue

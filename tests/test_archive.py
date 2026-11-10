@@ -1,6 +1,6 @@
 import unittest
 
-from archive_scraper import increment_page_url, merge_archive, next_url
+from archive_scraper import ajax_pagination_url, increment_page_url, merge_archive, next_url
 
 
 class ArchiveTest(unittest.TestCase):
@@ -24,6 +24,10 @@ class ArchiveTest(unittest.TestCase):
         self.assertEqual(increment_page_url('https://example.edu/news?page=1&sort=desc'),
                          'https://example.edu/news?page=2&sort=desc')
         self.assertIsNone(increment_page_url('https://example.edu/news'))
+
+    def test_ajax_pagination_requires_click(self):
+        self.assertTrue(ajax_pagination_url('https://example.edu/wp-admin/admin-ajax.php?paged=2'))
+        self.assertFalse(ajax_pagination_url('https://example.edu/news/page/2/'))
 
     def test_merges_discoveries_with_current_snapshot(self):
         latest = dict(self.site, posts=[self.two])
