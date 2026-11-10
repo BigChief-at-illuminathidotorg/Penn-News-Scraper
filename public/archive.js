@@ -14,24 +14,26 @@ async function firstAvailable(path) {
 function sourceURLs(site) { return [site.newsUrl,...(site.extraUrls||[])]; }
 const params=new URLSearchParams(location.search);
 let site, posts=[], archive=null, showing=50;
-function filters() { return {q:$('query').value.trim().toLowerCase(),from:$('from').value,to:$('to').value,order:$('order').value}; }
+function filters() { return {q:$('query').value.trim().toLowerCase(),from:$('from').value,to:$('to').value,order:$('order').value,person:$('person').value.trim(),journal:$('journal').value.trim(),mode:$('mode').value,scope:$('scope').value,undated:$('undated').checked}; }
 function render() {
- const {q,from,to,order}=filters();
- let filtered=posts.filter(p=>p && typeof p.title==='string' && (!q || `${p.title} ${p.dek||''}`.toLowerCase().includes(q)) && (!from || p.date>=from) && (!to || p.date<=to));
+ const f=filters(), {q,from,to,order}=f;
+ let filtered=posts.filter(p=>p && typeof p.title==='string' && ArchiveSearch.matches(p,f));
  filtered.sort((a,b)=>order==='oldest' ? a.date.localeCompare(b.date) : b.date.localeCompare(a.date));
  $('resultCount').textContent=`${filtered.length} ${filtered.length===1?'story':'stories'}${filtered.length!==posts.length?' match':' saved'}`;
  $('articles').innerHTML=filtered.slice(0,showing).map(p=>{
   const link=safeURL(p.link), title=escape(p.title);
-  return `<article class="archive-item"><div>${link?`<a href="${escape(link)}" target="_blank" rel="noopener noreferrer">${title}</a>`:`<strong>${title}</strong>`}${p.dek?`<p>${escape(p.dek).slice(0,700)}</p>`:''}</div><time datetime="${escape(p.date||'')}">${p.undated?'Seen ':''}${label(p.date)}</time></article>`;
+  return `<article class="archive-item"><div>${link?`<a href="${escape(link)}" target="_blank" rel="noopener noreferrer">${title}</a>`:`<strong>${title}</strong>`}<p>${escape(ArchiveSearch.snippet(p,f))}</p><small>${p.searchIndex?.text?'Article text indexed'+(p.searchIndex.textTruncated?' (length limited)':''):'Headline and summary only'}</small></div><time datetime="${escape(p.date||'')}">${p.undated?'Seen ':''}${label(p.date)}</time></article>`;
  }).join('') || '<p class="archive-empty">No saved stories match. Try a wider date range, or run an archive job to look further back.</p>';
  $('more').hidden=showing>=filtered.length;
  $('jobFrom').textContent=from || 'Leave blank (oldest reachable)';
- const url=new URL(location.href); for(const [key,value] of Object.entries({q,from,to,order}))value?url.searchParams.set(key,value):url.searchParams.delete(key);
+ const url=new URL(location.href); for(const [key,value] of Object.entries({q,from,to,order,person:f.person,journal:f.journal,mode:f.mode,scope:f.scope,undated:f.undated?'1':''}))value?url.searchParams.set(key,value):url.searchParams.delete(key);
  history.replaceState(null,'',url);
+ $('manageArchive').href=`manage.html?source=${encodeURIComponent(site.id)}&from=${encodeURIComponent(from)}`;
 }
 function metadata() {
  const dates=posts.filter(p=>/^\d{4}-\d{2}-\d{2}$/.test(p.date) && !p.undated).map(p=>p.date).sort();
  $('total').textContent=posts.length;
+ $('indexCoverage').textContent=`Article text indexed for ${posts.filter(p=>p.searchIndex?.text).length} of ${posts.length} saved stories. Other stories are searched by headline and summary only. Expand and index this source to improve coverage; blocked pages remain unindexed.`;
  $('oldest').textContent=dates.length?label(dates[0]):'No dated stories';
  $('newest').textContent=dates.length?label(dates.at(-1)):'No dated stories';
  $('scan').textContent=archive?`${archive.pagesScanned||0} listing ${archive.pagesScanned===1?'page':'pages'}`:'Not run yet';
@@ -56,14 +58,15 @@ async function init() {
  archive=archives.filter(a=>a.id===site.id && JSON.stringify(a.listingUrls)===JSON.stringify(sourceURLs(site)) && Array.isArray(a.posts)).sort((a,b)=>Date.parse(b.lastScrapedAt)-Date.parse(a.lastScrapedAt))[0]||null;
  const live=latest?.newsUrl===site.newsUrl && JSON.stringify(latest?.extraUrls||[])===JSON.stringify(site.extraUrls||[]) ? latest.posts||[] : [];
  posts=[...(archive?.posts||[]),...live].filter(p=>p && typeof p.title==='string' && typeof p.date==='string' && (!p.link||safeURL(p.link)));
- posts=[...new Map(posts.map(p=>[p.link||`${p.title}|${p.date}`,p])).values()];
+ const merged=new Map();for(const p of posts){const key=p.link||`${p.title}|${p.date}`;const old=merged.get(key);merged.set(key,{...old,...p,...(old?.searchIndex?{searchIndex:old.searchIndex}:{})});}posts=[...merged.values()];
  $('status').textContent=archive?`Saved archive from ${new Date(archive.lastScrapedAt).toLocaleString()} plus the latest collection. Earliest captured is a discovery boundary, not the publisher's first story.`:'Showing stories from the regular collection. The archive has not been expanded for this source yet.';
- for(const key of ['q','from','to','order'])if(params.has(key))$(key==='q'?'query':key).value=params.get(key);
+ for(const key of ['q','from','to','order','person','journal','mode','scope'])if(params.has(key))$(key==='q'?'query':key).value=params.get(key);
+ $('undated').checked=params.get('undated')==='1';
  metadata(); render();
 }
-for(const id of ['query','from','to','order'])$(id).addEventListener('input',()=>{showing=50;render();});
+for(const id of ['query','from','to','order','person','journal','mode','scope','undated'])$(id).addEventListener('input',()=>{showing=50;render();});
 $('more').addEventListener('click',()=>{showing+=50;render();});
-$('clearFilters').addEventListener('click',()=>{for(const id of ['query','from','to'])$(id).value='';$('order').value='newest';showing=50;render();});
+$('clearFilters').addEventListener('click',()=>{for(const id of ['query','from','to','person','journal'])$(id).value='';$('order').value='newest';$('mode').value='all';$('scope').value='full';$('undated').checked=false;showing=50;render();});
 $('sourcePicker').addEventListener('change',()=>{location.href=`archive.html?id=${encodeURIComponent($('sourcePicker').value)}`;});
 $('copyJob').addEventListener('click',async()=>{
  const details=`Penn News Monitor archive job\nSource ID: ${site.id}\nEarliest date: ${$('from').value||'(leave blank for oldest reachable)'}\nPage limit: 25\n${$('jobLink').href}`;
@@ -72,3 +75,4 @@ $('copyJob').addEventListener('click',async()=>{
 });
 init().catch(error=>{$('status').textContent=error.message;});
 })();
+

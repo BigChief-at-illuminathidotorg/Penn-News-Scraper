@@ -837,6 +837,9 @@ async def run(args):
 
     wanted = {x.strip().lower() for x in (args.site or "").split(",") if x.strip()}
     sites = [s for s in all_sites if not wanted or s["id"] in wanted]
+    unknown = wanted - {s["id"] for s in all_sites}
+    if unknown:
+        sys.exit("Unknown source IDs: " + ", ".join(sorted(unknown)))
     if not sites:
         sys.exit(f"No site with id '{args.site}'")
     todo = [s for s in sites if s.get("newsUrl") or s.get("feedUrl")]
@@ -891,7 +894,10 @@ async def run(args):
 
     now = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
     out = Path(args.out or f"penn-news-scraped-{date.today().isoformat()}.json")
-    out.write_text(json.dumps(build_snapshot(all_sites, results, now), indent=2, ensure_ascii=False), encoding="utf-8")
+    snapshot = build_snapshot(all_sites, results, now)
+    if wanted:
+        snapshot["selectedSourceIds"] = sorted(wanted)
+    out.write_text(json.dumps(snapshot, indent=2, ensure_ascii=False), encoding="utf-8")
 
     by = lambda pred: sum(1 for _, _, m in results.values() if pred(m))
     good = sum(1 for a, _, _ in results.values() if a)
@@ -925,3 +931,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

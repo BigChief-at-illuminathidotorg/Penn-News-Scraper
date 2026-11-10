@@ -42,3 +42,10 @@ JavaScript syntax check and offline snapshot-merge tests passed. No successful l
 https://developers.cloudflare.com/pages/get-started/direct-upload/
 https://developers.cloudflare.com/pages/configuration/custom-domains/
 https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows
+
+
+### Staff controls and expanded archive search
+
+Open `/manage` to collect all sources or one source, expand an archive, follow job steps, edit the source list and (for the owner) review staff access requests. Production runtime setup is documented in [STAFF_SETUP.md](STAFF_SETUP.md). Staff verify their email through Cloudflare Access and require explicit owner approval stored privately in D1. Controls fail closed until setup is complete.
+
+Archive jobs index readable article text and citation metadata for topic, person and journal searches. Search supports all/any keywords, quoted phrases, exclusions and dates, with per-story indexing coverage. The source archive remains JSON; only access approvals use a database.

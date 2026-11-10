@@ -38,6 +38,8 @@ jobs:
           node-version: '22'
       - run: pip install -r requirements.txt
       - run: python -m unittest discover -s tests
+      - run: node tests/search.cjs
+      - run: node tests/staff.mjs
       - run: python -m playwright install --with-deps chromium
       - name: Collect older stories for one source
         env:
@@ -59,3 +61,4 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           PAGES_PROJECT: ${{ vars.PAGES_PROJECT || 'penn-news-monitor' }}
         run: npx --yes wrangler@4 pages deploy public --project-name="$PAGES_PROJECT" --branch=production
+

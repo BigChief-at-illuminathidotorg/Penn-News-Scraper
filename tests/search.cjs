@@ -1,0 +1,6 @@
+const assert=require('node:assert/strict');const S=require('../public/archive-search.js');
+const p={title:'A better treatment',dek:'Researchers share their findings.',date:'2024-06-01',searchIndex:{text:'Cherie Kagan uses artificial intelligence. Results appear in Nature Medicine. The AI system learns.',authors:['Linh Phan'],journals:['Nature Medicine'],keywords:['sensors']}};
+assert(S.matches(p,{q:'artificial intelligence'}));assert(S.matches(p,{q:'"artificial intelligence"'}));assert(!S.matches(p,{q:'intelligence sensors',scope:'headline'}));
+assert(S.matches(p,{q:'robotics sensors',mode:'any'}));assert(!S.matches(p,{q:'robotics sensors',mode:'all'}));assert(!S.matches(p,{q:'AI -learns'}));assert(S.matches(p,{q:'AI'}));
+assert(!S.matches({title:'Paideia chair said hello'}, {q:'AI'}));assert(S.matches(p,{person:'Cherie Kagan',journal:'Nature Medicine'}));assert(!S.matches(p,{person:'Cherie Kagan',journal:'Science'}));assert(!S.matches(p,{from:'2025-01-01'}));assert(!S.matches({...p,undated:true},{from:'2024-01-01'}));assert(S.matches({...p,undated:true},{from:'2024-01-01',undated:true}));assert(S.matches({title:'José García'}, {person:'Jose Garcia'}));
+console.log('Archive search: phrases, exclusions, acronyms, accents, article text and dates passed');

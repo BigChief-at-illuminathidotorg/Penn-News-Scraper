@@ -29,6 +29,12 @@ def merge_snapshot(current, previous):
         raise ValueError('Collection has no source list; refusing publication')
     datetime.fromisoformat(current['lastRefreshAt'].replace('Z', '+00:00'))
     old = {s['id']: s for s in previous.get('sites', [])}
+    selected = set(current.get('selectedSourceIds') or [])
+    if selected:
+        for index, site in enumerate(sites):
+            prior = old.get(site['id'])
+            if site['id'] not in selected and prior and same_pages(prior, site):
+                sites[index] = prior
     good = 0
     seen = set()
     for site in sites:
@@ -39,7 +45,8 @@ def merge_snapshot(current, previous):
             if not post.get('title') or not post.get('link', '').startswith(('https://', 'http://')):
                 raise ValueError('Invalid article')
         if site['posts']:
-            good += 1
+            if not selected or site['id'] in selected:
+                good += 1
             keep_first_seen_dates(site, old.get(site['id']))
         elif old.get(site['id'], {}).get('posts') and same_pages(old[site['id']], site):
             prior = old[site['id']]
@@ -65,3 +72,4 @@ if __name__ == '__main__':
     }
     target.write_text(json.dumps(merged, ensure_ascii=False, indent=2) + '\n')
     print(f"Prepared {len(merged['sites'])} sources; {len(merged['refreshErrors'])} need attention")
+
