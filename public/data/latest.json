@@ -164,10 +164,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-10T16:20:06.968513Z"
+          "fetchedAt": "2026-11-10T21:06:37.375182Z"
         }
       },
-      "lastSyncAt": "2026-11-10T16:20:06.968513Z",
+      "lastSyncAt": "2026-11-10T21:06:37.375182Z",
       "lastSource": "html"
     },
     {
@@ -329,10 +329,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://www.dental.upenn.edu/feed/",
-          "fetchedAt": "2026-11-10T16:20:06.968513Z"
+          "fetchedAt": "2026-11-10T21:06:37.375182Z"
         }
       },
-      "lastSyncAt": "2026-11-10T16:20:06.968513Z",
+      "lastSyncAt": "2026-11-10T21:06:37.375182Z",
       "lastSource": "feed:https://www.dental.upenn.edu/feed/"
     },
     {
@@ -634,10 +634,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-10T16:20:06.968513Z"
+          "fetchedAt": "2026-11-10T21:06:37.375182Z"
         }
       },
-      "lastSyncAt": "2026-11-10T16:20:06.968513Z",
+      "lastSyncAt": "2026-11-10T21:06:37.375182Z",
       "lastSource": "html"
     },
     {
@@ -739,10 +739,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-10T16:20:06.968513Z"
+          "fetchedAt": "2026-11-10T21:06:37.375182Z"
         }
       },
-      "lastSyncAt": "2026-11-10T16:20:06.968513Z",
+      "lastSyncAt": "2026-11-10T21:06:37.375182Z",
       "lastSource": "html"
     },
     {
@@ -904,10 +904,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-10T16:20:06.968513Z"
+          "fetchedAt": "2026-11-10T21:06:37.375182Z"
         }
       },
-      "lastSyncAt": "2026-11-10T16:20:06.968513Z",
+      "lastSyncAt": "2026-11-10T21:06:37.375182Z",
       "lastSource": "html"
     },
     {
@@ -921,6 +921,15 @@
       "magazineUrl": "https://www.nursing.upenn.edu/magazine/",
       "notes": "No dates shown on this page; the monitor keeps the 7 newest stories.",
       "posts": [
+        {
+          "title": "Penn Nursing Awarded $75,000 NIH Nutrition Education Challenge Recognition",
+          "link": "https://www.nursing.upenn.edu/live/news/3949-penn-nursing-awarded-75000-nih-nutrition-education",
+          "date": "2026-11-10",
+          "dek": "The National Institutes of Health (NIH) Office of Nutrition Research (ONR) has selected Penn Nursing’s Nutrition Programs as an Exemplar Track winner in its Integration of Nutrition Training into Healthcare Education Challenge, awarding the school $75,000 to advance its innovativ",
+          "undated": true,
+          "stream": "news",
+          "source": "html"
+        },
         {
           "title": "Announcing Our 2026 Amy Gutmann Leadership Scholars",
           "link": "https://www.nursing.upenn.edu/live/news/3944-announcing-our-2026-amy-gutmann-leadership",
@@ -974,21 +983,19 @@
           "undated": true,
           "stream": "news",
           "source": "html"
-        },
-        {
-          "title": "Congratulations Dr. Cacchione!",
-          "link": "https://www.nursing.upenn.edu/live/news/3910-congratulations-dr-cacchione",
-          "date": "2026-11-04",
-          "dek": "Pamela Cacchione, PhD, CRNP, BC, FGSA, FAAN, received the Nursing Research Award at the 2026 Nightingale Nursing Awards, which recognizes nurses whose work demonstrates excellence across clinical practice, advanced practice, education, leadership, research, and patient care.",
-          "undated": true,
-          "stream": "news",
-          "source": "html"
         }
       ],
       "lastError": "",
       "_cache": {
         "news": {
           "items": [
+            {
+              "title": "Penn Nursing Awarded $75,000 NIH Nutrition Education Challenge Recognition",
+              "link": "https://www.nursing.upenn.edu/live/news/3949-penn-nursing-awarded-75000-nih-nutrition-education",
+              "date": "2026-11-10",
+              "dek": "The National Institutes of Health (NIH) Office of Nutrition Research (ONR) has selected Penn Nursing’s Nutrition Programs as an Exemplar Track winner in its Integration of Nutrition Training into Healthcare Education Challenge, awarding the school $75,000 to advance its innovativ",
+              "undated": true
+            },
             {
               "title": "Announcing Our 2026 Amy Gutmann Leadership Scholars",
               "link": "https://www.nursing.upenn.edu/live/news/3944-announcing-our-2026-amy-gutmann-leadership",
@@ -1030,21 +1037,14 @@
               "date": "2026-11-10",
               "dek": "Martha A.Q. Curley, PhD, RN, FAAN, Professor in Penn Nursing’s Department of Family and Community Health and the Ruth M. Colket Endowed Chair in Pediatric Nursing at the Children’s Hospital of Philadelphia (CHOP), has been selected as one of the inaugural recipients of the World ",
               "undated": true
-            },
-            {
-              "title": "Congratulations Dr. Cacchione!",
-              "link": "https://www.nursing.upenn.edu/live/news/3910-congratulations-dr-cacchione",
-              "date": "2026-11-10",
-              "dek": "Pamela Cacchione, PhD, CRNP, BC, FGSA, FAAN, received the Nursing Research Award at the 2026 Nightingale Nursing Awards, which recognizes nurses whose work demonstrates excellence across clinical practice, advanced practice, education, leadership, research, and patient care.",
-              "undated": true
             }
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-10T16:20:06.968513Z"
+          "fetchedAt": "2026-11-10T21:06:37.375182Z"
         }
       },
-      "lastSyncAt": "2026-11-10T16:20:06.968513Z",
+      "lastSyncAt": "2026-11-10T21:06:37.375182Z",
       "lastSource": "html"
     },
     {
@@ -1206,10 +1206,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://www.engineering.upenn.edu/feed/",
-          "fetchedAt": "2026-11-10T16:20:06.968513Z"
+          "fetchedAt": "2026-11-10T21:06:37.375182Z"
         }
       },
-      "lastSyncAt": "2026-11-10T16:20:06.968513Z",
+      "lastSyncAt": "2026-11-10T21:06:37.375182Z",
       "lastSource": "feed:https://www.engineering.upenn.edu/feed/"
     },
     {
@@ -1223,6 +1223,14 @@
       "magazineUrl": null,
       "notes": "",
       "posts": [
+        {
+          "title": "From military service to social work: A Q&A with MSW student Alex Mangual",
+          "link": "https://sp2.upenn.edu/news/from-military-service-to-social-work/",
+          "date": "2026-11-10",
+          "dek": "In this Q&A, MSW student Alex Mangual reflects on how his experiences as a veteran have influenced his perspective and shares how he hopes to…",
+          "stream": "news",
+          "source": "html"
+        },
         {
           "title": "Dr. Malitta Engstrom named associate editor at JSSWR",
           "link": "https://sp2.upenn.edu/news/dr-malitta-engstrom-named-associate-editor-at-jsswr/",
@@ -1374,20 +1382,18 @@
           "dek": "Dr. R. Jisung Park was featured in Fortune discussing how extreme heat and climate change are disrupting Italy’s cheese, wine, and olive oil industries, highlighting…",
           "stream": "news",
           "source": "html"
-        },
-        {
-          "title": "Would you join a club where the goal is to redistribute money?",
-          "link": "https://www.marketplace.org/story/2026/08/04/after-doge-cuts-baltimore-club-offers-a-prototype-for-ubi-programs",
-          "date": "2026-08-04",
-          "dek": "Dr. Stacia West discussed how guaranteed income can help reduce income volatility, providing greater financial stability and potentially improving mental health and employment opportunities.",
-          "stream": "news",
-          "source": "html"
         }
       ],
       "lastError": "",
       "_cache": {
         "news": {
           "items": [
+            {
+              "title": "From military service to social work: A Q&A with MSW student Alex Mangual",
+              "link": "https://sp2.upenn.edu/news/from-military-service-to-social-work/",
+              "date": "2026-11-10",
+              "dek": "In this Q&A, MSW student Alex Mangual reflects on how his experiences as a veteran have influenced his perspective and shares how he hopes to…"
+            },
             {
               "title": "Dr. Malitta Engstrom named associate editor at JSSWR",
               "link": "https://sp2.upenn.edu/news/dr-malitta-engstrom-named-associate-editor-at-jsswr/",
@@ -1501,20 +1507,14 @@
               "link": "https://fortune.com/2026/08/10/italy-5-billion-cheese-economy-heat-wave-climate-change/",
               "date": "2026-08-10",
               "dek": "Dr. R. Jisung Park was featured in Fortune discussing how extreme heat and climate change are disrupting Italy’s cheese, wine, and olive oil industries, highlighting…"
-            },
-            {
-              "title": "Would you join a club where the goal is to redistribute money?",
-              "link": "https://www.marketplace.org/story/2026/08/04/after-doge-cuts-baltimore-club-offers-a-prototype-for-ubi-programs",
-              "date": "2026-08-04",
-              "dek": "Dr. Stacia West discussed how guaranteed income can help reduce income volatility, providing greater financial stability and potentially improving mental health and employment opportunities."
             }
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-10T16:20:06.968513Z"
+          "fetchedAt": "2026-11-10T21:06:37.375182Z"
         }
       },
-      "lastSyncAt": "2026-11-10T16:20:06.968513Z",
+      "lastSyncAt": "2026-11-10T21:06:37.375182Z",
       "lastSource": "html"
     },
     {
@@ -1802,10 +1802,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-10T16:20:06.968513Z"
+          "fetchedAt": "2026-11-10T21:06:37.375182Z"
         }
       },
-      "lastSyncAt": "2026-11-10T16:20:06.968513Z",
+      "lastSyncAt": "2026-11-10T21:06:37.375182Z",
       "lastSource": "html"
     },
     {
@@ -2107,10 +2107,10 @@
           ],
           "feedUrl": "https://news.wharton.upenn.edu/feed/",
           "source": "feed:https://news.wharton.upenn.edu/feed/",
-          "fetchedAt": "2026-11-10T16:20:06.968513Z"
+          "fetchedAt": "2026-11-10T21:06:37.375182Z"
         }
       },
-      "lastSyncAt": "2026-11-10T16:20:06.968513Z",
+      "lastSyncAt": "2026-11-10T21:06:37.375182Z",
       "lastSource": "feed:https://news.wharton.upenn.edu/feed/"
     },
     {
@@ -2272,10 +2272,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-10T16:20:06.968513Z"
+          "fetchedAt": "2026-11-10T21:06:37.375182Z"
         }
       },
-      "lastSyncAt": "2026-11-10T16:20:06.968513Z",
+      "lastSyncAt": "2026-11-10T21:06:37.375182Z",
       "lastSource": "html"
     },
     {
@@ -2292,6 +2292,14 @@
       "magazineUrl": null,
       "notes": "2026-11-04: General news plus press releases (the site-wide feed mixes in other posts).",
       "posts": [
+        {
+          "title": "Missouri Educator’s Lesson Plan Chosen to Teach Video on Immune System",
+          "link": "https://www.annenbergpublicpolicycenter.org/missouri-educators-lesson-plan-chosen-to-teach-video-on-immune-system/",
+          "date": "2026-11-10",
+          "dek": "A high school lesson plan developed by a Missouri educator on how cells defend against foreign DNA has been chosen to teach about an animation by researchers at APPC and CHOP.",
+          "stream": "news",
+          "source": "html"
+        },
         {
           "title": "Dolores Albarracín Receives Two NIH Awards to Advance AI-Powered Health Interventions",
           "link": "https://www.annenbergpublicpolicycenter.org/dolores-albarracin-receives-two-nih-awards-to-advance-ai-powered-health-interventions/",
@@ -2361,14 +2369,6 @@
           "link": "https://www.annenbergpublicpolicycenter.org/in-hottest-summer-on-record-2-in-3-americans-say-climate-change-is-increasing-heat-related-illnesses/",
           "date": "2026-09-17",
           "dek": "Extreme heat is affecting the everyday lives of most Americans, and most of the public says climate change is raising the risk of respiratory diseases and heat- and insect-related illnesses.",
-          "stream": "news",
-          "source": "html"
-        },
-        {
-          "title": "A Third of Americans Cannot Name the Three Branches of Government",
-          "link": "https://www.annenbergpublicpolicycenter.org/a-third-of-americans-cannot-name-the-three-branches-of-government/",
-          "date": "2026-09-15",
-          "dek": "Of the five First Amendment rights, only freedom of speech is identified by more than half of survey respondents in the 2026 Annenberg Public Policy Center's Constitution Day Civics Survey.",
           "stream": "news",
           "source": "html"
         },
@@ -2458,6 +2458,12 @@
         "news": {
           "items": [
             {
+              "title": "Missouri Educator’s Lesson Plan Chosen to Teach Video on Immune System",
+              "link": "https://www.annenbergpublicpolicycenter.org/missouri-educators-lesson-plan-chosen-to-teach-video-on-immune-system/",
+              "date": "2026-11-10",
+              "dek": "A high school lesson plan developed by a Missouri educator on how cells defend against foreign DNA has been chosen to teach about an animation by researchers at APPC and CHOP."
+            },
+            {
               "title": "Dolores Albarracín Receives Two NIH Awards to Advance AI-Powered Health Interventions",
               "link": "https://www.annenbergpublicpolicycenter.org/dolores-albarracin-receives-two-nih-awards-to-advance-ai-powered-health-interventions/",
               "date": "2026-11-03",
@@ -2510,12 +2516,6 @@
               "link": "https://www.annenbergpublicpolicycenter.org/in-hottest-summer-on-record-2-in-3-americans-say-climate-change-is-increasing-heat-related-illnesses/",
               "date": "2026-09-17",
               "dek": "Extreme heat is affecting the everyday lives of most Americans, and most of the public says climate change is raising the risk of respiratory diseases and heat- and insect-related illnesses."
-            },
-            {
-              "title": "A Third of Americans Cannot Name the Three Branches of Government",
-              "link": "https://www.annenbergpublicpolicycenter.org/a-third-of-americans-cannot-name-the-three-branches-of-government/",
-              "date": "2026-09-15",
-              "dek": "Of the five First Amendment rights, only freedom of speech is identified by more than half of survey respondents in the 2026 Annenberg Public Policy Center's Constitution Day Civics Survey."
             },
             {
               "title": "Penn Professor Dolores Albarracín Is New Director of Annenberg Public Policy Center",
@@ -2580,10 +2580,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-10T16:20:06.968513Z"
+          "fetchedAt": "2026-11-10T21:06:37.375182Z"
         }
       },
-      "lastSyncAt": "2026-11-10T16:20:06.968513Z",
+      "lastSyncAt": "2026-11-10T21:06:37.375182Z",
       "lastSource": "html"
     },
     {
@@ -2597,6 +2597,22 @@
       "magazineUrl": null,
       "notes": "2026-10-28: /feed/ returns HTTP 403 (WAF), so feed disabled; scraping the JS-rendered articles page instead.",
       "posts": [
+        {
+          "title": "Coexisting With AI at Work and Beyond",
+          "link": "https://knowledge.wharton.upenn.edu/podcast/ripple-effect/coexisting-with-ai-at-work-and-beyond/",
+          "date": "2026-11-10",
+          "dek": "Ethan Mollick, associate professor of management and co-director of Wharton Generative AI Labs, examines how people and organizations can use AI while preserving human judgment, skills, and control. … Read More",
+          "stream": "news",
+          "source": "feed:https://knowledge.wharton.upenn.edu/feed/"
+        },
+        {
+          "title": "The AI Regulation Fight Is About Speed. It Should Be About Measurement",
+          "link": "https://knowledge.wharton.upenn.edu/article/the-ai-regulation-fight-is-about-speed-it-should-be-about-measurement/",
+          "date": "2026-11-10",
+          "dek": "As Washington debates whether to slow AI development, Wharton’s Burcu Esmer and N. Bugra Ozel from the University of Texas at Dallas argue for a standardized, independently verified system to track AI’s harms. … Read More",
+          "stream": "news",
+          "source": "feed:https://knowledge.wharton.upenn.edu/feed/"
+        },
         {
           "title": "Will Retail Investors Benefit From Accessing Private Markets?",
           "link": "https://knowledge.wharton.upenn.edu/article/will-retail-investors-benefit-from-accessing-private-markets/",
@@ -2660,28 +2676,24 @@
           "dek": "The conventional wisdom is that BlackRock, Vanguard, and State Street get their way through voting power. New Wharton research argues persuasion — not pressure — is their real source of influence. … Read More",
           "stream": "news",
           "source": "feed:https://knowledge.wharton.upenn.edu/feed/"
-        },
-        {
-          "title": "The Good Apology",
-          "link": "https://knowledge.wharton.upenn.edu/article/the-good-apology/",
-          "date": "2026-11-02",
-          "dek": "In this Nano Tool for Leaders, Wharton’s Maurice Schweitzer and Columbia’s Adam Galinsky explain how effective apologies rebuild trust through accountability and action. … Read More",
-          "stream": "news",
-          "source": "feed:https://knowledge.wharton.upenn.edu/feed/"
-        },
-        {
-          "title": "How AI Is Reshaping the Stock Market",
-          "link": "https://knowledge.wharton.upenn.edu/podcast/this-week-in-business/how-ai-is-reshaping-the-stock-market/",
-          "date": "2026-10-30",
-          "dek": "Jeremy Siegel, Wharton Emeritus professor of finance, discusses interest rates, AI-driven market volatility, and why diversification is essential for investors. … Read More",
-          "stream": "news",
-          "source": "feed:https://knowledge.wharton.upenn.edu/feed/"
         }
       ],
       "lastError": "",
       "_cache": {
         "news": {
           "items": [
+            {
+              "title": "Coexisting With AI at Work and Beyond",
+              "link": "https://knowledge.wharton.upenn.edu/podcast/ripple-effect/coexisting-with-ai-at-work-and-beyond/",
+              "date": "2026-11-10",
+              "dek": "Ethan Mollick, associate professor of management and co-director of Wharton Generative AI Labs, examines how people and organizations can use AI while preserving human judgment, skills, and control. … Read More"
+            },
+            {
+              "title": "The AI Regulation Fight Is About Speed. It Should Be About Measurement",
+              "link": "https://knowledge.wharton.upenn.edu/article/the-ai-regulation-fight-is-about-speed-it-should-be-about-measurement/",
+              "date": "2026-11-10",
+              "dek": "As Washington debates whether to slow AI development, Wharton’s Burcu Esmer and N. Bugra Ozel from the University of Texas at Dallas argue for a standardized, independently verified system to track AI’s harms. … Read More"
+            },
             {
               "title": "Will Retail Investors Benefit From Accessing Private Markets?",
               "link": "https://knowledge.wharton.upenn.edu/article/will-retail-investors-benefit-from-accessing-private-markets/",
@@ -2729,26 +2741,14 @@
               "link": "https://knowledge.wharton.upenn.edu/article/how-the-big-three-index-fund-managers-really-influence-corporate-america/",
               "date": "2026-11-03",
               "dek": "The conventional wisdom is that BlackRock, Vanguard, and State Street get their way through voting power. New Wharton research argues persuasion — not pressure — is their real source of influence. … Read More"
-            },
-            {
-              "title": "The Good Apology",
-              "link": "https://knowledge.wharton.upenn.edu/article/the-good-apology/",
-              "date": "2026-11-02",
-              "dek": "In this Nano Tool for Leaders, Wharton’s Maurice Schweitzer and Columbia’s Adam Galinsky explain how effective apologies rebuild trust through accountability and action. … Read More"
-            },
-            {
-              "title": "How AI Is Reshaping the Stock Market",
-              "link": "https://knowledge.wharton.upenn.edu/podcast/this-week-in-business/how-ai-is-reshaping-the-stock-market/",
-              "date": "2026-10-30",
-              "dek": "Jeremy Siegel, Wharton Emeritus professor of finance, discusses interest rates, AI-driven market volatility, and why diversification is essential for investors. … Read More"
             }
           ],
           "feedUrl": null,
           "source": "feed:https://knowledge.wharton.upenn.edu/feed/",
-          "fetchedAt": "2026-11-10T16:20:06.968513Z"
+          "fetchedAt": "2026-11-10T21:06:37.375182Z"
         }
       },
-      "lastSyncAt": "2026-11-10T16:20:06.968513Z",
+      "lastSyncAt": "2026-11-10T21:06:37.375182Z",
       "lastSource": "feed:https://knowledge.wharton.upenn.edu/feed/"
     },
     {
@@ -2868,10 +2868,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-10T16:20:06.968513Z"
+          "fetchedAt": "2026-11-10T21:06:37.375182Z"
         }
       },
-      "lastSyncAt": "2026-11-10T16:20:06.968513Z",
+      "lastSyncAt": "2026-11-10T21:06:37.375182Z",
       "lastSource": "html"
     },
     {
@@ -3019,10 +3019,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-10T16:20:06.968513Z"
+          "fetchedAt": "2026-11-10T21:06:37.375182Z"
         }
       },
-      "lastSyncAt": "2026-11-10T16:20:06.968513Z",
+      "lastSyncAt": "2026-11-10T21:06:37.375182Z",
       "lastSource": "html"
     },
     {
@@ -3100,10 +3100,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-10T16:20:06.968513Z"
+          "fetchedAt": "2026-11-10T21:06:37.375182Z"
         }
       },
-      "lastSyncAt": "2026-11-10T16:20:06.968513Z",
+      "lastSyncAt": "2026-11-10T21:06:37.375182Z",
       "lastSource": "html"
     },
     {
@@ -3251,10 +3251,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-10T16:20:06.968513Z"
+          "fetchedAt": "2026-11-10T21:06:37.375182Z"
         }
       },
-      "lastSyncAt": "2026-11-10T16:20:06.968513Z",
+      "lastSyncAt": "2026-11-10T21:06:37.375182Z",
       "lastSource": "html"
     },
     {
@@ -3416,10 +3416,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://creative.writing.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-10T16:20:06.968513Z"
+          "fetchedAt": "2026-11-10T21:06:37.375182Z"
         }
       },
-      "lastSyncAt": "2026-11-10T16:20:06.968513Z",
+      "lastSyncAt": "2026-11-10T21:06:37.375182Z",
       "lastSource": "feed:https://creative.writing.upenn.edu/rss.xml"
     },
     {
@@ -3433,6 +3433,14 @@
       "magazineUrl": null,
       "notes": "",
       "posts": [
+        {
+          "title": "Foresight That Changes Decisions",
+          "link": "https://kleinmanenergy.upenn.edu/about/news/foresight-that-changes-decisions/",
+          "date": "2026-11-10",
+          "dek": "The post Foresight That Changes Decisions appeared first on Kleinman Center for Energy Policy .",
+          "stream": "news",
+          "source": "feed:https://kleinmanenergy.upenn.edu/feed/"
+        },
         {
           "title": "Will Oklahoma Data Centers Put Downward Pressure on Rates or Raise Risks?",
           "link": "https://kleinmanenergy.upenn.edu/about/news/will-oklahoma-data-centers-put-downward-pressure-on-rates-or-raise-risks/",
@@ -3504,20 +3512,18 @@
           "dek": "The post Voters Get Rare Say Over Who Sets Their Electric Rates appeared first on Kleinman Center for Energy Policy .",
           "stream": "news",
           "source": "feed:https://kleinmanenergy.upenn.edu/feed/"
-        },
-        {
-          "title": "What to Know About Pennsylvania’s Data Center Tax Exemption and the Shifting Attitudes Surrounding It",
-          "link": "https://kleinmanenergy.upenn.edu/about/news/what-to-know-about-pennsylvanias-data-center-tax-exemption-and-the-shifting-attitudes-surrounding-it/",
-          "date": "2026-11-03",
-          "dek": "The post What to Know About Pennsylvania’s Data Center Tax Exemption and the Shifting Attitudes Surrounding It appeared first on Kleinman Center for Energy Policy .",
-          "stream": "news",
-          "source": "feed:https://kleinmanenergy.upenn.edu/feed/"
         }
       ],
       "lastError": "",
       "_cache": {
         "news": {
           "items": [
+            {
+              "title": "Foresight That Changes Decisions",
+              "link": "https://kleinmanenergy.upenn.edu/about/news/foresight-that-changes-decisions/",
+              "date": "2026-11-10",
+              "dek": "The post Foresight That Changes Decisions appeared first on Kleinman Center for Energy Policy ."
+            },
             {
               "title": "Will Oklahoma Data Centers Put Downward Pressure on Rates or Raise Risks?",
               "link": "https://kleinmanenergy.upenn.edu/about/news/will-oklahoma-data-centers-put-downward-pressure-on-rates-or-raise-risks/",
@@ -3571,20 +3577,14 @@
               "link": "https://kleinmanenergy.upenn.edu/about/news/voters-get-rare-say-over-who-sets-their-electric-rates/",
               "date": "2026-11-03",
               "dek": "The post Voters Get Rare Say Over Who Sets Their Electric Rates appeared first on Kleinman Center for Energy Policy ."
-            },
-            {
-              "title": "What to Know About Pennsylvania’s Data Center Tax Exemption and the Shifting Attitudes Surrounding It",
-              "link": "https://kleinmanenergy.upenn.edu/about/news/what-to-know-about-pennsylvanias-data-center-tax-exemption-and-the-shifting-attitudes-surrounding-it/",
-              "date": "2026-11-03",
-              "dek": "The post What to Know About Pennsylvania’s Data Center Tax Exemption and the Shifting Attitudes Surrounding It appeared first on Kleinman Center for Energy Policy ."
             }
           ],
           "feedUrl": null,
           "source": "feed:https://kleinmanenergy.upenn.edu/feed/",
-          "fetchedAt": "2026-11-10T16:20:06.968513Z"
+          "fetchedAt": "2026-11-10T21:06:37.375182Z"
         }
       },
-      "lastSyncAt": "2026-11-10T16:20:06.968513Z",
+      "lastSyncAt": "2026-11-10T21:06:37.375182Z",
       "lastSource": "feed:https://kleinmanenergy.upenn.edu/feed/"
     },
     {
@@ -3746,10 +3746,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-10T16:20:06.968513Z"
+          "fetchedAt": "2026-11-10T21:06:37.375182Z"
         }
       },
-      "lastSyncAt": "2026-11-10T16:20:06.968513Z",
+      "lastSyncAt": "2026-11-10T21:06:37.375182Z",
       "lastSource": "html"
     },
     {
@@ -3883,10 +3883,10 @@
           ],
           "feedUrl": "https://pennovation.upenn.edu/feed/",
           "source": "html",
-          "fetchedAt": "2026-11-10T16:20:06.968513Z"
+          "fetchedAt": "2026-11-10T21:06:37.375182Z"
         }
       },
-      "lastSyncAt": "2026-11-10T16:20:06.968513Z",
+      "lastSyncAt": "2026-11-10T21:06:37.375182Z",
       "lastSource": "html"
     },
     {
@@ -4048,10 +4048,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://katz.sas.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-10T16:20:06.968513Z"
+          "fetchedAt": "2026-11-10T21:06:37.375182Z"
         }
       },
-      "lastSyncAt": "2026-11-10T16:20:06.968513Z",
+      "lastSyncAt": "2026-11-10T21:06:37.375182Z",
       "lastSource": "feed:https://katz.sas.upenn.edu/rss.xml"
     },
     {
@@ -4213,10 +4213,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-10T16:20:06.968513Z"
+          "fetchedAt": "2026-11-10T21:06:37.375182Z"
         }
       },
-      "lastSyncAt": "2026-11-10T16:20:06.968513Z",
+      "lastSyncAt": "2026-11-10T21:06:37.375182Z",
       "lastSource": "html"
     },
     {
@@ -4378,10 +4378,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://www.fels.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-10T16:20:06.968513Z"
+          "fetchedAt": "2026-11-10T21:06:37.375182Z"
         }
       },
-      "lastSyncAt": "2026-11-10T16:20:06.968513Z",
+      "lastSyncAt": "2026-11-10T21:06:37.375182Z",
       "lastSource": "feed:https://www.fels.upenn.edu/rss.xml"
     },
     {
@@ -4543,10 +4543,10 @@
           ],
           "feedUrl": "https://icaphila.org/feed/",
           "source": "feed:https://icaphila.org/feed/",
-          "fetchedAt": "2026-11-10T16:20:06.968513Z"
+          "fetchedAt": "2026-11-10T21:06:37.375182Z"
         }
       },
-      "lastSyncAt": "2026-11-10T16:20:06.968513Z",
+      "lastSyncAt": "2026-11-10T21:06:37.375182Z",
       "lastSource": "feed:https://icaphila.org/feed/"
     },
     {
@@ -4560,6 +4560,14 @@
       "magazineUrl": null,
       "notes": "",
       "posts": [
+        {
+          "title": "Lauder Students Featured in Poets & Quants’ MBA Class of 2028",
+          "link": "https://lauder.wharton.upenn.edu/in-the-news/lauder-mba-class-of-2028-pq/",
+          "date": "2026-11-10",
+          "dek": "The post Lauder Students Featured in Poets & Quants’ MBA Class of 2028 appeared first on The Lauder Institute .",
+          "stream": "news",
+          "source": "feed:https://lauder.wharton.upenn.edu/feed/"
+        },
         {
           "title": "Beverly Danquah (G26, L26) on Her JD/MA Experience",
           "link": "https://lauder.wharton.upenn.edu/in-the-news/beverly-danquah-jd-ma/",
@@ -4631,20 +4639,18 @@
           "dek": "The post Winners Announced in Milestone Year for Jacobson Global Venture Awards appeared first on The Lauder Institute .",
           "stream": "news",
           "source": "feed:https://lauder.wharton.upenn.edu/feed/"
-        },
-        {
-          "title": "A Culture Quest Adventure Across Kenya",
-          "link": "https://lauder.wharton.upenn.edu/in-the-news/culturequest2025/",
-          "date": "2026-01-16",
-          "dek": "The post A Culture Quest Adventure Across Kenya appeared first on The Lauder Institute .",
-          "stream": "news",
-          "source": "feed:https://lauder.wharton.upenn.edu/feed/"
         }
       ],
       "lastError": "",
       "_cache": {
         "news": {
           "items": [
+            {
+              "title": "Lauder Students Featured in Poets & Quants’ MBA Class of 2028",
+              "link": "https://lauder.wharton.upenn.edu/in-the-news/lauder-mba-class-of-2028-pq/",
+              "date": "2026-11-10",
+              "dek": "The post Lauder Students Featured in Poets & Quants’ MBA Class of 2028 appeared first on The Lauder Institute ."
+            },
             {
               "title": "Beverly Danquah (G26, L26) on Her JD/MA Experience",
               "link": "https://lauder.wharton.upenn.edu/in-the-news/beverly-danquah-jd-ma/",
@@ -4698,20 +4704,14 @@
               "link": "https://lauder.wharton.upenn.edu/in-the-news/2026-jacobson-winners/",
               "date": "2026-02-13",
               "dek": "The post Winners Announced in Milestone Year for Jacobson Global Venture Awards appeared first on The Lauder Institute ."
-            },
-            {
-              "title": "A Culture Quest Adventure Across Kenya",
-              "link": "https://lauder.wharton.upenn.edu/in-the-news/culturequest2025/",
-              "date": "2026-01-16",
-              "dek": "The post A Culture Quest Adventure Across Kenya appeared first on The Lauder Institute ."
             }
           ],
           "feedUrl": null,
           "source": "feed:https://lauder.wharton.upenn.edu/feed/",
-          "fetchedAt": "2026-11-10T16:20:06.968513Z"
+          "fetchedAt": "2026-11-10T21:06:37.375182Z"
         }
       },
-      "lastSyncAt": "2026-11-10T16:20:06.968513Z",
+      "lastSyncAt": "2026-11-10T21:06:37.375182Z",
       "lastSource": "feed:https://lauder.wharton.upenn.edu/feed/"
     },
     {
@@ -4859,10 +4859,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-10T16:20:06.968513Z"
+          "fetchedAt": "2026-11-10T21:06:37.375182Z"
         }
       },
-      "lastSyncAt": "2026-11-10T16:20:06.968513Z",
+      "lastSyncAt": "2026-11-10T21:06:37.375182Z",
       "lastSource": "html"
     },
     {
@@ -5024,10 +5024,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://fisher.wharton.upenn.edu/feed/",
-          "fetchedAt": "2026-11-10T16:20:06.968513Z"
+          "fetchedAt": "2026-11-10T21:06:37.375182Z"
         }
       },
-      "lastSyncAt": "2026-11-10T16:20:06.968513Z",
+      "lastSyncAt": "2026-11-10T21:06:37.375182Z",
       "lastSource": "feed:https://fisher.wharton.upenn.edu/feed/"
     },
     {
@@ -5175,10 +5175,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://pores.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-10T16:20:06.968513Z"
+          "fetchedAt": "2026-11-10T21:06:37.375182Z"
         }
       },
-      "lastSyncAt": "2026-11-10T16:20:06.968513Z",
+      "lastSyncAt": "2026-11-10T21:06:37.375182Z",
       "lastSource": "feed:https://pores.upenn.edu/rss.xml"
     },
     {
@@ -5480,10 +5480,10 @@
           ],
           "feedUrl": "https://snfpaideia.upenn.edu/feed/",
           "source": "html",
-          "fetchedAt": "2026-11-10T16:20:06.968513Z"
+          "fetchedAt": "2026-11-10T21:06:37.375182Z"
         }
       },
-      "lastSyncAt": "2026-11-10T16:20:06.968513Z",
+      "lastSyncAt": "2026-11-10T21:06:37.375182Z",
       "lastSource": "html"
     },
     {
@@ -5785,10 +5785,10 @@
           ],
           "feedUrl": "https://snfpaideia.upenn.edu/wp-json/wp/v2/posts?per_page=20&_fields=id,date,link,title,excerpt",
           "source": "feed:https://snfpaideia.upenn.edu/wp-json/wp/v2/posts?per_page=20&_fields=id,date,link,title,excerpt",
-          "fetchedAt": "2026-11-10T16:20:06.968513Z"
+          "fetchedAt": "2026-11-10T21:06:37.375182Z"
         }
       },
-      "lastSyncAt": "2026-11-10T16:20:06.968513Z",
+      "lastSyncAt": "2026-11-10T21:06:37.375182Z",
       "lastSource": "feed:https://snfpaideia.upenn.edu/wp-json/wp/v2/posts?per_page=20&_fields=id,date,link,title,excerpt"
     },
     {
@@ -5950,10 +5950,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://pricelab.sas.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-10T16:20:06.968513Z"
+          "fetchedAt": "2026-11-10T21:06:37.375182Z"
         }
       },
-      "lastSyncAt": "2026-11-10T16:20:06.968513Z",
+      "lastSyncAt": "2026-11-10T21:06:37.375182Z",
       "lastSource": "feed:https://pricelab.sas.upenn.edu/rss.xml"
     },
     {
@@ -6115,10 +6115,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-10T16:20:06.968513Z"
+          "fetchedAt": "2026-11-10T21:06:37.375182Z"
         }
       },
-      "lastSyncAt": "2026-11-10T16:20:06.968513Z",
+      "lastSyncAt": "2026-11-10T21:06:37.375182Z",
       "lastSource": "html"
     },
     {
@@ -6395,10 +6395,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-10T16:20:06.968513Z"
+          "fetchedAt": "2026-11-10T21:06:37.375182Z"
         }
       },
-      "lastSyncAt": "2026-11-10T16:20:06.968513Z",
+      "lastSyncAt": "2026-11-10T21:06:37.375182Z",
       "lastSource": "html"
     },
     {
@@ -6412,6 +6412,14 @@
       "magazineUrl": null,
       "notes": "",
       "posts": [
+        {
+          "title": "Perry World House Celebrates Tenth Anniversary with Creation of Global Leadership Advisory Committee",
+          "link": "https://global.upenn.edu/news-articles/perry-world-house-celebrates-tenth-anniversary-with-creation-of-global-leadership-advisory-committee/",
+          "date": "2026-11-10",
+          "dek": "Perry World House—the University of Pennsylvania’s home for global policy engagement—announces the creation of its Global Leadership Advisory Committee (GLAC). Timed to launch during the tenth anniversary of the creation of Perry World House, the Committee will meet biannually to",
+          "stream": "news",
+          "source": "html"
+        },
         {
           "title": "Perry World House Annual Report 2025-2026",
           "link": "https://global.upenn.edu/news-articles/perry-world-house-annual-report-2025-2026/",
@@ -6563,20 +6571,18 @@
           "dek": "Perry World House (PWH), the University of Pennsylvania’s hub for global policy engagement, is thrilled to announce new Faculty Fellows selected through PWH’s inaugural Faculty Fellowship Projects Initiative. The program expands PWH’s faculty engagement and provides new avenues f",
           "stream": "news",
           "source": "html"
-        },
-        {
-          "title": "Perry World House Announces 2026-27 Graduate Fellows",
-          "link": "https://global.upenn.edu/news-articles/perry-world-house-announces-2026-27-graduate-fellows/",
-          "date": "2026-09-11",
-          "dek": "Perry World House (PWH), the University of Pennsylvania’s home for global affairs, has selected 25 graduate students to form the 2026-27 cohort of our Perry World House Graduate Fellows Program. This year’s Graduate Fellows Program cohort has been assembled following a highly-com",
-          "stream": "news",
-          "source": "html"
         }
       ],
       "lastError": "",
       "_cache": {
         "news": {
           "items": [
+            {
+              "title": "Perry World House Celebrates Tenth Anniversary with Creation of Global Leadership Advisory Committee",
+              "link": "https://global.upenn.edu/news-articles/perry-world-house-celebrates-tenth-anniversary-with-creation-of-global-leadership-advisory-committee/",
+              "date": "2026-11-10",
+              "dek": "Perry World House—the University of Pennsylvania’s home for global policy engagement—announces the creation of its Global Leadership Advisory Committee (GLAC). Timed to launch during the tenth anniversary of the creation of Perry World House, the Committee will meet biannually to"
+            },
             {
               "title": "Perry World House Annual Report 2025-2026",
               "link": "https://global.upenn.edu/news-articles/perry-world-house-annual-report-2025-2026/",
@@ -6690,20 +6696,14 @@
               "link": "https://global.upenn.edu/news-articles/perry-world-house-expands-its-faculty-engagement-with-new-fellowship-projects/",
               "date": "2026-09-11",
               "dek": "Perry World House (PWH), the University of Pennsylvania’s hub for global policy engagement, is thrilled to announce new Faculty Fellows selected through PWH’s inaugural Faculty Fellowship Projects Initiative. The program expands PWH’s faculty engagement and provides new avenues f"
-            },
-            {
-              "title": "Perry World House Announces 2026-27 Graduate Fellows",
-              "link": "https://global.upenn.edu/news-articles/perry-world-house-announces-2026-27-graduate-fellows/",
-              "date": "2026-09-11",
-              "dek": "Perry World House (PWH), the University of Pennsylvania’s home for global affairs, has selected 25 graduate students to form the 2026-27 cohort of our Perry World House Graduate Fellows Program. This year’s Graduate Fellows Program cohort has been assembled following a highly-com"
             }
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-10T16:20:06.968513Z"
+          "fetchedAt": "2026-11-10T21:06:37.375182Z"
         }
       },
-      "lastSyncAt": "2026-11-10T16:20:06.968513Z",
+      "lastSyncAt": "2026-11-10T21:06:37.375182Z",
       "lastSource": "html"
     },
     {
@@ -6717,6 +6717,22 @@
       "magazineUrl": null,
       "notes": "",
       "posts": [
+        {
+          "title": "Mortgage rates are down sharply since mid-October",
+          "link": "https://penniur.upenn.edu/media/news/mortgage-rates-are-down-sharply-since-mid-october",
+          "date": "2026-11-10",
+          "dek": "Mortgage rates are down sharply since mid-October joonha811 Tue, 11/10/2026 - 14:33 Facebook Linkedin Copy Link Email In a new Marketplace story, Penn IUR Co-Director Susan Wachter of Wharton explains why mortgage rates have started to fall since the midterm elections, and why pr",
+          "stream": "news",
+          "source": "feed:https://penniur.upenn.edu/rss.xml"
+        },
+        {
+          "title": "Special Briefing on Data Centers: Will they power the US economy or bog it down in a swamp of controversy?",
+          "link": "https://penniur.upenn.edu/media/podcasts/special-briefing-on-data-centers-will-they-power-the-us-economy-or-bog-it-down-in-a",
+          "date": "2026-11-10",
+          "dek": "Special Briefing on Data Centers: Will they power the US economy or bog it down in a swamp of controversy? Energy Environment Infrastructure Public Health Water joonha811 Tue, 11/10/2026 - 13:22 Urban Development State & Local Finance Multimedia Type Podcasts Special Briefing on ",
+          "stream": "news",
+          "source": "feed:https://penniur.upenn.edu/rss.xml"
+        },
         {
           "title": "What the Midterm Election Results Mean for Your Money",
           "link": "https://penniur.upenn.edu/media/news/what-the-midterm-election-results-mean-for-your-money",
@@ -6780,28 +6796,24 @@
           "dek": "GIS Day 2026: Exploring the World Through Maps and Data megands Thu, 10/15/2026 - 12:09 Technology Facebook Linkedin Copy Link Email GIS Day 2026 is a day dedicated to the fascinating world of Geographic Information Systems (GIS). Whether you're a GIS enthusiast, a seasoned profe",
           "stream": "news",
           "source": "feed:https://penniur.upenn.edu/rss.xml"
-        },
-        {
-          "title": "Penn Institute for Urban Research Announces Strategic Alignment with Global Advisory Council of Leading Cities and Key Participation at Smart City Expo World Congress",
-          "link": "https://penniur.upenn.edu/publications/penn-ir-announces-strategic-alignment-with-global-advisory-council-smart-city-expo",
-          "date": "2026-10-15",
-          "dek": "Penn Institute for Urban Research Announces Strategic Alignment with Global Advisory Council of Leading Cities and Key Participation at Smart City Expo World Congress megands Thu, 10/15/2026 - 10:13 Innovation International International Development Technology Urban Development F",
-          "stream": "news",
-          "source": "feed:https://penniur.upenn.edu/rss.xml"
-        },
-        {
-          "title": "Accountability Across Administrations: A conversation with Tulsa Mayor Monroe Nichols and former Tulsa Mayor G.T. Bynum",
-          "link": "https://penniur.upenn.edu/events/accountability-across-administrations-tulsa-mayor-monroe-nichols-gt-bynum",
-          "date": "2026-10-14",
-          "dek": "Accountability Across Administrations: A conversation with Tulsa Mayor Monroe Nichols and former Tulsa Mayor G.T. Bynum megands Wed, 10/14/2026 - 15:28 Domestic Municipal Governance Policy Facebook Linkedin Copy Link Email Join the University of Pennsylvania’s Public Service and ",
-          "stream": "news",
-          "source": "feed:https://penniur.upenn.edu/rss.xml"
         }
       ],
       "lastError": "",
       "_cache": {
         "news": {
           "items": [
+            {
+              "title": "Mortgage rates are down sharply since mid-October",
+              "link": "https://penniur.upenn.edu/media/news/mortgage-rates-are-down-sharply-since-mid-october",
+              "date": "2026-11-10",
+              "dek": "Mortgage rates are down sharply since mid-October joonha811 Tue, 11/10/2026 - 14:33 Facebook Linkedin Copy Link Email In a new Marketplace story, Penn IUR Co-Director Susan Wachter of Wharton explains why mortgage rates have started to fall since the midterm elections, and why pr"
+            },
+            {
+              "title": "Special Briefing on Data Centers: Will they power the US economy or bog it down in a swamp of controversy?",
+              "link": "https://penniur.upenn.edu/media/podcasts/special-briefing-on-data-centers-will-they-power-the-us-economy-or-bog-it-down-in-a",
+              "date": "2026-11-10",
+              "dek": "Special Briefing on Data Centers: Will they power the US economy or bog it down in a swamp of controversy? Energy Environment Infrastructure Public Health Water joonha811 Tue, 11/10/2026 - 13:22 Urban Development State & Local Finance Multimedia Type Podcasts Special Briefing on "
+            },
             {
               "title": "What the Midterm Election Results Mean for Your Money",
               "link": "https://penniur.upenn.edu/media/news/what-the-midterm-election-results-mean-for-your-money",
@@ -6849,26 +6861,14 @@
               "link": "https://penniur.upenn.edu/events/gis-day-2026-exploring-the-world-through-maps-and-data",
               "date": "2026-10-15",
               "dek": "GIS Day 2026: Exploring the World Through Maps and Data megands Thu, 10/15/2026 - 12:09 Technology Facebook Linkedin Copy Link Email GIS Day 2026 is a day dedicated to the fascinating world of Geographic Information Systems (GIS). Whether you're a GIS enthusiast, a seasoned profe"
-            },
-            {
-              "title": "Penn Institute for Urban Research Announces Strategic Alignment with Global Advisory Council of Leading Cities and Key Participation at Smart City Expo World Congress",
-              "link": "https://penniur.upenn.edu/publications/penn-ir-announces-strategic-alignment-with-global-advisory-council-smart-city-expo",
-              "date": "2026-10-15",
-              "dek": "Penn Institute for Urban Research Announces Strategic Alignment with Global Advisory Council of Leading Cities and Key Participation at Smart City Expo World Congress megands Thu, 10/15/2026 - 10:13 Innovation International International Development Technology Urban Development F"
-            },
-            {
-              "title": "Accountability Across Administrations: A conversation with Tulsa Mayor Monroe Nichols and former Tulsa Mayor G.T. Bynum",
-              "link": "https://penniur.upenn.edu/events/accountability-across-administrations-tulsa-mayor-monroe-nichols-gt-bynum",
-              "date": "2026-10-14",
-              "dek": "Accountability Across Administrations: A conversation with Tulsa Mayor Monroe Nichols and former Tulsa Mayor G.T. Bynum megands Wed, 10/14/2026 - 15:28 Domestic Municipal Governance Policy Facebook Linkedin Copy Link Email Join the University of Pennsylvania’s Public Service and "
             }
           ],
           "feedUrl": null,
           "source": "feed:https://penniur.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-10T16:20:06.968513Z"
+          "fetchedAt": "2026-11-10T21:06:37.375182Z"
         }
       },
-      "lastSyncAt": "2026-11-10T16:20:06.968513Z",
+      "lastSyncAt": "2026-11-10T21:06:37.375182Z",
       "lastSource": "feed:https://penniur.upenn.edu/rss.xml"
     },
     {
@@ -7002,10 +7002,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-10T16:20:06.968513Z"
+          "fetchedAt": "2026-11-10T21:06:37.375182Z"
         }
       },
-      "lastSyncAt": "2026-11-10T16:20:06.968513Z",
+      "lastSyncAt": "2026-11-10T21:06:37.375182Z",
       "lastSource": "html"
     },
     {
@@ -7307,10 +7307,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-10T16:20:06.968513Z"
+          "fetchedAt": "2026-11-10T21:06:37.375182Z"
         }
       },
-      "lastSyncAt": "2026-11-10T16:20:06.968513Z",
+      "lastSyncAt": "2026-11-10T21:06:37.375182Z",
       "lastSource": "html"
     },
     {
@@ -7472,10 +7472,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://writing.upenn.edu/?feed=rss2",
-          "fetchedAt": "2026-11-10T16:20:06.968513Z"
+          "fetchedAt": "2026-11-10T21:06:37.375182Z"
         }
       },
-      "lastSyncAt": "2026-11-10T16:20:06.968513Z",
+      "lastSyncAt": "2026-11-10T21:06:37.375182Z",
       "lastSource": "feed:https://writing.upenn.edu/?feed=rss2"
     },
     {
@@ -7609,10 +7609,10 @@
           ],
           "feedUrl": "https://perryworldhouse.upenn.edu/feed/",
           "source": "html",
-          "fetchedAt": "2026-11-10T16:20:06.968513Z"
+          "fetchedAt": "2026-11-10T21:06:37.375182Z"
         }
       },
-      "lastSyncAt": "2026-11-10T16:20:06.968513Z",
+      "lastSyncAt": "2026-11-10T21:06:37.375182Z",
       "lastSource": "html"
     },
     {
@@ -7774,10 +7774,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://platthouse.universitylife.upenn.edu/feed/",
-          "fetchedAt": "2026-11-10T16:20:06.968513Z"
+          "fetchedAt": "2026-11-10T21:06:37.375182Z"
         }
       },
-      "lastSyncAt": "2026-11-10T16:20:06.968513Z",
+      "lastSyncAt": "2026-11-10T21:06:37.375182Z",
       "lastSource": "feed:https://platthouse.universitylife.upenn.edu/feed/"
     },
     {
@@ -8079,10 +8079,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://arthurrossgallery.org/category/press-releases/feed/",
-          "fetchedAt": "2026-11-10T16:20:06.968513Z"
+          "fetchedAt": "2026-11-10T21:06:37.375182Z"
         }
       },
-      "lastSyncAt": "2026-11-10T16:20:06.968513Z",
+      "lastSyncAt": "2026-11-10T21:06:37.375182Z",
       "lastSource": "feed:https://arthurrossgallery.org/category/press-releases/feed/"
     },
     {
@@ -8244,10 +8244,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://www.penn.museum/about/press-room/press-releases?format=feed&type=rss",
-          "fetchedAt": "2026-11-10T16:20:06.968513Z"
+          "fetchedAt": "2026-11-10T21:06:37.375182Z"
         }
       },
-      "lastSyncAt": "2026-11-10T16:20:06.968513Z",
+      "lastSyncAt": "2026-11-10T21:06:37.375182Z",
       "lastSource": "feed:https://www.penn.museum/about/press-room/press-releases?format=feed&type=rss"
     },
     {
@@ -8261,6 +8261,14 @@
       "magazineUrl": null,
       "notes": "",
       "posts": [
+        {
+          "title": "Preserving a Literary Heritage: The Jatindramohan Bhattacharjee Collection at the Penn Libraries",
+          "link": "https://www.library.upenn.edu/news/jatindramohan-bhattacharjee",
+          "date": "2026-11-10",
+          "dek": "Penn Libraries News",
+          "stream": "news",
+          "source": "html"
+        },
         {
           "title": "Ashlee Piper talks “conditioned consumerism” at the Penn Libraries Book Prize in Sustainability award ceremony",
           "link": "https://www.library.upenn.edu/news/climate-week-2026",
@@ -8324,20 +8332,18 @@
           "dek": "Penn Libraries News",
           "stream": "news",
           "source": "html"
-        },
-        {
-          "title": "With a new agreement, the Penn Libraries expands access to HathiTrust text data",
-          "link": "https://www.library.upenn.edu/news/hathitrust-text-data",
-          "date": "2026-09-01",
-          "dek": "Penn Libraries News",
-          "stream": "news",
-          "source": "html"
         }
       ],
       "lastError": "",
       "_cache": {
         "news": {
           "items": [
+            {
+              "title": "Preserving a Literary Heritage: The Jatindramohan Bhattacharjee Collection at the Penn Libraries",
+              "link": "https://www.library.upenn.edu/news/jatindramohan-bhattacharjee",
+              "date": "2026-11-10",
+              "dek": "Penn Libraries News"
+            },
             {
               "title": "Ashlee Piper talks “conditioned consumerism” at the Penn Libraries Book Prize in Sustainability award ceremony",
               "link": "https://www.library.upenn.edu/news/climate-week-2026",
@@ -8385,20 +8391,14 @@
               "link": "https://www.library.upenn.edu/news/welcoming-students",
               "date": "2026-09-10",
               "dek": "Penn Libraries News"
-            },
-            {
-              "title": "With a new agreement, the Penn Libraries expands access to HathiTrust text data",
-              "link": "https://www.library.upenn.edu/news/hathitrust-text-data",
-              "date": "2026-09-01",
-              "dek": "Penn Libraries News"
             }
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-10T16:20:06.968513Z"
+          "fetchedAt": "2026-11-10T21:06:37.375182Z"
         }
       },
-      "lastSyncAt": "2026-11-10T16:20:06.968513Z",
+      "lastSyncAt": "2026-11-10T21:06:37.375182Z",
       "lastSource": "html"
     },
     {
@@ -8560,10 +8560,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-10T16:20:06.968513Z"
+          "fetchedAt": "2026-11-10T21:06:37.375182Z"
         }
       },
-      "lastSyncAt": "2026-11-10T16:20:06.968513Z",
+      "lastSyncAt": "2026-11-10T21:06:37.375182Z",
       "lastSource": "html"
     },
     {
@@ -8578,6 +8578,14 @@
       "notes": "Added from owner source list, November 3, 2026.",
       "posts": [
         {
+          "title": "Jeremy McInerney Publishes New Book, \"The Oxford History of the Classical Greek World: Volume I: The Environment and Resources\"",
+          "link": "https://www.classics.upenn.edu/news/2026/10/29/jeremy-mcinerney-publishes-new-book-oxford-history-classical-greek-world-volume-i",
+          "date": "2026-10-29",
+          "dek": "October 29, 2026",
+          "stream": "news",
+          "source": "html"
+        },
+        {
           "title": "Thomas Tartaron Publishes New Book, \"The Future of Ethnoarchaeology\"",
           "link": "https://www.classics.upenn.edu/news/2026/10/29/thomas-tartaron-publishes-new-book-future-ethnoarchaeology",
           "date": "2026-10-29",
@@ -8588,14 +8596,6 @@
         {
           "title": "Jeremy McInerney Publishes New Book, \"By Land and by Sea\"",
           "link": "https://www.classics.upenn.edu/news/2026/10/29/jeremy-mcinerney-publishes-new-book-land-and-sea",
-          "date": "2026-10-29",
-          "dek": "October 29, 2026",
-          "stream": "news",
-          "source": "html"
-        },
-        {
-          "title": "Jeremy McInerney Publishes New Book, \"The Oxford History of the Classical Greek World: Volume I: The Environment and Resources\"",
-          "link": "https://www.classics.upenn.edu/news/2026/10/29/jeremy-mcinerney-publishes-new-book-oxford-history-classical-greek-world-volume-i",
           "date": "2026-10-29",
           "dek": "October 29, 2026",
           "stream": "news",
@@ -8663,6 +8663,12 @@
         "news": {
           "items": [
             {
+              "title": "Jeremy McInerney Publishes New Book, \"The Oxford History of the Classical Greek World: Volume I: The Environment and Resources\"",
+              "link": "https://www.classics.upenn.edu/news/2026/10/29/jeremy-mcinerney-publishes-new-book-oxford-history-classical-greek-world-volume-i",
+              "date": "2026-10-29",
+              "dek": "October 29, 2026"
+            },
+            {
               "title": "Thomas Tartaron Publishes New Book, \"The Future of Ethnoarchaeology\"",
               "link": "https://www.classics.upenn.edu/news/2026/10/29/thomas-tartaron-publishes-new-book-future-ethnoarchaeology",
               "date": "2026-10-29",
@@ -8671,12 +8677,6 @@
             {
               "title": "Jeremy McInerney Publishes New Book, \"By Land and by Sea\"",
               "link": "https://www.classics.upenn.edu/news/2026/10/29/jeremy-mcinerney-publishes-new-book-land-and-sea",
-              "date": "2026-10-29",
-              "dek": "October 29, 2026"
-            },
-            {
-              "title": "Jeremy McInerney Publishes New Book, \"The Oxford History of the Classical Greek World: Volume I: The Environment and Resources\"",
-              "link": "https://www.classics.upenn.edu/news/2026/10/29/jeremy-mcinerney-publishes-new-book-oxford-history-classical-greek-world-volume-i",
               "date": "2026-10-29",
               "dek": "October 29, 2026"
             },
@@ -8725,10 +8725,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-10T16:20:06.968513Z"
+          "fetchedAt": "2026-11-10T21:06:37.375182Z"
         }
       },
-      "lastSyncAt": "2026-11-10T16:20:06.968513Z",
+      "lastSyncAt": "2026-11-10T21:06:37.375182Z",
       "lastSource": "html"
     },
     {
@@ -8876,10 +8876,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-10T16:20:06.968513Z"
+          "fetchedAt": "2026-11-10T21:06:37.375182Z"
         }
       },
-      "lastSyncAt": "2026-11-10T16:20:06.968513Z",
+      "lastSyncAt": "2026-11-10T21:06:37.375182Z",
       "lastSource": "html"
     },
     {
@@ -9041,10 +9041,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://pan-school.sas.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-10T16:20:06.968513Z"
+          "fetchedAt": "2026-11-10T21:06:37.375182Z"
         }
       },
-      "lastSyncAt": "2026-11-10T16:20:06.968513Z",
+      "lastSyncAt": "2026-11-10T21:06:37.375182Z",
       "lastSource": "feed:https://pan-school.sas.upenn.edu/rss.xml"
     },
     {
@@ -9206,10 +9206,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://chibe.upenn.edu/feed/",
-          "fetchedAt": "2026-11-10T16:20:06.968513Z"
+          "fetchedAt": "2026-11-10T21:06:37.375182Z"
         }
       },
-      "lastSyncAt": "2026-11-10T16:20:06.968513Z",
+      "lastSyncAt": "2026-11-10T21:06:37.375182Z",
       "lastSource": "feed:https://chibe.upenn.edu/feed/"
     },
     {
@@ -9371,10 +9371,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-10T16:20:06.968513Z"
+          "fetchedAt": "2026-11-10T21:06:37.375182Z"
         }
       },
-      "lastSyncAt": "2026-11-10T16:20:06.968513Z",
+      "lastSyncAt": "2026-11-10T21:06:37.375182Z",
       "lastSource": "html"
     },
     {
@@ -9536,10 +9536,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-10T16:20:06.968513Z"
+          "fetchedAt": "2026-11-10T21:06:37.375182Z"
         }
       },
-      "lastSyncAt": "2026-11-10T16:20:06.968513Z",
+      "lastSyncAt": "2026-11-10T21:06:37.375182Z",
       "lastSource": "html"
     },
     {
@@ -9701,10 +9701,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-10T16:20:06.968513Z"
+          "fetchedAt": "2026-11-10T21:06:37.375182Z"
         }
       },
-      "lastSyncAt": "2026-11-10T16:20:06.968513Z",
+      "lastSyncAt": "2026-11-10T21:06:37.375182Z",
       "lastSource": "html"
     },
     {
@@ -9866,10 +9866,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-10T16:20:06.968513Z"
+          "fetchedAt": "2026-11-10T21:06:37.375182Z"
         }
       },
-      "lastSyncAt": "2026-11-10T16:20:06.968513Z",
+      "lastSyncAt": "2026-11-10T21:06:37.375182Z",
       "lastSource": "html"
     },
     {
@@ -10031,10 +10031,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-10T16:20:06.968513Z"
+          "fetchedAt": "2026-11-10T21:06:37.375182Z"
         }
       },
-      "lastSyncAt": "2026-11-10T16:20:06.968513Z",
+      "lastSyncAt": "2026-11-10T21:06:37.375182Z",
       "lastSource": "html"
     },
     {
@@ -10196,10 +10196,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-10T16:20:06.968513Z"
+          "fetchedAt": "2026-11-10T21:06:37.375182Z"
         }
       },
-      "lastSyncAt": "2026-11-10T16:20:06.968513Z",
+      "lastSyncAt": "2026-11-10T21:06:37.375182Z",
       "lastSource": "html"
     },
     {
@@ -10361,10 +10361,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-10T16:20:06.968513Z"
+          "fetchedAt": "2026-11-10T21:06:37.375182Z"
         }
       },
-      "lastSyncAt": "2026-11-10T16:20:06.968513Z",
+      "lastSyncAt": "2026-11-10T21:06:37.375182Z",
       "lastSource": "html"
     },
     {
@@ -10378,6 +10378,14 @@
       "magazineUrl": null,
       "notes": "Research and policy updates with published dates.",
       "posts": [
+        {
+          "title": "Heat-Related Deaths May Be Far Higher Than Reported",
+          "link": "https://ldi.upenn.edu/our-work/research-updates/heat-related-deaths-may-be-far-higher-than-reported/",
+          "date": "2026-11-10",
+          "dek": "Blog Post",
+          "stream": "news",
+          "source": "html"
+        },
         {
           "title": "Penn’s Mark Pauly Calls on States to Revive Hospital Competition to Control Costs",
           "link": "https://ldi.upenn.edu/our-work/research-updates/penns-mark-pauly-calls-on-states-to-revive-hospital-competition-to-control-costs/",
@@ -10465,20 +10473,18 @@
           "dek": "News",
           "stream": "news",
           "source": "html"
-        },
-        {
-          "title": "Pennsylvania Nurses Are Overloaded, Putting Patients at Risk",
-          "link": "https://ldi.upenn.edu/our-work/research-updates/pennsylvania-nurses-are-overloaded-putting-patients-at-risk/",
-          "date": "2026-10-19",
-          "dek": "Blog Post",
-          "stream": "news",
-          "source": "html"
         }
       ],
       "lastError": "",
       "_cache": {
         "news": {
           "items": [
+            {
+              "title": "Heat-Related Deaths May Be Far Higher Than Reported",
+              "link": "https://ldi.upenn.edu/our-work/research-updates/heat-related-deaths-may-be-far-higher-than-reported/",
+              "date": "2026-11-10",
+              "dek": "Blog Post"
+            },
             {
               "title": "Penn’s Mark Pauly Calls on States to Revive Hospital Competition to Control Costs",
               "link": "https://ldi.upenn.edu/our-work/research-updates/penns-mark-pauly-calls-on-states-to-revive-hospital-competition-to-control-costs/",
@@ -10544,20 +10550,14 @@
               "link": "https://ldi.upenn.edu/our-work/research-updates/ldi-fellow-courtney-schreiber-elected-to-national-academy-of-medicine/",
               "date": "2026-10-20",
               "dek": "News"
-            },
-            {
-              "title": "Pennsylvania Nurses Are Overloaded, Putting Patients at Risk",
-              "link": "https://ldi.upenn.edu/our-work/research-updates/pennsylvania-nurses-are-overloaded-putting-patients-at-risk/",
-              "date": "2026-10-19",
-              "dek": "Blog Post"
             }
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-10T16:20:06.968513Z"
+          "fetchedAt": "2026-11-10T21:06:37.375182Z"
         }
       },
-      "lastSyncAt": "2026-11-10T16:20:06.968513Z",
+      "lastSyncAt": "2026-11-10T21:06:37.375182Z",
       "lastSource": "html"
     },
     {
@@ -10747,21 +10747,21 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-10T16:20:06.968513Z"
+          "fetchedAt": "2026-11-10T21:06:37.375182Z"
         }
       },
-      "lastSyncAt": "2026-11-10T16:20:06.968513Z",
+      "lastSyncAt": "2026-11-10T21:06:37.375182Z",
       "lastSource": "html"
     }
   ],
-  "lastRefreshAt": "2026-11-10T16:20:06.968513Z",
+  "lastRefreshAt": "2026-11-10T21:06:37.375182Z",
   "refreshErrors": [],
   "showAddSite": false,
   "schemaVersion": 3,
   "collection": {
     "sourceVersion": "44f9026c3b016f42ca979d03cf646543bd1579d434f1765a6f57b43880ed2b3b",
-    "runId": "42852761931",
-    "commit": "40e9735889313762a1b318c9a529a303288cfdd1",
-    "runUrl": "https://github.com/BigChief-at-illuminathidotorg/Penn-News-Scraper/actions/runs/42852761931"
+    "runId": "42901150355",
+    "commit": "26677172ab8140fa219436d541059943e7953e23",
+    "runUrl": "https://github.com/BigChief-at-illuminathidotorg/Penn-News-Scraper/actions/runs/42901150355"
   }
 }
