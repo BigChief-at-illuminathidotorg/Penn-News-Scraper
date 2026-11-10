@@ -2,7 +2,11 @@ name: Collect and publish Penn news
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 11,17 * * 1-5'
+    # Daily Eastern time; timezone keeps these times stable through daylight saving.
+    - cron: '0 8,13 * * *'
+      timezone: 'America/New_York'
+    - cron: '50 9 * * *'
+      timezone: 'America/New_York'
   push:
     branches: [main]
     paths-ignore:
