@@ -12,6 +12,8 @@ from datetime import date, datetime, timezone
 from pathlib import Path
 from urllib.parse import parse_qs, urlencode, urljoin, urlparse, urldefrag, urlunparse
 
+from article_index import carry_index, enrich_posts
+
 from scraper import (BROWSER_ARGS, EXTRACT_JS, SITE_RULES, browser_user_agent,
                      extract_jsonld_articles, finalize_raw, load_sites, loadable,
                      merge_articles, rule_args, try_feed)
@@ -66,7 +68,7 @@ def merge_archive(site, discovered, existing, latest, metadata):
     pages = [site['newsUrl']] + list(site.get('extraUrls') or [])
     prior = existing.get('posts', []) if existing.get('listingUrls') == pages else []
     live = latest.get('posts', []) if latest.get('newsUrl') == site['newsUrl'] and (latest.get('extraUrls') or []) == (site.get('extraUrls') or []) else []
-    posts = merge_articles(discovered + prior + live)
+    posts = carry_index(merge_articles(discovered + prior + live), prior)
     return {'schemaVersion': 1, 'id': site['id'], 'name': site['name'],
             'listingUrls': pages, 'lastScrapedAt': datetime.now(timezone.utc).isoformat(),
             'pagesScanned': metadata['pagesScanned'], 'stopReasons': metadata['stopReasons'],
@@ -216,6 +218,10 @@ async def run(args):
                             'requestedFrom': args.from_date or ''})
     if not result['posts']:
         raise RuntimeError('No articles found; leaving any published archive unchanged')
+    async with async_playwright() as pw:
+        browser = await pw.chromium.launch(headless=True, args=BROWSER_ARGS)
+        result['indexCoverage'] = await enrich_posts(browser, site, result['posts'], args.from_date)
+        await browser.close()
     path.write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n')
     print(f"{site['name']}: {len(discovered)} discovered on {pages} page(s); {len(result['posts'])} saved → {path}")
     for message in reasons + warnings: print(' - ' + message)
@@ -227,3 +233,4 @@ if __name__ == '__main__':
     parser.add_argument('--from-date', default='', help='earliest desired date, YYYY-MM-DD')
     parser.add_argument('--max-pages', type=int, default=25, choices=(10, 25, 50))
     asyncio.run(run(parser.parse_args()))
+

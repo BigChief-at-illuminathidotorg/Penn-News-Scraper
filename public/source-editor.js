@@ -4,6 +4,7 @@
   const REPO = 'BigChief-at-illuminathidotorg/Penn-News-Scraper';
   const RAW = `https://raw.githubusercontent.com/${REPO}/main/sites.js`;
   const $ = id => document.getElementById(id);
+  let revision = '', staffReady = false;
   let sites = [], groups = [], original = '', current = null, unsavedForm = false, copied = false;
   const clone = value => JSON.parse(JSON.stringify(value));
   const slug = name => name.toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || 'source';
@@ -42,8 +43,9 @@
     if (!matches.length) list.textContent = 'No matching sources.';
     const changes = JSON.stringify({sites, groups}) !== original;
     $('copySites').disabled = !changes;
+    $('publishSources').disabled = !changes || !staffReady;
     $('openGitHub').setAttribute('aria-disabled', String(!changes));
-    $('changeSummary').textContent = changes ? 'Draft ready. Copy it and commit it on GitHub to update the monitor.' : 'No changes yet.';
+    $('changeSummary').textContent = changes ? 'Draft ready. Save changes below to update the monitor.' : 'No changes yet.';
   }
 
   function groupFor(id) { return groups.find(group => group.sites.includes(id))?.id || ''; }
@@ -92,7 +94,7 @@
         const group = groups.find(group => group.id === chosen);
         if (group) group.sites.push(id);
       }
-      copied = false; unsavedForm = false; choose(current); mark(`${name} saved to this draft. Copy and commit the list below when ready.`);
+      copied = false; unsavedForm = false; choose(current); mark(`${name} saved to this draft. Publish the changes below when ready.`);
     } catch (error) { mark(error.message); }
   }
 
@@ -125,18 +127,33 @@
     const site = sites[current]; if (!site || !confirm(`Remove ${site.name} from the source list?`)) return;
     sites.splice(current, 1); for (const group of groups) group.sites = group.sites.filter(id => id !== site.id);
     current = null; unsavedForm = false; copied = false; $('sourceForm').hidden = true; $('emptyEditor').hidden = false;
-    renderList(); mark(`${site.name} removed from this draft. Commit the list on GitHub when ready.`);
+    renderList(); mark(`${site.name} removed from this draft. Publish the changes below when ready.`);
   };
   $('copySites').onclick = copyDraft;
+  $('publishSources').onclick = async () => {
+    if (unsavedForm) { mark('Save the current form to the draft first.'); return; }
+    $('publishSources').disabled = true;
+    try {
+      const result = await StaffAPI('sources', {sites, groups, sha:revision});
+      revision = result.sha; original = JSON.stringify({sites, groups}); copied = true;
+      $('publishStatus').textContent = 'Saved. A collection will start on GitHub. Follow progress on Manage scraper.'; renderList();
+    } catch(error) { $('publishStatus').textContent = error.message; renderList(); }
+  };
   window.addEventListener('beforeunload', event => { if (unsavedForm || !copied && JSON.stringify({sites, groups}) !== original && original) { event.preventDefault(); event.returnValue = ''; } });
 
   (async () => {
     try {
+      try {
+        const config=await StaffAPI('config');
+        if(config.ready){const session=await StaffAPI('session');staffReady=session.approved;}
+        if(staffReady){const state=await StaffAPI('sources');revision=state.sha;sites=state.sites;groups=state.groups;}
+      } catch { staffReady=false; }
+      $('publishStatus').textContent=staffReady?'Signed in. You can publish changes directly.':'Sign in and request approval on Manage scraper to publish directly. The GitHub editor remains available.';
       const response = await fetch(RAW, {cache: 'no-store'});
       if (!response.ok) throw Error(`GitHub returned HTTP ${response.status}.`);
       const raw = await response.text();
-      sites = arrayAfter(raw, 'window.PENN_MONITOR_DEFAULT_SITES');
-      groups = arrayAfter(raw, 'window.PENN_MONITOR_GROUPS');
+      if(!staffReady)sites = arrayAfter(raw, 'window.PENN_MONITOR_DEFAULT_SITES');
+      if(!staffReady)groups = arrayAfter(raw, 'window.PENN_MONITOR_GROUPS');
       if (!Array.isArray(sites) || !sites.length || !Array.isArray(groups)) throw Error('The source list format is invalid.');
       original = JSON.stringify({sites, groups});
       $('unitSuggestions').replaceChildren(...[...new Set(sites.map(site => site.parentUnit).filter(Boolean))].sort().map(unit => { const option = document.createElement('option'); option.value = unit; return option; }));
@@ -148,3 +165,4 @@
     } catch (error) { mark(`Could not load the current list from GitHub: ${error.message} Please reload this page.`); }
   })();
 })();
+

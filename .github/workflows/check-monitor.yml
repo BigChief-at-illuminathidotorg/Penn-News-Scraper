@@ -19,6 +19,10 @@ jobs:
       - run: python prepare_sources.py
       - run: python -m unittest discover -s tests
       - run: node tests/monitor.cjs
+      - run: node tests/search.cjs
+      - run: node tests/staff.mjs
+      - name: Build staff API
+        run: npx --yes wrangler@4 pages functions build --outfile /tmp/penn-staff-worker.js
       - run: python -m playwright install --with-deps chromium
       - name: Launch the collector browser
         run: |
@@ -33,3 +37,4 @@ jobs:
           PY
       - name: Test page extraction in the browser
         run: python -m unittest discover -s tests -p "test_extract.py" -v
+

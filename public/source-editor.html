@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="source-editor.css">
 </head>
 <body>
-  <header><div class="brand"><span class="mark">P</span><div><p class="eyebrow">THE SHARED NEWS DESK</p><h1>Manage sources</h1></div></div><nav><a href="index.html">← Back to monitor</a></nav></header>
+  <header><div class="brand"><span class="mark">P</span><div><p class="eyebrow">THE SHARED NEWS DESK</p><h1>Manage sources</h1></div></div><nav><a href="manage.html">Manage scraper</a> <a href="index.html">← Back to monitor</a></nav></header>
   <main class="editor-layout">
     <section class="editor-intro"><div><p class="eyebrow">SOURCE LIST</p><h2>Add and update news pages</h2><p>Choose a source to edit its address, or add a new one. You can paste more than one address into “Additional news pages,” one per line.</p></div><button class="primary" id="newSource" disabled>+ Add source</button></section>
     <p id="editorStatus" role="status" aria-live="polite">Loading the current list from GitHub…</p>
@@ -27,8 +27,9 @@
         </form>
       </section>
     </div>
-    <section class="editor-publish"><h2>Save the changes on GitHub</h2><p id="changeSummary">No changes yet.</p><div class="editor-steps"><p><strong>1.</strong> Copy the updated source list.</p><p><strong>2.</strong> Open GitHub, select the entire file, paste, and choose <strong>Commit changes</strong>. GitHub starts a new collection automatically.</p></div><div class="editor-publish-actions"><button id="copySites" class="primary" disabled>1 · Copy updated list</button><a id="openGitHub" href="https://github.com/BigChief-at-illuminathidotorg/Penn-News-Scraper/edit/main/sites.js" target="_blank" rel="noopener noreferrer" aria-disabled="true">2 · Open GitHub editor ↗</a></div><label for="manualCopy" id="manualCopyLabel" hidden>If copying is blocked, select all of this text and copy it:</label><textarea id="manualCopy" rows="8" readonly hidden></textarea><p id="copyStatus" role="status" aria-live="polite"></p></section>
+    <section class="editor-publish"><h2>Publish the source list</h2><p>Approved staff can save directly. This starts a new collection and updates the monitor when publishing finishes.</p><button id="publishSources" class="primary" disabled>Save changes and collect</button><p id="publishStatus" role="status"></p><details><summary>Alternative: edit on GitHub</summary><p id="changeSummary">No changes yet.</p><div class="editor-steps"><p><strong>1.</strong> Copy the updated source list.</p><p><strong>2.</strong> Open GitHub, select the entire file, paste, and choose <strong>Commit changes</strong>. GitHub starts a new collection automatically.</p></div><div class="editor-publish-actions"><button id="copySites" class="primary" disabled>1 · Copy updated list</button><a id="openGitHub" href="https://github.com/BigChief-at-illuminathidotorg/Penn-News-Scraper/edit/main/sites.js" target="_blank" rel="noopener noreferrer" aria-disabled="true">2 · Open GitHub editor ↗</a></div><label for="manualCopy" id="manualCopyLabel" hidden>If copying is blocked, select all of this text and copy it:</label><textarea id="manualCopy" rows="8" readonly hidden></textarea><p id="copyStatus" role="status" aria-live="polite"></p></details></section>
   </main>
-  <script src="source-editor.js"></script>
+  <script src="staff-client.js"></script><script src="source-editor.js"></script>
 </body>
 </html>
+

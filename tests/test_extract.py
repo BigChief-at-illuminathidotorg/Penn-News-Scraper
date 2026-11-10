@@ -43,6 +43,19 @@ class Extract(unittest.TestCase):
         finally:
             page.close()
 
+    def test_article_text_and_journal_metadata(self):
+        from article_index import ARTICLE_JS
+        page = self.browser.new_page()
+        try:
+            page.set_content('<nav>Wrong navigation text</nav><meta name="citation_journal_title" content="Nature Medicine"><article><h1>Discovery</h1><p>Professor Cherie Kagan studies artificial intelligence and reports her work in Nature Medicine.</p><aside>Related unrelated story</aside></article>')
+            data = page.evaluate(ARTICLE_JS)
+            self.assertIn('Cherie Kagan', data['text'])
+            self.assertNotIn('unrelated', data['text'])
+            self.assertNotIn('navigation', data['text'])
+            self.assertEqual(data['journals'], ['Nature Medicine'])
+        finally:
+            page.close()
+
     def test_first_story_kept_when_one_article_wraps_the_listing(self):
         first = 'https://news.example.edu/news-events/news/story-number-5-for-the-test'
         for site_id in ('annenberg', 'a-site-with-no-rules'):
@@ -60,3 +73,4 @@ class Extract(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+

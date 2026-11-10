@@ -232,11 +232,11 @@ async function checkJob(){
  }catch{$('jobStatus').textContent='Job status unavailable (connection, permissions, or GitHub rate limit). Open GitHub to check.';}finally{$('checkJob').disabled=false;renderStatus();}
 }
 function setJob(text){$('jobStatus').textContent=text;}
-// Refresh the published data and take authorized editors to GitHub to start a job.
+// Refresh published data and open staff collection controls.
 async function checkForUpdates(){
- if(!imported)window.open(ACTIONS,'_blank','noopener');
+ if(!imported)window.open('manage.html','_blank','noopener');
  await refresh(true);
- if(!imported)setJob('Showing published news. In GitHub, choose Run workflow → Run workflow. Return here when it finishes; this page checks for new results automatically.');
+ if(!imported)setJob('Showing published news. Open Manage scraper to start a fresh collection. This page checks for new published results automatically.');
 }
 function watchCollection(state){
  if(watching)clearTimeout(watching.timer);
@@ -306,3 +306,4 @@ function checkDepth(){
 if(win){let queued=false;win.addEventListener('scroll',()=>{if(!queued){queued=true;win.requestAnimationFrame(()=>{queued=false;checkDepth();});}},{passive:true});win.addEventListener('resize',checkDepth);$('dock').inert=true;checkDepth();}
 applyPrefs();sectionOptions();render();refresh();setInterval(()=>refresh(),5*60*1000);document.addEventListener('visibilitychange',()=>{if(!document.hidden)refresh();});
 })();
+
