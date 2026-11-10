@@ -5,14 +5,14 @@
   "listingUrls": [
     "https://www.engineering.upenn.edu/stories/"
   ],
-  "lastScrapedAt": "2026-11-10T02:57:21.330413+00:00",
-  "pagesScanned": 10,
+  "lastScrapedAt": "2026-11-10T15:44:48.197978+00:00",
+  "pagesScanned": 50,
   "stopReasons": [
-    "https://www.engineering.upenn.edu/stories/: 10-page limit reached"
+    "https://www.engineering.upenn.edu/stories/: 50-page limit reached"
   ],
   "warnings": [],
-  "requestedFrom": "",
-  "oldestCaptured": "2026-04-23",
+  "requestedFrom": "2020-01-01",
+  "oldestCaptured": "2024-04-03",
   "newestCaptured": "2026-11-09",
   "posts": [
     {
@@ -620,6 +620,2388 @@
       "link": "https://www.engineering.upenn.edu/stories/innovation-impact-podcast-designing-the-future-of-ai-and-the-next-era-of-computing/",
       "date": "2026-04-23",
       "dek": "In the News / April 23, 2026"
+    },
+    {
+      "title": "The 2026 Penn Engineering Student Choice Awards",
+      "link": "https://www.engineering.upenn.edu/stories/the-2026-penn-engineering-student-choice-awards/",
+      "date": "2026-04-20",
+      "dek": "Faculty, Honors and Awards / April 20, 2026"
+    },
+    {
+      "title": "Where Computer Graphics, Computer Vision and AI Meet",
+      "link": "https://www.engineering.upenn.edu/stories/where-computer-graphics-computer-vision-and-ai-meet/",
+      "date": "2026-04-20",
+      "dek": "AI, Faculty, Research and Innovation / April 20, 2026"
+    },
+    {
+      "title": "Class of 2026 President’s Engagement and Innovation Prize Winners Announced",
+      "link": "https://www.engineering.upenn.edu/stories/class-of-2026-presidents-engagement-and-innovation-prize-winners-announced/",
+      "date": "2026-04-16",
+      "dek": "Honors and Awards, Students / April 16, 2026"
+    },
+    {
+      "title": "Flavia Vitale Awarded Grainger Foundation Frontiers Grant for Bioelectronics in Tissue Engineering Research",
+      "link": "https://www.engineering.upenn.edu/stories/flavia-vitale-awarded-grainger-foundation-frontiers-grant-for-bioelectronics-in-tissue-engineering-research/",
+      "date": "2026-04-16",
+      "dek": "Faculty, Grants, Honors and Awards / April 16, 2026"
+    },
+    {
+      "title": "Penn Researchers Earn Honorable Mention in Laude Institute Moonshots Competition",
+      "link": "https://www.engineering.upenn.edu/stories/penn-researchers-earn-honorable-mention-in-laude-institute-moonshots-competition/",
+      "date": "2026-04-15",
+      "dek": "AI, Honors and Awards, Research and Innovation / April 15, 2026"
+    },
+    {
+      "title": "The Artemis II Mission: Reflections on an Ever-evolving Relationship with Space Exploration",
+      "link": "https://www.engineering.upenn.edu/stories/the-artemis-ii-mission-reflections-on-an-ever-evolving-relationship-with-space-exploration/",
+      "date": "2026-04-14",
+      "dek": "Research and Innovation / April 14, 2026"
+    },
+    {
+      "title": "Twelve ASSET Center Ph.D. Students Named 2026 AWS Fellows",
+      "link": "https://www.engineering.upenn.edu/stories/twelve-asset-center-ph-d-students-named-2026-aws-fellows/",
+      "date": "2026-04-13",
+      "dek": "Honors and Awards, Students / April 13, 2026"
+    },
+    {
+      "title": "Penn Researchers Use AI to Surface Unreported GLP-1 Side Effects in Reddit Posts",
+      "link": "https://www.engineering.upenn.edu/stories/penn-researchers-use-ai-to-surface-unreported-glp-1-side-effects-in-reddit-posts/",
+      "date": "2026-04-10",
+      "dek": "AI, Research and Innovation / April 10, 2026"
+    },
+    {
+      "title": "NSF AIRFoundry: A New Hub for AI-Driven RNA Research",
+      "link": "https://www.engineering.upenn.edu/stories/a-new-hub-for-ai-driven-rna-research/",
+      "date": "2026-04-09",
+      "dek": "AI, Events, Research and Innovation / April 9, 2026"
+    },
+    {
+      "title": "Two Penn Engineers Receive 2026 Lindback Awards",
+      "link": "https://www.engineering.upenn.edu/stories/two-penn-engineers-receive-2026-lindback-awards/",
+      "date": "2026-04-08",
+      "dek": "Faculty, Honors and Awards / April 8, 2026"
+    },
+    {
+      "title": "Penn’s Newest Supercomputer is Transforming Research",
+      "link": "https://www.engineering.upenn.edu/stories/penns-newest-supercomputer-is-transforming-research/",
+      "date": "2026-04-07",
+      "dek": "AI, Research and Innovation / April 7, 2026"
+    },
+    {
+      "title": "New Name, Same Mission: MCIT Evolves to Master of Applied Science in Computer Science",
+      "link": "https://www.engineering.upenn.edu/stories/new-name-same-mission-mcit-evolves-to-master-of-applied-science-in-computer-science/",
+      "date": "2026-04-06",
+      "dek": "Academics / April 6, 2026"
+    },
+    {
+      "title": "Mapping Catalyst Failure to Advance Clean Hydrogen Fuel Production",
+      "link": "https://www.engineering.upenn.edu/stories/mapping-catalyst-failure-to-advance-clean-hydrogen-fuel-production/",
+      "date": "2026-04-03",
+      "dek": "Research and Innovation / April 3, 2026"
+    },
+    {
+      "title": "Sherry Gao Receives NIH MIRA Award to Advance Precision Genome Engineering",
+      "link": "https://www.engineering.upenn.edu/stories/sherry-gao-receives-nih-mira-award-to-advance-precision-genome-engineering/",
+      "date": "2026-04-02",
+      "dek": "Honors and Awards, In the News / April 2, 2026"
+    },
+    {
+      "title": "Three Penn Engineers Receive Goldwater Scholarships",
+      "link": "https://www.engineering.upenn.edu/stories/three-penn-engineers-receive-goldwater-scholarships/",
+      "date": "2026-04-01",
+      "dek": "Honors and Awards, Students / April 1, 2026"
+    },
+    {
+      "title": "A Stiff Defense: Rethinking Gum Disease",
+      "link": "https://www.engineering.upenn.edu/stories/a-stiff-defense-rethinking-gum-disease/",
+      "date": "2026-03-31",
+      "dek": "Research and Innovation / March 31, 2026"
+    },
+    {
+      "title": "AI Month Spotlights the Evolving Frontier of Human-Centered AI",
+      "link": "https://www.engineering.upenn.edu/stories/ai-month-spotlights-the-evolving-frontier-of-human-centered-ai/",
+      "date": "2026-03-30",
+      "dek": "Academics, AI, Events, Faculty, Research and Innovation / March 30, 2026"
+    },
+    {
+      "title": "Penn Engineering Futures Fund to Raise $200M for Innovation in Research and Education",
+      "link": "https://www.engineering.upenn.edu/stories/penn-engineering-futures-fund-to-raise-200m-for-innovation-in-research-and-education/",
+      "date": "2026-03-27",
+      "dek": "Alumni, Grants, Research and Innovation / March 27, 2026"
+    },
+    {
+      "title": "Two Penn Engineers Named AAAS Fellows",
+      "link": "https://www.engineering.upenn.edu/stories/two-penn-engineers-named-aaas-fellows/",
+      "date": "2026-03-26",
+      "dek": "Faculty, Honors and Awards / March 26, 2026"
+    },
+    {
+      "title": "Innovation & Impact Podcast: Inventing for the Real World with Penn’s National Academy of Inventors Fellows",
+      "link": "https://www.engineering.upenn.edu/stories/innovation-impact-podcast-inventing-for-the-real-world-with-penns-national-academy-of-inventors-fellows/",
+      "date": "2026-03-25",
+      "dek": "In the News / March 25, 2026"
+    },
+    {
+      "title": "Penn Fourth-Year Yash Rajpal Named 2026-27 Luce Scholar",
+      "link": "https://www.engineering.upenn.edu/stories/penn-fourth-year-yash-rajpal-named-2026-27-luce-scholar/",
+      "date": "2026-03-25",
+      "dek": "Honors and Awards, Students / March 25, 2026"
+    },
+    {
+      "title": "New Lipid Nanoparticle Design Improves Precision of mRNA Vaccine Delivery",
+      "link": "https://www.engineering.upenn.edu/stories/new-lipid-nanoparticle-design-improves-precision-of-mrna-vaccine-delivery/",
+      "date": "2026-03-24",
+      "dek": "Research and Innovation / March 24, 2026"
+    },
+    {
+      "title": "2025 President’s Sustainability Prize Recipient: Nirby",
+      "link": "https://www.engineering.upenn.edu/stories/2025-presidents-sustainability-prize-recipient-nirby/",
+      "date": "2026-03-23",
+      "dek": "Alumni, Honors and Awards, Research and Innovation / March 23, 2026"
+    },
+    {
+      "title": "2025 President’s Innovation Prize Recipient: Sync Labs",
+      "link": "https://www.engineering.upenn.edu/stories/2025-presidents-innovation-prize-recipient-sync-labs/",
+      "date": "2026-03-20",
+      "dek": "Alumni, Honors and Awards, Research and Innovation / March 20, 2026"
+    },
+    {
+      "title": "A New Swarm AI Project Takes on Safety at Scale",
+      "link": "https://www.engineering.upenn.edu/stories/a-new-swarm-ai-project-takes-on-safety-at-scale/",
+      "date": "2026-03-20",
+      "dek": "AI, Honors and Awards, In the News, Research and Innovation / March 20, 2026"
+    },
+    {
+      "title": "Topology Helps Build More Robust Photonic Networks",
+      "link": "https://www.engineering.upenn.edu/stories/topology-helps-build-more-robust-photonic-networks/",
+      "date": "2026-03-19",
+      "dek": "Research and Innovation / March 19, 2026"
+    },
+    {
+      "title": "New Nanoparticle Could Unlock Universal Immunotherapy for Solid Cancers",
+      "link": "https://www.engineering.upenn.edu/stories/new-nanoparticle-could-unlock-universal-immunotherapy-for-solid-cancers/",
+      "date": "2026-03-18",
+      "dek": "Research and Innovation / March 18, 2026"
+    },
+    {
+      "title": "Engineered Lipid Nanoparticles Reprogram Immune Metabolism for Better mRNA Vaccines",
+      "link": "https://www.engineering.upenn.edu/stories/engineered-lipid-nanoparticles-reprogram-immune-metabolism-for-better-mrna-vaccines/",
+      "date": "2026-03-17",
+      "dek": "Research and Innovation / March 17, 2026"
+    },
+    {
+      "title": "CSSLab’s Media Bias Detector Cuts Through Cluttered Media Landscape",
+      "link": "https://www.engineering.upenn.edu/stories/csslabs-media-bias-detector-cuts-through-cluttered-media-landscape/",
+      "date": "2026-03-16",
+      "dek": "Research and Innovation / March 16, 2026"
+    },
+    {
+      "title": "David Meaney on Penn’s Research Enterprise",
+      "link": "https://www.engineering.upenn.edu/stories/david-meaney-on-penns-research-enterprise/",
+      "date": "2026-03-12",
+      "dek": "Faculty, Research and Innovation / March 12, 2026"
+    },
+    {
+      "title": "Penn Engineering to Host India Technology Forum in Mumbai",
+      "link": "https://www.engineering.upenn.edu/stories/penn-engineering-to-host-india-technology-forum-in-mumbai/",
+      "date": "2026-03-10",
+      "dek": "Events / March 10, 2026"
+    },
+    {
+      "title": "New Robotic Microfluidic Platform Brings AI to Lipid Nanoparticle Design",
+      "link": "https://www.engineering.upenn.edu/stories/new-robotic-microfluidic-platform-brings-ai-to-lipid-nanoparticle-design/",
+      "date": "2026-03-09",
+      "dek": "AI, Research and Innovation / March 9, 2026"
+    },
+    {
+      "title": "Beyond Algorithms: Engineering Judgment in the Age of AI",
+      "link": "https://www.engineering.upenn.edu/stories/beyond-algorithms-engineering-judgment-in-the-age-of-ai/",
+      "date": "2026-03-06",
+      "dek": "Academics, Faculty / March 6, 2026"
+    },
+    {
+      "title": "Alumni Q&A: Hital Meswani",
+      "link": "https://www.engineering.upenn.edu/stories/alumni-qa-hital-meswani/",
+      "date": "2026-03-04",
+      "dek": "Alumni / March 4, 2026"
+    },
+    {
+      "title": "Penn Engineering and UL Research Institutes Educator Fellowship Accepting Applications",
+      "link": "https://www.engineering.upenn.edu/stories/penn-engineering-and-ul-research-institutes-educator-fellowship-accepting-applications/",
+      "date": "2026-03-03",
+      "dek": "Academics, Community, Events / March 3, 2026"
+    },
+    {
+      "title": "Shujie Yang Harnesses Sound to Build the Next Generation of Microrobotic Medicine",
+      "link": "https://www.engineering.upenn.edu/stories/shujie-yang-harnesses-sound-to-build-the-next-generation-of-microrobotic-medicine/",
+      "date": "2026-03-02",
+      "dek": "In the News / March 2, 2026"
+    },
+    {
+      "title": "Chapters of Change: The Blossom of Penn’s Professional Schools in the 19th Century",
+      "link": "https://www.engineering.upenn.edu/stories/chapters-of-change-the-blossom-of-penns-professional-schools-in-the-19th-century/",
+      "date": "2026-02-27",
+      "dek": "Academics, In the News / February 27, 2026"
+    },
+    {
+      "title": "AI and the Dream: Technology in the Service of Humanity",
+      "link": "https://www.engineering.upenn.edu/stories/ai-and-the-dream-technology-in-the-service-of-humanity/",
+      "date": "2026-02-26",
+      "dek": "AI, Events / February 26, 2026"
+    },
+    {
+      "title": "Innovation & Impact Podcast: Engineering Forward",
+      "link": "https://www.engineering.upenn.edu/stories/innovation-impact-podcast-engineering-forward/",
+      "date": "2026-02-24",
+      "dek": "In the News / February 24, 2026"
+    },
+    {
+      "title": "When Bone Behaves Like a Sponge: A New Platform for Observing How Cells Feel Force",
+      "link": "https://www.engineering.upenn.edu/stories/when-bone-behaves-like-a-sponge-a-new-platform-for-observing-how-cells-feel-force/",
+      "date": "2026-02-24",
+      "dek": "In the News, Research and Innovation / February 24, 2026"
+    },
+    {
+      "title": "Engineers Sharpen Gene-Editing Tools To Target Cystic Fibrosis",
+      "link": "https://www.engineering.upenn.edu/stories/engineers-sharpen-gene-editing-tools-to-target-cystic-fibrosis/",
+      "date": "2026-02-23",
+      "dek": "Research and Innovation / February 23, 2026"
+    },
+    {
+      "title": "Energy Week to Explore Solutions for Transition to Clean Energy",
+      "link": "https://www.engineering.upenn.edu/stories/energy-week-to-explore-solutions-for-transition-to-clean-energy/",
+      "date": "2026-02-20",
+      "dek": "Events / February 20, 2026"
+    },
+    {
+      "title": "Embracing Uncertainty",
+      "link": "https://www.engineering.upenn.edu/stories/embracing-uncertainty/",
+      "date": "2026-02-19",
+      "dek": "Students / February 19, 2026"
+    },
+    {
+      "title": "CarboWells Wins the 2026 Y-Prize Competition",
+      "link": "https://www.engineering.upenn.edu/stories/carbowells-wins-the-2026-y-prize-competition/",
+      "date": "2026-02-18",
+      "dek": "Honors and Awards / February 18, 2026"
+    },
+    {
+      "title": "Surbhi Goel Named 2026 Sloan Research Fellow",
+      "link": "https://www.engineering.upenn.edu/stories/surbhi-goel-named-2026-sloan-research-fellow/",
+      "date": "2026-02-18",
+      "dek": "Honors and Awards / February 18, 2026"
+    },
+    {
+      "title": "Solar Solutions for Farmers in The Gambia",
+      "link": "https://www.engineering.upenn.edu/stories/solar-solutions-for-farmers-in-the-gambia/",
+      "date": "2026-02-17",
+      "dek": "Students / February 17, 2026"
+    },
+    {
+      "title": "Penn’s ENIAC, the World’s First Electronic Computer, Turns 80",
+      "link": "https://www.engineering.upenn.edu/stories/penns-eniac-the-worlds-first-electronic-computer-turns-80/",
+      "date": "2026-02-16",
+      "dek": "Research and Innovation / February 16, 2026"
+    },
+    {
+      "title": "Raindrop-Formed ‘Sandballs’ That Erode Hillsides Tenfold",
+      "link": "https://www.engineering.upenn.edu/stories/raindrop-formed-sandballs-that-erode-hillsides-tenfold/",
+      "date": "2026-02-12",
+      "dek": "Research and Innovation / February 12, 2026"
+    },
+    {
+      "title": "Robots That Can See Around Corners Using Radio Signals and AI",
+      "link": "https://www.engineering.upenn.edu/stories/robots-that-can-see-around-corners-using-radio-signals-and-ai/",
+      "date": "2026-02-11",
+      "dek": "Research and Innovation / February 11, 2026"
+    },
+    {
+      "title": "Two Penn Engineering Faculty Elected to National Academy of Engineering",
+      "link": "https://www.engineering.upenn.edu/stories/two-penn-engineers-elected-to-national-academy-of-engineering/",
+      "date": "2026-02-10",
+      "dek": "Faculty, Honors and Awards, Research and Innovation / February 10, 2026"
+    },
+    {
+      "title": "Michael Hicks on Building Safer Software and Better Practices in Cybersecurity",
+      "link": "https://www.engineering.upenn.edu/stories/michael-hicks-on-building-safer-software-and-a-better-practices-in-cybersecurity/",
+      "date": "2026-02-09",
+      "dek": "In the News / February 9, 2026"
+    },
+    {
+      "title": "An Innovative AI Tool to Improve Health Care Delivery in Rural India",
+      "link": "https://www.engineering.upenn.edu/stories/an-innovative-ai-tool-to-improve-health-care-delivery-in-rural-india/",
+      "date": "2026-02-06",
+      "dek": "AI, Research and Innovation, Students / February 6, 2026"
+    },
+    {
+      "title": "The Small, High-Tech Beanie Protecting Premature Babies",
+      "link": "https://www.engineering.upenn.edu/stories/the-small-high-tech-beanie-protecting-premature-babies/",
+      "date": "2026-02-05",
+      "dek": "Alumni, In the News, Research and Innovation, Students / February 5, 2026"
+    },
+    {
+      "title": "Penn Engineering Launches Michael and Jennifer Ternoey Glassman Penn Scholars Program",
+      "link": "https://www.engineering.upenn.edu/stories/penn-engineering-launches-michael-and-jennifer-ternoey-glassman-penn-scholars-program/",
+      "date": "2026-02-04",
+      "dek": "Alumni, Community, Students / February 4, 2026"
+    },
+    {
+      "title": "Penn Engineering Launches New Master’s Program in Software Systems and Cybersecurity",
+      "link": "https://www.engineering.upenn.edu/stories/penn-engineering-launches-new-masters-program-in-software-systems-and-cybersecurity/",
+      "date": "2026-02-02",
+      "dek": "Academics, In the News, Students / February 2, 2026"
+    },
+    {
+      "title": "Powering AI From Space, at Scale",
+      "link": "https://www.engineering.upenn.edu/stories/powering-ai-from-space-at-scale/",
+      "date": "2026-01-28",
+      "dek": "AI, Research and Innovation / January 28, 2026"
+    },
+    {
+      "title": "Why Are Icy Surfaces Slippery?",
+      "link": "https://www.engineering.upenn.edu/stories/why-are-icy-surfaces-slippery/",
+      "date": "2026-01-26",
+      "dek": "In the News, Research and Innovation / January 26, 2026"
+    },
+    {
+      "title": "Sophia Tang Wins CRA Outstanding Undergraduate Research Award",
+      "link": "https://www.engineering.upenn.edu/stories/sophia-tang-wins-cra-outstanding-undergraduate-research-award/",
+      "date": "2026-01-23",
+      "dek": "AI, Honors and Awards / January 23, 2026"
+    },
+    {
+      "title": "Stephanie Weirich Named 2025 ACM Fellow",
+      "link": "https://www.engineering.upenn.edu/stories/stephanie-weirich-named-2025-acm-fellow/",
+      "date": "2026-01-22",
+      "dek": "Honors and Awards / January 22, 2026"
+    },
+    {
+      "title": "Engines of Exploration",
+      "link": "https://www.engineering.upenn.edu/stories/engines-of-exploration/",
+      "date": "2026-01-15",
+      "dek": "Alumni / January 15, 2026"
+    },
+    {
+      "title": "Physics of Foam Strangely Resembles AI Training",
+      "link": "https://www.engineering.upenn.edu/stories/physics-of-foam-strangely-resembles-ai-training/",
+      "date": "2026-01-14",
+      "dek": "AI, Research and Innovation / January 14, 2026"
+    },
+    {
+      "title": "The Path Forward: Penn Engineering 2030",
+      "link": "https://www.engineering.upenn.edu/stories/the-path-forward-penn-engineering-2030/",
+      "date": "2026-01-13",
+      "dek": "Academics, Alumni, Community, Faculty, Research and Innovation, Students / January 13, 2026"
+    },
+    {
+      "title": "20 Breakthroughs of 2025",
+      "link": "https://www.engineering.upenn.edu/stories/20-breakthroughs-of-2025/",
+      "date": "2026-01-12",
+      "dek": "In the News, Research and Innovation / January 12, 2026"
+    },
+    {
+      "title": "Weighing Sustainability of Real vs. Fake Christmas Trees",
+      "link": "https://www.engineering.upenn.edu/stories/weighing-sustainability-of-real-vs-fake-christmas-trees/",
+      "date": "2025-12-19",
+      "dek": "Faculty, In the News / December 19, 2025"
+    },
+    {
+      "title": "2025 CAREER Award Recipient: Nadia Figueroa",
+      "link": "https://www.engineering.upenn.edu/stories/2025-career-award-recipient-nadia-figueroa/",
+      "date": "2025-12-18",
+      "dek": "Honors and Awards / December 18, 2025"
+    },
+    {
+      "title": "Penn Engineering Launches New Master’s in Energy and Sustainability",
+      "link": "https://www.engineering.upenn.edu/stories/penn-engineering-launches-new-masters-in-energy-and-sustainability/",
+      "date": "2025-12-17",
+      "dek": "Academics, Students / December 17, 2025"
+    },
+    {
+      "title": "New Video Dataset to Advance AI for Health Care",
+      "link": "https://www.engineering.upenn.edu/stories/new-video-dataset-to-advance-ai-for-health-care/",
+      "date": "2025-12-16",
+      "dek": "AI, Research and Innovation / December 16, 2025"
+    },
+    {
+      "title": "Penn and Michigan Create World’s Smallest Programmable, Autonomous Robots",
+      "link": "https://www.engineering.upenn.edu/stories/penn-and-umich-create-worlds-smallest-programmable-autonomous-robots/",
+      "date": "2025-12-15",
+      "dek": "Research and Innovation / December 15, 2025"
+    },
+    {
+      "title": "Three Penn Engineers Named 2025 NAI Fellows",
+      "link": "https://www.engineering.upenn.edu/stories/three-penn-engineers-named-2025-nai-fellows/",
+      "date": "2025-12-12",
+      "dek": "Honors and Awards / December 12, 2025"
+    },
+    {
+      "title": "Scientists and U.S. Foundry Achieve 3D Chip Breakthrough to Accelerate AI",
+      "link": "https://www.engineering.upenn.edu/stories/scientists-and-u-s-foundry-achieve-3d-chip-breakthrough-to-accelerate-ai/",
+      "date": "2025-12-11",
+      "dek": "AI, Research and Innovation / December 11, 2025"
+    },
+    {
+      "title": "How Might AI Shape the Future of Work?",
+      "link": "https://www.engineering.upenn.edu/stories/how-might-ai-shape-the-future-of-work/",
+      "date": "2025-12-08",
+      "dek": "AI, Research and Innovation / December 8, 2025"
+    },
+    {
+      "title": "Deep Jariwala Named 2026 Optica Fellow",
+      "link": "https://www.engineering.upenn.edu/stories/deep-jariwala-named-2026-optica-fellow/",
+      "date": "2025-12-04",
+      "dek": "Honors and Awards / December 4, 2025"
+    },
+    {
+      "title": "Pushing the Boundaries of Autonomous Systems, Antonio Loquercio Receives Mario Gerla Award",
+      "link": "https://www.engineering.upenn.edu/stories/pushing-the-boundaries-of-autonomous-systems-antonio-loquercio-receives-mario-gerla-award/",
+      "date": "2025-12-03",
+      "dek": "AI, Honors and Awards / December 3, 2025"
+    },
+    {
+      "title": "Designers, Dentists and MBAs: Building a New Model for University Innovation",
+      "link": "https://www.engineering.upenn.edu/stories/designers-dentists-and-mbas-building-a-new-model-for-university-innovation/",
+      "date": "2025-12-02",
+      "dek": "Research and Innovation / December 2, 2025"
+    },
+    {
+      "title": "Alumni Q&A: Jonathan Grau",
+      "link": "https://www.engineering.upenn.edu/stories/jonathan-grau-alumni-qa/",
+      "date": "2025-12-01",
+      "dek": "Alumni / December 1, 2025"
+    },
+    {
+      "title": "New Penn Engineering Assistant Professorship Honors Jan Van der Spiegel",
+      "link": "https://www.engineering.upenn.edu/stories/new-penn-engineering-assistant-professorship-honors-jan-van-der-spiegel/",
+      "date": "2025-11-26",
+      "dek": "Faculty, Honors and Awards / November 26, 2025"
+    },
+    {
+      "title": "Homecoming 2025: Powered by Penn Engineering",
+      "link": "https://www.engineering.upenn.edu/stories/homecoming-2025-powered-by-penn-engineering/",
+      "date": "2025-11-25",
+      "dek": "Alumni / November 25, 2025"
+    },
+    {
+      "title": "Penn Startup Showcase 2025 Recap",
+      "link": "https://www.engineering.upenn.edu/stories/penn-startup-showcase-2025-recap/",
+      "date": "2025-11-24",
+      "dek": "Events, Research and Innovation / November 24, 2025"
+    },
+    {
+      "title": "Aaron Roth Receives 2025-26 Heilmeier Award",
+      "link": "https://www.engineering.upenn.edu/stories/aaron-roth-receives-2025-26-heilmeier-award/",
+      "date": "2025-11-24",
+      "dek": "Honors and Awards, Research and Innovation / November 24, 2025"
+    },
+    {
+      "title": "“Exactly the Most Exciting Time”: Penn Engineering’s Chris Callison-Burch on 25 Years of AI Innovation",
+      "link": "https://www.engineering.upenn.edu/stories/exactly-the-most-exciting-time-penn-engineerings-chris-callison-burch-on-25-years-of-ai-innovation/",
+      "date": "2025-11-21",
+      "dek": "AI, Faculty / November 21, 2025"
+    },
+    {
+      "title": "Two Penn Engineers Receive Kaufman Foundation Grants",
+      "link": "https://www.engineering.upenn.edu/stories/two-penn-engineers-receive-kaufman-foundation-grants/",
+      "date": "2025-11-18",
+      "dek": "Honors and Awards / November 18, 2025"
+    },
+    {
+      "title": "Penn Engineering and Ashoka University Launch New Partnership to Advance Research, Innovation and Graduate Study",
+      "link": "https://www.engineering.upenn.edu/stories/penn-engineering-and-ashoka-university-launch-new-partnership-to-advance-research-innovation-and-graduate-study/",
+      "date": "2025-11-17",
+      "dek": "Faculty, In the News, Students / November 17, 2025"
+    },
+    {
+      "title": "National Academy of Medicine Issues Code of Conduct to Guide Health Care’s AI Revolution",
+      "link": "https://www.engineering.upenn.edu/stories/national-academy-of-medicine-issues-code-of-conduct-to-guide-health-cares-ai-revolution/",
+      "date": "2025-11-12",
+      "dek": "AI, In the News, Research and Innovation / November 12, 2025"
+    },
+    {
+      "title": "Ralph Teetor: The Blind Penn Engineer Who Changed the Way We Drive",
+      "link": "https://www.engineering.upenn.edu/stories/ralph-teetor-the-blind-penn-engineer-who-changed-the-way-we-drive/",
+      "date": "2025-11-07",
+      "dek": "Alumni, In the News / November 7, 2025"
+    },
+    {
+      "title": "Surbhi Goel Named 2025 Schmidt Sciences AI2050 Early Career Fellow",
+      "link": "https://www.engineering.upenn.edu/stories/surbhi-goel-named-2025-schmidt-sciences-ai2050-early-career-fellow/",
+      "date": "2025-11-05",
+      "dek": "Honors and Awards / November 5, 2025"
+    },
+    {
+      "title": "University of Pennsylvania and Commonwealth of Pennsylvania Sign a Cooperative AI Advising Agreement",
+      "link": "https://www.engineering.upenn.edu/stories/university-of-pennsylvania-and-commonwealth-of-pennsylvania-sign-a-cooperative-ai-advising-agreement/",
+      "date": "2025-10-31",
+      "dek": "In the News, Research and Innovation / October 31, 2025"
+    },
+    {
+      "title": "Penn BMES Wins National Commendable Achievement Award",
+      "link": "https://www.engineering.upenn.edu/stories/penn-bmes-wins-national-commendable-achievement-award/",
+      "date": "2025-10-30",
+      "dek": "Honors and Awards, Students / October 30, 2025"
+    },
+    {
+      "title": "From Soft to Solid: How a Coral Stiffens Its Skeleton on Demand",
+      "link": "https://www.engineering.upenn.edu/stories/from-soft-to-solid-how-a-coral-stiffens-its-skeleton-on-demand/",
+      "date": "2025-10-29",
+      "dek": "Research and Innovation / October 29, 2025"
+    },
+    {
+      "title": "Tumor-on-a-Chip Offers Insight into Cancer-Fighting Cells in Immunotherapy",
+      "link": "https://www.engineering.upenn.edu/stories/tumor-on-a-chip-offers-insight-into-cancer-fighting-cells-in-immunotherapy/",
+      "date": "2025-10-27",
+      "dek": "Research and Innovation / October 27, 2025"
+    },
+    {
+      "title": "Nanoparticle Blueprints Reveal Path to Smarter Medicines",
+      "link": "https://www.engineering.upenn.edu/stories/nanoparticle-blueprints-reveal-path-to-smarter-medicines/",
+      "date": "2025-10-23",
+      "dek": "Research and Innovation / October 23, 2025"
+    },
+    {
+      "title": "Four Advances Redefining AI Innovation — Insights from Professor Chris Callison-Burch",
+      "link": "https://www.engineering.upenn.edu/stories/four-advances-redefining-ai-innovation-insights-from-professor-chris-callison-burch/",
+      "date": "2025-10-22",
+      "dek": "Research and Innovation / October 22, 2025"
+    },
+    {
+      "title": "Clark Foundation Invests $11 Million in the Next Generation of Penn Engineers",
+      "link": "https://www.engineering.upenn.edu/stories/clark-foundation-invests-11-million-in-the-next-generation-of-penn-engineers/",
+      "date": "2025-10-21",
+      "dek": "In the News, Students / October 21, 2025"
+    },
+    {
+      "title": "A ‘Rosetta Stone’ for Molecular Systems",
+      "link": "https://www.engineering.upenn.edu/stories/a-rosetta-stone-for-molecular-systems/",
+      "date": "2025-10-20",
+      "dek": "Research and Innovation / October 20, 2025"
+    },
+    {
+      "title": "Penn Engineering’s Dohyung Kim Named 2025 Packard Fellow for Science and Engineering",
+      "link": "https://www.engineering.upenn.edu/stories/penn-engineerings-dohyung-kim-named-2025-packard-fellow-for-science-and-engineering/",
+      "date": "2025-10-15",
+      "dek": "Grants, Honors and Awards, In the News / October 15, 2025"
+    },
+    {
+      "title": "Two Penn Faculty Elected American Physical Society Fellows",
+      "link": "https://www.engineering.upenn.edu/stories/two-penn-faculty-elected-american-physical-society-fellows/",
+      "date": "2025-10-14",
+      "dek": "Honors and Awards / October 14, 2025"
+    },
+    {
+      "title": "Inspiring Interest in Water Quality at Cobbs Creek",
+      "link": "https://www.engineering.upenn.edu/stories/inspiring-interest-in-water-quality-at-cobbs-creek/",
+      "date": "2025-10-13",
+      "dek": "Research and Innovation / October 13, 2025"
+    },
+    {
+      "title": "Alumni Q&A: Paul McLaughlin",
+      "link": "https://www.engineering.upenn.edu/stories/alumni-paul-mclaughlin/",
+      "date": "2025-10-10",
+      "dek": "Alumni / October 10, 2025"
+    },
+    {
+      "title": "Helping robots work together to explore the Moon and Mars",
+      "link": "https://www.engineering.upenn.edu/stories/helping-robots-work-together-to-explore-the-moon-and-mars/",
+      "date": "2025-10-02",
+      "dek": "In the News, Research and Innovation, Students / October 2, 2025"
+    },
+    {
+      "title": "AI at the Eyelid: Glasses That Track Health Through Your Blinks",
+      "link": "https://www.engineering.upenn.edu/stories/ai-at-the-eyelid-glasses-that-track-health-through-your-blinks/",
+      "date": "2025-10-01",
+      "dek": "Research and Innovation / October 1, 2025"
+    },
+    {
+      "title": "Students Test One Way to Combat Extreme Heat in Philadelphia",
+      "link": "https://www.engineering.upenn.edu/stories/students-test-one-way-to-combat-extreme-heat-in-philadelphia/",
+      "date": "2025-09-30",
+      "dek": "Research and Innovation / September 30, 2025"
+    },
+    {
+      "title": "Penn Nursing and Engineering Students Tackle Health Care Challenges at Inaugural Datathon",
+      "link": "https://www.engineering.upenn.edu/stories/penn-nursing-and-engineering-students-tackle-health-care-challenges-at-inaugural-datathon/",
+      "date": "2025-09-29",
+      "dek": "Events / September 29, 2025"
+    },
+    {
+      "title": "74 Brilliant Minds, One Symposium: NAE Frontiers of Engineering Celebrates 30 Years at Penn",
+      "link": "https://www.engineering.upenn.edu/stories/74-brilliant-minds-one-symposium-nae-frontiers-of-engineering-celebrates-30-years-at-penn/",
+      "date": "2025-09-26",
+      "dek": "Events, In the News / September 26, 2025"
+    },
+    {
+      "title": "Pranam Chatterjee Designs Novel AI Frameworks for Biotechnology",
+      "link": "https://www.engineering.upenn.edu/stories/pranam-chatterjee-designs-novel-ai-frameworks-for-biotechnology/",
+      "date": "2025-09-18",
+      "dek": "In the News / September 18, 2025"
+    },
+    {
+      "title": "Penn Engineers Explore How Tumor Mechanics and Tiny Messengers Could Shape the Future of Cancer Research",
+      "link": "https://www.engineering.upenn.edu/stories/penn-engineers-explore-how-tumor-mechanics-and-tiny-messengers-could-shape-the-future-of-cancer-research/",
+      "date": "2025-09-17",
+      "dek": "In the News, Research and Innovation / September 17, 2025"
+    },
+    {
+      "title": "Penn Buildings Achieve LEED Certifications, Showcasing Commitment to Sustainability",
+      "link": "https://www.engineering.upenn.edu/stories/penn-buildings-achieve-leed-certifications-showcasing-commitment-to-sustainability/",
+      "date": "2025-09-15",
+      "dek": "In the News / September 15, 2025"
+    },
+    {
+      "title": "Understanding Order to Disorder at the Atomic Scale Opens Possibilities for Next-Generation Electronic Devices",
+      "link": "https://www.engineering.upenn.edu/stories/understanding-order-to-disorder-at-the-atomic-scale-opens-possibilities-for-next-generation-electronic-devices/",
+      "date": "2025-09-08",
+      "dek": "Research and Innovation / September 8, 2025"
+    },
+    {
+      "title": "What Stiffening Lung Tissue Reveals About the Earliest Stages of Fibrosis",
+      "link": "https://www.engineering.upenn.edu/stories/what-stiffening-lung-tissue-reveals-about-the-earliest-stages-of-fibrosis/",
+      "date": "2025-09-05",
+      "dek": "In the News, Research and Innovation / September 5, 2025"
+    },
+    {
+      "title": "How One Student’s Experience is Helping to Shape Renewable Energy Education",
+      "link": "https://www.engineering.upenn.edu/stories/how-one-students-experience-is-helping-to-shape-renewable-energy-education/",
+      "date": "2025-09-03",
+      "dek": "Research and Innovation, Students / September 3, 2025"
+    },
+    {
+      "title": "Penn Engineers Unveil Generative AI Model that Designs New Antibiotics",
+      "link": "https://www.engineering.upenn.edu/stories/penn-engineers-unveil-generative-ai-model-that-designs-new-antibiotics/",
+      "date": "2025-09-02",
+      "dek": "Research and Innovation / September 2, 2025"
+    },
+    {
+      "title": "Penn Engineers Send Quantum Signals with Standard Internet Protocol",
+      "link": "https://www.engineering.upenn.edu/stories/penn-engineers-send-quantum-signals-with-standard-internet-protocol/",
+      "date": "2025-08-28",
+      "dek": "Research and Innovation / August 28, 2025"
+    },
+    {
+      "title": "Eva Dyer Is Listening to the Brain’s Code With a Little Help From AI",
+      "link": "https://www.engineering.upenn.edu/stories/eva-dyer-is-listening-to-the-brains-code-with-a-little-help-from-ai/",
+      "date": "2025-08-27",
+      "dek": "In the News / August 27, 2025"
+    },
+    {
+      "title": "Students Use Machine Learning to Track and Protect Whale Populations",
+      "link": "https://www.engineering.upenn.edu/stories/students-use-machine-learning-to-track-and-protect-whale-populations/",
+      "date": "2025-08-26",
+      "dek": "Research and Innovation, Students / August 26, 2025"
+    },
+    {
+      "title": "Fall 2025 Dean’s Welcome",
+      "link": "https://www.engineering.upenn.edu/stories/fall-2025-deans-welcome/",
+      "date": "2025-08-21",
+      "dek": "Academics, Guest Posts, Students / August 21, 2025"
+    },
+    {
+      "title": "Sunflower Spirals and Raspberry Beads: A Nature-Inspired Leap in Water Harvesting Technology",
+      "link": "https://www.engineering.upenn.edu/stories/sunflower-spirals-and-raspberry-beads-a-nature-inspired-leap-in-water-harvesting-technology/",
+      "date": "2025-08-18",
+      "dek": "In the News, Medium.com Archive, Research and Innovation / August 18, 2025"
+    },
+    {
+      "title": "Reengineering AI to Target “Undruggable” Disease Proteins",
+      "link": "https://www.engineering.upenn.edu/stories/reengineering-ai-to-target-undruggable-disease-proteins/",
+      "date": "2025-08-13",
+      "dek": "Research and Innovation / August 13, 2025"
+    },
+    {
+      "title": "AI Uncovers New Antibiotics in Ancient Microbes",
+      "link": "https://www.engineering.upenn.edu/stories/ai-uncovers-new-antibiotics-in-ancient-microbes/",
+      "date": "2025-08-12",
+      "dek": "Research and Innovation / August 12, 2025"
+    },
+    {
+      "title": "Sustainable Computing: Can AI Be Energy Efficient?",
+      "link": "https://www.engineering.upenn.edu/stories/sustainable-computing-can-ai-be-energy-efficient/",
+      "date": "2025-08-08",
+      "dek": "In the News, Research and Innovation / August 8, 2025"
+    },
+    {
+      "title": "Centuries After Discovery, Red Blood Cells Still Hold Surprises",
+      "link": "https://www.engineering.upenn.edu/stories/centuries-after-discovery-red-blood-cells-still-hold-surprises/",
+      "date": "2025-08-06",
+      "dek": "Research and Innovation / August 6, 2025"
+    },
+    {
+      "title": "Alumni Q&A: Farnia Fresnel",
+      "link": "https://www.engineering.upenn.edu/stories/alumni-qa-farnia-fresnel/",
+      "date": "2025-08-04",
+      "dek": "Alumni / August 4, 2025"
+    },
+    {
+      "title": "Beneath the Surface: Diving into Water’s Hidden Carbon-Cleaning Capabilities",
+      "link": "https://www.engineering.upenn.edu/stories/beneath-the-surface-diving-into-waters-hidden-carbon-cleaning-capabilities/",
+      "date": "2025-07-31",
+      "dek": "Research and Innovation / July 31, 2025"
+    },
+    {
+      "title": "Renewable Energy is Not Just for the Grid: Supercharging Carbon Removal with Geothermal Energy Increases Carbon Abatement",
+      "link": "https://www.engineering.upenn.edu/stories/renewable-energy-is-not-just-for-the-grid-supercharging-carbon-removal-with-geothermal-energy-increases-carbon-abatement/",
+      "date": "2025-07-29",
+      "dek": "In the News, Research and Innovation / July 29, 2025"
+    },
+    {
+      "title": "AI finds hundreds of potential antibiotics in snake and spider venom",
+      "link": "https://www.engineering.upenn.edu/stories/ai-finds-hundreds-of-potential-antibiotics-in-snake-and-spider-venom/",
+      "date": "2025-07-28",
+      "dek": "Research and Innovation / July 28, 2025"
+    },
+    {
+      "title": "What Ever-Growing Incisors Can Teach Us About Genetic Disease",
+      "link": "https://www.engineering.upenn.edu/stories/what-ever-growing-incisors-can-teach-us-about-genetic-disease/",
+      "date": "2025-07-24",
+      "dek": "In the News, Research and Innovation / July 24, 2025"
+    },
+    {
+      "title": "Engineering a Healthier Future: Kelsey Swingle’s Journey from Penn Student to Rice Faculty",
+      "link": "https://www.engineering.upenn.edu/stories/engineering-a-healthier-future-kelsey-swingles-journey-from-penn-student-to-rice-faculty/",
+      "date": "2025-07-22",
+      "dek": "Alumni, In the News, Research and Innovation / July 22, 2025"
+    },
+    {
+      "title": "AI Vision, Reinvented: The Power of Synthetic Data",
+      "link": "https://www.engineering.upenn.edu/stories/ai-vision-reinvented-the-power-of-synthetic-data/",
+      "date": "2025-07-21",
+      "dek": "Research and Innovation / July 21, 2025"
+    },
+    {
+      "title": "Less Pain, More Gain: A New Recipe for Safer, Stronger mRNA Therapies",
+      "link": "https://www.engineering.upenn.edu/stories/less-pain-more-gain-a-new-recipe-for-safer-stronger-mrna-therapies/",
+      "date": "2025-07-18",
+      "dek": "Research and Innovation / July 18, 2025"
+    },
+    {
+      "title": "Engineering a Healthier Heart: Noor Momin Receives AHA Transformational Project Award",
+      "link": "https://www.engineering.upenn.edu/stories/engineering-a-healthier-heart-noor-momin-receives-aha-transformational-project-award/",
+      "date": "2025-07-17",
+      "dek": "Honors and Awards, Research and Innovation / July 17, 2025"
+    },
+    {
+      "title": "Cracking the Code of Force-Driven Chemistry",
+      "link": "https://www.engineering.upenn.edu/stories/cracking-the-code-of-force-driven-chemistry/",
+      "date": "2025-07-17",
+      "dek": "In the News, Research and Innovation / July 17, 2025"
+    },
+    {
+      "title": "Shoji Hall Works at the Electrifying Edge Between Materials Science and Chemistry",
+      "link": "https://www.engineering.upenn.edu/stories/shoji-hall-works-at-the-electrifying-edge-between-materials-science-and-chemistry/",
+      "date": "2025-07-16",
+      "dek": "In the News, Research and Innovation / July 16, 2025"
+    },
+    {
+      "title": "George Pappas Receives IEEE Kirchmayer Award",
+      "link": "https://www.engineering.upenn.edu/stories/george-pappas-receives-ieee-kirchmayer-award/",
+      "date": "2025-07-14",
+      "dek": "Honors and Awards / July 14, 2025"
+    },
+    {
+      "title": "David Meaney Named Vice Provost for Research at Penn",
+      "link": "https://www.engineering.upenn.edu/stories/david-meaney-named-vice-provost-for-research-at-penn/",
+      "date": "2025-07-09",
+      "dek": "Honors and Awards, In the News / July 9, 2025"
+    },
+    {
+      "title": "Designing Cleaner, Greener Concrete that Absorbs Carbon Dioxide",
+      "link": "https://www.engineering.upenn.edu/stories/designing-cleaner-greener-concrete-that-absorbs-carbon-dioxide/",
+      "date": "2025-07-09",
+      "dek": "In the News, Research and Innovation / July 9, 2025"
+    },
+    {
+      "title": "Misadventures in Montevideo",
+      "link": "https://www.engineering.upenn.edu/stories/misadventures-in-montevideo/",
+      "date": "2025-07-08",
+      "dek": "Students / July 8, 2025"
+    },
+    {
+      "title": "$2.6M NIH Grant Backs Search for Genetic Cure in Deadly Heart Disease",
+      "link": "https://www.engineering.upenn.edu/stories/2-6m-nih-grant-backs-search-for-genetic-cure-in-deadly-heart-disease/",
+      "date": "2025-07-07",
+      "dek": "Honors and Awards, Research and Innovation / July 7, 2025"
+    },
+    {
+      "title": "Impact of Research",
+      "link": "https://www.engineering.upenn.edu/stories/impact-of-research/",
+      "date": "2025-06-30",
+      "dek": "In the News, Research and Innovation / June 30, 2025"
+    },
+    {
+      "title": "Alumni Q&A: Rhonda and Gentry Klein",
+      "link": "https://www.engineering.upenn.edu/stories/alumni-qa-rhonda-and-gentry-klein/",
+      "date": "2025-06-26",
+      "dek": "Alumni / June 26, 2025"
+    },
+    {
+      "title": "Composto, Jordan-Sciutto Named Vice Provosts at Penn",
+      "link": "https://www.engineering.upenn.edu/stories/composto-jordan-sciutto-named-vice-provosts-at-penn/",
+      "date": "2025-06-25",
+      "dek": "In the News / June 25, 2025"
+    },
+    {
+      "title": "Lighting the Spark: Summer STEM at Penn Engineering",
+      "link": "https://www.engineering.upenn.edu/stories/lighting-the-spark-summer-stem-at-penn-engineering/",
+      "date": "2025-06-25",
+      "dek": "Academics, Community, Students / June 25, 2025"
+    },
+    {
+      "title": "Penn Engineers Turn Toxic Fungus into Anti-Cancer Compound",
+      "link": "https://www.engineering.upenn.edu/stories/penn-engineers-turn-toxic-fungus-into-anti-cancer-drug/",
+      "date": "2025-06-23",
+      "dek": "Research and Innovation / June 23, 2025"
+    },
+    {
+      "title": "Exploring Juneteenth",
+      "link": "https://www.engineering.upenn.edu/stories/exploring-juneteenth/",
+      "date": "2025-06-19",
+      "dek": "In the News / June 19, 2025"
+    },
+    {
+      "title": "Researchers crack the code of body’s ancient immune defense",
+      "link": "https://www.engineering.upenn.edu/stories/researchers-crack-the-code-of-bodys-ancient-immune-defense/",
+      "date": "2025-06-18",
+      "dek": "Research and Innovation / June 18, 2025"
+    },
+    {
+      "title": "No Plan, No Problem: Teaching Robots to Build Without Blueprints",
+      "link": "https://www.engineering.upenn.edu/stories/no-plan-no-problem-teaching-robots-to-build-without-blueprints/",
+      "date": "2025-06-17",
+      "dek": "Research and Innovation / June 17, 2025"
+    },
+    {
+      "title": "Wensi Wu Uses Digital Twins to Explore the Hidden Mechanics of the Human Heart",
+      "link": "https://www.engineering.upenn.edu/stories/wensi-wu-uses-digital-twins-to-explore-the-hidden-mechanics-of-the-human-heart/",
+      "date": "2025-06-16",
+      "dek": "In the News, Research and Innovation / June 16, 2025"
+    },
+    {
+      "title": "What is an NPU? A Penn Expert Explains",
+      "link": "https://www.engineering.upenn.edu/stories/what-is-an-npu-a-penn-expert-explains/",
+      "date": "2025-06-13",
+      "dek": "In the News, Research and Innovation / June 13, 2025"
+    },
+    {
+      "title": "How Cable News Has Diverged From Broadcast News",
+      "link": "https://www.engineering.upenn.edu/stories/how-cable-news-has-diverged-from-broadcast-news/",
+      "date": "2025-06-11",
+      "dek": "Research and Innovation / June 11, 2025"
+    },
+    {
+      "title": "AI x Science Postdoctoral Fellows Collaborate Across Disciplines",
+      "link": "https://www.engineering.upenn.edu/stories/ai-x-science-postdoctoral-fellows-collaborate-across-disciplines/",
+      "date": "2025-06-10",
+      "dek": "Research and Innovation, Students / June 10, 2025"
+    },
+    {
+      "title": "Penn Engineering Students Graduate as Benjamin Franklin Scholars",
+      "link": "https://www.engineering.upenn.edu/stories/penn-engineering-students-graduate-as-benjamin-franklin-scholars/",
+      "date": "2025-06-09",
+      "dek": "Honors and Awards, In the News, Students / June 9, 2025"
+    },
+    {
+      "title": "Unlocking the Mechanics of Protein Misfolding",
+      "link": "https://www.engineering.upenn.edu/stories/unlocking-the-mechanics-of-protein-misfolding/",
+      "date": "2025-06-03",
+      "dek": "In the News, Research and Innovation / June 3, 2025"
+    },
+    {
+      "title": "Alumni Q&A: Faisel Khan",
+      "link": "https://www.engineering.upenn.edu/stories/faisel-khan-alumni/",
+      "date": "2025-05-30",
+      "dek": "Alumni / May 30, 2025"
+    },
+    {
+      "title": "Delivering a One-Two Punch to Superbugs to Fight Infections",
+      "link": "https://www.engineering.upenn.edu/stories/delivering-a-one-two-punch-to-superbugs-to-fight-infections/",
+      "date": "2025-05-28",
+      "dek": "In the News, Research and Innovation / May 28, 2025"
+    },
+    {
+      "title": "Innovation & Impact Podcast: Microelectronics and Entrepreneurship with Kurt Petersen",
+      "link": "https://www.engineering.upenn.edu/stories/innovation-impact-podcast-episode-8-microelectronics-and-entrepreneurship-with-kurt-petersen/",
+      "date": "2025-05-27",
+      "dek": "In the News / May 27, 2025"
+    },
+    {
+      "title": "Penn Engineers Discover a New Class of Materials That Passively Harvest Water from Air",
+      "link": "https://www.engineering.upenn.edu/stories/penn-engineers-discover-a-new-class-of-materials-that-passively-harvest-water-from-air/",
+      "date": "2025-05-22",
+      "dek": "In the News, Research and Innovation / May 22, 2025"
+    },
+    {
+      "title": "How Penn is Reimagining Research in the Age of Artificial Intelligence",
+      "link": "https://www.engineering.upenn.edu/stories/how-penn-is-reimagining-research-in-the-age-of-artificial-intelligence/",
+      "date": "2025-05-20",
+      "dek": "In the News, Research and Innovation / May 20, 2025"
+    },
+    {
+      "title": "Performer, Biomedical Engineer, and Soon-To-Be Graduate",
+      "link": "https://www.engineering.upenn.edu/stories/performer-biomedical-engineer-and-soon-to-be-graduate/",
+      "date": "2025-05-19",
+      "dek": "Honors and Awards, Students / May 19, 2025"
+    },
+    {
+      "title": "Exploring My Autoimmune Research Interests",
+      "link": "https://www.engineering.upenn.edu/stories/exploring-my-autoimmune-research-interests/",
+      "date": "2025-05-16",
+      "dek": "Research and Innovation, Students / May 16, 2025"
+    },
+    {
+      "title": "Advancing the Quantum Frontier: Highlights from Penn FoQuS 2025",
+      "link": "https://www.engineering.upenn.edu/stories/advancing-the-quantum-frontier-highlights-from-penn-foqus-2025/",
+      "date": "2025-05-15",
+      "dek": "Events, In the News / May 15, 2025"
+    },
+    {
+      "title": "Alumni Q&A: Isaiah Belle",
+      "link": "https://www.engineering.upenn.edu/stories/alumni-isaiah-belle/",
+      "date": "2025-05-14",
+      "dek": "Alumni / May 14, 2025"
+    },
+    {
+      "title": "A Celebration of Creativity and Innovation for Social Good",
+      "link": "https://www.engineering.upenn.edu/stories/a-celebration-of-creativity-and-innovation-for-social-good/",
+      "date": "2025-05-13",
+      "dek": "Events, Honors and Awards / May 13, 2025"
+    },
+    {
+      "title": "Designing the Future: Penn Engineering’s 2025 Senior Design Project Competition",
+      "link": "https://www.engineering.upenn.edu/stories/designing-the-future-penn-engineerings-2025-senior-design-project-competition/",
+      "date": "2025-05-12",
+      "dek": "Alumni, Events, Honors and Awards, Students / May 12, 2025"
+    },
+    {
+      "title": "New AI Technique Can Uncover Antiviral Compounds Using Limited Data",
+      "link": "https://www.engineering.upenn.edu/stories/new-ai-technique-can-uncover-antiviral-compounds-using-limited-data/",
+      "date": "2025-05-08",
+      "dek": "In the News, Research and Innovation / May 8, 2025"
+    },
+    {
+      "title": "A New Era in Genetic Engineering",
+      "link": "https://www.engineering.upenn.edu/stories/a-new-era-in-genetic-engineering/",
+      "date": "2025-05-07",
+      "dek": "Research and Innovation / May 7, 2025"
+    },
+    {
+      "title": "Knowing When to Bend or Break: Penn Engineers Examine the Fracture Mechanics of 3D Graphene Structures",
+      "link": "https://www.engineering.upenn.edu/stories/knowing-when-to-bend-or-break-penn-engineers-examine-the-fracture-mechanics-of-3d-graphene-structures/",
+      "date": "2025-05-07",
+      "dek": "In the News, Research and Innovation / May 7, 2025"
+    },
+    {
+      "title": "Adventures in Innovation: Penn Engineering Startups Lead Venture Lab Challenge",
+      "link": "https://www.engineering.upenn.edu/stories/adventures-in-innovation-penn-engineering-startups-lead-venture-lab-challenge/",
+      "date": "2025-05-06",
+      "dek": "Honors and Awards, Students / May 6, 2025"
+    },
+    {
+      "title": "Rob Ghrist: The Soul of an Artist, the Mind of a Mathematician",
+      "link": "https://www.engineering.upenn.edu/stories/rob-ghrist-the-soul-of-an-artist-the-mind-of-a-mathematician/",
+      "date": "2025-05-05",
+      "dek": "In the News, Research and Innovation / May 5, 2025"
+    },
+    {
+      "title": "Empowering Futures: How PRECISE Center’s Mentorship with Google is Transforming Academic Careers and Innovation",
+      "link": "https://www.engineering.upenn.edu/stories/empowering-futures-how-precise-centers-mentorship-with-google-is-transforming-academic-careers-and-innovation/",
+      "date": "2025-05-02",
+      "dek": "Academics, Students / May 2, 2025"
+    },
+    {
+      "title": "Using Satellites, Drones, and AI for More Sustainable and Efficient Agriculture",
+      "link": "https://www.engineering.upenn.edu/stories/using-satellites-drones-and-ai-for-more-sustainable-and-efficient-agriculture/",
+      "date": "2025-05-01",
+      "dek": "Honors and Awards, In the News / May 1, 2025"
+    },
+    {
+      "title": "Penn Students Develop AI-Driven Solution to Transform Senior Care",
+      "link": "https://penntoday.upenn.edu/news/penn-students-develop-ai-driven-solution-transform-senior-care",
+      "date": "2025-04-30",
+      "dek": "Honors and Awards / April 30, 2025"
+    },
+    {
+      "title": "Scaling Up: How AI Month 2025 Brought Big Ideas to Life at Penn Engineering",
+      "link": "https://www.engineering.upenn.edu/stories/scaling-up-how-ai-month-2025-brought-big-ideas-to-life-at-penn-engineering/",
+      "date": "2025-04-30",
+      "dek": "AI / April 30, 2025"
+    },
+    {
+      "title": "Armoring CAR T Cells to Prevent Self-Sabotage and Better Fight Cancer",
+      "link": "https://www.engineering.upenn.edu/stories/armoring-car-t-cells-to-prevent-self-sabotage-and-better-fight-cancer/",
+      "date": "2025-04-30",
+      "dek": "In the News, Research and Innovation / April 30, 2025"
+    },
+    {
+      "title": "Innovation & Impact Podcast: The Future of AI with Yann LeCun",
+      "link": "https://www.engineering.upenn.edu/stories/innovation-impact-podcast-episode-7-the-future-of-ai-with-yann-lecun/",
+      "date": "2025-04-29",
+      "dek": "In the News / April 29, 2025"
+    },
+    {
+      "title": "New Ways to Modulate Cell Activity Remotely",
+      "link": "https://www.engineering.upenn.edu/stories/new-ways-to-modulate-cell-activity-remotely/",
+      "date": "2025-04-26",
+      "dek": "Research and Innovation / April 26, 2025"
+    },
+    {
+      "title": "Penn to Double Computing Capacity for Faculty",
+      "link": "https://www.engineering.upenn.edu/stories/penn-to-double-computing-capacity-for-faculty/",
+      "date": "2025-04-25",
+      "dek": "In the News / April 25, 2025"
+    },
+    {
+      "title": "Five Penn Faculty Elected to the American Academy of Arts and Sciences",
+      "link": "https://www.engineering.upenn.edu/stories/five-penn-faculty-elected-to-the-american-academy-of-arts-and-sciences/",
+      "date": "2025-04-24",
+      "dek": "Honors and Awards, In the News / April 24, 2025"
+    },
+    {
+      "title": "Microrobots Navigate Diverse Oral Environments to Deliver Therapies",
+      "link": "https://www.engineering.upenn.edu/stories/microrobots-navigate-diverse-oral-environments-to-deliver-therapies/",
+      "date": "2025-04-24",
+      "dek": "In the News, Research and Innovation / April 24, 2025"
+    },
+    {
+      "title": "Meet Jean, Penn Engineering’s AI Tutor, Available 24/7",
+      "link": "https://www.engineering.upenn.edu/stories/meet-jean-penn-engineerings-ai-tutor-available-24-7/",
+      "date": "2025-04-23",
+      "dek": "Academics, Research and Innovation / April 23, 2025"
+    },
+    {
+      "title": "New 3D-Printing Method Enables Color-Changing, Stress-Responsive Materials for Smart Sensing, Displays and Robotics",
+      "link": "https://www.engineering.upenn.edu/stories/new-3d-printing-method-enables-color-changing-stress-responsive-materials-for-smart-sensing-displays-and-robotics/",
+      "date": "2025-04-22",
+      "dek": "In the News, Research and Innovation / April 22, 2025"
+    },
+    {
+      "title": "News On Climate Change Is More Persuasive Than Expected, Study Finds",
+      "link": "https://www.engineering.upenn.edu/stories/news-on-climate-change-is-more-persuasive-than-expected-study-finds/",
+      "date": "2025-04-18",
+      "dek": "Research and Innovation / April 18, 2025"
+    },
+    {
+      "title": "Class of 2025 President’s Engagement, Innovation, and Sustainability Prize Winners Announced",
+      "link": "https://www.engineering.upenn.edu/stories/class-of-2025-presidents-engagement-innovation-and-sustainability-prize-winners-announced/",
+      "date": "2025-04-17",
+      "dek": "Honors and Awards, In the News / April 17, 2025"
+    },
+    {
+      "title": "How MLR@Penn Supports Student AI Researchers",
+      "link": "https://www.engineering.upenn.edu/stories/how-mlrpenn-supports-student-ai-researchers/",
+      "date": "2025-04-17",
+      "dek": "Students / April 17, 2025"
+    },
+    {
+      "title": "Turning Bicycles into an Engineering Study Tool",
+      "link": "https://www.engineering.upenn.edu/stories/turning-bicycles-into-an-engineering-study-tool/",
+      "date": "2025-04-16",
+      "dek": "Research and Innovation, Students / April 16, 2025"
+    },
+    {
+      "title": "Penn Engineers First to Train AI at Lightspeed",
+      "link": "https://www.engineering.upenn.edu/stories/penn-engineers-first-to-train-ai-at-lightspeed/",
+      "date": "2025-04-15",
+      "dek": "Research and Innovation / April 15, 2025"
+    },
+    {
+      "title": "Robots in the Reading Room: GRASP Lab Brings Hands-On STEM to Roxborough Library",
+      "link": "https://www.engineering.upenn.edu/stories/robots-in-the-reading-room-grasp-lab-brings-hands-on-stem-to-roxborough-library/",
+      "date": "2025-04-14",
+      "dek": "Events, Students / April 14, 2025"
+    },
+    {
+      "title": "The Impact of Engineering at Penn",
+      "link": "https://www.engineering.upenn.edu/stories/the-impact-of-engineering-entrepreneurship-at-penn/",
+      "date": "2025-04-14",
+      "dek": "In the News / April 14, 2025"
+    },
+    {
+      "title": "Zixuan Yi: A ‘Question-Driven’ Approach to Improving AI and Machine Learning",
+      "link": "https://www.engineering.upenn.edu/stories/zixuan-yi-a-question-driven-approach-to-improving-ai-and-machine-learning/",
+      "date": "2025-04-11",
+      "dek": "Research and Innovation, Students / April 11, 2025"
+    },
+    {
+      "title": "From Cracks to Gardens: Creating a Thriving Social Media Through Research",
+      "link": "https://www.engineering.upenn.edu/stories/from-cracks-to-gardens-creating-a-thriving-social-media-through-research/",
+      "date": "2025-04-10",
+      "dek": "Research and Innovation / April 10, 2025"
+    },
+    {
+      "title": "The ASSET Center Advances Trustworthy AI with Support from AWS",
+      "link": "https://www.engineering.upenn.edu/stories/the-asset-center-advances-trustworthy-ai-with-support-from-aws/",
+      "date": "2025-04-09",
+      "dek": "Honors and Awards, In the News, Students / April 9, 2025"
+    },
+    {
+      "title": "Flying High with the Penn Aerial Robotics Club",
+      "link": "https://www.engineering.upenn.edu/stories/flying-high-with-the-penn-aerial-robotics-club/",
+      "date": "2025-04-08",
+      "dek": "Research and Innovation / April 8, 2025"
+    },
+    {
+      "title": "Responsible Innovation Starts Here: A Holistic Approach to Engineering Education",
+      "link": "https://www.engineering.upenn.edu/stories/responsible-innovation-starts-here-a-holistic-approach-to-engineering-education/",
+      "date": "2025-04-07",
+      "dek": "Academics, Students / April 7, 2025"
+    },
+    {
+      "title": "Penn Electric Racing Unveil their Latest Creation: REVX",
+      "link": "https://www.engineering.upenn.edu/stories/penn-electric-racing-unveil-their-latest-creation-revx/",
+      "date": "2025-04-04",
+      "dek": "In the News / April 4, 2025"
+    },
+    {
+      "title": "Modeling Careers in STEM",
+      "link": "https://www.engineering.upenn.edu/stories/modeling-careers-in-stem/",
+      "date": "2025-04-04",
+      "dek": "Events / April 4, 2025"
+    },
+    {
+      "title": "AI Across Disciplines Event Highlights the Power of ‘Breadth and Connectivity’ at Universities",
+      "link": "https://www.engineering.upenn.edu/stories/ai-across-disciplines-event-highlights-the-power-of-breadth-and-connectivity-at-universities/",
+      "date": "2025-04-03",
+      "dek": "In the News / April 3, 2025"
+    },
+    {
+      "title": "Alumni Q&A: Sevile Mannickarottu",
+      "link": "https://www.engineering.upenn.edu/stories/alumni-feature-sevile-mannickarottu/",
+      "date": "2025-04-02",
+      "dek": "Alumni / April 2, 2025"
+    },
+    {
+      "title": "The Science Behind Major League Baseball’s ‘Magic Mud’",
+      "link": "https://www.engineering.upenn.edu/stories/the-science-behind-major-league-baseballs-magic-mud/",
+      "date": "2025-03-31",
+      "dek": "In the News, Research and Innovation / March 31, 2025"
+    },
+    {
+      "title": "Investing in Engineers: Sugi Widjaja and Millie Wan Champion Entrepreneurship Fellows",
+      "link": "https://www.engineering.upenn.edu/stories/investing-in-engineers-sugi-widjaja-and-millie-wan-champion-entrepreneurship-fellows/",
+      "date": "2025-03-31",
+      "dek": "Alumni, Students / March 31, 2025"
+    },
+    {
+      "title": "Meet Taylor Caputo, Director of the Engineering Studios @ Venture Lab",
+      "link": "https://www.engineering.upenn.edu/stories/meet-taylor-caputo-director-of-the-engineering-studios-venture-lab/",
+      "date": "2025-03-28",
+      "dek": "Academics, Alumni, Research and Innovation, Students / March 28, 2025"
+    },
+    {
+      "title": "Heritage and Innovation: How Penn Engineers are Restoring the Historic Springfield Mills",
+      "link": "https://www.engineering.upenn.edu/stories/heritage-and-innovation-how-penn-engineers-are-restoring-the-historic-springfield-mills/",
+      "date": "2025-03-28",
+      "dek": "In the News / March 28, 2025"
+    },
+    {
+      "title": "Evaluating Large Language Models for Cyberbullying Behavior",
+      "link": "https://www.engineering.upenn.edu/stories/evaluating-large-language-models-for-cyberbullying-behavior/",
+      "date": "2025-03-27",
+      "dek": "Research and Innovation, Students / March 27, 2025"
+    },
+    {
+      "title": "The 2025 Penn Engineering Student Choice Awards",
+      "link": "https://www.engineering.upenn.edu/stories/the-2025-penn-engineering-student-choice-awards/",
+      "date": "2025-03-27",
+      "dek": "Honors and Awards / March 27, 2025"
+    },
+    {
+      "title": "Christopher Murray Elected AAAS Fellow",
+      "link": "https://www.engineering.upenn.edu/stories/christopher-murray-elected-aaas-fellow/",
+      "date": "2025-03-27",
+      "dek": "Honors and Awards, In the News / March 27, 2025"
+    },
+    {
+      "title": "2025 CAREER Award Recipient: Jina Ko",
+      "link": "https://www.engineering.upenn.edu/stories/2025-career-award-recipient-jina-ko/",
+      "date": "2025-03-26",
+      "dek": "Grants, Honors and Awards, In the News / March 26, 2025"
+    },
+    {
+      "title": "Scientists Unlock Frogs’ Antibacterial Secrets to Combat Superbugs",
+      "link": "https://www.engineering.upenn.edu/stories/scientists-unlock-frogs-antibacterial-secrets-to-combat-superbugs/",
+      "date": "2025-03-25",
+      "dek": "Research and Innovation / March 25, 2025"
+    },
+    {
+      "title": "The Cora Ingrum Center: Supporting the Next Generation of Engineers",
+      "link": "https://www.engineering.upenn.edu/stories/the-cora-ingrum-center-supporting-the-next-generation-of-engineers/",
+      "date": "2025-03-25",
+      "dek": "Academics, Community, Students / March 25, 2025"
+    },
+    {
+      "title": "2024 PEP and PIP winners: Where are they now?",
+      "link": "https://www.engineering.upenn.edu/stories/2024-pep-and-pip-winners-where-are-they-now/",
+      "date": "2025-03-19",
+      "dek": "In the News / March 19, 2025"
+    },
+    {
+      "title": "Shu Yang Named To Inaugural National Geographic 33 Extraordinary Changemakers List",
+      "link": "https://www.engineering.upenn.edu/stories/shu-yang-named-to-inaugural-national-geographic-33-extraordinary-changemakers-list/",
+      "date": "2025-03-18",
+      "dek": "Honors and Awards, In the News / March 18, 2025"
+    },
+    {
+      "title": "Christopher Madl Receives $2M NIH Grant to Investigate Cellular Responses to Mechanical Cues in Tissue Development and Disease Progression",
+      "link": "https://www.engineering.upenn.edu/stories/christopher-madl-receives-2m-nih-grant-to-investigate-cellular-responses-to-mechanical-cues-in-tissue-development-and-disease-progression/",
+      "date": "2025-03-17",
+      "dek": "Grants, In the News / March 17, 2025"
+    },
+    {
+      "title": "Meet Vanessa Chan: Penn Engineering’s Inaugural Vice Dean of Innovation and Entrepreneurship",
+      "link": "https://www.engineering.upenn.edu/stories/meet-vanessa-chan-penn-engineerings-inaugural-vice-dean-of-innovation-and-entrepreneurship/",
+      "date": "2025-03-15",
+      "dek": "Faculty / March 15, 2025"
+    },
+    {
+      "title": "FY24 Economic Impact Report Shows Penn Helps Drive $37 Billion Through the Region’s Economy",
+      "link": "https://www.engineering.upenn.edu/stories/fy24-economic-impact-report-shows-penn-helps-drive-37-billion-through-the-regions-economy/",
+      "date": "2025-03-12",
+      "dek": "In the News, Research and Innovation / March 12, 2025"
+    },
+    {
+      "title": "Claudia Loebel Creates Hydrogels to Examine Disease",
+      "link": "https://www.engineering.upenn.edu/stories/claudia-loebel-creates-hydrogels-to-examine-disease/",
+      "date": "2025-03-12",
+      "dek": "In the News, Research and Innovation / March 12, 2025"
+    },
+    {
+      "title": "From Drummer to Educator: How Entrepreneurship Transcends Disciplines",
+      "link": "https://www.engineering.upenn.edu/stories/from-drummer-to-educator-how-entrepreneurship-transcends-disciplines/",
+      "date": "2025-03-11",
+      "dek": "Faculty / March 11, 2025"
+    },
+    {
+      "title": "Ravi Radhakrishnan Named AIChE Fellow",
+      "link": "https://www.engineering.upenn.edu/stories/ravi-radhakrishnan-named-aiche-fellow/",
+      "date": "2025-03-11",
+      "dek": "Honors and Awards / March 11, 2025"
+    },
+    {
+      "title": "Breaking the Pattern: How Disorder Toughens Materials",
+      "link": "https://www.engineering.upenn.edu/stories/breaking-the-pattern-how-disorder-toughens-materials/",
+      "date": "2025-03-10",
+      "dek": "Research and Innovation / March 10, 2025"
+    },
+    {
+      "title": "Can Surface Fractures on Earth, Mars, and Europa Predict Habitability on Other Planets?",
+      "link": "https://www.engineering.upenn.edu/stories/can-surface-fractures-on-earth-mars-and-europa-predict-habitability-on-other-planets/",
+      "date": "2025-03-10",
+      "dek": "Research and Innovation / March 10, 2025"
+    },
+    {
+      "title": "CEMB Empowers Teachers and Students",
+      "link": "https://www.engineering.upenn.edu/stories/from-lab-to-classroom-the-center-for-engineering-mechanobiology-empowers-teachers-and-students/",
+      "date": "2025-03-07",
+      "dek": "Community / March 7, 2025"
+    },
+    {
+      "title": "Combining AI and Art-making for Youth Well-being",
+      "link": "https://www.engineering.upenn.edu/stories/combining-ai-and-art-making-for-youth-well-being/",
+      "date": "2025-03-07",
+      "dek": "Research and Innovation, Students / March 7, 2025"
+    },
+    {
+      "title": "Brain Power on Display at the Franklin Institute: Penn Research as Part of an Iconic Philadelphia Exhibit",
+      "link": "https://www.engineering.upenn.edu/stories/brain-power-on-display-at-the-franklin-institute-penn-research-as-part-of-an-iconic-philadelphia-exhibit/",
+      "date": "2025-03-06",
+      "dek": "In the News, Research and Innovation / March 6, 2025"
+    },
+    {
+      "title": "Penn Announces Seven 2025 Thouron Scholars",
+      "link": "https://www.engineering.upenn.edu/stories/penn-announces-seven-2025-thouron-scholars/",
+      "date": "2025-03-05",
+      "dek": "Honors and Awards, In the News / March 5, 2025"
+    },
+    {
+      "title": "Alumni Q&A: Zhi “Mark” Yang",
+      "link": "https://www.engineering.upenn.edu/stories/alumni-qa-zhi-mark-yang-gen00-wmp21/",
+      "date": "2025-03-03",
+      "dek": "Alumni / March 3, 2025"
+    },
+    {
+      "title": "How the Media Distorts Perceptions on Chronic Disease Risks",
+      "link": "https://www.engineering.upenn.edu/stories/how-the-media-distorts-perceptions-on-chronic-disease-risks/",
+      "date": "2025-02-28",
+      "dek": "Research and Innovation / February 28, 2025"
+    },
+    {
+      "title": "Eco-Friendly Rare Earth Element Separation: A Bioinspired Solution to an Industry Challenge",
+      "link": "https://www.engineering.upenn.edu/stories/eco-friendly-rare-earth-element-separation-a-bioinspired-solution-to-an-industry-challenge/",
+      "date": "2025-02-26",
+      "dek": "Grants, In the News, Research and Innovation / February 26, 2025"
+    },
+    {
+      "title": "Getting to the Root of Root canals: Nanoparticles Offer Enhanced Treatment",
+      "link": "https://www.engineering.upenn.edu/stories/getting-to-the-root-of-root-canals-nanoparticles-offer-enhanced-treatment/",
+      "date": "2025-02-24",
+      "dek": "Research and Innovation / February 24, 2025"
+    },
+    {
+      "title": "Stentix Wins 2025 Y-Prize Competition",
+      "link": "https://www.engineering.upenn.edu/stories/stentix-wins-2025-y-prize-competition/",
+      "date": "2025-02-21",
+      "dek": "Honors and Awards, In the News, Students / February 21, 2025"
+    },
+    {
+      "title": "César de la Fuente, Jason Altschuler Named Sloan Research Fellows",
+      "link": "https://www.engineering.upenn.edu/stories/cesar-de-la-fuente-jason-altschuler-named-sloan-research-fellows/",
+      "date": "2025-02-18",
+      "dek": "Honors and Awards, In the News / February 18, 2025"
+    },
+    {
+      "title": "Kyle Vining Receives $2M Award from NIH to Investigate How Extracellular Mechanics Affect Immune Cells",
+      "link": "https://www.engineering.upenn.edu/stories/kyle-vining-receives-2m-award-from-national-institutes-of-health-to-investigate-how-extracellular-mechanics-affect-immune-cells/",
+      "date": "2025-02-14",
+      "dek": "Honors and Awards, In the News / February 14, 2025"
+    },
+    {
+      "title": "Building Tomorrow’s Innovators: Inside Penn’s Widjaja Entrepreneurship Fellows Program",
+      "link": "https://www.engineering.upenn.edu/stories/building-tomorrows-innovators-inside-penns-widjaja-entrepreneurship-fellows-program/",
+      "date": "2025-02-13",
+      "dek": "Academics, Students / February 13, 2025"
+    },
+    {
+      "title": "Innovation & Impact Podcast Episode 6: Leveraging Engineering and AI to Transform Human Health and Beyond",
+      "link": "https://www.engineering.upenn.edu/stories/innovation-impact-podcast-episode-6-leveraging-engineering-and-ai-to-transform-human-health-and-beyond/",
+      "date": "2025-02-11",
+      "dek": "In the News / February 11, 2025"
+    },
+    {
+      "title": "Qubits to qudits: Using quantum mechanics to transmit information more securely",
+      "link": "https://www.engineering.upenn.edu/stories/qubits-to-qudits-using-quantum-mechanics-to-transmit-information-more-securely/",
+      "date": "2025-02-10",
+      "dek": "Research and Innovation / February 10, 2025"
+    },
+    {
+      "title": "Fifth Energy Week to Bring Penn Community Together Around Solutions",
+      "link": "https://www.engineering.upenn.edu/stories/fifth-energy-week-to-bring-penn-community-together-around-solutions/",
+      "date": "2025-02-06",
+      "dek": "Events, In the News / February 6, 2025"
+    },
+    {
+      "title": "Alumni Q&A: Kristy Sundjaja",
+      "link": "https://www.engineering.upenn.edu/stories/kristy-sundjaja-w99-eng00-gen00/",
+      "date": "2025-02-04",
+      "dek": "Alumni / February 4, 2025"
+    },
+    {
+      "title": "Deep Jariwala Receives SPIE Early Career Achievement Award",
+      "link": "https://www.engineering.upenn.edu/stories/deep-jariwala-receives-spie-early-career-achievement-award/",
+      "date": "2025-02-03",
+      "dek": "Honors and Awards, In the News / February 3, 2025"
+    },
+    {
+      "title": "John Bassani Awarded the Society of Engineering Science William Prager Medal",
+      "link": "https://www.engineering.upenn.edu/stories/john-bassani-awarded-the-society-of-engineering-science-william-prager-medal/",
+      "date": "2025-01-31",
+      "dek": "Honors and Awards, In the News / January 31, 2025"
+    },
+    {
+      "title": "Beth A. Winkelstein Reappointed as Deputy Provost",
+      "link": "https://www.engineering.upenn.edu/stories/beth-a-winkelstein-reappointed-as-deputy-provost/",
+      "date": "2025-01-29",
+      "dek": "Honors and Awards, In the News / January 29, 2025"
+    },
+    {
+      "title": "Escaping the Endosome: BEND Lipids Improve LNP mRNA Delivery and Gene Editing",
+      "link": "https://www.engineering.upenn.edu/stories/escaping-the-endosome-bend-lipids-improve-lnp-mrna-delivery-and-gene-editing/",
+      "date": "2025-01-28",
+      "dek": "Research and Innovation / January 28, 2025"
+    },
+    {
+      "title": "Fruit Flies and Physics",
+      "link": "https://www.engineering.upenn.edu/stories/fruit-flies-and-physics/",
+      "date": "2025-01-24",
+      "dek": "Research and Innovation / January 24, 2025"
+    },
+    {
+      "title": "Who to Vaccinate First? Penn Engineers Answer a Life-or-Death Question with Network Theory",
+      "link": "https://www.engineering.upenn.edu/stories/who-to-vaccinate-first-penn-engineers-answer-a-life-or-death-question-with-network-theory/",
+      "date": "2025-01-23",
+      "dek": "In the News, Research and Innovation / January 23, 2025"
+    },
+    {
+      "title": "Penn Center for Innovation Celebrates 10 years",
+      "link": "https://www.engineering.upenn.edu/stories/penn-center-for-innovation-celebrates-10-years/",
+      "date": "2025-01-22",
+      "dek": "In the News, Research and Innovation / January 22, 2025"
+    },
+    {
+      "title": "Violent Language in Films Has Increased Since the 1970s: A New Study",
+      "link": "https://www.engineering.upenn.edu/stories/violent-language-in-films-has-increased-since-the-1970s-a-new-study/",
+      "date": "2025-01-21",
+      "dek": "In the News, Research and Innovation / January 21, 2025"
+    },
+    {
+      "title": "Is Moore’s Law Really Dead?",
+      "link": "https://www.engineering.upenn.edu/stories/is-moores-law-really-dead/",
+      "date": "2025-01-16",
+      "dek": "Research and Innovation / January 16, 2025"
+    },
+    {
+      "title": "Spaces That Spark Discovery: A Look Inside One uCity Square",
+      "link": "https://www.engineering.upenn.edu/stories/spaces-that-spark-discovery-a-look-inside-one-ucity-square/",
+      "date": "2025-01-14",
+      "dek": "Research and Innovation, Students / January 14, 2025"
+    },
+    {
+      "title": "Revolutionizing Data Centers: Penn Engineers’ Breakthrough in Photonic Switching",
+      "link": "https://www.engineering.upenn.edu/stories/revolutionizing-data-centers-penn-engineers-breakthrough-in-photonic-switching/",
+      "date": "2025-01-07",
+      "dek": "Research and Innovation / January 7, 2025"
+    },
+    {
+      "title": "New Quantum Sensing Technology Reveals Sub-Atomic Signals",
+      "link": "https://www.engineering.upenn.edu/stories/new-quantum-sensing-technology-reveals-sub-atomic-signals/",
+      "date": "2025-01-06",
+      "dek": "Research and Innovation / January 6, 2025"
+    },
+    {
+      "title": "Engineering an Olympian",
+      "link": "https://www.engineering.upenn.edu/stories/engineering-an-olympian/",
+      "date": "2024-12-20",
+      "dek": "Students / December 20, 2024"
+    },
+    {
+      "title": "Q&A: The Mysterious Flying Objects",
+      "link": "https://www.engineering.upenn.edu/stories/qa-the-mysterious-flying-objects/",
+      "date": "2024-12-19",
+      "dek": "In the News / December 19, 2024"
+    },
+    {
+      "title": "George Pappas and Nikolai Matni Receive 2024 IEEE Control Systems Society Best Paper Awards",
+      "link": "https://www.engineering.upenn.edu/stories/george-pappas-and-nikolai-matni-receive-2024-ieee-control-systems-society-best-paper-awards/",
+      "date": "2024-12-18",
+      "dek": "Honors and Awards, In the News / December 18, 2024"
+    },
+    {
+      "title": "Nature’s Instructions: How Fungi Make a Key Medicinal Molecule",
+      "link": "https://www.engineering.upenn.edu/stories/natures-instructions-how-fungi-make-a-key-medicinal-molecule/",
+      "date": "2024-12-18",
+      "dek": "Research and Innovation / December 18, 2024"
+    },
+    {
+      "title": "Unlocking the Brain: Peptide-Guided Nanoparticles Deliver mRNA to Neurons",
+      "link": "https://www.engineering.upenn.edu/stories/unlocking-the-brain-peptide-guided-nanoparticles-deliver-mrna-to-neurons/",
+      "date": "2024-12-17",
+      "dek": "Research and Innovation / December 17, 2024"
+    },
+    {
+      "title": "Penn Health-Tech and Venture Lab Launch Fellowship to Develop the Next Generation of Health Technology Innovators",
+      "link": "https://www.engineering.upenn.edu/stories/penn-health-tech-and-venture-lab-launch-fellowship-to-develop-the-next-generation-of-health-technology-innovators/",
+      "date": "2024-12-16",
+      "dek": "In the News, Research and Innovation / December 16, 2024"
+    },
+    {
+      "title": "An Illuminating Celebration to a Brighter, Greener Future",
+      "link": "https://www.engineering.upenn.edu/stories/an-illuminating-celebration-to-a-brighter-greener-future/",
+      "date": "2024-12-13",
+      "dek": "Events, In the News / December 13, 2024"
+    },
+    {
+      "title": "Cherie Kagan Receives 2024-25 Heilmeier Award",
+      "link": "https://www.engineering.upenn.edu/stories/cherie-kagan-receives-2024-25-heilmeier-award/",
+      "date": "2024-12-12",
+      "dek": "Honors and Awards, Research and Innovation / December 12, 2024"
+    },
+    {
+      "title": "A Lipid Nanoparticle Delivers mRNA Cure for Pre-eclampsia",
+      "link": "https://www.engineering.upenn.edu/stories/a-lipid-nanoparticle-delivers-mrna-cure-for-pre-eclampsia/",
+      "date": "2024-12-11",
+      "dek": "In the News, Research and Innovation, Students / December 11, 2024"
+    },
+    {
+      "title": "Christopher Murray Named 2024 NAI Fellow",
+      "link": "https://www.engineering.upenn.edu/stories/christopher-murray-named-2024-nai-fellow/",
+      "date": "2024-12-11",
+      "dek": "Honors and Awards, In the News / December 11, 2024"
+    },
+    {
+      "title": "Mapping Molecular Arrangements to Pave the Way for Better Catalytic Systems",
+      "link": "https://www.engineering.upenn.edu/stories/mapping-molecular-arrangements-to-pave-the-way-for-better-catalytic-systems/",
+      "date": "2024-12-11",
+      "dek": "Research and Innovation / December 11, 2024"
+    },
+    {
+      "title": "Online Health Care Reviews Turned Negative Following COVID Pandemic",
+      "link": "https://www.engineering.upenn.edu/stories/online-health-care-reviews-turned-negative-following-covid-pandemic/",
+      "date": "2024-12-06",
+      "dek": "In the News, Research and Innovation / December 6, 2024"
+    },
+    {
+      "title": "Rivers in a Changing World",
+      "link": "https://www.engineering.upenn.edu/stories/rivers-in-a-changing-world/",
+      "date": "2024-12-05",
+      "dek": "Research and Innovation, Students / December 5, 2024"
+    },
+    {
+      "title": "Shu Yang and Collaborators Receive NSF Grant for Multidisciplinary Graduate Program across Engineering and Architecture",
+      "link": "https://www.engineering.upenn.edu/stories/shu-yang-and-collaborators-receive-nsf-grant-for-multidisciplinary-graduate-program-across-engineering-and-architecture/",
+      "date": "2024-12-03",
+      "dek": "Grants, Honors and Awards, In the News, Research and Innovation, Students / December 3, 2024"
+    },
+    {
+      "title": "Penn Engineering Entrepreneurship at 25: Bridging Science and Business for Success in a Tech-Driven Economy",
+      "link": "https://www.engineering.upenn.edu/stories/penn-engineering-entrepreneurship-at-25/",
+      "date": "2024-12-02",
+      "dek": "Alumni, Research and Innovation / December 2, 2024"
+    },
+    {
+      "title": "Inaugural CPE4H Symposium Explores Engineering’s Role in Precision Medicine",
+      "link": "https://www.engineering.upenn.edu/stories/inaugural-cpe4h-symposium-explores-engineerings-role-in-precision-medicine/",
+      "date": "2024-11-27",
+      "dek": "Events, In the News, Research and Innovation / November 27, 2024"
+    },
+    {
+      "title": "C4R Raises the Bar in Scientific Rigor Through Interdisciplinary Collaboration",
+      "link": "https://www.engineering.upenn.edu/stories/c4r-raises-the-bar-in-scientific-rigor-through-interdisciplinary-collaboration/",
+      "date": "2024-11-26",
+      "dek": "Events, In the News, Research and Innovation / November 26, 2024"
+    },
+    {
+      "title": "Vanessa Chan on the TIME100 Climate List",
+      "link": "https://www.engineering.upenn.edu/stories/vanessa-chan-on-the-time100-climate-list/",
+      "date": "2024-11-25",
+      "dek": "Honors and Awards, In the News / November 25, 2024"
+    },
+    {
+      "title": "Penn4C Celebrates Annual Awardee Achievements",
+      "link": "https://www.engineering.upenn.edu/stories/penn4c-celebrates-annual-awardee-achievements/",
+      "date": "2024-11-25",
+      "dek": "Events, Honors and Awards, Research and Innovation / November 25, 2024"
+    },
+    {
+      "title": "Penn Engineering Dean Honored with John Scott Award for Robotics Advances",
+      "link": "https://www.engineering.upenn.edu/stories/penn-engineering-dean-honored-with-john-scott-award-for-robotics-advances/",
+      "date": "2024-11-22",
+      "dek": "Honors and Awards, In the News / November 22, 2024"
+    },
+    {
+      "title": "Cooking Up a Breakthrough: Penn Engineers Refine Lipid Nanoparticles for Better mRNA Therapies",
+      "link": "https://www.engineering.upenn.edu/stories/cooking-up-a-breakthrough-penn-engineers-refine-lipid-nanoparticles-for-better-mrna-therapies/",
+      "date": "2024-11-22",
+      "dek": "Research and Innovation / November 22, 2024"
+    },
+    {
+      "title": "Humor Is Humans’ Best Skill",
+      "link": "https://www.engineering.upenn.edu/stories/humor-is-humans-best-skill/",
+      "date": "2024-11-21",
+      "dek": "Research and Innovation, Students / November 21, 2024"
+    },
+    {
+      "title": "Unlocking Multi-Core Potential: Robert Gifford’s Breakthroughs in Real-Time System Safety",
+      "link": "https://www.engineering.upenn.edu/stories/unlocking-multi-core-potential-robert-giffords-breakthroughs-in-real-time-system-safety/",
+      "date": "2024-11-20",
+      "dek": "Research and Innovation, Students / November 20, 2024"
+    },
+    {
+      "title": "Penn Engineering Awards Three New Scholarly Professorships",
+      "link": "https://www.engineering.upenn.edu/stories/penn-engineering-awards-three-new-scholarly-professorships/",
+      "date": "2024-11-19",
+      "dek": "Alumni, Honors and Awards / November 19, 2024"
+    },
+    {
+      "title": "Penn Fourth-Year Om Gandhi is a 2025 Rhodes Scholar",
+      "link": "https://www.engineering.upenn.edu/stories/penn-fourth-year-om-gandhi-is-a-2025-rhodes-scholar/",
+      "date": "2024-11-18",
+      "dek": "Honors and Awards, In the News, Students / November 18, 2024"
+    },
+    {
+      "title": "Antonio Loquercio Teaches Robots Common Sense, Empathy and Other Forms of Intelligence",
+      "link": "https://www.engineering.upenn.edu/stories/antonio-loquercio-teaches-robots-common-sense-empathy-and-other-forms-of-intelligence/",
+      "date": "2024-11-14",
+      "dek": "In the News, Research and Innovation / November 14, 2024"
+    },
+    {
+      "title": "Giving Robots Superhuman Vision Using Radio Signals",
+      "link": "https://www.engineering.upenn.edu/stories/giving-robots-superhuman-vision-using-radio-signals/",
+      "date": "2024-11-12",
+      "dek": "In the News, Research and Innovation / November 12, 2024"
+    },
+    {
+      "title": "The 2024 NEMO Prize Will Support Research in Self-Administrable DNA Therapy",
+      "link": "https://www.engineering.upenn.edu/stories/the-2024-nemo-prize-will-support-research-in-self-administrable-dna-therapy/",
+      "date": "2024-11-08",
+      "dek": "Grants, Honors and Awards, In the News, Research and Innovation / November 8, 2024"
+    },
+    {
+      "title": "Alumni Q&A: Chloe Snyder",
+      "link": "https://www.engineering.upenn.edu/stories/alumni-spotlight-chloe-snyder-eng17-gen18/",
+      "date": "2024-11-07",
+      "dek": "Alumni / November 7, 2024"
+    },
+    {
+      "title": "Breakthrough in Energy-Efficient Avalanche-based Amorphization Could Revolutionize Data Storage",
+      "link": "https://www.engineering.upenn.edu/stories/breakthrough-in-energy-efficient-avalanche-based-amorphization-could-revolutionize-data-storage/",
+      "date": "2024-11-06",
+      "dek": "In the News, Research and Innovation / November 6, 2024"
+    },
+    {
+      "title": "New Class of Encrypted Peptides Offer Hope in Fight Against Antibiotic Resistance",
+      "link": "https://www.engineering.upenn.edu/stories/new-class-of-encrypted-peptides-offer-hope-in-fight-against-antibiotic-resistance/",
+      "date": "2024-11-05",
+      "dek": "In the News, Research and Innovation / November 5, 2024"
+    },
+    {
+      "title": "The Secrets of Baseball’s Magic Mud",
+      "link": "https://www.engineering.upenn.edu/stories/the-secrets-of-baseballs-magic-mud/",
+      "date": "2024-11-04",
+      "dek": "In the News, Research and Innovation / November 4, 2024"
+    },
+    {
+      "title": "From Penn Engineering to AI Leadership: Archana Vemulapalli’s Path to Success",
+      "link": "https://www.engineering.upenn.edu/stories/from-penn-engineering-to-ai-leadership-archana-vemulapallis-path-to-success/",
+      "date": "2024-10-30",
+      "dek": "Alumni, In the News / October 30, 2024"
+    },
+    {
+      "title": "Penn Engineering Launches Responsible Innovation Initiative",
+      "link": "https://www.engineering.upenn.edu/stories/penn-engineering-launches-responsible-innovation-initiative/",
+      "date": "2024-10-29",
+      "dek": "Events, In the News / October 29, 2024"
+    },
+    {
+      "title": "Developing Kidneys from Scratch: Alex Hughes Tackles the Tremendous Burden of Kidney Disease",
+      "link": "https://www.engineering.upenn.edu/stories/developing-kidneys-from-scratch-alex-hughes-tackles-the-tremendous-burden-of-kidney-disease/",
+      "date": "2024-10-28",
+      "dek": "Research and Innovation / October 28, 2024"
+    },
+    {
+      "title": "Studying Wikipedia Browsing Habits to Learn How People Learn",
+      "link": "https://www.engineering.upenn.edu/stories/studying-wikipedia-browsing-habits-to-learn-how-people-learn/",
+      "date": "2024-10-28",
+      "dek": "Research and Innovation / October 28, 2024"
+    },
+    {
+      "title": "Balancing Quantity and Quality: How X/Twitter’s Algorithm Influences Our Consumption of News",
+      "link": "https://www.engineering.upenn.edu/stories/balancing-quantity-and-quality-how-x-twitters-algorithm-influences-our-consumption-of-news/",
+      "date": "2024-10-24",
+      "dek": "In the News, Research and Innovation / October 24, 2024"
+    },
+    {
+      "title": "Shu Yang to Co-Design Artificial Reef Structures that Help Harness Wave Energy",
+      "link": "https://www.engineering.upenn.edu/stories/shu-yang-to-co-design-artificial-reef-structures-that-help-harness-wave-energy/",
+      "date": "2024-10-22",
+      "dek": "Grants, Honors and Awards, In the News, Research and Innovation / October 22, 2024"
+    },
+    {
+      "title": "Penn Researchers Discuss their Solutions to the Climate Crisis",
+      "link": "https://www.engineering.upenn.edu/stories/penn-researchers-discuss-their-solutions-to-the-climate-crisis/",
+      "date": "2024-10-21",
+      "dek": "Events, In the News / October 21, 2024"
+    },
+    {
+      "title": "Toward Carbon-Negative Architecture",
+      "link": "https://www.engineering.upenn.edu/stories/toward-carbon-negative-architecture/",
+      "date": "2024-10-18",
+      "dek": "Research and Innovation / October 18, 2024"
+    },
+    {
+      "title": "Penn Engineering Research Discovers Critical Vulnerabilities in AI-Enabled Robots to Increase Safety and Security",
+      "link": "https://www.engineering.upenn.edu/stories/penn-engineering-research-discovers-critical-vulnerabilities-in-ai-enabled-robots-to-increase-safety-and-security/",
+      "date": "2024-10-17",
+      "dek": "Research and Innovation / October 17, 2024"
+    },
+    {
+      "title": "Rahul Mangharam Receives NSF Award for Trustworthy AI in Transportation Cyber-Physical Systems",
+      "link": "https://www.engineering.upenn.edu/stories/rahul-mangharam-receives-nsf-award-for-trustworthy-ai-in-transportation-cyber-physical-systems/",
+      "date": "2024-10-16",
+      "dek": "Grants, Honors and Awards, In the News / October 16, 2024"
+    },
+    {
+      "title": "Danaë Metaxa to Represent Penn in the U.S. AI Safety Institute Consortium",
+      "link": "https://www.engineering.upenn.edu/stories/danae-metaxa-to-represent-penn-in-the-u-s-ai-safety-institute-consortium/",
+      "date": "2024-10-16",
+      "dek": "Honors and Awards, In the News / October 16, 2024"
+    },
+    {
+      "title": "Training Medical AI with Knowledge, Not Shortcuts",
+      "link": "https://www.engineering.upenn.edu/stories/training-medical-ai-with-knowledge-not-shortcuts/",
+      "date": "2024-10-15",
+      "dek": "Research and Innovation / October 15, 2024"
+    },
+    {
+      "title": "AI Meets Medicine: Penn Secures ARPA-H Funding for AI in Breast Cancer Care and More",
+      "link": "https://www.engineering.upenn.edu/stories/ai-meets-medicine-penn-secures-arpa-h-funding-for-ai-in-breast-cancer-care-and-more/",
+      "date": "2024-10-14",
+      "dek": "Grants, In the News / October 14, 2024"
+    },
+    {
+      "title": "A Decade of BETA Day: Shaping the Success of Future Bioengineers",
+      "link": "https://www.engineering.upenn.edu/stories/a-decade-of-beta-day-shaping-the-success-of-future-bioengineers/",
+      "date": "2024-10-14",
+      "dek": "Alumni, In the News, Students / October 14, 2024"
+    },
+    {
+      "title": "Penn Engineering Innovation and Impact Podcast Episode 5: Responsible Innovation",
+      "link": "https://www.engineering.upenn.edu/stories/penn-engineering-innovation-and-impact-podcast-episode-5-responsible-innovation/",
+      "date": "2024-10-11",
+      "dek": "In the News, Research and Innovation / October 11, 2024"
+    },
+    {
+      "title": "Touching the Future: Mastering Physical Contact with New Algorithm for Robots",
+      "link": "https://www.engineering.upenn.edu/stories/touching-the-future-mastering-physical-contact-with-new-algorithm-for-robots/",
+      "date": "2024-10-08",
+      "dek": "Research and Innovation / October 8, 2024"
+    },
+    {
+      "title": "An Idea Rooted in ‘Twistronics’ Yields an Electrifying, ‘Dizzying’ Outcome",
+      "link": "https://www.engineering.upenn.edu/stories/an-idea-rooted-in-twistronics-yields-an-electrifying-dizzying-outcome/",
+      "date": "2024-10-07",
+      "dek": "In the News, Research and Innovation / October 7, 2024"
+    },
+    {
+      "title": "Revolutionizing Cardiovascular Risk Assessment with AI",
+      "link": "https://www.engineering.upenn.edu/stories/revolutionizing-cardiovascular-risk-assessment-with-ai/",
+      "date": "2024-10-04",
+      "dek": "Research and Innovation / October 4, 2024"
+    },
+    {
+      "title": "When Robots Dive into Forests: Exploring Autonomous Systems in Natural Environments",
+      "link": "https://www.engineering.upenn.edu/stories/when-robots-dive-into-forests-exploring-autonomous-systems-in-natural-environments/",
+      "date": "2024-10-04",
+      "dek": "Research and Innovation, Students / October 4, 2024"
+    },
+    {
+      "title": "Overcoming the Challenges of GPS Mobility Data in Epidemic Modeling",
+      "link": "https://www.engineering.upenn.edu/stories/overcoming-the-challenges-of-gps-mobility-data-in-epidemic-modeling/",
+      "date": "2024-10-03",
+      "dek": "Research and Innovation / October 3, 2024"
+    },
+    {
+      "title": "Pioneering Robotic Triage",
+      "link": "https://www.engineering.upenn.edu/stories/pioneering-robotic-triage/",
+      "date": "2024-10-02",
+      "dek": "Research and Innovation / October 2, 2024"
+    },
+    {
+      "title": "Penn’s Siloxane-Enhanced Nanoparticles Chart a New Path in Precision mRNA Medicine",
+      "link": "https://www.engineering.upenn.edu/stories/penns-siloxane-enhanced-nanoparticles-chart-a-new-path-in-precision-mrna-medicine/",
+      "date": "2024-10-01",
+      "dek": "Research and Innovation / October 1, 2024"
+    },
+    {
+      "title": "Celebrating the Dedication of Amy Gutmann Hall",
+      "link": "https://www.engineering.upenn.edu/stories/celebrating-the-dedication-of-amy-gutmann-hall/",
+      "date": "2024-09-30",
+      "dek": "In the News / September 30, 2024"
+    },
+    {
+      "title": "Battery Innovation: Extending Lifespan and Capacity Through Self-Healing Materials",
+      "link": "https://www.engineering.upenn.edu/stories/battery-innovation-extending-lifespan-and-capacity-through-self-healing-materials/",
+      "date": "2024-09-25",
+      "dek": "Research and Innovation / September 25, 2024"
+    },
+    {
+      "title": "Nathan Wei on Renewable Energy, Fluid Mechanics and the Shaping of Humble Engineers",
+      "link": "https://www.engineering.upenn.edu/stories/nathan-wei-on-renewable-energy-fluid-mechanics-and-the-shaping-of-humble-engineers/",
+      "date": "2024-09-24",
+      "dek": "In the News, Research and Innovation / September 24, 2024"
+    },
+    {
+      "title": "Rajeev Alur Receives the 2024 Donald E. Knuth Prize for Outstanding Contributions to the Foundations of Computer Science",
+      "link": "https://www.engineering.upenn.edu/stories/rajeev-alur-receives-the-2024-donald-e-knuth-prize-for-outstanding-contributions-to-the-foundations-of-computer-science/",
+      "date": "2024-09-19",
+      "dek": "Honors and Awards, In the News / September 19, 2024"
+    },
+    {
+      "title": "Penn Engineering and Plaksha University Partner for International Research and Academic Collaboration",
+      "link": "https://www.engineering.upenn.edu/stories/penn-engineering-and-plaksha-university-partner-for-international-research-and-academic-collaboration/",
+      "date": "2024-09-18",
+      "dek": "Academics, In the News, Research and Innovation, Students / September 18, 2024"
+    },
+    {
+      "title": "Rena Li (CIS’27) Wins at 2024 Apple Swift Student Challenge",
+      "link": "https://www.engineering.upenn.edu/stories/rena-li-cis27-wins-at-2024-apple-swift-student-challenge/",
+      "date": "2024-09-17",
+      "dek": "Honors and Awards, Students / September 17, 2024"
+    },
+    {
+      "title": "Beyond Displays: Liquid Crystals in Motion Mimic Biological Systems",
+      "link": "https://www.engineering.upenn.edu/stories/beyond-displays-liquid-crystals-in-motion-mimic-biological-systems/",
+      "date": "2024-09-16",
+      "dek": "Research and Innovation / September 16, 2024"
+    },
+    {
+      "title": "IoT4Ag Center is Advancing Data Collection Capabilities for Rural Farms",
+      "link": "https://www.engineering.upenn.edu/stories/iot4ag-center-is-advancing-data-collection-capabilities-for-rural-farms/",
+      "date": "2024-09-12",
+      "dek": "Research and Innovation / September 12, 2024"
+    },
+    {
+      "title": "Testing a Novel, Community-Driven Response to Heat Islands in Philadelphia",
+      "link": "https://www.engineering.upenn.edu/stories/testing-a-novel-community-driven-response-to-heat-islands-in-philadelphia/",
+      "date": "2024-09-11",
+      "dek": "In the News, Research and Innovation / September 11, 2024"
+    },
+    {
+      "title": "Preparing the Next Generation of Engineers to Solve the World’s Energy and Sustainability Problems",
+      "link": "https://www.engineering.upenn.edu/stories/preparing-the-next-generation-of-engineers-to-solve-the-worlds-energy-and-sustainability-problems/",
+      "date": "2024-09-10",
+      "dek": "In the News, Research and Innovation / September 10, 2024"
+    },
+    {
+      "title": "University of Pennsylvania launches Penn Center on Media, Technology, and Democracy",
+      "link": "https://www.engineering.upenn.edu/stories/university-of-pennsylvania-launches-penn-center-on-media-technology-and-democracy/",
+      "date": "2024-09-05",
+      "dek": "Grants, In the News / September 5, 2024"
+    },
+    {
+      "title": "Understanding the Cellular Mechanisms Driving Solid Tumors’ Robust Defense System",
+      "link": "https://www.engineering.upenn.edu/stories/understanding-the-cellular-mechanisms-driving-solid-tumors-robust-defense-system/",
+      "date": "2024-09-04",
+      "dek": "In the News, Research and Innovation / September 4, 2024"
+    },
+    {
+      "title": "Net Zero by 2050: a Q&A with Jen Wilcox on Carbon Management",
+      "link": "https://www.engineering.upenn.edu/stories/net-zero-by-2050-a-qa-with-jen-wilcox-on-carbon-management/",
+      "date": "2024-09-03",
+      "dek": "In the News, Research and Innovation / September 3, 2024"
+    },
+    {
+      "title": "Melding AI and RNA: $18M NSF AIRFoundry to Revolutionize RNA Research",
+      "link": "https://www.engineering.upenn.edu/stories/melding-ai-and-rna-penns-18-million-airfoundry-to-revolutionize-rna-research/",
+      "date": "2024-08-28",
+      "dek": "Grants, In the News, Research and Innovation / August 28, 2024"
+    },
+    {
+      "title": "Nandan Tumu: Pioneering Efficient Traffic Control and Sustainable Energy Solutions",
+      "link": "https://www.engineering.upenn.edu/stories/nandan-tumu-pioneering-efficient-traffic-control-and-sustainable-energy-solutions/",
+      "date": "2024-08-27",
+      "dek": "Research and Innovation, Students / August 27, 2024"
+    },
+    {
+      "title": "Student Builds on Zhiliang Chen’s Osteoarthritis Research",
+      "link": "https://www.engineering.upenn.edu/stories/student-builds-on-zhiliang-chens-osteoarthritis-research/",
+      "date": "2024-08-26",
+      "dek": "Research and Innovation, Students / August 26, 2024"
+    },
+    {
+      "title": "Clark Scholars Program Rewards Effort, Fosters Connection",
+      "link": "https://www.engineering.upenn.edu/stories/clark-scholars-program-rewards-effort-fosters-connection/",
+      "date": "2024-08-23",
+      "dek": "Alumni, Students / August 23, 2024"
+    },
+    {
+      "title": "The Team Communication Toolkit: Emily Hu’s Award-Winning Project",
+      "link": "https://www.engineering.upenn.edu/stories/the-team-communication-toolkit-emily-hus-award-winning-project/",
+      "date": "2024-08-22",
+      "dek": "Research and Innovation, Students / August 22, 2024"
+    },
+    {
+      "title": "Liang Feng Receives Experimental Physics Investigator Award from the Gordon and Betty Moore Foundation",
+      "link": "https://www.engineering.upenn.edu/stories/liang-feng-receives-experimental-physics-investigator-award-from-the-gordon-and-betty-moore-foundation/",
+      "date": "2024-08-21",
+      "dek": "Grants, Honors and Awards, In the News, Research and Innovation / August 21, 2024"
+    },
+    {
+      "title": "Fall 2024 Dean’s Welcome",
+      "link": "https://www.engineering.upenn.edu/stories/fall-2024-deans-welcome/",
+      "date": "2024-08-20",
+      "dek": "Academics, Guest Posts, Students / August 20, 2024"
+    },
+    {
+      "title": "Mining the Microbiome: Uncovering New Antibiotics Inside the Human Gut",
+      "link": "https://www.engineering.upenn.edu/stories/mining-the-microbiome-uncovering-new-antibiotics-inside-the-human-gut/",
+      "date": "2024-08-19",
+      "dek": "Research and Innovation / August 19, 2024"
+    },
+    {
+      "title": "Empowering Future Engineers: Lyle Brunhofer and the Impact of Senior Design",
+      "link": "https://www.engineering.upenn.edu/stories/empowering-future-engineers-lyle-brunhofer-and-the-impact-of-senior-design/",
+      "date": "2024-08-15",
+      "dek": "Alumni / August 15, 2024"
+    },
+    {
+      "title": "Atomic Engineer and Research Guide, Dawn Bonnell Elected to American Philosophical Society",
+      "link": "https://www.engineering.upenn.edu/stories/atomic-engineer-and-research-guide-dawn-bonnell-elected-to-american-philosophical-society/",
+      "date": "2024-08-14",
+      "dek": "Honors and Awards, In the News / August 14, 2024"
+    },
+    {
+      "title": "A 3D-printed Band-Aid for the Heart?",
+      "link": "https://www.engineering.upenn.edu/stories/a-band-aid-for-the-heart-new-3d-printing-method-makes-this-and-much-more-possible/",
+      "date": "2024-08-13",
+      "dek": "Research and Innovation, Students / August 13, 2024"
+    },
+    {
+      "title": "Detecting Machine-Generated Text: An Arms Race With the Advancements of Large Language Models",
+      "link": "https://www.engineering.upenn.edu/stories/detecting-machine-generated-text-an-arms-race-with-the-advancements-of-large-language-models/",
+      "date": "2024-08-12",
+      "dek": "In the News, Research and Innovation, Students / August 12, 2024"
+    },
+    {
+      "title": "The Structure of Sound: Network Insights into Bach’s Music",
+      "link": "https://www.engineering.upenn.edu/stories/the-structure-of-sound-network-insights-into-bachs-music/",
+      "date": "2024-08-08",
+      "dek": "Research and Innovation / August 8, 2024"
+    },
+    {
+      "title": "The Rigors of Engineering and the Olympics: A Conversation With Chinedum Osuji",
+      "link": "https://www.engineering.upenn.edu/stories/the-rigors-of-engineering-and-the-olympics-a-conversation-with-chinedum-osuji/",
+      "date": "2024-08-07",
+      "dek": "In the News / August 7, 2024"
+    },
+    {
+      "title": "Racing to the Future",
+      "link": "https://www.engineering.upenn.edu/stories/racing-to-the-future/",
+      "date": "2024-08-06",
+      "dek": "In the News, Research and Innovation / August 6, 2024"
+    },
+    {
+      "title": "The Electron Microscope of AI: Jacob Gardner’s Mission to Supercharge Scientific Research",
+      "link": "https://www.engineering.upenn.edu/stories/the-electron-microscope-of-ai-jacob-gardners-mission-to-supercharge-scientific-research/",
+      "date": "2024-08-05",
+      "dek": "Research and Innovation / August 5, 2024"
+    },
+    {
+      "title": "Pengyuan Eric Lu: Embracing the Power of Deep Learning in Safety-Critical Systems",
+      "link": "https://www.engineering.upenn.edu/stories/pengyuan-eric-lu-embracing-the-power-of-deep-learning-in-safety-critical-systems/",
+      "date": "2024-08-01",
+      "dek": "Research and Innovation, Students / August 1, 2024"
+    },
+    {
+      "title": "Misunderstanding the Harms of Online Misinformation",
+      "link": "https://www.engineering.upenn.edu/stories/misunderstanding-the-harms-of-online-misinformation/",
+      "date": "2024-07-31",
+      "dek": "Research and Innovation / July 31, 2024"
+    },
+    {
+      "title": "Pushing the Limits of Scientific Discovery with Machine Learning",
+      "link": "https://www.engineering.upenn.edu/stories/pushing-the-limits-of-scientific-discovery-with-machine-learning/",
+      "date": "2024-07-30",
+      "dek": "In the News, Research and Innovation / July 30, 2024"
+    },
+    {
+      "title": "Unfolding the Next Generation of Robots: GRASP Researchers Win Award for Kinegami",
+      "link": "https://www.engineering.upenn.edu/stories/unfolding-the-next-generation-of-robots-grasp-researchers-win-award-for-kinegami/",
+      "date": "2024-07-29",
+      "dek": "Honors and Awards, Research and Innovation / July 29, 2024"
+    },
+    {
+      "title": "Going for Gold: Matt Fallon to Compete for Team USA",
+      "link": "https://www.engineering.upenn.edu/stories/going-for-gold-matt-fallon-to-compete-for-team-usa/",
+      "date": "2024-07-26",
+      "dek": "In the News, Students / July 26, 2024"
+    },
+    {
+      "title": "Penn ADAPT “Hacks” Bedsores, Wins Prize",
+      "link": "https://www.engineering.upenn.edu/stories/penn-adapt-hacks-bedsores-wins-prize/",
+      "date": "2024-07-25",
+      "dek": "Honors and Awards / July 25, 2024"
+    },
+    {
+      "title": "2024 CAREER Award Recipient: Flavia Vitale",
+      "link": "https://www.engineering.upenn.edu/stories/2024-career-award-recipient-flavia-vitale/",
+      "date": "2024-07-24",
+      "dek": "Academics, Honors and Awards, In the News, Research and Innovation / July 24, 2024"
+    },
+    {
+      "title": "Measuring Chaos: Using Machine Learning to Satisfy Our Need to Know",
+      "link": "https://www.engineering.upenn.edu/stories/measuring-chaos-using-machine-learning-to-satisfy-our-need-to-know/",
+      "date": "2024-07-22",
+      "dek": "Research and Innovation / July 22, 2024"
+    },
+    {
+      "title": "Innovation in Action: Penn Engineering’s 2024 Senior Design Project Competition",
+      "link": "https://www.engineering.upenn.edu/stories/innovation-in-action-penn-engineerings-2024-senior-design-project-competition/",
+      "date": "2024-07-18",
+      "dek": "Research and Innovation, Students / July 18, 2024"
+    },
+    {
+      "title": "Highways to Health: Bicontinuous Structures Speed Up Cell Migration",
+      "link": "https://www.engineering.upenn.edu/stories/highways-to-health-bicontinuous-structures-speed-up-cell-migration/",
+      "date": "2024-07-17",
+      "dek": "Research and Innovation / July 17, 2024"
+    },
+    {
+      "title": "Alison Pouch Wins 2024 Cardiac Center Innovation Award",
+      "link": "https://www.engineering.upenn.edu/stories/alison-pouch-wins-2024-cardiac-center-innovation-award/",
+      "date": "2024-07-16",
+      "dek": "Honors and Awards, Research and Innovation / July 16, 2024"
+    },
+    {
+      "title": "Shedding Light on Cellular Metabolism to Fight Disease",
+      "link": "https://www.engineering.upenn.edu/stories/shedding-light-on-cellular-metabolism-to-fight-disease/",
+      "date": "2024-07-15",
+      "dek": "Academics, Research and Innovation / July 15, 2024"
+    },
+    {
+      "title": "Showing Up for Penn in London",
+      "link": "https://www.engineering.upenn.edu/stories/showing-up-for-penn-in-london/",
+      "date": "2024-07-11",
+      "dek": "Events, In the News / July 11, 2024"
+    },
+    {
+      "title": "From Chance to Certainty: Solving Science’s Reproducibility Crisis",
+      "link": "https://www.engineering.upenn.edu/stories/from-chance-to-certainty-solving-sciences-reproducibility-crisis/",
+      "date": "2024-07-10",
+      "dek": "In the News, Research and Innovation / July 10, 2024"
+    },
+    {
+      "title": "Penn Pioneers a ‘One-Pot Platform’ to Promptly Produce mRNA Delivery Particles",
+      "link": "https://www.engineering.upenn.edu/stories/penn-pioneers-a-one-pot-platform-to-promptly-produce-mrna-delivery-particles/",
+      "date": "2024-07-10",
+      "dek": "In the News, Research and Innovation / July 10, 2024"
+    },
+    {
+      "title": "A First, Physical System Learns Nonlinear Tasks Without a Traditional Computer Processor",
+      "link": "https://www.engineering.upenn.edu/stories/a-first-physical-system-learns-nonlinear-tasks-without-a-traditional-computer-processor/",
+      "date": "2024-07-08",
+      "dek": "Research and Innovation / July 8, 2024"
+    },
+    {
+      "title": "Who, What, Why: Lasya Sreepada on decoding Alzheimer’s disease",
+      "link": "https://www.engineering.upenn.edu/stories/who-what-why-lasya-sreepada-on-decoding-alzheimers-disease/",
+      "date": "2024-07-05",
+      "dek": "Research and Innovation, Students / July 5, 2024"
+    },
+    {
+      "title": "Duncan Watts and CSSLab’s New Media Bias Detector",
+      "link": "https://www.engineering.upenn.edu/stories/duncan-watts-and-csslabs-new-media-bias-detector/",
+      "date": "2024-07-01",
+      "dek": "In the News, Research and Innovation / July 1, 2024"
+    },
+    {
+      "title": "Artificial Intelligence to Accelerate Antibiotic Discovery",
+      "link": "https://www.engineering.upenn.edu/stories/artificial-intelligence-to-accelerate-antibiotic-discovery/",
+      "date": "2024-06-28",
+      "dek": "Research and Innovation / June 28, 2024"
+    },
+    {
+      "title": "Mapping Media Bias: How AI Powers the Computational Social Science Lab’s Media Bias Detector",
+      "link": "https://www.engineering.upenn.edu/stories/mapping-media-bias-how-ai-powers-the-computational-social-science-labs-media-bias-detector/",
+      "date": "2024-06-25",
+      "dek": "In the News, Research and Innovation / June 25, 2024"
+    },
+    {
+      "title": "Catalyzing Change: Henry Coshburn and the Power of Mentorship",
+      "link": "https://www.engineering.upenn.edu/stories/catalyzing-change-henry-coshburn-and-the-power-of-mentorship/",
+      "date": "2024-06-24",
+      "dek": "Alumni, Community / June 24, 2024"
+    },
+    {
+      "title": "The Penn Forum on Quantum Systems (FoQuS), QUIEST’s First Inaugural Symposium, Hosts International Experts in Quantum Research",
+      "link": "https://www.engineering.upenn.edu/stories/the-penn-forum-on-quantum-systems-foqus-quiests-first-inaugural-symposium-hosts-international-experts-in-quantum-research/",
+      "date": "2024-06-21",
+      "dek": "Academics, Events, Students / June 21, 2024"
+    },
+    {
+      "title": "Deans Vijay Kumar, Katharine Strunk Reflect on Commission’s Final Report",
+      "link": "https://www.engineering.upenn.edu/stories/deans-vijay-kumar-katharine-strunk-reflect-on-commissions-final-report/",
+      "date": "2024-06-19",
+      "dek": "In the News / June 19, 2024"
+    },
+    {
+      "title": "Juneteenth Festival Celebrated at the Penn Museum",
+      "link": "https://www.engineering.upenn.edu/stories/juneteenth-festival-celebrated-at-the-penn-museum/",
+      "date": "2024-06-19",
+      "dek": "Events, In the News / June 19, 2024"
+    },
+    {
+      "title": "Engineering an Olympian: Matt Fallon’s Journey from Penn to Paris",
+      "link": "https://www.engineering.upenn.edu/stories/engineering-an-olympian-matt-fallons-journey-from-penn-to-paris/",
+      "date": "2024-06-17",
+      "dek": "In the News, Students / June 17, 2024"
+    },
+    {
+      "title": "Cynthia Sung Receives Army Early Career Award to Make Robots Move Like Animals",
+      "link": "https://www.engineering.upenn.edu/stories/cynthia-sung-receives-army-early-career-award-to-make-robots-move-like-animals/",
+      "date": "2024-06-14",
+      "dek": "Grants, Honors and Awards, In the News, Research and Innovation / June 14, 2024"
+    },
+    {
+      "title": "Environmental Innovations Initiative Faculty Spotlight: Chinedum Osuji",
+      "link": "https://www.engineering.upenn.edu/stories/environmental-innovations-initiative-faculty-spotlight-chinedum-osuji/",
+      "date": "2024-06-13",
+      "dek": "Academics, Research and Innovation / June 13, 2024"
+    },
+    {
+      "title": "Mapping How People Get Their (Political) News",
+      "link": "https://www.engineering.upenn.edu/stories/mapping-how-people-get-their-political-news/",
+      "date": "2024-06-13",
+      "dek": "Research and Innovation / June 13, 2024"
+    },
+    {
+      "title": "Looking to AI to Solve Antibiotic Resistance",
+      "link": "https://www.engineering.upenn.edu/stories/looking-to-ai-to-solve-antibiotic-resistance/",
+      "date": "2024-06-12",
+      "dek": "In the News, Research and Innovation / June 12, 2024"
+    },
+    {
+      "title": "Censoring Creativity: The Limits of ChatGPT for Scriptwriting",
+      "link": "https://www.engineering.upenn.edu/stories/censoring-creativity-the-limits-of-chatgpt-for-scriptwriting/",
+      "date": "2024-06-10",
+      "dek": "Research and Innovation / June 10, 2024"
+    },
+    {
+      "title": "Bruce Lee: Exploring the Limits of Robotic Systems",
+      "link": "https://www.engineering.upenn.edu/stories/bruce-lee-exploring-the-limits-of-robotic-systems/",
+      "date": "2024-06-10",
+      "dek": "Guest Posts, Research and Innovation, Students / June 10, 2024"
+    },
+    {
+      "title": "Largest-Ever Antibiotic Discovery Effort Uses AI to Uncover Potential Cures in Microbial Dark Matter",
+      "link": "https://www.engineering.upenn.edu/stories/largest-ever-antibiotic-discovery-effort-uses-ai-to-uncover-potential-cures-in-microbial-dark-matter/",
+      "date": "2024-06-07",
+      "dek": "In the News, Research and Innovation / June 7, 2024"
+    },
+    {
+      "title": "Six Interdisciplinary Projects Receive Support from ASSET Center Seed Grants in Trustworthy AI Research for Medicine",
+      "link": "https://www.engineering.upenn.edu/stories/six-interdisciplinary-projects-receive-support-from-asset-center-inaugural-seed-grants-in-trustworthy-ai-research-for-medicine/",
+      "date": "2024-06-06",
+      "dek": "Grants, Honors and Awards, In the News / June 6, 2024"
+    },
+    {
+      "title": "Late-Night Lessons and Diaries",
+      "link": "https://www.engineering.upenn.edu/stories/late-night-lessons-and-diaries/",
+      "date": "2024-06-04",
+      "dek": "Students / June 4, 2024"
+    },
+    {
+      "title": "NSF-Funded Expedition Project Uses AI to Rethink Computer Operating Systems",
+      "link": "https://www.engineering.upenn.edu/stories/nsf-funded-expedition-project-uses-ai-to-rethink-computer-operating-systems/",
+      "date": "2024-05-31",
+      "dek": "In the News, Research and Innovation / May 31, 2024"
+    },
+    {
+      "title": "Reexamining Misinformation: How Unflagged, Factual Content Drives Vaccine Hesitancy",
+      "link": "https://www.engineering.upenn.edu/stories/reexamining-misinformation-how-unflagged-factual-content-drives-vaccine-hesitancy/",
+      "date": "2024-05-30",
+      "dek": "Research and Innovation / May 30, 2024"
+    },
+    {
+      "title": "Brewing Brilliance: Nader Engheta and Firooz Aflatouni of Penn’s School of Engineering and Applied Science turn tea time into new ideas.",
+      "link": "https://www.engineering.upenn.edu/stories/brewing-brilliance/",
+      "date": "2024-05-28",
+      "dek": "In the News, Research and Innovation / May 28, 2024"
+    },
+    {
+      "title": "To 6G and Beyond: Penn Engineers Unlock the Next Generation of Wireless Communications",
+      "link": "https://www.engineering.upenn.edu/stories/to-6g-and-beyond-penn-engineers-unlock-the-next-generation-of-wireless-communications-2/",
+      "date": "2024-05-24",
+      "dek": "Research and Innovation / May 24, 2024"
+    },
+    {
+      "title": "Penn Engineering and Harvard Awarded $12 Million NSF Grant for Sustainable Computing Project",
+      "link": "https://www.engineering.upenn.edu/stories/penn-engineering-and-harvard-awarded-12-million-nsf-grant-for-sustainable-computing-project/",
+      "date": "2024-05-23",
+      "dek": "Grants, In the News, Research and Innovation / May 23, 2024"
+    },
+    {
+      "title": "Investing in Innovation: Philanthropy Powers AI Education at Penn Engineering",
+      "link": "https://www.engineering.upenn.edu/stories/investing-in-innovation-philanthropy-powers-ai-education-at-penn-engineering/",
+      "date": "2024-05-22",
+      "dek": "Alumni, In the News / May 22, 2024"
+    },
+    {
+      "title": "2024 CAREER Award Recipient: Ottman Tertuliano",
+      "link": "https://www.engineering.upenn.edu/stories/2024-career-award-recipient-ottman-tertuliano/",
+      "date": "2024-05-21",
+      "dek": "Academics, Grants, Honors and Awards, In the News, Research and Innovation / May 21, 2024"
+    },
+    {
+      "title": "Model Disgorgement: The Key to Fixing AI Bias and Copyright Infringement?",
+      "link": "https://www.engineering.upenn.edu/stories/model-disgorgement-the-key-to-fixing-ai-bias-and-copyright-infringement/",
+      "date": "2024-05-17",
+      "dek": "In the News, Research and Innovation / May 17, 2024"
+    },
+    {
+      "title": "Recognizing a Pioneer: The IEEE Dedicates Milestone to Grace Hopper at Penn Engineering",
+      "link": "https://www.engineering.upenn.edu/stories/recognizing-a-pioneer-the-ieee-dedicates-milestone-to-grace-hopper-at-penn-engineering/",
+      "date": "2024-05-16",
+      "dek": "Honors and Awards, In the News / May 16, 2024"
+    },
+    {
+      "title": "Combining the Skills of Engineering and Design",
+      "link": "https://www.engineering.upenn.edu/stories/combining-the-skills-of-engineering-and-design/",
+      "date": "2024-05-15",
+      "dek": "In the News, Students / May 15, 2024"
+    },
+    {
+      "title": "Carpick Research Group Contributes to Pixelligent Success Story",
+      "link": "https://www.engineering.upenn.edu/stories/carpick-research-group-contributes-to-pixelligent-success-story/",
+      "date": "2024-05-14",
+      "dek": "Honors and Awards, In the News, Research and Innovation / May 14, 2024"
+    },
+    {
+      "title": "Safety First: Neeraj Gandhi Ensures the Safety and Security of AI-Controlled Systems",
+      "link": "https://www.engineering.upenn.edu/stories/safety-first-neeraj-gandhi-ensures-the-safety-and-security-of-ai-controlled-systems/",
+      "date": "2024-05-13",
+      "dek": "In the News, Research and Innovation, Students / May 13, 2024"
+    },
+    {
+      "title": "Penn Third Year Named 2024 Udall Scholar",
+      "link": "https://www.engineering.upenn.edu/stories/penn-third-year-named-2024-udall-scholar/",
+      "date": "2024-05-09",
+      "dek": "Honors and Awards, Students / May 9, 2024"
+    },
+    {
+      "title": "Karen Xu Honored with P.E.O. Scholar Award",
+      "link": "https://www.engineering.upenn.edu/stories/karen-xu-honored-with-p-e-o-scholar-award/",
+      "date": "2024-05-08",
+      "dek": "Honors and Awards, Students / May 8, 2024"
+    },
+    {
+      "title": "Making Life Easier for Students with Learning Differences",
+      "link": "https://www.engineering.upenn.edu/stories/making-life-easier-for-students-with-learning-differences/",
+      "date": "2024-05-07",
+      "dek": "Honors and Awards, In the News, Students / May 7, 2024"
+    },
+    {
+      "title": "Penn Engineering Leads in AI: Announces First Ivy League Master’s in Artificial Intelligence",
+      "link": "https://www.engineering.upenn.edu/stories/penn-engineering-leads-in-ai-announces-first-ivy-league-masters-in-artificial-intelligence/",
+      "date": "2024-04-30",
+      "dek": "In the News / April 30, 2024"
+    },
+    {
+      "title": "Turning Up the Heat on Data Storage",
+      "link": "https://www.engineering.upenn.edu/stories/turning-up-the-heat-on-data-storage/",
+      "date": "2024-04-30",
+      "dek": "In the News, Research and Innovation / April 30, 2024"
+    },
+    {
+      "title": "Penn Engineering Ph.D. Students Receive Funding from Amazon to Advance Trustworthy AI",
+      "link": "https://www.engineering.upenn.edu/stories/penn-engineering-ph-d-students-receive-funding-from-amazon-to-advance-trustworthy-ai/",
+      "date": "2024-04-26",
+      "dek": "Academics, Honors and Awards, In the News, Research and Innovation, Students / April 26, 2024"
+    },
+    {
+      "title": "The CiPD Partners with the Mack Institute for Innovation and Management to Develop Tooth-Brushing Robots",
+      "link": "https://www.engineering.upenn.edu/stories/the-cipd-partners-with-the-mack-institute-for-innovation-and-management-to-develop-tooth-brushing-robots/",
+      "date": "2024-04-25",
+      "dek": "Academics, In the News, Research and Innovation, Students / April 25, 2024"
+    },
+    {
+      "title": "Illuminating the Unseen: Former Penn iGEM Team Publishes Award-Winning Optogenetic Device",
+      "link": "https://www.engineering.upenn.edu/stories/illuminating-the-unseen-former-penn-igem-team-publishes-award-winning-optogenetic-device/",
+      "date": "2024-04-25",
+      "dek": "Honors and Awards, In the News, Research and Innovation / April 25, 2024"
+    },
+    {
+      "title": "Episode 4 of Innovation & Impact: Exploring AI in Engineering",
+      "link": "https://www.engineering.upenn.edu/stories/episode-4-of-innovation-impact-exploring-ai-in-engineering/",
+      "date": "2024-04-24",
+      "dek": "In the News, Research and Innovation / April 24, 2024"
+    },
+    {
+      "title": "Overcoming the Odds: Matthew Cleaveland Designs Robots to Deal with Uncertainty, While Outrunning Cancer",
+      "link": "https://www.engineering.upenn.edu/stories/overcoming-the-odds-matthew-cleaveland-designs-robots-to-deal-with-uncertainty-while-outrunning-cancer/",
+      "date": "2024-04-24",
+      "dek": "In the News, Students / April 24, 2024"
+    },
+    {
+      "title": "Surbhi Goel Explains How ChatGPT Actually Works",
+      "link": "https://www.engineering.upenn.edu/stories/surbhi-goel-explains-how-chatgpt-actually-works/",
+      "date": "2024-04-23",
+      "dek": "Research and Innovation / April 23, 2024"
+    },
+    {
+      "title": "Penn’s Venture Lab Announces Winner of Annual Startup Challenge",
+      "link": "https://www.engineering.upenn.edu/stories/penns-venture-lab-announces-winner-of-annual-startup-challenge/",
+      "date": "2024-04-23",
+      "dek": "Honors and Awards, In the News / April 23, 2024"
+    },
+    {
+      "title": "Fighting for Algorithmic Justice: Ro Encarnación Puts Users at the Center of Her Research",
+      "link": "https://www.engineering.upenn.edu/stories/fighting-for-algorithmic-justice-ro-encarnacion-puts-users-at-the-center-of-her-research/",
+      "date": "2024-04-22",
+      "dek": "Research and Innovation, Students / April 22, 2024"
+    },
+    {
+      "title": "Class of 2024 President’s Engagement, Innovation Prize Winners Announced",
+      "link": "https://www.engineering.upenn.edu/stories/class-of-2024-presidents-engagement-innovation-prize-winners-announced/",
+      "date": "2024-04-19",
+      "dek": "Honors and Awards, In the News / April 19, 2024"
+    },
+    {
+      "title": "Six from Penn Elected 2024 AAAS Fellows",
+      "link": "https://www.engineering.upenn.edu/stories/six-from-penn-elected-2024-aaas-fellows/",
+      "date": "2024-04-19",
+      "dek": "Honors and Awards, In the News / April 19, 2024"
+    },
+    {
+      "title": "Engineering Hope: Kyle Vining Earns Hartwell Foundation Award to Study Childhood Leukemia",
+      "link": "https://www.engineering.upenn.edu/stories/engineering-hope-kyle-vining-earns-hartwell-foundation-award-to-study-childhood-leukemia/",
+      "date": "2024-04-15",
+      "dek": "Honors and Awards, In the News / April 15, 2024"
+    },
+    {
+      "title": "Deep Jariwala Receives Optica’s 2024 Adolph Lomb Medal",
+      "link": "https://www.engineering.upenn.edu/stories/deep-jariwala-receives-opticas-2024-adolph-lomb-medal/",
+      "date": "2024-04-15",
+      "dek": "Honors and Awards, In the News / April 15, 2024"
+    },
+    {
+      "title": "From Blackjack to Chatbots: Aashika Vishwanath’s AI Odyssey",
+      "link": "https://www.engineering.upenn.edu/stories/from-blackjack-to-chatbots-aashika-vishwanaths-ai-odyssey/",
+      "date": "2024-04-12",
+      "dek": "Research and Innovation, Students / April 12, 2024"
+    },
+    {
+      "title": "Teaching Doglike Robots to Walk on the Moon’s Dusty, Icy Surface",
+      "link": "https://www.engineering.upenn.edu/stories/teaching-doglike-robots-to-walk-on-the-moons-dusty-icy-surface/",
+      "date": "2024-04-12",
+      "dek": "In the News, Research and Innovation / April 12, 2024"
+    },
+    {
+      "title": "Penn Engineers Uncover Universal Structure in Turbulent Air Flows Over Dune Fields",
+      "link": "https://www.engineering.upenn.edu/stories/penn-engineers-uncover-universal-structure-in-turbulent-air-flows-over-dune-fields/",
+      "date": "2024-04-11",
+      "dek": "Research and Innovation / April 11, 2024"
+    },
+    {
+      "title": "Penn Engineers Recreate Star Trek’s Holodeck Using ChatGPT and Video Game Assets",
+      "link": "https://www.engineering.upenn.edu/stories/penn-engineers-recreate-star-treks-holodeck-using-chatgpt-and-video-game-assets/",
+      "date": "2024-04-11",
+      "dek": "In the News, Research and Innovation / April 11, 2024"
+    },
+    {
+      "title": "The Science of Designing Ethical Algorithms: Michael Kearns and Aaron Roth on Ethical AI",
+      "link": "https://www.engineering.upenn.edu/stories/the-science-of-designing-ethical-algorithms-michael-kearns-and-aaron-roth-on-ethical-ai/",
+      "date": "2024-04-10",
+      "dek": "Academics, Research and Innovation / April 10, 2024"
+    },
+    {
+      "title": "Understanding the Northeast Earthquake",
+      "link": "https://www.engineering.upenn.edu/stories/understanding-the-northeast-earthquake/",
+      "date": "2024-04-09",
+      "dek": "In the News / April 9, 2024"
+    },
+    {
+      "title": "Yecheng (Jason) Ma Named Apple Scholar in AIML",
+      "link": "https://www.engineering.upenn.edu/stories/yecheng-jason-ma-named-apple-scholar-in-aiml/",
+      "date": "2024-04-08",
+      "dek": "Honors and Awards, Students / April 8, 2024"
+    },
+    {
+      "title": "A Return to Jamaica Brings Seven Student-Invented Devices to Help People and Wildlife",
+      "link": "https://www.engineering.upenn.edu/stories/a-return-to-jamaica-brings-seven-student-invented-devices-to-help-people-and-wildlife/",
+      "date": "2024-04-05",
+      "dek": "Students / April 5, 2024"
+    },
+    {
+      "title": "Building Robots that Learn: Pratik Chaudhari Investigates the Underpinnings of AI",
+      "link": "https://www.engineering.upenn.edu/stories/building-robots-that-learn-pratik-chaudhari-investigates-the-underpinnings-of-ai/",
+      "date": "2024-04-04",
+      "dek": "Research and Innovation / April 4, 2024"
+    },
+    {
+      "title": "Unveiling REV 9, Penn Electric Racing’s Latest Race Car",
+      "link": "https://www.engineering.upenn.edu/stories/unveiling-rev-9-penn-electric-racings-latest-race-car/",
+      "date": "2024-04-04",
+      "dek": "Events, In the News / April 4, 2024"
+    },
+    {
+      "title": "Chris Callison-Burch Talks Empowering Tomorrow’s AI Engineers",
+      "link": "https://www.engineering.upenn.edu/stories/chris-callison-burch-talks-empowering-tomorrows-ai-engineers/",
+      "date": "2024-04-03",
+      "dek": "Academics, Research and Innovation / April 3, 2024"
     }
   ]
 }
