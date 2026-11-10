@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 1,
+  "id": "snf-paideia-program",
+  "name": "SNF Paideia Program",
+  "listingUrls": [
+    "https://snfpaideia.upenn.edu/media-center/"
+  ],
+  "lastScrapedAt": "2026-11-10T02:33:45.448596+00:00",
+  "pagesScanned": 0,
+  "stopReasons": [
+    "https://snfpaideia.upenn.edu/media-center/: page failed"
+  ],
+  "warnings": [
+    "Page 1 failed: HTTP 403"
+  ],
+  "requestedFrom": "",
+  "oldestCaptured": "2024-04-10",
+  "newestCaptured": "2026-10-01",
+  "posts": [
+    {
+      "title": "Political Empathy Lab (PEL) Enters Its Third Phase with Pennsylvania Field Research Ahead of the Midterm Elections",
+      "link": "https://snfpaideia.upenn.edu/news/political-empathy-lab-pel-enters-its-third-phase-with-pennsylvania-field-research-ahead-of-the-midterm-elections/",
+      "date": "2026-10-01",
+      "dek": "",
+      "stream": "news",
+      "source": "html"
+    },
+    {
+      "title": "Sacrifice versus suffering: Examining unheard stories of the past",
+      "link": "https://snfpaideia.upenn.edu/news/sacrifice-versus-suffering-examining-unheard-stories-of-the-past/",
+      "date": "2026-05-07",
+      "dek": "",
+      "stream": "news",
+      "source": "html"
+    },
+    {
+      "title": "Why Young Voters Tune Out",
+      "link": "https://snfpaideia.upenn.edu/news/why-young-voters-tune-out/",
+      "date": "2026-04-20",
+      "dek": "",
+      "stream": "news",
+      "source": "html"
+    },
+    {
+      "title": "Discovering what powers community health organizations in Philadelphia",
+      "link": "https://snfpaideia.upenn.edu/news/discovering-what-powers-community-health-organizations-in-philadelphia/",
+      "date": "2026-01-16",
+      "dek": "",
+      "stream": "news",
+      "source": "html"
+    },
+    {
+      "title": "Amy Gutmann, once Penn president, is teaching again. Here’s what it’s like to be her student.",
+      "link": "https://snfpaideia.upenn.edu/news/amy-gutmann-once-penn-president-is-teaching-again-heres-what-its-like-to-be-her-student/",
+      "date": "2025-11-17",
+      "dek": "",
+      "stream": "news",
+      "source": "html"
+    },
+    {
+      "title": "SNF Paideia Program hosts panel on populist conservatism featuring policy experts",
+      "link": "https://snfpaideia.upenn.edu/news/snf-paideia-program-hosts-panel-on-populist-conservatism-featuring-policy-experts/",
+      "date": "2025-11-14",
+      "dek": "",
+      "stream": "news",
+      "source": "html"
+    },
+    {
+      "title": "A world shaped by water and access",
+      "link": "https://snfpaideia.upenn.edu/news/a-world-shaped-by-water-and-access/",
+      "date": "2025-10-09",
+      "dek": "",
+      "stream": "news",
+      "source": "html"
+    },
+    {
+      "title": "University of Pennsylvania Launches New Statewide Engagement Initiative",
+      "link": "https://snfpaideia.upenn.edu/news/university-of-pennsylvania-launches-new-statewide-engagement-initiative/",
+      "date": "2025-08-27",
+      "dek": "",
+      "stream": "news",
+      "source": "html"
+    },
+    {
+      "title": "Paideia Fellows Build Dialogue in Athens",
+      "link": "https://snfpaideia.upenn.edu/news/paideia-fellows-build-dialogue-in-athens/",
+      "date": "2025-08-12",
+      "dek": "",
+      "stream": "news",
+      "source": "html"
+    },
+    {
+      "title": "Creating a Classroom Democracy",
+      "link": "https://snfpaideia.upenn.edu/news/creating-a-classroom-democracy/",
+      "date": "2025-06-10",
+      "dek": "",
+      "stream": "news",
+      "source": "html"
+    },
+    {
+      "title": "Political Empathy Lab (PEL) Assembles Phase 2 Research Team",
+      "link": "https://snfpaideia.upenn.edu/news/political-empathy-lab-pel-assembles-phase-ll-research-team/",
+      "date": "2025-05-01",
+      "dek": "",
+      "stream": "news",
+      "source": "html"
+    },
+    {
+      "title": "Exploring the future of the conservative movement",
+      "link": "https://snfpaideia.upenn.edu/news/exploring-the-future-of-the-conservative-movement/",
+      "date": "2025-03-21",
+      "dek": "",
+      "stream": "news",
+      "source": "html"
+    },
+    {
+      "title": "Who, What, Why: Serene Safvi on Strengthening Dialogue",
+      "link": "https://snfpaideia.upenn.edu/news/who-what-why-serene-safvi-on-strengthening-dialogue/",
+      "date": "2025-02-17",
+      "dek": "",
+      "stream": "news",
+      "source": "html"
+    },
+    {
+      "title": "Sigal Ben-Porath Elected to the National Academy of Education",
+      "link": "https://snfpaideia.upenn.edu/news/twenty-two-education-leaders-and-scholars-elected-to-the-national-academy-of-education/",
+      "date": "2025-01-21",
+      "dek": "",
+      "stream": "news",
+      "source": "html"
+    },
+    {
+      "title": "Event looks at neck-and-neck presidential election",
+      "link": "https://snfpaideia.upenn.edu/news/event-looks-at-neck-and-neck-presidential-election/",
+      "date": "2024-10-27",
+      "dek": "",
+      "stream": "news",
+      "source": "html"
+    },
+    {
+      "title": "Across Pennsylvania, Penn students practice ‘political empathy’ to connect across divides",
+      "link": "https://snfpaideia.upenn.edu/news/across-pennsylvania-penn-students-practice-political-empathy-to-connect-across-divides/",
+      "date": "2024-09-25",
+      "dek": "",
+      "stream": "news",
+      "source": "html"
+    },
+    {
+      "title": "How to Embrace Your Political Enemy: Penn students traveled all over Pennsylvania this summer to prove political empathy isn’t dead.",
+      "link": "https://snfpaideia.upenn.edu/news/how-to-embrace-your-political-enemy/",
+      "date": "2024-09-13",
+      "dek": "",
+      "stream": "news",
+      "source": "html"
+    },
+    {
+      "title": "Fire PIT Chats: Talking Tech and Society with Industry Leaders",
+      "link": "https://snfpaideia.upenn.edu/news/fire-pit-chats-talking-tech-and-society-with-industry-leaders/",
+      "date": "2024-09-06",
+      "dek": "",
+      "stream": "news",
+      "source": "html"
+    },
+    {
+      "title": "Political Empathy Lab (PEL) Assembles Summer Research Team to Meet Residents of Pennsylvania and Connect Across Political Difference",
+      "link": "https://snfpaideia.upenn.edu/news/political-empathy-lab-pel-assembles-summer-research-team-to-meet-residents-of-pennsylvania-and-connect-across-political-difference/",
+      "date": "2024-04-29",
+      "dek": "",
+      "stream": "news",
+      "source": "html"
+    },
+    {
+      "title": "The Conflict Over the Conflict",
+      "link": "https://snfpaideia.upenn.edu/news/the-conflict-over-the-conflict/",
+      "date": "2024-04-10",
+      "dek": "",
+      "stream": "news",
+      "source": "html"
+    }
+  ]
+}
