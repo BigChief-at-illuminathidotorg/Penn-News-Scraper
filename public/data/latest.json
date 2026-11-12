@@ -164,10 +164,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-12T20:37:50.267455Z"
+          "fetchedAt": "2026-11-12T21:41:07.610411Z"
         }
       },
-      "lastSyncAt": "2026-11-12T20:37:50.267455Z",
+      "lastSyncAt": "2026-11-12T21:41:07.610411Z",
       "lastSource": "html"
     },
     {
@@ -329,10 +329,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://www.dental.upenn.edu/feed/",
-          "fetchedAt": "2026-11-12T20:37:50.267455Z"
+          "fetchedAt": "2026-11-12T21:41:07.610411Z"
         }
       },
-      "lastSyncAt": "2026-11-12T20:37:50.267455Z",
+      "lastSyncAt": "2026-11-12T21:41:07.610411Z",
       "lastSource": "feed:https://www.dental.upenn.edu/feed/"
     },
     {
@@ -634,10 +634,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-12T20:37:50.267455Z"
+          "fetchedAt": "2026-11-12T21:41:07.610411Z"
         }
       },
-      "lastSyncAt": "2026-11-12T20:37:50.267455Z",
+      "lastSyncAt": "2026-11-12T21:41:07.610411Z",
       "lastSource": "html"
     },
     {
@@ -739,10 +739,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-12T20:37:50.267455Z"
+          "fetchedAt": "2026-11-12T21:41:07.610411Z"
         }
       },
-      "lastSyncAt": "2026-11-12T20:37:50.267455Z",
+      "lastSyncAt": "2026-11-12T21:41:07.610411Z",
       "lastSource": "html"
     },
     {
@@ -904,10 +904,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-12T20:37:50.267455Z"
+          "fetchedAt": "2026-11-12T21:41:07.610411Z"
         }
       },
-      "lastSyncAt": "2026-11-12T20:37:50.267455Z",
+      "lastSyncAt": "2026-11-12T21:41:07.610411Z",
       "lastSource": "html"
     },
     {
@@ -1041,10 +1041,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-12T20:37:50.267455Z"
+          "fetchedAt": "2026-11-12T21:41:07.610411Z"
         }
       },
-      "lastSyncAt": "2026-11-12T20:37:50.267455Z",
+      "lastSyncAt": "2026-11-12T21:41:07.610411Z",
       "lastSource": "html"
     },
     {
@@ -1206,10 +1206,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://www.engineering.upenn.edu/feed/",
-          "fetchedAt": "2026-11-12T20:37:50.267455Z"
+          "fetchedAt": "2026-11-12T21:41:07.610411Z"
         }
       },
-      "lastSyncAt": "2026-11-12T20:37:50.267455Z",
+      "lastSyncAt": "2026-11-12T21:41:07.610411Z",
       "lastSource": "feed:https://www.engineering.upenn.edu/feed/"
     },
     {
@@ -1511,10 +1511,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-12T20:37:50.267455Z"
+          "fetchedAt": "2026-11-12T21:41:07.610411Z"
         }
       },
-      "lastSyncAt": "2026-11-12T20:37:50.267455Z",
+      "lastSyncAt": "2026-11-12T21:41:07.610411Z",
       "lastSource": "html"
     },
     {
@@ -1802,10 +1802,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-12T20:37:50.267455Z"
+          "fetchedAt": "2026-11-12T21:41:07.610411Z"
         }
       },
-      "lastSyncAt": "2026-11-12T20:37:50.267455Z",
+      "lastSyncAt": "2026-11-12T21:41:07.610411Z",
       "lastSource": "html"
     },
     {
@@ -1819,6 +1819,14 @@
       "magazineUrl": "https://magazine.wharton.upenn.edu/",
       "notes": "WordPress RSS feed — much cleaner than scraping the newsroom HTML",
       "posts": [
+        {
+          "title": "The Wharton School and Washington Speakers Bureau Announce Exclusive Partnership",
+          "link": "https://news.wharton.upenn.edu/press-releases/2026/11/the-wharton-school-and-washington-speakers-bureau-announce-exclusive-partnership/",
+          "date": "2026-11-12",
+          "dek": "Washington Speakers Bureau becomes the exclusive speakers bureau for the Wharton School, bringing Wharton faculty to organizations across industries and around the world PHILADELPHIA and WASHINGTON, November 11, 2026 – The Wharton School of the University of Pennsylvania and Wash",
+          "stream": "news",
+          "source": "feed:https://news.wharton.upenn.edu/feed/"
+        },
         {
           "title": "Wharton Executive Education Releases Global Research on Succession Planning",
           "link": "https://news.wharton.upenn.edu/press-releases/2026/11/wharton-executive-education-releases-global-research-on-succession-planning/",
@@ -1970,20 +1978,18 @@
           "dek": "The post Wharton Faculty to Present on Asset Management, AI and Quantitative Finance, and Megatrends in the Global Economy at One-Day Seminars for Business Journalists Program in London, U.K. on February 5, 2026 appeared first on News .",
           "stream": "news",
           "source": "feed:https://news.wharton.upenn.edu/feed/"
-        },
-        {
-          "title": "Wharton Online Launches Innovation Strategy and Design Thinking Certificate",
-          "link": "https://news.wharton.upenn.edu/press-releases/2025/11/wharton-online-launches-innovation-strategy-and-design-thinking-certificate/",
-          "date": "2025-11-06",
-          "dek": "Three Self-Paced, Online Courses Offer Flexible Pathways to Master Innovation PHILADELPHIA, November 6, 2025 – Wharton Online today announced the launch of its new Innovation Strategy and Design Thinking Certificate, a fully online, self-paced credential designed to help professi",
-          "stream": "news",
-          "source": "feed:https://news.wharton.upenn.edu/feed/"
         }
       ],
       "lastError": "",
       "_cache": {
         "news": {
           "items": [
+            {
+              "title": "The Wharton School and Washington Speakers Bureau Announce Exclusive Partnership",
+              "link": "https://news.wharton.upenn.edu/press-releases/2026/11/the-wharton-school-and-washington-speakers-bureau-announce-exclusive-partnership/",
+              "date": "2026-11-12",
+              "dek": "Washington Speakers Bureau becomes the exclusive speakers bureau for the Wharton School, bringing Wharton faculty to organizations across industries and around the world PHILADELPHIA and WASHINGTON, November 11, 2026 – The Wharton School of the University of Pennsylvania and Wash"
+            },
             {
               "title": "Wharton Executive Education Releases Global Research on Succession Planning",
               "link": "https://news.wharton.upenn.edu/press-releases/2026/11/wharton-executive-education-releases-global-research-on-succession-planning/",
@@ -2097,20 +2103,14 @@
               "link": "https://news.wharton.upenn.edu/press-releases/2025/11/london-2026-seminars/",
               "date": "2025-11-20",
               "dek": "The post Wharton Faculty to Present on Asset Management, AI and Quantitative Finance, and Megatrends in the Global Economy at One-Day Seminars for Business Journalists Program in London, U.K. on February 5, 2026 appeared first on News ."
-            },
-            {
-              "title": "Wharton Online Launches Innovation Strategy and Design Thinking Certificate",
-              "link": "https://news.wharton.upenn.edu/press-releases/2025/11/wharton-online-launches-innovation-strategy-and-design-thinking-certificate/",
-              "date": "2025-11-06",
-              "dek": "Three Self-Paced, Online Courses Offer Flexible Pathways to Master Innovation PHILADELPHIA, November 6, 2025 – Wharton Online today announced the launch of its new Innovation Strategy and Design Thinking Certificate, a fully online, self-paced credential designed to help professi"
             }
           ],
           "feedUrl": "https://news.wharton.upenn.edu/feed/",
           "source": "feed:https://news.wharton.upenn.edu/feed/",
-          "fetchedAt": "2026-11-12T20:37:50.267455Z"
+          "fetchedAt": "2026-11-12T21:41:07.610411Z"
         }
       },
-      "lastSyncAt": "2026-11-12T20:37:50.267455Z",
+      "lastSyncAt": "2026-11-12T21:41:07.610411Z",
       "lastSource": "feed:https://news.wharton.upenn.edu/feed/"
     },
     {
@@ -2272,10 +2272,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-12T20:37:50.267455Z"
+          "fetchedAt": "2026-11-12T21:41:07.610411Z"
         }
       },
-      "lastSyncAt": "2026-11-12T20:37:50.267455Z",
+      "lastSyncAt": "2026-11-12T21:41:07.610411Z",
       "lastSource": "html"
     },
     {
@@ -2580,10 +2580,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-12T20:37:50.267455Z"
+          "fetchedAt": "2026-11-12T21:41:07.610411Z"
         }
       },
-      "lastSyncAt": "2026-11-12T20:37:50.267455Z",
+      "lastSyncAt": "2026-11-12T21:41:07.610411Z",
       "lastSource": "html"
     },
     {
@@ -2745,10 +2745,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://knowledge.wharton.upenn.edu/feed/",
-          "fetchedAt": "2026-11-12T20:37:50.267455Z"
+          "fetchedAt": "2026-11-12T21:41:07.610411Z"
         }
       },
-      "lastSyncAt": "2026-11-12T20:37:50.267455Z",
+      "lastSyncAt": "2026-11-12T21:41:07.610411Z",
       "lastSource": "feed:https://knowledge.wharton.upenn.edu/feed/"
     },
     {
@@ -2868,10 +2868,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-12T20:37:50.267455Z"
+          "fetchedAt": "2026-11-12T21:41:07.610411Z"
         }
       },
-      "lastSyncAt": "2026-11-12T20:37:50.267455Z",
+      "lastSyncAt": "2026-11-12T21:41:07.610411Z",
       "lastSource": "html"
     },
     {
@@ -3019,10 +3019,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-12T20:37:50.267455Z"
+          "fetchedAt": "2026-11-12T21:41:07.610411Z"
         }
       },
-      "lastSyncAt": "2026-11-12T20:37:50.267455Z",
+      "lastSyncAt": "2026-11-12T21:41:07.610411Z",
       "lastSource": "html"
     },
     {
@@ -3100,10 +3100,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-12T20:37:50.267455Z"
+          "fetchedAt": "2026-11-12T21:41:07.610411Z"
         }
       },
-      "lastSyncAt": "2026-11-12T20:37:50.267455Z",
+      "lastSyncAt": "2026-11-12T21:41:07.610411Z",
       "lastSource": "html"
     },
     {
@@ -3251,10 +3251,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-12T20:37:50.267455Z"
+          "fetchedAt": "2026-11-12T21:41:07.610411Z"
         }
       },
-      "lastSyncAt": "2026-11-12T20:37:50.267455Z",
+      "lastSyncAt": "2026-11-12T21:41:07.610411Z",
       "lastSource": "html"
     },
     {
@@ -3416,10 +3416,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://creative.writing.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-12T20:37:50.267455Z"
+          "fetchedAt": "2026-11-12T21:41:07.610411Z"
         }
       },
-      "lastSyncAt": "2026-11-12T20:37:50.267455Z",
+      "lastSyncAt": "2026-11-12T21:41:07.610411Z",
       "lastSource": "feed:https://creative.writing.upenn.edu/rss.xml"
     },
     {
@@ -3581,10 +3581,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://kleinmanenergy.upenn.edu/feed/",
-          "fetchedAt": "2026-11-12T20:37:50.267455Z"
+          "fetchedAt": "2026-11-12T21:41:07.610411Z"
         }
       },
-      "lastSyncAt": "2026-11-12T20:37:50.267455Z",
+      "lastSyncAt": "2026-11-12T21:41:07.610411Z",
       "lastSource": "feed:https://kleinmanenergy.upenn.edu/feed/"
     },
     {
@@ -3746,10 +3746,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-12T20:37:50.267455Z"
+          "fetchedAt": "2026-11-12T21:41:07.610411Z"
         }
       },
-      "lastSyncAt": "2026-11-12T20:37:50.267455Z",
+      "lastSyncAt": "2026-11-12T21:41:07.610411Z",
       "lastSource": "html"
     },
     {
@@ -3883,10 +3883,10 @@
           ],
           "feedUrl": "https://pennovation.upenn.edu/feed/",
           "source": "html",
-          "fetchedAt": "2026-11-12T20:37:50.267455Z"
+          "fetchedAt": "2026-11-12T21:41:07.610411Z"
         }
       },
-      "lastSyncAt": "2026-11-12T20:37:50.267455Z",
+      "lastSyncAt": "2026-11-12T21:41:07.610411Z",
       "lastSource": "html"
     },
     {
@@ -4048,10 +4048,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://katz.sas.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-12T20:37:50.267455Z"
+          "fetchedAt": "2026-11-12T21:41:07.610411Z"
         }
       },
-      "lastSyncAt": "2026-11-12T20:37:50.267455Z",
+      "lastSyncAt": "2026-11-12T21:41:07.610411Z",
       "lastSource": "feed:https://katz.sas.upenn.edu/rss.xml"
     },
     {
@@ -4213,10 +4213,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-12T20:37:50.267455Z"
+          "fetchedAt": "2026-11-12T21:41:07.610411Z"
         }
       },
-      "lastSyncAt": "2026-11-12T20:37:50.267455Z",
+      "lastSyncAt": "2026-11-12T21:41:07.610411Z",
       "lastSource": "html"
     },
     {
@@ -4378,10 +4378,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://www.fels.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-12T20:37:50.267455Z"
+          "fetchedAt": "2026-11-12T21:41:07.610411Z"
         }
       },
-      "lastSyncAt": "2026-11-12T20:37:50.267455Z",
+      "lastSyncAt": "2026-11-12T21:41:07.610411Z",
       "lastSource": "feed:https://www.fels.upenn.edu/rss.xml"
     },
     {
@@ -4543,10 +4543,10 @@
           ],
           "feedUrl": "https://icaphila.org/feed/",
           "source": "feed:https://icaphila.org/feed/",
-          "fetchedAt": "2026-11-12T20:37:50.267455Z"
+          "fetchedAt": "2026-11-12T21:41:07.610411Z"
         }
       },
-      "lastSyncAt": "2026-11-12T20:37:50.267455Z",
+      "lastSyncAt": "2026-11-12T21:41:07.610411Z",
       "lastSource": "feed:https://icaphila.org/feed/"
     },
     {
@@ -4708,10 +4708,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://lauder.wharton.upenn.edu/feed/",
-          "fetchedAt": "2026-11-12T20:37:50.267455Z"
+          "fetchedAt": "2026-11-12T21:41:07.610411Z"
         }
       },
-      "lastSyncAt": "2026-11-12T20:37:50.267455Z",
+      "lastSyncAt": "2026-11-12T21:41:07.610411Z",
       "lastSource": "feed:https://lauder.wharton.upenn.edu/feed/"
     },
     {
@@ -4859,10 +4859,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-12T20:37:50.267455Z"
+          "fetchedAt": "2026-11-12T21:41:07.610411Z"
         }
       },
-      "lastSyncAt": "2026-11-12T20:37:50.267455Z",
+      "lastSyncAt": "2026-11-12T21:41:07.610411Z",
       "lastSource": "html"
     },
     {
@@ -5024,10 +5024,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://fisher.wharton.upenn.edu/feed/",
-          "fetchedAt": "2026-11-12T20:37:50.267455Z"
+          "fetchedAt": "2026-11-12T21:41:07.610411Z"
         }
       },
-      "lastSyncAt": "2026-11-12T20:37:50.267455Z",
+      "lastSyncAt": "2026-11-12T21:41:07.610411Z",
       "lastSource": "feed:https://fisher.wharton.upenn.edu/feed/"
     },
     {
@@ -5175,10 +5175,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://pores.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-12T20:37:50.267455Z"
+          "fetchedAt": "2026-11-12T21:41:07.610411Z"
         }
       },
-      "lastSyncAt": "2026-11-12T20:37:50.267455Z",
+      "lastSyncAt": "2026-11-12T21:41:07.610411Z",
       "lastSource": "feed:https://pores.upenn.edu/rss.xml"
     },
     {
@@ -5480,10 +5480,10 @@
           ],
           "feedUrl": "https://snfpaideia.upenn.edu/feed/",
           "source": "html",
-          "fetchedAt": "2026-11-12T20:37:50.267455Z"
+          "fetchedAt": "2026-11-12T21:41:07.610411Z"
         }
       },
-      "lastSyncAt": "2026-11-12T20:37:50.267455Z",
+      "lastSyncAt": "2026-11-12T21:41:07.610411Z",
       "lastSource": "html"
     },
     {
@@ -5785,10 +5785,10 @@
           ],
           "feedUrl": "https://snfpaideia.upenn.edu/wp-json/wp/v2/posts?per_page=20&_fields=id,date,link,title,excerpt",
           "source": "feed:https://snfpaideia.upenn.edu/wp-json/wp/v2/posts?per_page=20&_fields=id,date,link,title,excerpt",
-          "fetchedAt": "2026-11-12T20:37:50.267455Z"
+          "fetchedAt": "2026-11-12T21:41:07.610411Z"
         }
       },
-      "lastSyncAt": "2026-11-12T20:37:50.267455Z",
+      "lastSyncAt": "2026-11-12T21:41:07.610411Z",
       "lastSource": "feed:https://snfpaideia.upenn.edu/wp-json/wp/v2/posts?per_page=20&_fields=id,date,link,title,excerpt"
     },
     {
@@ -5950,10 +5950,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://pricelab.sas.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-12T20:37:50.267455Z"
+          "fetchedAt": "2026-11-12T21:41:07.610411Z"
         }
       },
-      "lastSyncAt": "2026-11-12T20:37:50.267455Z",
+      "lastSyncAt": "2026-11-12T21:41:07.610411Z",
       "lastSource": "feed:https://pricelab.sas.upenn.edu/rss.xml"
     },
     {
@@ -6115,10 +6115,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-12T20:37:50.267455Z"
+          "fetchedAt": "2026-11-12T21:41:07.610411Z"
         }
       },
-      "lastSyncAt": "2026-11-12T20:37:50.267455Z",
+      "lastSyncAt": "2026-11-12T21:41:07.610411Z",
       "lastSource": "html"
     },
     {
@@ -6395,10 +6395,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-12T20:37:50.267455Z"
+          "fetchedAt": "2026-11-12T21:41:07.610411Z"
         }
       },
-      "lastSyncAt": "2026-11-12T20:37:50.267455Z",
+      "lastSyncAt": "2026-11-12T21:41:07.610411Z",
       "lastSource": "html"
     },
     {
@@ -6412,22 +6412,6 @@
       "magazineUrl": null,
       "notes": "",
       "posts": [
-        {
-          "title": "Fall 2027 and Academic Year 2027-28 Study Abroad Regional Advising",
-          "link": "https://global.upenn.edu/news-articles/fall-2027-and-academic-year-2027-28-study-abroad-regional-advising/",
-          "date": "2026-11-12",
-          "dek": "Multiple by Program Thursday Oct 15th Monday Feb 15th 11:59pm – 11:59pm Regional Advising for Fall 2027 and Academic Year 2027-28 study abroad programs will open October 15. Regional advising is the required first step of studying abroad. Please make sure to review Study Abroad G",
-          "stream": "news",
-          "source": "html"
-        },
-        {
-          "title": "Assessing the Foreign Policy Impact of the U.S. Midterm Elections",
-          "link": "https://global.upenn.edu/news-articles/assessing-the-foreign-policy-impact-of-the-u-s-midterm-elections/",
-          "date": "2026-11-12",
-          "dek": "Amy E. Gadsden is the Associate Vice Provost for Global Initiatives at the University of Pennsylvania The House Select Committee on the CCP Has Lost Its Way In January 2023, a newly-seated Republican House established the Select Committee on the Strategic Competition Between the ",
-          "stream": "news",
-          "source": "html"
-        },
         {
           "title": "Perry World House Celebrates Tenth Anniversary with Creation of Global Leadership Advisory Committee",
           "link": "https://global.upenn.edu/news-articles/perry-world-house-celebrates-tenth-anniversary-with-creation-of-global-leadership-advisory-committee/",
@@ -6571,24 +6555,28 @@
           "dek": "A federal judge temporarily blocked a Trump administration rule that would have imposed a four-year cap on international student visas on Monday, just one day before it was set to take effect. If implemented, the Department of Homeland Security policy would apply to students, res",
           "stream": "news",
           "source": "html"
+        },
+        {
+          "title": "UPDATE: D/S Final Rule Effective Date Postponed",
+          "link": "https://global.upenn.edu/news-articles/update-d-s-final-rule-effective-date-postponed/",
+          "date": "2026-09-15",
+          "dek": "On September 14, 2026, the U.S. District Court for the District of Massachusetts issued an order postponing the September 15 effective date of the federal government’s Duration of Status (D/S) Final Rule. The court also temporarily blocked DHS and ICE from taking further action t",
+          "stream": "news",
+          "source": "html"
+        },
+        {
+          "title": "Perry World House Expands Its Faculty Engagement With New Fellowship Projects",
+          "link": "https://global.upenn.edu/news-articles/perry-world-house-expands-its-faculty-engagement-with-new-fellowship-projects/",
+          "date": "2026-09-11",
+          "dek": "Perry World House (PWH), the University of Pennsylvania’s hub for global policy engagement, is thrilled to announce new Faculty Fellows selected through PWH’s inaugural Faculty Fellowship Projects Initiative. The program expands PWH’s faculty engagement and provides new avenues f",
+          "stream": "news",
+          "source": "html"
         }
       ],
       "lastError": "",
       "_cache": {
         "news": {
           "items": [
-            {
-              "title": "Fall 2027 and Academic Year 2027-28 Study Abroad Regional Advising",
-              "link": "https://global.upenn.edu/news-articles/fall-2027-and-academic-year-2027-28-study-abroad-regional-advising/",
-              "date": "2026-11-12",
-              "dek": "Multiple by Program Thursday Oct 15th Monday Feb 15th 11:59pm – 11:59pm Regional Advising for Fall 2027 and Academic Year 2027-28 study abroad programs will open October 15. Regional advising is the required first step of studying abroad. Please make sure to review Study Abroad G"
-            },
-            {
-              "title": "Assessing the Foreign Policy Impact of the U.S. Midterm Elections",
-              "link": "https://global.upenn.edu/news-articles/assessing-the-foreign-policy-impact-of-the-u-s-midterm-elections/",
-              "date": "2026-11-12",
-              "dek": "Amy E. Gadsden is the Associate Vice Provost for Global Initiatives at the University of Pennsylvania The House Select Committee on the CCP Has Lost Its Way In January 2023, a newly-seated Republican House established the Select Committee on the Strategic Competition Between the "
-            },
             {
               "title": "Perry World House Celebrates Tenth Anniversary with Creation of Global Leadership Advisory Committee",
               "link": "https://global.upenn.edu/news-articles/perry-world-house-celebrates-tenth-anniversary-with-creation-of-global-leadership-advisory-committee/",
@@ -6696,14 +6684,26 @@
               "link": "https://global.upenn.edu/news-articles/federal-judge-temporarily-blocks-proposed-four-year-student-visa-cap/",
               "date": "2026-09-15",
               "dek": "A federal judge temporarily blocked a Trump administration rule that would have imposed a four-year cap on international student visas on Monday, just one day before it was set to take effect. If implemented, the Department of Homeland Security policy would apply to students, res"
+            },
+            {
+              "title": "UPDATE: D/S Final Rule Effective Date Postponed",
+              "link": "https://global.upenn.edu/news-articles/update-d-s-final-rule-effective-date-postponed/",
+              "date": "2026-09-15",
+              "dek": "On September 14, 2026, the U.S. District Court for the District of Massachusetts issued an order postponing the September 15 effective date of the federal government’s Duration of Status (D/S) Final Rule. The court also temporarily blocked DHS and ICE from taking further action t"
+            },
+            {
+              "title": "Perry World House Expands Its Faculty Engagement With New Fellowship Projects",
+              "link": "https://global.upenn.edu/news-articles/perry-world-house-expands-its-faculty-engagement-with-new-fellowship-projects/",
+              "date": "2026-09-11",
+              "dek": "Perry World House (PWH), the University of Pennsylvania’s hub for global policy engagement, is thrilled to announce new Faculty Fellows selected through PWH’s inaugural Faculty Fellowship Projects Initiative. The program expands PWH’s faculty engagement and provides new avenues f"
             }
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-12T20:37:50.267455Z"
+          "fetchedAt": "2026-11-12T21:41:07.610411Z"
         }
       },
-      "lastSyncAt": "2026-11-12T20:37:50.267455Z",
+      "lastSyncAt": "2026-11-12T21:41:07.610411Z",
       "lastSource": "html"
     },
     {
@@ -6865,10 +6865,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://penniur.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-12T20:37:50.267455Z"
+          "fetchedAt": "2026-11-12T21:41:07.610411Z"
         }
       },
-      "lastSyncAt": "2026-11-12T20:37:50.267455Z",
+      "lastSyncAt": "2026-11-12T21:41:07.610411Z",
       "lastSource": "feed:https://penniur.upenn.edu/rss.xml"
     },
     {
@@ -7002,10 +7002,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-12T20:37:50.267455Z"
+          "fetchedAt": "2026-11-12T21:41:07.610411Z"
         }
       },
-      "lastSyncAt": "2026-11-12T20:37:50.267455Z",
+      "lastSyncAt": "2026-11-12T21:41:07.610411Z",
       "lastSource": "html"
     },
     {
@@ -7307,10 +7307,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-12T20:37:50.267455Z"
+          "fetchedAt": "2026-11-12T21:41:07.610411Z"
         }
       },
-      "lastSyncAt": "2026-11-12T20:37:50.267455Z",
+      "lastSyncAt": "2026-11-12T21:41:07.610411Z",
       "lastSource": "html"
     },
     {
@@ -7472,10 +7472,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://writing.upenn.edu/?feed=rss2",
-          "fetchedAt": "2026-11-12T20:37:50.267455Z"
+          "fetchedAt": "2026-11-12T21:41:07.610411Z"
         }
       },
-      "lastSyncAt": "2026-11-12T20:37:50.267455Z",
+      "lastSyncAt": "2026-11-12T21:41:07.610411Z",
       "lastSource": "feed:https://writing.upenn.edu/?feed=rss2"
     },
     {
@@ -7609,10 +7609,10 @@
           ],
           "feedUrl": "https://perryworldhouse.upenn.edu/feed/",
           "source": "html",
-          "fetchedAt": "2026-11-12T20:37:50.267455Z"
+          "fetchedAt": "2026-11-12T21:41:07.610411Z"
         }
       },
-      "lastSyncAt": "2026-11-12T20:37:50.267455Z",
+      "lastSyncAt": "2026-11-12T21:41:07.610411Z",
       "lastSource": "html"
     },
     {
@@ -7774,10 +7774,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://platthouse.universitylife.upenn.edu/feed/",
-          "fetchedAt": "2026-11-12T20:37:50.267455Z"
+          "fetchedAt": "2026-11-12T21:41:07.610411Z"
         }
       },
-      "lastSyncAt": "2026-11-12T20:37:50.267455Z",
+      "lastSyncAt": "2026-11-12T21:41:07.610411Z",
       "lastSource": "feed:https://platthouse.universitylife.upenn.edu/feed/"
     },
     {
@@ -8079,10 +8079,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://arthurrossgallery.org/category/press-releases/feed/",
-          "fetchedAt": "2026-11-12T20:37:50.267455Z"
+          "fetchedAt": "2026-11-12T21:41:07.610411Z"
         }
       },
-      "lastSyncAt": "2026-11-12T20:37:50.267455Z",
+      "lastSyncAt": "2026-11-12T21:41:07.610411Z",
       "lastSource": "feed:https://arthurrossgallery.org/category/press-releases/feed/"
     },
     {
@@ -8244,10 +8244,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://www.penn.museum/about/press-room/press-releases?format=feed&type=rss",
-          "fetchedAt": "2026-11-12T20:37:50.267455Z"
+          "fetchedAt": "2026-11-12T21:41:07.610411Z"
         }
       },
-      "lastSyncAt": "2026-11-12T20:37:50.267455Z",
+      "lastSyncAt": "2026-11-12T21:41:07.610411Z",
       "lastSource": "feed:https://www.penn.museum/about/press-room/press-releases?format=feed&type=rss"
     },
     {
@@ -8395,10 +8395,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-12T20:37:50.267455Z"
+          "fetchedAt": "2026-11-12T21:41:07.610411Z"
         }
       },
-      "lastSyncAt": "2026-11-12T20:37:50.267455Z",
+      "lastSyncAt": "2026-11-12T21:41:07.610411Z",
       "lastSource": "html"
     },
     {
@@ -8485,10 +8485,10 @@
           "source": "html"
         },
         {
-          "title": "Anastasia Klimchynskaya COML PhD '19 new book on Science Fiction and the Modern World:The Emergence of a Genre in a Revolutionary Age",
-          "link": "https://complit.sas.upenn.edu/news/anastasia-klimchynskaya-coml-phd-19-new-book-science-fiction-and-modern-worldthe-emergence",
+          "title": "Abdulhamit Arvas wins two awards for his book Boys Abducted:The Homoerotics of Empire and Race in Early Modernity",
+          "link": "https://complit.sas.upenn.edu/news/abdulhamit-arvas-wins-two-awards-his-book-boys-abductedthe-homoerotics-empire-and-race-early",
           "date": "2026-04-10",
-          "dek": "Anastasia Klimchynskaya's has recently published Science Fiction and the Modern World: The Emergence of a Genre in a Revolutionary Age",
+          "dek": "Boys Abducted: The Homoerotics of Empire and Race in Early Modernity (Duke University Press, 2025) has won two awards.",
           "stream": "news",
           "source": "html"
         }
@@ -8552,18 +8552,18 @@
               "dek": "Rosie Poku has won The Lynda S. Hart Teaching Award. This award recognizes student teachers who have cultivated a learning environment that facilitates, encourages, and engages feminist critique, pedagogy, and who prioritize inclusive classroom practices."
             },
             {
-              "title": "Anastasia Klimchynskaya COML PhD '19 new book on Science Fiction and the Modern World:The Emergence of a Genre in a Revolutionary Age",
-              "link": "https://complit.sas.upenn.edu/news/anastasia-klimchynskaya-coml-phd-19-new-book-science-fiction-and-modern-worldthe-emergence",
+              "title": "Abdulhamit Arvas wins two awards for his book Boys Abducted:The Homoerotics of Empire and Race in Early Modernity",
+              "link": "https://complit.sas.upenn.edu/news/abdulhamit-arvas-wins-two-awards-his-book-boys-abductedthe-homoerotics-empire-and-race-early",
               "date": "2026-04-10",
-              "dek": "Anastasia Klimchynskaya's has recently published Science Fiction and the Modern World: The Emergence of a Genre in a Revolutionary Age"
+              "dek": "Boys Abducted: The Homoerotics of Empire and Race in Early Modernity (Duke University Press, 2025) has won two awards."
             }
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-12T20:37:50.267455Z"
+          "fetchedAt": "2026-11-12T21:41:07.610411Z"
         }
       },
-      "lastSyncAt": "2026-11-12T20:37:50.267455Z",
+      "lastSyncAt": "2026-11-12T21:41:07.610411Z",
       "lastSource": "html"
     },
     {
@@ -8578,14 +8578,6 @@
       "notes": "Added from owner source list, November 3, 2026.",
       "posts": [
         {
-          "title": "Jeremy McInerney Publishes New Book, \"By Land and by Sea\"",
-          "link": "https://www.classics.upenn.edu/news/2026/10/29/jeremy-mcinerney-publishes-new-book-land-and-sea",
-          "date": "2026-10-29",
-          "dek": "October 29, 2026",
-          "stream": "news",
-          "source": "html"
-        },
-        {
           "title": "Jeremy McInerney Publishes New Book, \"The Oxford History of the Classical Greek World: Volume I: The Environment and Resources\"",
           "link": "https://www.classics.upenn.edu/news/2026/10/29/jeremy-mcinerney-publishes-new-book-oxford-history-classical-greek-world-volume-i",
           "date": "2026-10-29",
@@ -8596,6 +8588,14 @@
         {
           "title": "Thomas Tartaron Publishes New Book, \"The Future of Ethnoarchaeology\"",
           "link": "https://www.classics.upenn.edu/news/2026/10/29/thomas-tartaron-publishes-new-book-future-ethnoarchaeology",
+          "date": "2026-10-29",
+          "dek": "October 29, 2026",
+          "stream": "news",
+          "source": "html"
+        },
+        {
+          "title": "Jeremy McInerney Publishes New Book, \"By Land and by Sea\"",
+          "link": "https://www.classics.upenn.edu/news/2026/10/29/jeremy-mcinerney-publishes-new-book-land-and-sea",
           "date": "2026-10-29",
           "dek": "October 29, 2026",
           "stream": "news",
@@ -8663,12 +8663,6 @@
         "news": {
           "items": [
             {
-              "title": "Jeremy McInerney Publishes New Book, \"By Land and by Sea\"",
-              "link": "https://www.classics.upenn.edu/news/2026/10/29/jeremy-mcinerney-publishes-new-book-land-and-sea",
-              "date": "2026-10-29",
-              "dek": "October 29, 2026"
-            },
-            {
               "title": "Jeremy McInerney Publishes New Book, \"The Oxford History of the Classical Greek World: Volume I: The Environment and Resources\"",
               "link": "https://www.classics.upenn.edu/news/2026/10/29/jeremy-mcinerney-publishes-new-book-oxford-history-classical-greek-world-volume-i",
               "date": "2026-10-29",
@@ -8677,6 +8671,12 @@
             {
               "title": "Thomas Tartaron Publishes New Book, \"The Future of Ethnoarchaeology\"",
               "link": "https://www.classics.upenn.edu/news/2026/10/29/thomas-tartaron-publishes-new-book-future-ethnoarchaeology",
+              "date": "2026-10-29",
+              "dek": "October 29, 2026"
+            },
+            {
+              "title": "Jeremy McInerney Publishes New Book, \"By Land and by Sea\"",
+              "link": "https://www.classics.upenn.edu/news/2026/10/29/jeremy-mcinerney-publishes-new-book-land-and-sea",
               "date": "2026-10-29",
               "dek": "October 29, 2026"
             },
@@ -8725,10 +8725,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-12T20:37:50.267455Z"
+          "fetchedAt": "2026-11-12T21:41:07.610411Z"
         }
       },
-      "lastSyncAt": "2026-11-12T20:37:50.267455Z",
+      "lastSyncAt": "2026-11-12T21:41:07.610411Z",
       "lastSource": "html"
     },
     {
@@ -8876,10 +8876,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-12T20:37:50.267455Z"
+          "fetchedAt": "2026-11-12T21:41:07.610411Z"
         }
       },
-      "lastSyncAt": "2026-11-12T20:37:50.267455Z",
+      "lastSyncAt": "2026-11-12T21:41:07.610411Z",
       "lastSource": "html"
     },
     {
@@ -9041,10 +9041,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://pan-school.sas.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-12T20:37:50.267455Z"
+          "fetchedAt": "2026-11-12T21:41:07.610411Z"
         }
       },
-      "lastSyncAt": "2026-11-12T20:37:50.267455Z",
+      "lastSyncAt": "2026-11-12T21:41:07.610411Z",
       "lastSource": "feed:https://pan-school.sas.upenn.edu/rss.xml"
     },
     {
@@ -9206,10 +9206,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://chibe.upenn.edu/feed/",
-          "fetchedAt": "2026-11-12T20:37:50.267455Z"
+          "fetchedAt": "2026-11-12T21:41:07.610411Z"
         }
       },
-      "lastSyncAt": "2026-11-12T20:37:50.267455Z",
+      "lastSyncAt": "2026-11-12T21:41:07.610411Z",
       "lastSource": "feed:https://chibe.upenn.edu/feed/"
     },
     {
@@ -9371,10 +9371,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-12T20:37:50.267455Z"
+          "fetchedAt": "2026-11-12T21:41:07.610411Z"
         }
       },
-      "lastSyncAt": "2026-11-12T20:37:50.267455Z",
+      "lastSyncAt": "2026-11-12T21:41:07.610411Z",
       "lastSource": "html"
     },
     {
@@ -9536,10 +9536,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-12T20:37:50.267455Z"
+          "fetchedAt": "2026-11-12T21:41:07.610411Z"
         }
       },
-      "lastSyncAt": "2026-11-12T20:37:50.267455Z",
+      "lastSyncAt": "2026-11-12T21:41:07.610411Z",
       "lastSource": "html"
     },
     {
@@ -9701,10 +9701,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-12T20:37:50.267455Z"
+          "fetchedAt": "2026-11-12T21:41:07.610411Z"
         }
       },
-      "lastSyncAt": "2026-11-12T20:37:50.267455Z",
+      "lastSyncAt": "2026-11-12T21:41:07.610411Z",
       "lastSource": "html"
     },
     {
@@ -9866,10 +9866,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-12T20:37:50.267455Z"
+          "fetchedAt": "2026-11-12T21:41:07.610411Z"
         }
       },
-      "lastSyncAt": "2026-11-12T20:37:50.267455Z",
+      "lastSyncAt": "2026-11-12T21:41:07.610411Z",
       "lastSource": "html"
     },
     {
@@ -10031,10 +10031,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-12T20:37:50.267455Z"
+          "fetchedAt": "2026-11-12T21:41:07.610411Z"
         }
       },
-      "lastSyncAt": "2026-11-12T20:37:50.267455Z",
+      "lastSyncAt": "2026-11-12T21:41:07.610411Z",
       "lastSource": "html"
     },
     {
@@ -10196,10 +10196,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-12T20:37:50.267455Z"
+          "fetchedAt": "2026-11-12T21:41:07.610411Z"
         }
       },
-      "lastSyncAt": "2026-11-12T20:37:50.267455Z",
+      "lastSyncAt": "2026-11-12T21:41:07.610411Z",
       "lastSource": "html"
     },
     {
@@ -10361,10 +10361,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-12T20:37:50.267455Z"
+          "fetchedAt": "2026-11-12T21:41:07.610411Z"
         }
       },
-      "lastSyncAt": "2026-11-12T20:37:50.267455Z",
+      "lastSyncAt": "2026-11-12T21:41:07.610411Z",
       "lastSource": "html"
     },
     {
@@ -10554,10 +10554,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-12T20:37:50.267455Z"
+          "fetchedAt": "2026-11-12T21:41:07.610411Z"
         }
       },
-      "lastSyncAt": "2026-11-12T20:37:50.267455Z",
+      "lastSyncAt": "2026-11-12T21:41:07.610411Z",
       "lastSource": "html"
     },
     {
@@ -10747,21 +10747,21 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-12T20:37:50.267455Z"
+          "fetchedAt": "2026-11-12T21:41:07.610411Z"
         }
       },
-      "lastSyncAt": "2026-11-12T20:37:50.267455Z",
+      "lastSyncAt": "2026-11-12T21:41:07.610411Z",
       "lastSource": "html"
     }
   ],
-  "lastRefreshAt": "2026-11-12T20:37:50.267455Z",
+  "lastRefreshAt": "2026-11-12T21:41:07.610411Z",
   "refreshErrors": [],
   "showAddSite": false,
   "schemaVersion": 3,
   "collection": {
     "sourceVersion": "44f9026c3b016f42ca979d03cf646543bd1579d434f1765a6f57b43880ed2b3b",
-    "runId": "43301458331",
-    "commit": "a0e4177055f886ad6994042c9bf2e057d5f87b10",
-    "runUrl": "https://github.com/BigChief-at-illuminathidotorg/Penn-News-Scraper/actions/runs/43301458331"
+    "runId": "43312002811",
+    "commit": "bb407fede0afa5cdc527b7d128506a3e5c1e5f30",
+    "runUrl": "https://github.com/BigChief-at-illuminathidotorg/Penn-News-Scraper/actions/runs/43312002811"
   }
 }
