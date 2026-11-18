@@ -17,6 +17,14 @@
       "notes": "",
       "posts": [
         {
+          "title": "A New Podcast Shares Stories of Families \"Born in the Heart\"",
+          "link": "https://www.asc.upenn.edu/news-events/news/new-podcast-shares-stories-families-born-heart",
+          "date": "2026-11-18",
+          "dek": "In 1975, when Marjorie Margolies was a 25-year-old television reporter working on a story about international adoption, the assignment changed...",
+          "stream": "news",
+          "source": "html"
+        },
+        {
           "title": "“Levers of Control” Teenagers Can Exercise Over Their Feeds on Social Media",
           "link": "https://www.asc.upenn.edu/news-events/news/levers-control-teenagers-can-exercise-over-their-feeds-social-media",
           "date": "2026-11-16",
@@ -87,20 +95,18 @@
           "dek": "A new survey by the Annenberg Public Policy Center at the Annenberg School for Communication has found that 58% of Americans know that regularly consuming alcohol increases the chances of later developing cancer.",
           "stream": "news",
           "source": "html"
-        },
-        {
-          "title": "Annenberg Answers: Experts on Polling, Polarization, and Public Opinion Ahead of the Midterms",
-          "link": "https://www.asc.upenn.edu/news-events/news/annenberg-answers-experts-polling-polarization-and-public-opinion-ahead-midterms",
-          "date": "2026-10-29",
-          "dek": "Ahead of the 2026 U.S. midterm elections, polling accuracy, partisan polarization, and the question of what the public actually wants...",
-          "stream": "news",
-          "source": "html"
         }
       ],
       "lastError": "",
       "_cache": {
         "news": {
           "items": [
+            {
+              "title": "A New Podcast Shares Stories of Families \"Born in the Heart\"",
+              "link": "https://www.asc.upenn.edu/news-events/news/new-podcast-shares-stories-families-born-heart",
+              "date": "2026-11-18",
+              "dek": "In 1975, when Marjorie Margolies was a 25-year-old television reporter working on a story about international adoption, the assignment changed..."
+            },
             {
               "title": "“Levers of Control” Teenagers Can Exercise Over Their Feeds on Social Media",
               "link": "https://www.asc.upenn.edu/news-events/news/levers-control-teenagers-can-exercise-over-their-feeds-social-media",
@@ -154,20 +160,14 @@
               "link": "https://www.asc.upenn.edu/news-events/news/public-knowledge-alcohol-causes-cancer-rebounds",
               "date": "2026-10-30",
               "dek": "A new survey by the Annenberg Public Policy Center at the Annenberg School for Communication has found that 58% of Americans know that regularly consuming alcohol increases the chances of later developing cancer."
-            },
-            {
-              "title": "Annenberg Answers: Experts on Polling, Polarization, and Public Opinion Ahead of the Midterms",
-              "link": "https://www.asc.upenn.edu/news-events/news/annenberg-answers-experts-polling-polarization-and-public-opinion-ahead-midterms",
-              "date": "2026-10-29",
-              "dek": "Ahead of the 2026 U.S. midterm elections, polling accuracy, partisan polarization, and the question of what the public actually wants..."
             }
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-18T21:11:32.999475Z"
+          "fetchedAt": "2026-11-18T22:27:40.968718Z"
         }
       },
-      "lastSyncAt": "2026-11-18T21:11:32.999475Z",
+      "lastSyncAt": "2026-11-18T22:27:40.968718Z",
       "lastSource": "html"
     },
     {
@@ -329,10 +329,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://www.dental.upenn.edu/feed/",
-          "fetchedAt": "2026-11-18T21:11:32.999475Z"
+          "fetchedAt": "2026-11-18T22:27:40.968718Z"
         }
       },
-      "lastSyncAt": "2026-11-18T21:11:32.999475Z",
+      "lastSyncAt": "2026-11-18T22:27:40.968718Z",
       "lastSource": "feed:https://www.dental.upenn.edu/feed/"
     },
     {
@@ -634,10 +634,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-18T21:11:32.999475Z"
+          "fetchedAt": "2026-11-18T22:27:40.968718Z"
         }
       },
-      "lastSyncAt": "2026-11-18T21:11:32.999475Z",
+      "lastSyncAt": "2026-11-18T22:27:40.968718Z",
       "lastSource": "html"
     },
     {
@@ -739,10 +739,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-18T21:11:32.999475Z"
+          "fetchedAt": "2026-11-18T22:27:40.968718Z"
         }
       },
-      "lastSyncAt": "2026-11-18T21:11:32.999475Z",
+      "lastSyncAt": "2026-11-18T22:27:40.968718Z",
       "lastSource": "html"
     },
     {
@@ -904,10 +904,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-18T21:11:32.999475Z"
+          "fetchedAt": "2026-11-18T22:27:40.968718Z"
         }
       },
-      "lastSyncAt": "2026-11-18T21:11:32.999475Z",
+      "lastSyncAt": "2026-11-18T22:27:40.968718Z",
       "lastSource": "html"
     },
     {
@@ -1041,10 +1041,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-18T21:11:32.999475Z"
+          "fetchedAt": "2026-11-18T22:27:40.968718Z"
         }
       },
-      "lastSyncAt": "2026-11-18T21:11:32.999475Z",
+      "lastSyncAt": "2026-11-18T22:27:40.968718Z",
       "lastSource": "html"
     },
     {
@@ -1206,10 +1206,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://www.engineering.upenn.edu/feed/",
-          "fetchedAt": "2026-11-18T21:11:32.999475Z"
+          "fetchedAt": "2026-11-18T22:27:40.968718Z"
         }
       },
-      "lastSyncAt": "2026-11-18T21:11:32.999475Z",
+      "lastSyncAt": "2026-11-18T22:27:40.968718Z",
       "lastSource": "feed:https://www.engineering.upenn.edu/feed/"
     },
     {
@@ -1511,10 +1511,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-18T21:11:32.999475Z"
+          "fetchedAt": "2026-11-18T22:27:40.968718Z"
         }
       },
-      "lastSyncAt": "2026-11-18T21:11:32.999475Z",
+      "lastSyncAt": "2026-11-18T22:27:40.968718Z",
       "lastSource": "html"
     },
     {
@@ -1802,10 +1802,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-18T21:11:32.999475Z"
+          "fetchedAt": "2026-11-18T22:27:40.968718Z"
         }
       },
-      "lastSyncAt": "2026-11-18T21:11:32.999475Z",
+      "lastSyncAt": "2026-11-18T22:27:40.968718Z",
       "lastSource": "html"
     },
     {
@@ -2107,10 +2107,10 @@
           ],
           "feedUrl": "https://news.wharton.upenn.edu/feed/",
           "source": "feed:https://news.wharton.upenn.edu/feed/",
-          "fetchedAt": "2026-11-18T21:11:32.999475Z"
+          "fetchedAt": "2026-11-18T22:27:40.968718Z"
         }
       },
-      "lastSyncAt": "2026-11-18T21:11:32.999475Z",
+      "lastSyncAt": "2026-11-18T22:27:40.968718Z",
       "lastSource": "feed:https://news.wharton.upenn.edu/feed/"
     },
     {
@@ -2124,6 +2124,14 @@
       "magazineUrl": null,
       "notes": "URL fixed 2026-08-04: /news/press-releases now 404s. /news defaults to today's date filter. /weitzman-news is the real dated listing (confirmed via search) — dates there are US-style MM.DD.YYYY.",
       "posts": [
+        {
+          "title": "Story | 11.18.2026 Jing Liu on ISSEY MIYAKE / NEW YORK Flagship",
+          "link": "https://www.design.upenn.edu/post/jing-liu-issey-miyake/new-york-flagship",
+          "date": "2026-11-18",
+          "dek": "",
+          "stream": "news",
+          "source": "html"
+        },
         {
           "title": "Story | 11.18.2026 Student Voices: Attending Penn's GIS Day",
           "link": "https://www.design.upenn.edu/post/student-voices-attending-penns-gis-day",
@@ -2195,20 +2203,18 @@
           "dek": "",
           "stream": "news",
           "source": "html"
-        },
-        {
-          "title": "Story | 11.10.2026 Professor Dorit Aviv Joins Panel Discussion for Architectural Design’s “The New Heliomorphism” Launch",
-          "link": "https://www.design.upenn.edu/post/professor-dorit-aviv-joins-panel-discussion-architectural-designs-new-heliomorphism-launch",
-          "date": "2026-11-10",
-          "dek": "",
-          "stream": "news",
-          "source": "html"
         }
       ],
       "lastError": "",
       "_cache": {
         "news": {
           "items": [
+            {
+              "title": "Story | 11.18.2026 Jing Liu on ISSEY MIYAKE / NEW YORK Flagship",
+              "link": "https://www.design.upenn.edu/post/jing-liu-issey-miyake/new-york-flagship",
+              "date": "2026-11-18",
+              "dek": ""
+            },
             {
               "title": "Story | 11.18.2026 Student Voices: Attending Penn's GIS Day",
               "link": "https://www.design.upenn.edu/post/student-voices-attending-penns-gis-day",
@@ -2262,20 +2268,14 @@
               "link": "https://www.design.upenn.edu/post/new-york-ceremony-weitzman-honors-architect-steven-holl-and-bostons-climate-plan",
               "date": "2026-11-12",
               "dek": ""
-            },
-            {
-              "title": "Story | 11.10.2026 Professor Dorit Aviv Joins Panel Discussion for Architectural Design’s “The New Heliomorphism” Launch",
-              "link": "https://www.design.upenn.edu/post/professor-dorit-aviv-joins-panel-discussion-architectural-designs-new-heliomorphism-launch",
-              "date": "2026-11-10",
-              "dek": ""
             }
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-18T21:11:32.999475Z"
+          "fetchedAt": "2026-11-18T22:27:40.968718Z"
         }
       },
-      "lastSyncAt": "2026-11-18T21:11:32.999475Z",
+      "lastSyncAt": "2026-11-18T22:27:40.968718Z",
       "lastSource": "html"
     },
     {
@@ -2580,10 +2580,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-18T21:11:32.999475Z"
+          "fetchedAt": "2026-11-18T22:27:40.968718Z"
         }
       },
-      "lastSyncAt": "2026-11-18T21:11:32.999475Z",
+      "lastSyncAt": "2026-11-18T22:27:40.968718Z",
       "lastSource": "html"
     },
     {
@@ -2745,10 +2745,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://knowledge.wharton.upenn.edu/feed/",
-          "fetchedAt": "2026-11-18T21:11:32.999475Z"
+          "fetchedAt": "2026-11-18T22:27:40.968718Z"
         }
       },
-      "lastSyncAt": "2026-11-18T21:11:32.999475Z",
+      "lastSyncAt": "2026-11-18T22:27:40.968718Z",
       "lastSource": "feed:https://knowledge.wharton.upenn.edu/feed/"
     },
     {
@@ -2868,10 +2868,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-18T21:11:32.999475Z"
+          "fetchedAt": "2026-11-18T22:27:40.968718Z"
         }
       },
-      "lastSyncAt": "2026-11-18T21:11:32.999475Z",
+      "lastSyncAt": "2026-11-18T22:27:40.968718Z",
       "lastSource": "html"
     },
     {
@@ -3019,10 +3019,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-18T21:11:32.999475Z"
+          "fetchedAt": "2026-11-18T22:27:40.968718Z"
         }
       },
-      "lastSyncAt": "2026-11-18T21:11:32.999475Z",
+      "lastSyncAt": "2026-11-18T22:27:40.968718Z",
       "lastSource": "html"
     },
     {
@@ -3100,10 +3100,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-18T21:11:32.999475Z"
+          "fetchedAt": "2026-11-18T22:27:40.968718Z"
         }
       },
-      "lastSyncAt": "2026-11-18T21:11:32.999475Z",
+      "lastSyncAt": "2026-11-18T22:27:40.968718Z",
       "lastSource": "html"
     },
     {
@@ -3251,10 +3251,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-18T21:11:32.999475Z"
+          "fetchedAt": "2026-11-18T22:27:40.968718Z"
         }
       },
-      "lastSyncAt": "2026-11-18T21:11:32.999475Z",
+      "lastSyncAt": "2026-11-18T22:27:40.968718Z",
       "lastSource": "html"
     },
     {
@@ -3416,10 +3416,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://creative.writing.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-18T21:11:32.999475Z"
+          "fetchedAt": "2026-11-18T22:27:40.968718Z"
         }
       },
-      "lastSyncAt": "2026-11-18T21:11:32.999475Z",
+      "lastSyncAt": "2026-11-18T22:27:40.968718Z",
       "lastSource": "feed:https://creative.writing.upenn.edu/rss.xml"
     },
     {
@@ -3581,10 +3581,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://kleinmanenergy.upenn.edu/feed/",
-          "fetchedAt": "2026-11-18T21:11:32.999475Z"
+          "fetchedAt": "2026-11-18T22:27:40.968718Z"
         }
       },
-      "lastSyncAt": "2026-11-18T21:11:32.999475Z",
+      "lastSyncAt": "2026-11-18T22:27:40.968718Z",
       "lastSource": "feed:https://kleinmanenergy.upenn.edu/feed/"
     },
     {
@@ -3746,10 +3746,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-18T21:11:32.999475Z"
+          "fetchedAt": "2026-11-18T22:27:40.968718Z"
         }
       },
-      "lastSyncAt": "2026-11-18T21:11:32.999475Z",
+      "lastSyncAt": "2026-11-18T22:27:40.968718Z",
       "lastSource": "html"
     },
     {
@@ -3883,10 +3883,10 @@
           ],
           "feedUrl": "https://pennovation.upenn.edu/feed/",
           "source": "html",
-          "fetchedAt": "2026-11-18T21:11:32.999475Z"
+          "fetchedAt": "2026-11-18T22:27:40.968718Z"
         }
       },
-      "lastSyncAt": "2026-11-18T21:11:32.999475Z",
+      "lastSyncAt": "2026-11-18T22:27:40.968718Z",
       "lastSource": "html"
     },
     {
@@ -4048,10 +4048,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://katz.sas.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-18T21:11:32.999475Z"
+          "fetchedAt": "2026-11-18T22:27:40.968718Z"
         }
       },
-      "lastSyncAt": "2026-11-18T21:11:32.999475Z",
+      "lastSyncAt": "2026-11-18T22:27:40.968718Z",
       "lastSource": "feed:https://katz.sas.upenn.edu/rss.xml"
     },
     {
@@ -4213,10 +4213,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-18T21:11:32.999475Z"
+          "fetchedAt": "2026-11-18T22:27:40.968718Z"
         }
       },
-      "lastSyncAt": "2026-11-18T21:11:32.999475Z",
+      "lastSyncAt": "2026-11-18T22:27:40.968718Z",
       "lastSource": "html"
     },
     {
@@ -4378,10 +4378,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://www.fels.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-18T21:11:32.999475Z"
+          "fetchedAt": "2026-11-18T22:27:40.968718Z"
         }
       },
-      "lastSyncAt": "2026-11-18T21:11:32.999475Z",
+      "lastSyncAt": "2026-11-18T22:27:40.968718Z",
       "lastSource": "feed:https://www.fels.upenn.edu/rss.xml"
     },
     {
@@ -4395,6 +4395,22 @@
       "magazineUrl": null,
       "notes": "",
       "posts": [
+        {
+          "title": "Oliver Husain: Big Statue",
+          "link": "https://icaphila.org/exhibitions/oliver-husain-big-statue/",
+          "date": "2026-11-18",
+          "dek": "Oliver Husain: Big Statue marks the Toronto-based artist and filmmaker’s first U.S. solo exhibition, bringing together three major installations that examine how layered histories and built-space influence cultural memory. Husain’s multidisciplinary practice combines historical r",
+          "stream": "news",
+          "source": "feed:https://icaphila.org/feed/"
+        },
+        {
+          "title": "ICA Philadelphia Chief Curator Hallie Ringle Named 2027 Center for Curatorial Leadership Fellow",
+          "link": "https://icaphila.org/press/ica-philadelphia-chief-curator-hallie-ringle-named-2027-center-for-curatorial-leadership-fellow/",
+          "date": "2026-11-18",
+          "dek": "The Institute of Contemporary Art at the University of Pennsylvania (ICA Philadelphia) is pleased to announce that Hallie Ringle, Daniel and Brett Sundheim Chief Curator, has been selected as a 2027 Fellow of the Center for Curatorial Leadership (CCL). Ringle is the first curator",
+          "stream": "news",
+          "source": "feed:https://icaphila.org/feed/"
+        },
         {
           "title": "Sachs Lecture in Contemporary Art History | Shivani Shedde: “Militant Assemblies: Architecture and the Art of Afro-Asian Negotiation",
           "link": "https://icaphila.org/events/sachs-lecture-in-contemporary-art-history-shivani-shedde-militant-assemblies-architecture-and-the-art-of-afro-asian-negotiation/",
@@ -4458,35 +4474,80 @@
           "dek": "Following an ambulatory performance across Philadelphia the day before, Wilmer Wilson IV inhabits installations in his exhibition at the ICA and even embeds himself within walls of the institution itself. Wilson will activate these concealed spaces drawing on an episode from his ",
           "stream": "news",
           "source": "feed:https://icaphila.org/feed/"
-        },
-        {
-          "title": "Performance | Wilmer Wilson IV: Skirl (I)",
-          "link": "https://icaphila.org/events/performance-wilmer-wilson-iv-skirl-i-2/",
-          "date": "2026-10-02",
-          "dek": "Wilmer Wilson IV embarks on a durational, ambulatory performance across parks, streets, and sidewalks of Philadelphia. The performance begins at ICA promptly at 11am, and takes place offsite at unplanned locations. This performance is presented as part of Wilmer Wilson IV: SKIRL!",
-          "stream": "news",
-          "source": "feed:https://icaphila.org/feed/"
-        },
-        {
-          "title": "Performance | Wilmer Wilson IV: Skirl (I)",
-          "link": "https://icaphila.org/events/performance-wilmer-wilson-iv-skirl-i/",
-          "date": "2026-10-02",
-          "dek": "Wilmer Wilson IV embarks on a durational, ambulatory performance across parks, streets, and sidewalks of Philadelphia. The performance begins at ICA promptly at 11am, and takes place offsite at unplanned locations. This performance is presented as part of Wilmer Wilson IV: SKIRL!",
-          "stream": "news",
-          "source": "feed:https://icaphila.org/feed/"
         }
       ],
-      "lastError": "Latest check returned no articles; showing earlier results. Page looks blocked or empty (https://icaphila.org/press/)",
+      "lastError": "",
       "_cache": {
         "news": {
-          "items": [],
+          "items": [
+            {
+              "title": "Oliver Husain: Big Statue",
+              "link": "https://icaphila.org/exhibitions/oliver-husain-big-statue/",
+              "date": "2026-11-18",
+              "dek": "Oliver Husain: Big Statue marks the Toronto-based artist and filmmaker’s first U.S. solo exhibition, bringing together three major installations that examine how layered histories and built-space influence cultural memory. Husain’s multidisciplinary practice combines historical r"
+            },
+            {
+              "title": "ICA Philadelphia Chief Curator Hallie Ringle Named 2027 Center for Curatorial Leadership Fellow",
+              "link": "https://icaphila.org/press/ica-philadelphia-chief-curator-hallie-ringle-named-2027-center-for-curatorial-leadership-fellow/",
+              "date": "2026-11-18",
+              "dek": "The Institute of Contemporary Art at the University of Pennsylvania (ICA Philadelphia) is pleased to announce that Hallie Ringle, Daniel and Brett Sundheim Chief Curator, has been selected as a 2027 Fellow of the Center for Curatorial Leadership (CCL). Ringle is the first curator"
+            },
+            {
+              "title": "Sachs Lecture in Contemporary Art History | Shivani Shedde: “Militant Assemblies: Architecture and the Art of Afro-Asian Negotiation",
+              "link": "https://icaphila.org/events/sachs-lecture-in-contemporary-art-history-shivani-shedde-militant-assemblies-architecture-and-the-art-of-afro-asian-negotiation/",
+              "date": "2026-11-11",
+              "dek": "In conjunction with the exhibition The Condition of Being Near, architectural historian Shivani Shedde will examine a lesser explored aspect of Afro-Asian studies: meetings, congregations, conferences, assemblies that brought African, Asian, and South American activists together "
+            },
+            {
+              "title": "Performance | Wilmer Wilson IV: Skirl (III)",
+              "link": "https://icaphila.org/events/performance-wilmer-wilson-iv-skirl-iii/",
+              "date": "2026-11-02",
+              "dek": "In this performance, Wilmer Wilson IV inhabits sculptures in his exhibition at the ICA and even embeds himself within walls of the institution itself. Wilson will activate these concealed spaces drawing on an episode from his own life, when, over the course of several weeks, he c"
+            },
+            {
+              "title": "The New York Times: The Stars of This Philadelphia Exhibition? Squirrels.",
+              "link": "https://icaphila.org/press/new-york-times-the-stars-of-this-philadelphia-exhibition-squirrels/",
+              "date": "2026-10-30",
+              "dek": "After a squirrel invaded his home, Wilmer Wilson IV decided to research everything about the creature. The result is a solo show titled “SKIRL!” By Annabel Keenan Published October 30, 2026. On Valentine’s Day 2023, the artist Wilmer Wilson IV discovered an uninvited guest in his"
+            },
+            {
+              "title": "Paint The Dance Floor: Cut Up",
+              "link": "https://icaphila.org/events/paint-the-dance-floor-cut-up/",
+              "date": "2026-10-20",
+              "dek": "Join us for ICA’s annual dance party headlined by Bearcat, a London-born DJ, producer, performance artist and co-founder of SELTZER, a night born out of DIY spaces in West Philadelphia prioritizing queer, black, and brown experimental club DJs and artists. Take a break from danci"
+            },
+            {
+              "title": "Screening: Out Into Us (Slow Down) by Son Lux and Alex Cook",
+              "link": "https://icaphila.org/events/programs/screening-out-into-us-slow-down-by-son-lux-and-alex-cook-3/",
+              "date": "2026-10-06",
+              "dek": "Son Lux’s video Out Into Us (Slow Down) imagines the title track from their ninth studio album, Out Into Us as an expressionistic landscape. Guitarist Rafiq Bhatia notes, “In this age of device dependency and information onslaught, we’re drawn to the legacy left by past pioneers "
+            },
+            {
+              "title": "Screening: Out Into Us (Slow Down) by Son Lux and Alex Cook",
+              "link": "https://icaphila.org/events/screening-out-into-us-slow-down-by-son-lux-and-alex-cook-2/",
+              "date": "2026-10-06",
+              "dek": "Son Lux’s video Out Into Us (Slow Down) imagines the title track from their ninth studio album, Out Into Us as an expressionistic landscape. Guitarist Rafiq Bhatia notes, “In this age of device dependency and information onslaught, we’re drawn to the legacy left by past pioneers "
+            },
+            {
+              "title": "Performance | Wilmer Wilson IV: Skirl (II)",
+              "link": "https://icaphila.org/events/performance-wilmer-wilson-iv-skirl-ii-2/",
+              "date": "2026-10-02",
+              "dek": "Following an ambulatory performance across Philadelphia the day before, Wilmer Wilson IV inhabits installations in his exhibition at the ICA and even embeds himself within walls of the institution itself. Wilson will activate these concealed spaces drawing on an episode from his "
+            },
+            {
+              "title": "Performance | Wilmer Wilson IV: Skirl (II)",
+              "link": "https://icaphila.org/events/performance-wilmer-wilson-iv-skirl-ii/",
+              "date": "2026-10-02",
+              "dek": "Following an ambulatory performance across Philadelphia the day before, Wilmer Wilson IV inhabits installations in his exhibition at the ICA and even embeds himself within walls of the institution itself. Wilson will activate these concealed spaces drawing on an episode from his "
+            }
+          ],
           "feedUrl": "https://icaphila.org/feed/",
-          "source": "",
-          "fetchedAt": "2026-11-18T21:11:32.999475Z"
+          "source": "feed:https://icaphila.org/feed/",
+          "fetchedAt": "2026-11-18T22:27:40.968718Z"
         }
       },
-      "lastSyncAt": "2026-11-17T21:31:03.916073Z",
-      "lastSource": ""
+      "lastSyncAt": "2026-11-18T22:27:40.968718Z",
+      "lastSource": "feed:https://icaphila.org/feed/"
     },
     {
       "id": "the-lauder-institute",
@@ -4647,10 +4708,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://lauder.wharton.upenn.edu/feed/",
-          "fetchedAt": "2026-11-18T21:11:32.999475Z"
+          "fetchedAt": "2026-11-18T22:27:40.968718Z"
         }
       },
-      "lastSyncAt": "2026-11-18T21:11:32.999475Z",
+      "lastSyncAt": "2026-11-18T22:27:40.968718Z",
       "lastSource": "feed:https://lauder.wharton.upenn.edu/feed/"
     },
     {
@@ -4798,10 +4859,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-18T21:11:32.999475Z"
+          "fetchedAt": "2026-11-18T22:27:40.968718Z"
         }
       },
-      "lastSyncAt": "2026-11-18T21:11:32.999475Z",
+      "lastSyncAt": "2026-11-18T22:27:40.968718Z",
       "lastSource": "html"
     },
     {
@@ -4963,10 +5024,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://fisher.wharton.upenn.edu/feed/",
-          "fetchedAt": "2026-11-18T21:11:32.999475Z"
+          "fetchedAt": "2026-11-18T22:27:40.968718Z"
         }
       },
-      "lastSyncAt": "2026-11-18T21:11:32.999475Z",
+      "lastSyncAt": "2026-11-18T22:27:40.968718Z",
       "lastSource": "feed:https://fisher.wharton.upenn.edu/feed/"
     },
     {
@@ -5114,10 +5175,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://pores.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-18T21:11:32.999475Z"
+          "fetchedAt": "2026-11-18T22:27:40.968718Z"
         }
       },
-      "lastSyncAt": "2026-11-18T21:11:32.999475Z",
+      "lastSyncAt": "2026-11-18T22:27:40.968718Z",
       "lastSource": "feed:https://pores.upenn.edu/rss.xml"
     },
     {
@@ -5419,10 +5480,10 @@
           ],
           "feedUrl": "https://snfpaideia.upenn.edu/feed/",
           "source": "html",
-          "fetchedAt": "2026-11-18T21:11:32.999475Z"
+          "fetchedAt": "2026-11-18T22:27:40.968718Z"
         }
       },
-      "lastSyncAt": "2026-11-18T21:11:32.999475Z",
+      "lastSyncAt": "2026-11-18T22:27:40.968718Z",
       "lastSource": "html"
     },
     {
@@ -5724,10 +5785,10 @@
           ],
           "feedUrl": "https://snfpaideia.upenn.edu/wp-json/wp/v2/posts?per_page=20&_fields=id,date,link,title,excerpt",
           "source": "feed:https://snfpaideia.upenn.edu/wp-json/wp/v2/posts?per_page=20&_fields=id,date,link,title,excerpt",
-          "fetchedAt": "2026-11-18T21:11:32.999475Z"
+          "fetchedAt": "2026-11-18T22:27:40.968718Z"
         }
       },
-      "lastSyncAt": "2026-11-18T21:11:32.999475Z",
+      "lastSyncAt": "2026-11-18T22:27:40.968718Z",
       "lastSource": "feed:https://snfpaideia.upenn.edu/wp-json/wp/v2/posts?per_page=20&_fields=id,date,link,title,excerpt"
     },
     {
@@ -5889,10 +5950,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://pricelab.sas.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-18T21:11:32.999475Z"
+          "fetchedAt": "2026-11-18T22:27:40.968718Z"
         }
       },
-      "lastSyncAt": "2026-11-18T21:11:32.999475Z",
+      "lastSyncAt": "2026-11-18T22:27:40.968718Z",
       "lastSource": "feed:https://pricelab.sas.upenn.edu/rss.xml"
     },
     {
@@ -6054,10 +6115,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-18T21:11:32.999475Z"
+          "fetchedAt": "2026-11-18T22:27:40.968718Z"
         }
       },
-      "lastSyncAt": "2026-11-18T21:11:32.999475Z",
+      "lastSyncAt": "2026-11-18T22:27:40.968718Z",
       "lastSource": "html"
     },
     {
@@ -6320,10 +6381,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-18T21:11:32.999475Z"
+          "fetchedAt": "2026-11-18T22:27:40.968718Z"
         }
       },
-      "lastSyncAt": "2026-11-18T21:11:32.999475Z",
+      "lastSyncAt": "2026-11-18T22:27:40.968718Z",
       "lastSource": "html"
     },
     {
@@ -6625,10 +6686,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-18T21:11:32.999475Z"
+          "fetchedAt": "2026-11-18T22:27:40.968718Z"
         }
       },
-      "lastSyncAt": "2026-11-18T21:11:32.999475Z",
+      "lastSyncAt": "2026-11-18T22:27:40.968718Z",
       "lastSource": "html"
     },
     {
@@ -6790,10 +6851,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://penniur.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-18T21:11:32.999475Z"
+          "fetchedAt": "2026-11-18T22:27:40.968718Z"
         }
       },
-      "lastSyncAt": "2026-11-18T21:11:32.999475Z",
+      "lastSyncAt": "2026-11-18T22:27:40.968718Z",
       "lastSource": "feed:https://penniur.upenn.edu/rss.xml"
     },
     {
@@ -6927,10 +6988,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-18T21:11:32.999475Z"
+          "fetchedAt": "2026-11-18T22:27:40.968718Z"
         }
       },
-      "lastSyncAt": "2026-11-18T21:11:32.999475Z",
+      "lastSyncAt": "2026-11-18T22:27:40.968718Z",
       "lastSource": "html"
     },
     {
@@ -7232,10 +7293,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-18T21:11:32.999475Z"
+          "fetchedAt": "2026-11-18T22:27:40.968718Z"
         }
       },
-      "lastSyncAt": "2026-11-18T21:11:32.999475Z",
+      "lastSyncAt": "2026-11-18T22:27:40.968718Z",
       "lastSource": "html"
     },
     {
@@ -7397,10 +7458,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://writing.upenn.edu/?feed=rss2",
-          "fetchedAt": "2026-11-18T21:11:32.999475Z"
+          "fetchedAt": "2026-11-18T22:27:40.968718Z"
         }
       },
-      "lastSyncAt": "2026-11-18T21:11:32.999475Z",
+      "lastSyncAt": "2026-11-18T22:27:40.968718Z",
       "lastSource": "feed:https://writing.upenn.edu/?feed=rss2"
     },
     {
@@ -7534,10 +7595,10 @@
           ],
           "feedUrl": "https://perryworldhouse.upenn.edu/feed/",
           "source": "html",
-          "fetchedAt": "2026-11-18T21:11:32.999475Z"
+          "fetchedAt": "2026-11-18T22:27:40.968718Z"
         }
       },
-      "lastSyncAt": "2026-11-18T21:11:32.999475Z",
+      "lastSyncAt": "2026-11-18T22:27:40.968718Z",
       "lastSource": "html"
     },
     {
@@ -7699,10 +7760,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://platthouse.universitylife.upenn.edu/feed/",
-          "fetchedAt": "2026-11-18T21:11:32.999475Z"
+          "fetchedAt": "2026-11-18T22:27:40.968718Z"
         }
       },
-      "lastSyncAt": "2026-11-18T21:11:32.999475Z",
+      "lastSyncAt": "2026-11-18T22:27:40.968718Z",
       "lastSource": "feed:https://platthouse.universitylife.upenn.edu/feed/"
     },
     {
@@ -8004,10 +8065,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://arthurrossgallery.org/category/press-releases/feed/",
-          "fetchedAt": "2026-11-18T21:11:32.999475Z"
+          "fetchedAt": "2026-11-18T22:27:40.968718Z"
         }
       },
-      "lastSyncAt": "2026-11-18T21:11:32.999475Z",
+      "lastSyncAt": "2026-11-18T22:27:40.968718Z",
       "lastSource": "feed:https://arthurrossgallery.org/category/press-releases/feed/"
     },
     {
@@ -8169,10 +8230,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://www.penn.museum/about/press-room/press-releases?format=feed&type=rss",
-          "fetchedAt": "2026-11-18T21:11:32.999475Z"
+          "fetchedAt": "2026-11-18T22:27:40.968718Z"
         }
       },
-      "lastSyncAt": "2026-11-18T21:11:32.999475Z",
+      "lastSyncAt": "2026-11-18T22:27:40.968718Z",
       "lastSource": "feed:https://www.penn.museum/about/press-room/press-releases?format=feed&type=rss"
     },
     {
@@ -8320,10 +8381,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-18T21:11:32.999475Z"
+          "fetchedAt": "2026-11-18T22:27:40.968718Z"
         }
       },
-      "lastSyncAt": "2026-11-18T21:11:32.999475Z",
+      "lastSyncAt": "2026-11-18T22:27:40.968718Z",
       "lastSource": "html"
     },
     {
@@ -8485,10 +8546,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-18T21:11:32.999475Z"
+          "fetchedAt": "2026-11-18T22:27:40.968718Z"
         }
       },
-      "lastSyncAt": "2026-11-18T21:11:32.999475Z",
+      "lastSyncAt": "2026-11-18T22:27:40.968718Z",
       "lastSource": "html"
     },
     {
@@ -8503,32 +8564,24 @@
       "notes": "Added from owner source list, November 3, 2026.",
       "posts": [
         {
-          "title": "Recordings of the Call of Kinnaru Concert at Haverford College Now Available",
-          "link": "https://www.classics.upenn.edu/news/2026/11/13/recordings-call-kinnaru-concert-haverford-college-now-available",
-          "date": "2026-11-13",
-          "dek": "November 13, 2026",
-          "stream": "news",
-          "source": "html"
-        },
-        {
           "title": "Kim Bowes: Goodwin Award of Merit",
-          "link": "https://www.classics.upenn.edu/news/2026/11/13/kim-bowes-goodwin-award-merit",
+          "link": "https://www.classics.upenn.edu/index.php/news/2026/11/13/kim-bowes-goodwin-award-merit",
           "date": "2026-11-13",
           "dek": "November 13, 2026",
           "stream": "news",
           "source": "html"
         },
         {
-          "title": "Jeremy McInerney Publishes New Book, \"By Land and by Sea\"",
-          "link": "https://www.classics.upenn.edu/news/2026/10/29/jeremy-mcinerney-publishes-new-book-land-and-sea",
-          "date": "2026-10-29",
-          "dek": "October 29, 2026",
+          "title": "Recordings of the Call of Kinnaru Concert at Haverford College Now Available",
+          "link": "https://www.classics.upenn.edu/index.php/news/2026/11/13/recordings-call-kinnaru-concert-haverford-college-now-available",
+          "date": "2026-11-13",
+          "dek": "November 13, 2026",
           "stream": "news",
           "source": "html"
         },
         {
           "title": "Jeremy McInerney Publishes New Book, \"The Oxford History of the Classical Greek World: Volume I: The Environment and Resources\"",
-          "link": "https://www.classics.upenn.edu/news/2026/10/29/jeremy-mcinerney-publishes-new-book-oxford-history-classical-greek-world-volume-i",
+          "link": "https://www.classics.upenn.edu/index.php/news/2026/10/29/jeremy-mcinerney-publishes-new-book-oxford-history-classical-greek-world-volume-i",
           "date": "2026-10-29",
           "dek": "October 29, 2026",
           "stream": "news",
@@ -8536,7 +8589,15 @@
         },
         {
           "title": "Thomas Tartaron Publishes New Book, \"The Future of Ethnoarchaeology\"",
-          "link": "https://www.classics.upenn.edu/news/2026/10/29/thomas-tartaron-publishes-new-book-future-ethnoarchaeology",
+          "link": "https://www.classics.upenn.edu/index.php/news/2026/10/29/thomas-tartaron-publishes-new-book-future-ethnoarchaeology",
+          "date": "2026-10-29",
+          "dek": "October 29, 2026",
+          "stream": "news",
+          "source": "html"
+        },
+        {
+          "title": "Jeremy McInerney Publishes New Book, \"By Land and by Sea\"",
+          "link": "https://www.classics.upenn.edu/index.php/news/2026/10/29/jeremy-mcinerney-publishes-new-book-land-and-sea",
           "date": "2026-10-29",
           "dek": "October 29, 2026",
           "stream": "news",
@@ -8544,7 +8605,7 @@
         },
         {
           "title": "Sheila Murnaghan Publishes New Book, \"Sharing in the Action: The Choral Plot of Classical Athenian Tragedy\"",
-          "link": "https://www.classics.upenn.edu/news/2026/10/15/sheila-murnaghan-publishes-new-book-sharing-action-choral-plot-classical-athenian-0",
+          "link": "https://www.classics.upenn.edu/index.php/news/2026/10/15/sheila-murnaghan-publishes-new-book-sharing-action-choral-plot-classical-athenian-0",
           "date": "2026-10-15",
           "dek": "October 15, 2026",
           "stream": "news",
@@ -8552,7 +8613,7 @@
         },
         {
           "title": "Emily Wilson Named one of 2026 New York Gala Honorees",
-          "link": "https://www.classics.upenn.edu/news/2026/10/12/emily-wilson-named-one-2026-new-york-gala-honorees",
+          "link": "https://www.classics.upenn.edu/index.php/news/2026/10/12/emily-wilson-named-one-2026-new-york-gala-honorees",
           "date": "2026-10-12",
           "dek": "October 12, 2026",
           "stream": "news",
@@ -8560,7 +8621,7 @@
         },
         {
           "title": "2026 Friends of Gordion Newsletter Published",
-          "link": "https://www.classics.upenn.edu/news/2026/10/05/2026-friends-gordion-newsletter-published",
+          "link": "https://www.classics.upenn.edu/index.php/news/2026/10/05/2026-friends-gordion-newsletter-published",
           "date": "2026-10-05",
           "dek": "October 5, 2026",
           "stream": "news",
@@ -8568,7 +8629,7 @@
         },
         {
           "title": "Brian Rose Publishes New Book, \"The Topography and Monuments of Ancient Rome\"",
-          "link": "https://www.classics.upenn.edu/news/2026/09/25/brian-rose-publishes-new-book-topography-and-monuments-ancient-rome",
+          "link": "https://www.classics.upenn.edu/index.php/news/2026/09/25/brian-rose-publishes-new-book-topography-and-monuments-ancient-rome",
           "date": "2026-09-25",
           "dek": "September 25, 2026",
           "stream": "news",
@@ -8576,7 +8637,7 @@
         },
         {
           "title": "Prof Brian Rose wins multiple prestigious grants to support his work on the Architectural Conservation at Iron Age Gordion",
-          "link": "https://www.classics.upenn.edu/news/2026/09/03/prof-brian-rose-wins-multiple-prestigious-grants-support-his-work-architectural",
+          "link": "https://www.classics.upenn.edu/index.php/news/2026/09/03/prof-brian-rose-wins-multiple-prestigious-grants-support-his-work-architectural",
           "date": "2026-09-03",
           "dek": "September 3, 2026",
           "stream": "news",
@@ -8588,72 +8649,72 @@
         "news": {
           "items": [
             {
-              "title": "Recordings of the Call of Kinnaru Concert at Haverford College Now Available",
-              "link": "https://www.classics.upenn.edu/news/2026/11/13/recordings-call-kinnaru-concert-haverford-college-now-available",
-              "date": "2026-11-13",
-              "dek": "November 13, 2026"
-            },
-            {
               "title": "Kim Bowes: Goodwin Award of Merit",
-              "link": "https://www.classics.upenn.edu/news/2026/11/13/kim-bowes-goodwin-award-merit",
+              "link": "https://www.classics.upenn.edu/index.php/news/2026/11/13/kim-bowes-goodwin-award-merit",
               "date": "2026-11-13",
               "dek": "November 13, 2026"
             },
             {
-              "title": "Jeremy McInerney Publishes New Book, \"By Land and by Sea\"",
-              "link": "https://www.classics.upenn.edu/news/2026/10/29/jeremy-mcinerney-publishes-new-book-land-and-sea",
-              "date": "2026-10-29",
-              "dek": "October 29, 2026"
+              "title": "Recordings of the Call of Kinnaru Concert at Haverford College Now Available",
+              "link": "https://www.classics.upenn.edu/index.php/news/2026/11/13/recordings-call-kinnaru-concert-haverford-college-now-available",
+              "date": "2026-11-13",
+              "dek": "November 13, 2026"
             },
             {
               "title": "Jeremy McInerney Publishes New Book, \"The Oxford History of the Classical Greek World: Volume I: The Environment and Resources\"",
-              "link": "https://www.classics.upenn.edu/news/2026/10/29/jeremy-mcinerney-publishes-new-book-oxford-history-classical-greek-world-volume-i",
+              "link": "https://www.classics.upenn.edu/index.php/news/2026/10/29/jeremy-mcinerney-publishes-new-book-oxford-history-classical-greek-world-volume-i",
               "date": "2026-10-29",
               "dek": "October 29, 2026"
             },
             {
               "title": "Thomas Tartaron Publishes New Book, \"The Future of Ethnoarchaeology\"",
-              "link": "https://www.classics.upenn.edu/news/2026/10/29/thomas-tartaron-publishes-new-book-future-ethnoarchaeology",
+              "link": "https://www.classics.upenn.edu/index.php/news/2026/10/29/thomas-tartaron-publishes-new-book-future-ethnoarchaeology",
+              "date": "2026-10-29",
+              "dek": "October 29, 2026"
+            },
+            {
+              "title": "Jeremy McInerney Publishes New Book, \"By Land and by Sea\"",
+              "link": "https://www.classics.upenn.edu/index.php/news/2026/10/29/jeremy-mcinerney-publishes-new-book-land-and-sea",
               "date": "2026-10-29",
               "dek": "October 29, 2026"
             },
             {
               "title": "Sheila Murnaghan Publishes New Book, \"Sharing in the Action: The Choral Plot of Classical Athenian Tragedy\"",
-              "link": "https://www.classics.upenn.edu/news/2026/10/15/sheila-murnaghan-publishes-new-book-sharing-action-choral-plot-classical-athenian-0",
+              "link": "https://www.classics.upenn.edu/index.php/news/2026/10/15/sheila-murnaghan-publishes-new-book-sharing-action-choral-plot-classical-athenian-0",
               "date": "2026-10-15",
               "dek": "October 15, 2026"
             },
             {
               "title": "Emily Wilson Named one of 2026 New York Gala Honorees",
-              "link": "https://www.classics.upenn.edu/news/2026/10/12/emily-wilson-named-one-2026-new-york-gala-honorees",
+              "link": "https://www.classics.upenn.edu/index.php/news/2026/10/12/emily-wilson-named-one-2026-new-york-gala-honorees",
               "date": "2026-10-12",
               "dek": "October 12, 2026"
             },
             {
               "title": "2026 Friends of Gordion Newsletter Published",
-              "link": "https://www.classics.upenn.edu/news/2026/10/05/2026-friends-gordion-newsletter-published",
+              "link": "https://www.classics.upenn.edu/index.php/news/2026/10/05/2026-friends-gordion-newsletter-published",
               "date": "2026-10-05",
               "dek": "October 5, 2026"
             },
             {
               "title": "Brian Rose Publishes New Book, \"The Topography and Monuments of Ancient Rome\"",
-              "link": "https://www.classics.upenn.edu/news/2026/09/25/brian-rose-publishes-new-book-topography-and-monuments-ancient-rome",
+              "link": "https://www.classics.upenn.edu/index.php/news/2026/09/25/brian-rose-publishes-new-book-topography-and-monuments-ancient-rome",
               "date": "2026-09-25",
               "dek": "September 25, 2026"
             },
             {
               "title": "Prof Brian Rose wins multiple prestigious grants to support his work on the Architectural Conservation at Iron Age Gordion",
-              "link": "https://www.classics.upenn.edu/news/2026/09/03/prof-brian-rose-wins-multiple-prestigious-grants-support-his-work-architectural",
+              "link": "https://www.classics.upenn.edu/index.php/news/2026/09/03/prof-brian-rose-wins-multiple-prestigious-grants-support-his-work-architectural",
               "date": "2026-09-03",
               "dek": "September 3, 2026"
             }
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-18T21:11:32.999475Z"
+          "fetchedAt": "2026-11-18T22:27:40.968718Z"
         }
       },
-      "lastSyncAt": "2026-11-18T21:11:32.999475Z",
+      "lastSyncAt": "2026-11-18T22:27:40.968718Z",
       "lastSource": "html"
     },
     {
@@ -8801,10 +8862,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-18T21:11:32.999475Z"
+          "fetchedAt": "2026-11-18T22:27:40.968718Z"
         }
       },
-      "lastSyncAt": "2026-11-18T21:11:32.999475Z",
+      "lastSyncAt": "2026-11-18T22:27:40.968718Z",
       "lastSource": "html"
     },
     {
@@ -8966,10 +9027,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://pan-school.sas.upenn.edu/rss.xml",
-          "fetchedAt": "2026-11-18T21:11:32.999475Z"
+          "fetchedAt": "2026-11-18T22:27:40.968718Z"
         }
       },
-      "lastSyncAt": "2026-11-18T21:11:32.999475Z",
+      "lastSyncAt": "2026-11-18T22:27:40.968718Z",
       "lastSource": "feed:https://pan-school.sas.upenn.edu/rss.xml"
     },
     {
@@ -9131,10 +9192,10 @@
           ],
           "feedUrl": null,
           "source": "feed:https://chibe.upenn.edu/feed/",
-          "fetchedAt": "2026-11-18T21:11:32.999475Z"
+          "fetchedAt": "2026-11-18T22:27:40.968718Z"
         }
       },
-      "lastSyncAt": "2026-11-18T21:11:32.999475Z",
+      "lastSyncAt": "2026-11-18T22:27:40.968718Z",
       "lastSource": "feed:https://chibe.upenn.edu/feed/"
     },
     {
@@ -9296,10 +9357,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-18T21:11:32.999475Z"
+          "fetchedAt": "2026-11-18T22:27:40.968718Z"
         }
       },
-      "lastSyncAt": "2026-11-18T21:11:32.999475Z",
+      "lastSyncAt": "2026-11-18T22:27:40.968718Z",
       "lastSource": "html"
     },
     {
@@ -9461,10 +9522,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-18T21:11:32.999475Z"
+          "fetchedAt": "2026-11-18T22:27:40.968718Z"
         }
       },
-      "lastSyncAt": "2026-11-18T21:11:32.999475Z",
+      "lastSyncAt": "2026-11-18T22:27:40.968718Z",
       "lastSource": "html"
     },
     {
@@ -9626,10 +9687,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-18T21:11:32.999475Z"
+          "fetchedAt": "2026-11-18T22:27:40.968718Z"
         }
       },
-      "lastSyncAt": "2026-11-18T21:11:32.999475Z",
+      "lastSyncAt": "2026-11-18T22:27:40.968718Z",
       "lastSource": "html"
     },
     {
@@ -9791,10 +9852,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-18T21:11:32.999475Z"
+          "fetchedAt": "2026-11-18T22:27:40.968718Z"
         }
       },
-      "lastSyncAt": "2026-11-18T21:11:32.999475Z",
+      "lastSyncAt": "2026-11-18T22:27:40.968718Z",
       "lastSource": "html"
     },
     {
@@ -9956,10 +10017,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-18T21:11:32.999475Z"
+          "fetchedAt": "2026-11-18T22:27:40.968718Z"
         }
       },
-      "lastSyncAt": "2026-11-18T21:11:32.999475Z",
+      "lastSyncAt": "2026-11-18T22:27:40.968718Z",
       "lastSource": "html"
     },
     {
@@ -10121,10 +10182,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-18T21:11:32.999475Z"
+          "fetchedAt": "2026-11-18T22:27:40.968718Z"
         }
       },
-      "lastSyncAt": "2026-11-18T21:11:32.999475Z",
+      "lastSyncAt": "2026-11-18T22:27:40.968718Z",
       "lastSource": "html"
     },
     {
@@ -10286,10 +10347,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-18T21:11:32.999475Z"
+          "fetchedAt": "2026-11-18T22:27:40.968718Z"
         }
       },
-      "lastSyncAt": "2026-11-18T21:11:32.999475Z",
+      "lastSyncAt": "2026-11-18T22:27:40.968718Z",
       "lastSource": "html"
     },
     {
@@ -10479,10 +10540,10 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-18T21:11:32.999475Z"
+          "fetchedAt": "2026-11-18T22:27:40.968718Z"
         }
       },
-      "lastSyncAt": "2026-11-18T21:11:32.999475Z",
+      "lastSyncAt": "2026-11-18T22:27:40.968718Z",
       "lastSource": "html"
     },
     {
@@ -10672,23 +10733,21 @@
           ],
           "feedUrl": null,
           "source": "html",
-          "fetchedAt": "2026-11-18T21:11:32.999475Z"
+          "fetchedAt": "2026-11-18T22:27:40.968718Z"
         }
       },
-      "lastSyncAt": "2026-11-18T21:11:32.999475Z",
+      "lastSyncAt": "2026-11-18T22:27:40.968718Z",
       "lastSource": "html"
     }
   ],
-  "lastRefreshAt": "2026-11-18T21:11:32.999475Z",
-  "refreshErrors": [
-    "Institute of Contemporary Art: Latest check returned no articles; showing earlier results. Page looks blocked or empty (https://icaphila.org/press/)"
-  ],
+  "lastRefreshAt": "2026-11-18T22:27:40.968718Z",
+  "refreshErrors": [],
   "showAddSite": false,
   "schemaVersion": 3,
   "collection": {
     "sourceVersion": "44f9026c3b016f42ca979d03cf646543bd1579d434f1765a6f57b43880ed2b3b",
-    "runId": "44396759839",
-    "commit": "9ca40c87f224cd57e5f0237227cb25f2683d53e2",
-    "runUrl": "https://github.com/BigChief-at-illuminathidotorg/Penn-News-Scraper/actions/runs/44396759839"
+    "runId": "44411115822",
+    "commit": "1d18a473773f4bc860456a2dbaa8d284b2354922",
+    "runUrl": "https://github.com/BigChief-at-illuminathidotorg/Penn-News-Scraper/actions/runs/44411115822"
   }
 }
